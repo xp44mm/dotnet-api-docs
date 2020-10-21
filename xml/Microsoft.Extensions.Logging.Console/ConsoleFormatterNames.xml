@@ -55,7 +55,7 @@
       </ReturnValue>
       <Docs>
         <summary>Reserved name for simple console formatter.</summary>
-        <remarks>To be added.</remarks>
+        <remarks>To be added</remarks>
       </Docs>
     </Member>
     <Member MemberName="Systemd">
