@@ -244,7 +244,7 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="UseServiceProviderFactory&lt;TContainerBuilder&gt;">
+    <Member MemberName"UseServiceProviderFactory&lt;TContainerBuilder&gt;">
       <MemberSignature Language="C#" Value="public Microsoft.Extensions.Hosting.IHostBuilder UseServiceProviderFactory&lt;TContainerBuilder&gt; (Microsoft.Extensions.DependencyInjection.IServiceProviderFactory&lt;TContainerBuilder&gt; factory);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class Microsoft.Extensions.Hosting.IHostBuilder UseServiceProviderFactory&lt;TContainerBuilder&gt;(class Microsoft.Extensions.DependencyInjection.IServiceProviderFactory`1&lt;!!TContainerBuilder&gt; factory) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Hosting.HostBuilder.UseServiceProviderFactory``1(Microsoft.Extensions.DependencyInjection.IServiceProviderFactory{``0})" />
