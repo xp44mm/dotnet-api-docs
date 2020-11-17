@@ -1368,13 +1368,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="CreateInstance">
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle? CreateInstance (string assemblyName, string typeName);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstance (string assemblyName, string typeName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Runtime.Remoting.ObjectHandle CreateInstance(string assemblyName, string typeName) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstance(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstance (assemblyName As String, typeName As String) As ObjectHandle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Runtime::Remoting::ObjectHandle ^ CreateInstance(System::String ^ assemblyName, System::String ^ typeName);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="F#" Value="member this.CreateInstance : string * string -&gt; System.Runtime.Remoting.ObjectHandle" Usage="appDomain.CreateInstance (assemblyName, typeName)" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstance (string assemblyName, string typeName);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Runtime.Remoting.ObjectHandle CreateInstance(string assemblyName, string typeName) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Runtime::Remoting::ObjectHandle ^ CreateInstance(System::String ^ assemblyName, System::String ^ typeName);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="abstract member CreateInstance : string * string -&gt; System.Runtime.Remoting.ObjectHandle&#xA;override this.CreateInstance : string * string -&gt; System.Runtime.Remoting.ObjectHandle" Usage="appDomain.CreateInstance (assemblyName, typeName)" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
@@ -1452,13 +1451,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateInstance">
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle? CreateInstance (string assemblyName, string typeName, object[]? activationAttributes);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstance (string assemblyName, string typeName, object[] activationAttributes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Runtime.Remoting.ObjectHandle CreateInstance(string assemblyName, string typeName, object[] activationAttributes) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstance(System.String,System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstance (assemblyName As String, typeName As String, activationAttributes As Object()) As ObjectHandle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Runtime::Remoting::ObjectHandle ^ CreateInstance(System::String ^ assemblyName, System::String ^ typeName, cli::array &lt;System::Object ^&gt; ^ activationAttributes);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="F#" Value="member this.CreateInstance : string * string * obj[] -&gt; System.Runtime.Remoting.ObjectHandle" Usage="appDomain.CreateInstance (assemblyName, typeName, activationAttributes)" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstance (string assemblyName, string typeName, object[] activationAttributes);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Runtime.Remoting.ObjectHandle CreateInstance(string assemblyName, string typeName, object[] activationAttributes) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Runtime::Remoting::ObjectHandle ^ CreateInstance(System::String ^ assemblyName, System::String ^ typeName, cli::array &lt;System::Object ^&gt; ^ activationAttributes);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="abstract member CreateInstance : string * string * obj[] -&gt; System.Runtime.Remoting.ObjectHandle&#xA;override this.CreateInstance : string * string * obj[] -&gt; System.Runtime.Remoting.ObjectHandle" Usage="appDomain.CreateInstance (assemblyName, typeName, activationAttributes)" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
@@ -1541,13 +1539,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateInstance">
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstance (string? assemblyName, string? typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstance (string assemblyName, string typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Runtime.Remoting.ObjectHandle CreateInstance(string assemblyName, string typeName, bool ignoreCase, valuetype System.Reflection.BindingFlags bindingAttr, class System.Reflection.Binder binder, object[] args, class System.Globalization.CultureInfo culture, object[] activationAttributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstance(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstance (assemblyName As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object()) As ObjectHandle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Runtime::Remoting::ObjectHandle ^ CreateInstance(System::String ^ assemblyName, System::String ^ typeName, bool ignoreCase, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder ^ binder, cli::array &lt;System::Object ^&gt; ^ args, System::Globalization::CultureInfo ^ culture, cli::array &lt;System::Object ^&gt; ^ activationAttributes);" />
       <MemberSignature Language="F#" Value="member this.CreateInstance : string * string * bool * System.Reflection.BindingFlags * System.Reflection.Binder * obj[] * System.Globalization.CultureInfo * obj[] -&gt; System.Runtime.Remoting.ObjectHandle" Usage="appDomain.CreateInstance (assemblyName, typeName, ignoreCase, bindingAttr, binder, args, culture, activationAttributes)" />
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstance (string assemblyName, string typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1747,13 +1744,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="CreateInstanceAndUnwrap">
-      <MemberSignature Language="C#" Value="public object? CreateInstanceAndUnwrap (string assemblyName, string typeName);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public object CreateInstanceAndUnwrap (string assemblyName, string typeName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object CreateInstanceAndUnwrap(string assemblyName, string typeName) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstanceAndUnwrap (assemblyName As String, typeName As String) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ CreateInstanceAndUnwrap(System::String ^ assemblyName, System::String ^ typeName);" />
       <MemberSignature Language="F#" Value="member this.CreateInstanceAndUnwrap : string * string -&gt; obj" Usage="appDomain.CreateInstanceAndUnwrap (assemblyName, typeName)" />
-      <MemberSignature Language="C#" Value="public object CreateInstanceAndUnwrap (string assemblyName, string typeName);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1837,13 +1833,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateInstanceAndUnwrap">
-      <MemberSignature Language="C#" Value="public object? CreateInstanceAndUnwrap (string assemblyName, string typeName, object[]? activationAttributes);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public object CreateInstanceAndUnwrap (string assemblyName, string typeName, object[] activationAttributes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object CreateInstanceAndUnwrap(string assemblyName, string typeName, object[] activationAttributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstanceAndUnwrap (assemblyName As String, typeName As String, activationAttributes As Object()) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ CreateInstanceAndUnwrap(System::String ^ assemblyName, System::String ^ typeName, cli::array &lt;System::Object ^&gt; ^ activationAttributes);" />
       <MemberSignature Language="F#" Value="member this.CreateInstanceAndUnwrap : string * string * obj[] -&gt; obj" Usage="appDomain.CreateInstanceAndUnwrap (assemblyName, typeName, activationAttributes)" />
-      <MemberSignature Language="C#" Value="public object CreateInstanceAndUnwrap (string assemblyName, string typeName, object[] activationAttributes);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1927,13 +1922,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateInstanceAndUnwrap">
-      <MemberSignature Language="C#" Value="public object CreateInstanceAndUnwrap (string? assemblyName, string? typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public object CreateInstanceAndUnwrap (string assemblyName, string typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object CreateInstanceAndUnwrap(string assemblyName, string typeName, bool ignoreCase, valuetype System.Reflection.BindingFlags bindingAttr, class System.Reflection.Binder binder, object[] args, class System.Globalization.CultureInfo culture, object[] activationAttributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstanceAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstanceAndUnwrap (assemblyName As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object()) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ CreateInstanceAndUnwrap(System::String ^ assemblyName, System::String ^ typeName, bool ignoreCase, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder ^ binder, cli::array &lt;System::Object ^&gt; ^ args, System::Globalization::CultureInfo ^ culture, cli::array &lt;System::Object ^&gt; ^ activationAttributes);" />
       <MemberSignature Language="F#" Value="member this.CreateInstanceAndUnwrap : string * string * bool * System.Reflection.BindingFlags * System.Reflection.Binder * obj[] * System.Globalization.CultureInfo * obj[] -&gt; obj" Usage="appDomain.CreateInstanceAndUnwrap (assemblyName, typeName, ignoreCase, bindingAttr, binder, args, culture, activationAttributes)" />
-      <MemberSignature Language="C#" Value="public object CreateInstanceAndUnwrap (string assemblyName, string typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -2145,13 +2139,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="CreateInstanceFrom">
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle? CreateInstanceFrom (string assemblyFile, string typeName);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstanceFrom (string assemblyFile, string typeName);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(string assemblyFile, string typeName) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstanceFrom(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstanceFrom (assemblyFile As String, typeName As String) As ObjectHandle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Runtime::Remoting::ObjectHandle ^ CreateInstanceFrom(System::String ^ assemblyFile, System::String ^ typeName);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="F#" Value="member this.CreateInstanceFrom : string * string -&gt; System.Runtime.Remoting.ObjectHandle" Usage="appDomain.CreateInstanceFrom (assemblyFile, typeName)" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstanceFrom (string assemblyFile, string typeName);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(string assemblyFile, string typeName) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Runtime::Remoting::ObjectHandle ^ CreateInstanceFrom(System::String ^ assemblyFile, System::String ^ typeName);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="abstract member CreateInstanceFrom : string * string -&gt; System.Runtime.Remoting.ObjectHandle&#xA;override this.CreateInstanceFrom : string * string -&gt; System.Runtime.Remoting.ObjectHandle" Usage="appDomain.CreateInstanceFrom (assemblyFile, typeName)" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
@@ -2261,13 +2254,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateInstanceFrom">
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle? CreateInstanceFrom (string assemblyFile, string typeName, object[]? activationAttributes);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstanceFrom (string assemblyFile, string typeName, object[] activationAttributes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(string assemblyFile, string typeName, object[] activationAttributes) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstanceFrom(System.String,System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstanceFrom (assemblyFile As String, typeName As String, activationAttributes As Object()) As ObjectHandle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Runtime::Remoting::ObjectHandle ^ CreateInstanceFrom(System::String ^ assemblyFile, System::String ^ typeName, cli::array &lt;System::Object ^&gt; ^ activationAttributes);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="F#" Value="member this.CreateInstanceFrom : string * string * obj[] -&gt; System.Runtime.Remoting.ObjectHandle" Usage="appDomain.CreateInstanceFrom (assemblyFile, typeName, activationAttributes)" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;xamarinandroid-7.1;xamarinios-10.8" />
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstanceFrom (string assemblyFile, string typeName, object[] activationAttributes);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(string assemblyFile, string typeName, object[] activationAttributes) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Runtime::Remoting::ObjectHandle ^ CreateInstanceFrom(System::String ^ assemblyFile, System::String ^ typeName, cli::array &lt;System::Object ^&gt; ^ activationAttributes);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="abstract member CreateInstanceFrom : string * string * obj[] -&gt; System.Runtime.Remoting.ObjectHandle&#xA;override this.CreateInstanceFrom : string * string * obj[] -&gt; System.Runtime.Remoting.ObjectHandle" Usage="appDomain.CreateInstanceFrom (assemblyFile, typeName, activationAttributes)" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
@@ -2354,13 +2346,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateInstanceFrom">
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstanceFrom (string? assemblyFile, string? typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstanceFrom (string assemblyFile, string typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Runtime.Remoting.ObjectHandle CreateInstanceFrom(string assemblyFile, string typeName, bool ignoreCase, valuetype System.Reflection.BindingFlags bindingAttr, class System.Reflection.Binder binder, object[] args, class System.Globalization.CultureInfo culture, object[] activationAttributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstanceFrom(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstanceFrom (assemblyFile As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object()) As ObjectHandle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Runtime::Remoting::ObjectHandle ^ CreateInstanceFrom(System::String ^ assemblyFile, System::String ^ typeName, bool ignoreCase, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder ^ binder, cli::array &lt;System::Object ^&gt; ^ args, System::Globalization::CultureInfo ^ culture, cli::array &lt;System::Object ^&gt; ^ activationAttributes);" />
       <MemberSignature Language="F#" Value="member this.CreateInstanceFrom : string * string * bool * System.Reflection.BindingFlags * System.Reflection.Binder * obj[] * System.Globalization.CultureInfo * obj[] -&gt; System.Runtime.Remoting.ObjectHandle" Usage="appDomain.CreateInstanceFrom (assemblyFile, typeName, ignoreCase, bindingAttr, binder, args, culture, activationAttributes)" />
-      <MemberSignature Language="C#" Value="public System.Runtime.Remoting.ObjectHandle CreateInstanceFrom (string assemblyFile, string typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -2576,7 +2567,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="CreateInstanceFromAndUnwrap">
-      <MemberSignature Language="C#" Value="public object? CreateInstanceFromAndUnwrap (string assemblyFile, string typeName);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public object CreateInstanceFromAndUnwrap (string assemblyFile, string typeName);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object CreateInstanceFromAndUnwrap(string assemblyFile, string typeName) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstanceFromAndUnwrap (assemblyFile As String, typeName As String) As Object" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
@@ -2661,7 +2652,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateInstanceFromAndUnwrap">
-      <MemberSignature Language="C#" Value="public object? CreateInstanceFromAndUnwrap (string assemblyFile, string typeName, object[]? activationAttributes);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public object CreateInstanceFromAndUnwrap (string assemblyFile, string typeName, object[] activationAttributes);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object CreateInstanceFromAndUnwrap(string assemblyFile, string typeName, object[] activationAttributes) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstanceFromAndUnwrap (assemblyFile As String, typeName As String, activationAttributes As Object()) As Object" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
@@ -2751,13 +2742,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateInstanceFromAndUnwrap">
-      <MemberSignature Language="C#" Value="public object CreateInstanceFromAndUnwrap (string? assemblyFile, string? typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public object CreateInstanceFromAndUnwrap (string assemblyFile, string typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object CreateInstanceFromAndUnwrap(string assemblyFile, string typeName, bool ignoreCase, valuetype System.Reflection.BindingFlags bindingAttr, class System.Reflection.Binder binder, object[] args, class System.Globalization.CultureInfo culture, object[] activationAttributes) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.CreateInstanceFromAndUnwrap(System.String,System.String,System.Boolean,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object[],System.Globalization.CultureInfo,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateInstanceFromAndUnwrap (assemblyFile As String, typeName As String, ignoreCase As Boolean, bindingAttr As BindingFlags, binder As Binder, args As Object(), culture As CultureInfo, activationAttributes As Object()) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ CreateInstanceFromAndUnwrap(System::String ^ assemblyFile, System::String ^ typeName, bool ignoreCase, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder ^ binder, cli::array &lt;System::Object ^&gt; ^ args, System::Globalization::CultureInfo ^ culture, cli::array &lt;System::Object ^&gt; ^ activationAttributes);" />
       <MemberSignature Language="F#" Value="member this.CreateInstanceFromAndUnwrap : string * string * bool * System.Reflection.BindingFlags * System.Reflection.Binder * obj[] * System.Globalization.CultureInfo * obj[] -&gt; obj" Usage="appDomain.CreateInstanceFromAndUnwrap (assemblyFile, typeName, ignoreCase, bindingAttr, binder, args, culture, activationAttributes)" />
-      <MemberSignature Language="C#" Value="public object CreateInstanceFromAndUnwrap (string assemblyFile, string typeName, bool ignoreCase, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, object[] args, System.Globalization.CultureInfo culture, object[] activationAttributes);" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -2943,13 +2933,12 @@
       </Docs>
     </Member>
     <Member MemberName="CurrentDomain">
-      <MemberSignature Language="C#" Value="public static AppDomain CurrentDomain { get; }" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static AppDomain CurrentDomain { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class System.AppDomain CurrentDomain" />
       <MemberSignature Language="DocId" Value="P:System.AppDomain.CurrentDomain" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CurrentDomain As AppDomain" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property AppDomain ^ CurrentDomain { AppDomain ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.CurrentDomain : AppDomain" Usage="System.AppDomain.CurrentDomain" />
-      <MemberSignature Language="C#" Value="public static AppDomain? CurrentDomain { get; }" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -4360,13 +4349,12 @@
       </Docs>
     </Member>
     <Member MemberName="DynamicDirectory">
-      <MemberSignature Language="C#" Value="public string? DynamicDirectory { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public string DynamicDirectory { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string DynamicDirectory" />
       <MemberSignature Language="DocId" Value="P:System.AppDomain.DynamicDirectory" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DynamicDirectory As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ DynamicDirectory { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.DynamicDirectory : string" Usage="System.AppDomain.DynamicDirectory" />
-      <MemberSignature Language="C#" Value="public string DynamicDirectory { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">P:System._AppDomain.DynamicDirectory</InterfaceMember>
@@ -4675,13 +4663,12 @@
       </Docs>
     </Member>
     <Member MemberName="ExecuteAssembly">
-      <MemberSignature Language="C#" Value="public int ExecuteAssembly (string assemblyFile, string[]? args);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public int ExecuteAssembly (string assemblyFile, string[] args);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 ExecuteAssembly(string assemblyFile, string[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.ExecuteAssembly(System.String,System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Function ExecuteAssembly (assemblyFile As String, args As String()) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int ExecuteAssembly(System::String ^ assemblyFile, cli::array &lt;System::String ^&gt; ^ args);" />
       <MemberSignature Language="F#" Value="member this.ExecuteAssembly : string * string[] -&gt; int" Usage="appDomain.ExecuteAssembly (assemblyFile, args)" />
-      <MemberSignature Language="C#" Value="public int ExecuteAssembly (string assemblyFile, string[] args);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -4854,13 +4841,12 @@
       </Docs>
     </Member>
     <Member MemberName="ExecuteAssembly">
-      <MemberSignature Language="C#" Value="public int ExecuteAssembly (string? assemblyFile, string[] args, byte[] hashValue, System.Configuration.Assemblies.AssemblyHashAlgorithm hashAlgorithm);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public int ExecuteAssembly (string assemblyFile, string[] args, byte[] hashValue, System.Configuration.Assemblies.AssemblyHashAlgorithm hashAlgorithm);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 ExecuteAssembly(string assemblyFile, string[] args, unsigned int8[] hashValue, valuetype System.Configuration.Assemblies.AssemblyHashAlgorithm hashAlgorithm) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.ExecuteAssembly(System.String,System.String[],System.Byte[],System.Configuration.Assemblies.AssemblyHashAlgorithm)" />
       <MemberSignature Language="VB.NET" Value="Public Function ExecuteAssembly (assemblyFile As String, args As String(), hashValue As Byte(), hashAlgorithm As AssemblyHashAlgorithm) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int ExecuteAssembly(System::String ^ assemblyFile, cli::array &lt;System::String ^&gt; ^ args, cli::array &lt;System::Byte&gt; ^ hashValue, System::Configuration::Assemblies::AssemblyHashAlgorithm hashAlgorithm);" />
       <MemberSignature Language="F#" Value="member this.ExecuteAssembly : string * string[] * byte[] * System.Configuration.Assemblies.AssemblyHashAlgorithm -&gt; int" Usage="appDomain.ExecuteAssembly (assemblyFile, args, hashValue, hashAlgorithm)" />
-      <MemberSignature Language="C#" Value="public int ExecuteAssembly (string assemblyFile, string[] args, byte[] hashValue, System.Configuration.Assemblies.AssemblyHashAlgorithm hashAlgorithm);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -5119,13 +5105,12 @@
       </Docs>
     </Member>
     <Member MemberName="ExecuteAssemblyByName">
-      <MemberSignature Language="C#" Value="public int ExecuteAssemblyByName (System.Reflection.AssemblyName assemblyName, params string[]? args);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public int ExecuteAssemblyByName (System.Reflection.AssemblyName assemblyName, params string[] args);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 ExecuteAssemblyByName(class System.Reflection.AssemblyName assemblyName, string[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.ExecuteAssemblyByName(System.Reflection.AssemblyName,System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Function ExecuteAssemblyByName (assemblyName As AssemblyName, ParamArray args As String()) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int ExecuteAssemblyByName(System::Reflection::AssemblyName ^ assemblyName, ... cli::array &lt;System::String ^&gt; ^ args);" />
       <MemberSignature Language="F#" Value="member this.ExecuteAssemblyByName : System.Reflection.AssemblyName * string[] -&gt; int" Usage="appDomain.ExecuteAssemblyByName (assemblyName, args)" />
-      <MemberSignature Language="C#" Value="public int ExecuteAssemblyByName (System.Reflection.AssemblyName assemblyName, params string[] args);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -5274,13 +5259,12 @@
       </Docs>
     </Member>
     <Member MemberName="ExecuteAssemblyByName">
-      <MemberSignature Language="C#" Value="public int ExecuteAssemblyByName (string assemblyName, params string[]? args);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public int ExecuteAssemblyByName (string assemblyName, params string[] args);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 ExecuteAssemblyByName(string assemblyName, string[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.ExecuteAssemblyByName(System.String,System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Function ExecuteAssemblyByName (assemblyName As String, ParamArray args As String()) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int ExecuteAssemblyByName(System::String ^ assemblyName, ... cli::array &lt;System::String ^&gt; ^ args);" />
       <MemberSignature Language="F#" Value="member this.ExecuteAssemblyByName : string * string[] -&gt; int" Usage="appDomain.ExecuteAssemblyByName (assemblyName, args)" />
-      <MemberSignature Language="C#" Value="public int ExecuteAssemblyByName (string assemblyName, params string[] args);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -5527,13 +5511,12 @@
       </Docs>
     </Member>
     <Member MemberName="FirstChanceException">
-      <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs&gt;? FirstChanceException;" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs&gt; FirstChanceException;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs&gt; FirstChanceException" />
       <MemberSignature Language="DocId" Value="E:System.AppDomain.FirstChanceException" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event FirstChanceException As EventHandler(Of FirstChanceExceptionEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;System::Runtime::ExceptionServices::FirstChanceExceptionEventArgs ^&gt; ^ FirstChanceException;" />
       <MemberSignature Language="F#" Value="member this.FirstChanceException : EventHandler&lt;System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs&gt; " Usage="member this.FirstChanceException : System.EventHandler&lt;System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs&gt; " />
-      <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Runtime.ExceptionServices.FirstChanceExceptionEventArgs&gt; FirstChanceException;" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -5612,13 +5595,12 @@
       </Docs>
     </Member>
     <Member MemberName="FriendlyName">
-      <MemberSignature Language="C#" Value="public string FriendlyName { get; }" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string FriendlyName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string FriendlyName" />
       <MemberSignature Language="DocId" Value="P:System.AppDomain.FriendlyName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FriendlyName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ FriendlyName { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.FriendlyName : string" Usage="System.AppDomain.FriendlyName" />
-      <MemberSignature Language="C#" Value="public string? FriendlyName { get; }" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">P:System._AppDomain.FriendlyName</InterfaceMember>
@@ -5802,13 +5784,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetData">
-      <MemberSignature Language="C#" Value="public object? GetData (string name);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public object GetData (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetData(string name) cil managed" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.GetData(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetData (name As String) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetData(System::String ^ name);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="F#" Value="member this.GetData : string -&gt; obj" Usage="appDomain.GetData name" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
-      <MemberSignature Language="C#" Value="public object GetData (string name);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object GetData(string name) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Object ^ GetData(System::String ^ name);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="abstract member GetData : string -&gt; obj&#xA;override this.GetData : string -&gt; obj" Usage="appDomain.GetData name" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
@@ -6607,13 +6588,12 @@
       </Docs>
     </Member>
     <Member MemberName="Load">
-      <MemberSignature Language="C#" Value="public System.Reflection.Assembly Load (byte[] rawAssembly, byte[]? rawSymbolStore);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Reflection.Assembly Load (byte[] rawAssembly, byte[] rawSymbolStore);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Reflection.Assembly Load(unsigned int8[] rawAssembly, unsigned int8[] rawSymbolStore) cil managed" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.Load(System.Byte[],System.Byte[])" />
       <MemberSignature Language="VB.NET" Value="Public Function Load (rawAssembly As Byte(), rawSymbolStore As Byte()) As Assembly" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Reflection::Assembly ^ Load(cli::array &lt;System::Byte&gt; ^ rawAssembly, cli::array &lt;System::Byte&gt; ^ rawSymbolStore);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="F#" Value="member this.Load : byte[] * byte[] -&gt; System.Reflection.Assembly" Usage="appDomain.Load (rawAssembly, rawSymbolStore)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
-      <MemberSignature Language="C#" Value="public System.Reflection.Assembly Load (byte[] rawAssembly, byte[] rawSymbolStore);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.Assembly Load(unsigned int8[] rawAssembly, unsigned int8[] rawSymbolStore) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::Assembly ^ Load(cli::array &lt;System::Byte&gt; ^ rawAssembly, cli::array &lt;System::Byte&gt; ^ rawSymbolStore);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="abstract member Load : byte[] * byte[] -&gt; System.Reflection.Assembly&#xA;override this.Load : byte[] * byte[] -&gt; System.Reflection.Assembly" Usage="appDomain.Load (rawAssembly, rawSymbolStore)" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
@@ -7219,13 +7199,12 @@
       </Docs>
     </Member>
     <Member MemberName="PermissionSet">
-      <MemberSignature Language="C#" Value="public System.Security.PermissionSet PermissionSet { get; }" FrameworkAlternate="net-5.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Security.PermissionSet PermissionSet { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.PermissionSet PermissionSet" />
       <MemberSignature Language="DocId" Value="P:System.AppDomain.PermissionSet" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PermissionSet As PermissionSet" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::PermissionSet ^ PermissionSet { System::Security::PermissionSet ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.PermissionSet : System.Security.PermissionSet" Usage="System.AppDomain.PermissionSet" />
-      <MemberSignature Language="C#" Value="public System.Security.PermissionSet? PermissionSet { get; }" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -7460,13 +7439,12 @@
       </Docs>
     </Member>
     <Member MemberName="RelativeSearchPath">
-      <MemberSignature Language="C#" Value="public string? RelativeSearchPath { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public string RelativeSearchPath { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string RelativeSearchPath" />
       <MemberSignature Language="DocId" Value="P:System.AppDomain.RelativeSearchPath" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RelativeSearchPath As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ RelativeSearchPath { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.RelativeSearchPath : string" Usage="System.AppDomain.RelativeSearchPath" />
-      <MemberSignature Language="C#" Value="public string RelativeSearchPath { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">P:System._AppDomain.RelativeSearchPath</InterfaceMember>
@@ -7753,13 +7731,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="SetData">
-      <MemberSignature Language="C#" Value="public void SetData (string name, object? data);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public void SetData (string name, object data);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetData(string name, object data) cil managed" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="DocId" Value="M:System.AppDomain.SetData(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetData (name As String, data As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetData(System::String ^ name, System::Object ^ data);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
       <MemberSignature Language="F#" Value="member this.SetData : string * obj -&gt; unit" Usage="appDomain.SetData (name, data)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8" />
-      <MemberSignature Language="C#" Value="public void SetData (string name, object data);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetData(string name, object data) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void SetData(System::String ^ name, System::Object ^ data);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="abstract member SetData : string * obj -&gt; unit&#xA;override this.SetData : string * obj -&gt; unit" Usage="appDomain.SetData (name, data)" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
@@ -8275,13 +8252,12 @@
       </Docs>
     </Member>
     <Member MemberName="SetupInformation">
-      <MemberSignature Language="C#" Value="public AppDomainSetup SetupInformation { get; }" FrameworkAlternate="net-5.0;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public AppDomainSetup SetupInformation { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.AppDomainSetup SetupInformation" />
       <MemberSignature Language="DocId" Value="P:System.AppDomain.SetupInformation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SetupInformation As AppDomainSetup" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property AppDomainSetup ^ SetupInformation { AppDomainSetup ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.SetupInformation : AppDomainSetup" Usage="System.AppDomain.SetupInformation" />
-      <MemberSignature Language="C#" Value="public AppDomainSetup? SetupInformation { get; }" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

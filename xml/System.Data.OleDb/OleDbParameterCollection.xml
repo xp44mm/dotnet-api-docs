@@ -193,13 +193,12 @@
       </Docs>
     </Member>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter Add (string parameterName, System.Data.OleDb.OleDbType oleDbType);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter Add (string parameterName, System.Data.OleDb.OleDbType oleDbType);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.OleDb.OleDbParameter Add(string parameterName, valuetype System.Data.OleDb.OleDbType oleDbType) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OleDb.OleDbParameterCollection.Add(System.String,System.Data.OleDb.OleDbType)" />
       <MemberSignature Language="VB.NET" Value="Public Function Add (parameterName As String, oleDbType As OleDbType) As OleDbParameter" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Data::OleDb::OleDbParameter ^ Add(System::String ^ parameterName, System::Data::OleDb::OleDbType oleDbType);" />
       <MemberSignature Language="F#" Value="override this.Add : string * System.Data.OleDb.OleDbType -&gt; System.Data.OleDb.OleDbParameter" Usage="oleDbParameterCollection.Add (parameterName, oleDbType)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter Add (string? parameterName, System.Data.OleDb.OleDbType oleDbType);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberSignature Language="F#" Value="member this.Add : string * System.Data.OleDb.OleDbType -&gt; System.Data.OleDb.OleDbParameter" Usage="oleDbParameterCollection.Add (parameterName, oleDbType)" FrameworkAlternate="netframework-1.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -242,13 +241,12 @@
       </Docs>
     </Member>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter Add (string parameterName, object value);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter Add (string parameterName, object value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.OleDb.OleDbParameter Add(string parameterName, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OleDb.OleDbParameterCollection.Add(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function Add (parameterName As String, value As Object) As OleDbParameter" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Data::OleDb::OleDbParameter ^ Add(System::String ^ parameterName, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="override this.Add : string * obj -&gt; System.Data.OleDb.OleDbParameter" Usage="oleDbParameterCollection.Add (parameterName, value)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter? Add (string parameterName, object value);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberSignature Language="F#" Value="member this.Add : string * obj -&gt; System.Data.OleDb.OleDbParameter" Usage="oleDbParameterCollection.Add (parameterName, value)" FrameworkAlternate="netframework-1.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -305,13 +303,12 @@ parameters.Add("@pname", Convert.ToInt32(0));
       </Docs>
     </Member>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter Add (string parameterName, System.Data.OleDb.OleDbType oleDbType, int size);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter Add (string parameterName, System.Data.OleDb.OleDbType oleDbType, int size);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.OleDb.OleDbParameter Add(string parameterName, valuetype System.Data.OleDb.OleDbType oleDbType, int32 size) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OleDb.OleDbParameterCollection.Add(System.String,System.Data.OleDb.OleDbType,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function Add (parameterName As String, oleDbType As OleDbType, size As Integer) As OleDbParameter" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Data::OleDb::OleDbParameter ^ Add(System::String ^ parameterName, System::Data::OleDb::OleDbType oleDbType, int size);" />
       <MemberSignature Language="F#" Value="override this.Add : string * System.Data.OleDb.OleDbType * int -&gt; System.Data.OleDb.OleDbParameter" Usage="oleDbParameterCollection.Add (parameterName, oleDbType, size)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter Add (string? parameterName, System.Data.OleDb.OleDbType oleDbType, int size);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberSignature Language="F#" Value="member this.Add : string * System.Data.OleDb.OleDbType * int -&gt; System.Data.OleDb.OleDbParameter" Usage="oleDbParameterCollection.Add (parameterName, oleDbType, size)" FrameworkAlternate="netframework-1.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -356,13 +353,12 @@ parameters.Add("@pname", Convert.ToInt32(0));
       </Docs>
     </Member>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter Add (string parameterName, System.Data.OleDb.OleDbType oleDbType, int size, string sourceColumn);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter Add (string parameterName, System.Data.OleDb.OleDbType oleDbType, int size, string sourceColumn);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.OleDb.OleDbParameter Add(string parameterName, valuetype System.Data.OleDb.OleDbType oleDbType, int32 size, string sourceColumn) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OleDb.OleDbParameterCollection.Add(System.String,System.Data.OleDb.OleDbType,System.Int32,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function Add (parameterName As String, oleDbType As OleDbType, size As Integer, sourceColumn As String) As OleDbParameter" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Data::OleDb::OleDbParameter ^ Add(System::String ^ parameterName, System::Data::OleDb::OleDbType oleDbType, int size, System::String ^ sourceColumn);" />
       <MemberSignature Language="F#" Value="override this.Add : string * System.Data.OleDb.OleDbType * int * string -&gt; System.Data.OleDb.OleDbParameter" Usage="oleDbParameterCollection.Add (parameterName, oleDbType, size, sourceColumn)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter? Add (string parameterName, System.Data.OleDb.OleDbType oleDbType, int size, string sourceColumn);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberSignature Language="F#" Value="member this.Add : string * System.Data.OleDb.OleDbType * int * string -&gt; System.Data.OleDb.OleDbParameter" Usage="oleDbParameterCollection.Add (parameterName, oleDbType, size, sourceColumn)" FrameworkAlternate="netframework-1.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -486,13 +482,12 @@ parameters.Add("@pname", Convert.ToInt32(0));
       </Docs>
     </Member>
     <Member MemberName="AddWithValue">
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter AddWithValue (string parameterName, object value);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter AddWithValue (string parameterName, object value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Data.OleDb.OleDbParameter AddWithValue(string parameterName, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.OleDb.OleDbParameterCollection.AddWithValue(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddWithValue (parameterName As String, value As Object) As OleDbParameter" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Data::OleDb::OleDbParameter ^ AddWithValue(System::String ^ parameterName, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="member this.AddWithValue : string * obj -&gt; System.Data.OleDb.OleDbParameter" Usage="oleDbParameterCollection.AddWithValue (parameterName, value)" />
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameter? AddWithValue (string parameterName, object value);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>

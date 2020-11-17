@@ -56,7 +56,7 @@
       </Docs>
     </Member>
     <Member MemberName="Category">
-      <MemberSignature Language="C#" Value="public string? Category { get; }" />
+      <MemberSignature Language="C#" Value="public string Category { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Category" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute.Category" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Category As String" />
@@ -85,7 +85,7 @@ The <xref:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute.
       </Docs>
     </Member>
     <Member MemberName="CheckId">
-      <MemberSignature Language="C#" Value="public string? CheckId { get; }" />
+      <MemberSignature Language="C#" Value="public string CheckId { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string CheckId" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessageAttribute.CheckId" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CheckId As String" />

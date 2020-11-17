@@ -91,13 +91,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetResourceString">
-      <MemberSignature Language="C#" Value="public static string GetResourceString (string ResourceKey, params string[]? Args);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static string GetResourceString (string ResourceKey, params string[] Args);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetResourceString(string ResourceKey, string[] Args) cil managed" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.Utils.GetResourceString(System.String,System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetResourceString (ResourceKey As String, ParamArray Args As String()) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GetResourceString(System::String ^ ResourceKey, ... cli::array &lt;System::String ^&gt; ^ Args);" />
       <MemberSignature Language="F#" Value="static member GetResourceString : string * string[] -&gt; string" Usage="Microsoft.VisualBasic.CompilerServices.Utils.GetResourceString (ResourceKey, Args)" />
-      <MemberSignature Language="C#" Value="public static string GetResourceString (string ResourceKey, params string[] Args);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static string GetResourceString(string ResourceKey, string[] Args) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>

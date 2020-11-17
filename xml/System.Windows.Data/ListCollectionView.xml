@@ -644,6 +644,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual int Compare(System::Object ^ o1, System::Object ^ o2);" />
       <MemberSignature Language="F#" Value="abstract member Compare : obj * obj -&gt; int&#xA;override this.Compare : obj * obj -&gt; int" Usage="listCollectionView.Compare (o1, o2)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IComparer.Compare(System.Object,System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>

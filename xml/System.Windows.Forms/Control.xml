@@ -10535,6 +10535,9 @@ MyControl.Font = New Font(MyControl.Font, _
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDragDrop(System::Windows::Forms::DragEventArgs ^ drgevent);" />
       <MemberSignature Language="F#" Value="abstract member OnDragDrop : System.Windows.Forms.DragEventArgs -&gt; unit&#xA;override this.OnDragDrop : System.Windows.Forms.DragEventArgs -&gt; unit" Usage="control.OnDragDrop drgevent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">M:System.Windows.Forms.IDropTarget.OnDragDrop(System.Windows.Forms.DragEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -10581,6 +10584,9 @@ MyControl.Font = New Font(MyControl.Font, _
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDragEnter(System::Windows::Forms::DragEventArgs ^ drgevent);" />
       <MemberSignature Language="F#" Value="abstract member OnDragEnter : System.Windows.Forms.DragEventArgs -&gt; unit&#xA;override this.OnDragEnter : System.Windows.Forms.DragEventArgs -&gt; unit" Usage="control.OnDragEnter drgevent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">M:System.Windows.Forms.IDropTarget.OnDragEnter(System.Windows.Forms.DragEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -10627,6 +10633,9 @@ MyControl.Font = New Font(MyControl.Font, _
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDragLeave(EventArgs ^ e);" />
       <MemberSignature Language="F#" Value="abstract member OnDragLeave : EventArgs -&gt; unit&#xA;override this.OnDragLeave : EventArgs -&gt; unit" Usage="control.OnDragLeave e" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">M:System.Windows.Forms.IDropTarget.OnDragLeave(System.EventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -10673,6 +10682,9 @@ MyControl.Font = New Font(MyControl.Font, _
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDragOver(System::Windows::Forms::DragEventArgs ^ drgevent);" />
       <MemberSignature Language="F#" Value="abstract member OnDragOver : System.Windows.Forms.DragEventArgs -&gt; unit&#xA;override this.OnDragOver : System.Windows.Forms.DragEventArgs -&gt; unit" Usage="control.OnDragOver drgevent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">M:System.Windows.Forms.IDropTarget.OnDragOver(System.Windows.Forms.DragEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>

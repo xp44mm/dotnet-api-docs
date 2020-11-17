@@ -52,7 +52,7 @@ Methods marked with this attribute have the following restrictions:
       </Docs>
     </Member>
     <Member MemberName="CallConvs">
-      <MemberSignature Language="C#" Value="public Type[]? CallConvs;" />
+      <MemberSignature Language="C#" Value="public Type[] CallConvs;" />
       <MemberSignature Language="ILAsm" Value=".field public class System.Type[] CallConvs" />
       <MemberSignature Language="DocId" Value="F:System.Runtime.InteropServices.UnmanagedCallersOnlyAttribute.CallConvs" />
       <MemberSignature Language="VB.NET" Value="Public CallConvs As Type() " />
@@ -83,7 +83,7 @@ The "default platform calling convention" is generally unambiguous for all suppo
       </Docs>
     </Member>
     <Member MemberName="EntryPoint">
-      <MemberSignature Language="C#" Value="public string? EntryPoint;" />
+      <MemberSignature Language="C#" Value="public string EntryPoint;" />
       <MemberSignature Language="ILAsm" Value=".field public string EntryPoint" />
       <MemberSignature Language="DocId" Value="F:System.Runtime.InteropServices.UnmanagedCallersOnlyAttribute.EntryPoint" />
       <MemberSignature Language="VB.NET" Value="Public EntryPoint As String " />

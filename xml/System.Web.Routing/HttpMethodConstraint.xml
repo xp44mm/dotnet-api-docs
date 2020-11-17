@@ -139,6 +139,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual bool Match(System::Web::HttpContextBase ^ httpContext, System::Web::Routing::Route ^ route, System::String ^ parameterName, System::Web::Routing::RouteValueDictionary ^ values, System::Web::Routing::RouteDirection routeDirection);" />
       <MemberSignature Language="F#" Value="abstract member Match : System.Web.HttpContextBase * System.Web.Routing.Route * string * System.Web.Routing.RouteValueDictionary * System.Web.Routing.RouteDirection -&gt; bool&#xA;override this.Match : System.Web.HttpContextBase * System.Web.Routing.Route * string * System.Web.Routing.RouteValueDictionary * System.Web.Routing.RouteDirection -&gt; bool" Usage="httpMethodConstraint.Match (httpContext, route, parameterName, values, routeDirection)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.Routing.IRouteConstraint.Match(System.Web.HttpContextBase,System.Web.Routing.Route,System.String,System.Web.Routing.RouteValueDictionary,System.Web.Routing.RouteDirection)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

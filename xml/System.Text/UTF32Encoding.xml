@@ -1802,7 +1802,7 @@
       </Docs>
     </Member>
     <Member MemberName="Preamble">
-      <MemberSignature Language="C#" Value="public override ReadOnlySpan&lt;byte&gt;? Preamble { get; }" />
+      <MemberSignature Language="C#" Value="public override ReadOnlySpan&lt;byte&gt; Preamble { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; Preamble" />
       <MemberSignature Language="DocId" Value="P:System.Text.UTF32Encoding.Preamble" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Preamble As ReadOnlySpan(Of Byte)" />

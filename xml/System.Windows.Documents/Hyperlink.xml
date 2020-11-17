@@ -205,6 +205,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property Uri ^ BaseUri { Uri ^ get(); void set(Uri ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BaseUri : Uri with get, set" Usage="System.Windows.Documents.Hyperlink.BaseUri" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Windows.Markup.IUriContext.BaseUri</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>

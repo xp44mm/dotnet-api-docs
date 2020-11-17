@@ -186,13 +186,12 @@
       </Docs>
     </Member>
     <Member MemberName="CombineImpl">
-      <MemberSignature Language="C#" Value="protected override sealed Delegate CombineImpl (Delegate? follow);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected override sealed Delegate CombineImpl (Delegate follow);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Delegate CombineImpl(class System.Delegate follow) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MulticastDelegate.CombineImpl(System.Delegate)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Function CombineImpl (follow As Delegate) As Delegate" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Delegate ^ CombineImpl(Delegate ^ follow);" />
       <MemberSignature Language="F#" Value="override this.CombineImpl : Delegate -&gt; Delegate" Usage="multicastDelegate.CombineImpl follow" />
-      <MemberSignature Language="C#" Value="protected override sealed Delegate CombineImpl (Delegate follow);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -674,13 +673,12 @@
       </Docs>
     </Member>
     <Member MemberName="RemoveImpl">
-      <MemberSignature Language="C#" Value="protected override sealed Delegate? RemoveImpl (Delegate value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected override sealed Delegate RemoveImpl (Delegate value);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance class System.Delegate RemoveImpl(class System.Delegate value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.MulticastDelegate.RemoveImpl(System.Delegate)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Function RemoveImpl (value As Delegate) As Delegate" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override Delegate ^ RemoveImpl(Delegate ^ value);" />
       <MemberSignature Language="F#" Value="override this.RemoveImpl : Delegate -&gt; Delegate" Usage="multicastDelegate.RemoveImpl value" />
-      <MemberSignature Language="C#" Value="protected override sealed Delegate RemoveImpl (Delegate value);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

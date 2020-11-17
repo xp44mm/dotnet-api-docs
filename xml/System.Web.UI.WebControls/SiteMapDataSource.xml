@@ -170,6 +170,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property bool ContainsListCollection { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.ContainsListCollection : bool" Usage="System.Web.UI.WebControls.SiteMapDataSource.ContainsListCollection" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.ComponentModel.IListSource.ContainsListCollection</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -248,6 +251,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::IList ^ GetList();" />
       <MemberSignature Language="F#" Value="abstract member GetList : unit -&gt; System.Collections.IList&#xA;override this.GetList : unit -&gt; System.Collections.IList" Usage="siteMapDataSource.GetList " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ComponentModel.IListSource.GetList</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -285,6 +291,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Web::UI::DataSourceView ^ GetView(System::String ^ viewName);" />
       <MemberSignature Language="F#" Value="abstract member GetView : string -&gt; System.Web.UI.DataSourceView&#xA;override this.GetView : string -&gt; System.Web.UI.DataSourceView" Usage="siteMapDataSource.GetView viewName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IDataSource.GetView(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -326,6 +335,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Collections::ICollection ^ GetViewNames();" />
       <MemberSignature Language="F#" Value="abstract member GetViewNames : unit -&gt; System.Collections.ICollection&#xA;override this.GetViewNames : unit -&gt; System.Collections.ICollection" Usage="siteMapDataSource.GetViewNames " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IDataSource.GetViewNames</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

@@ -2474,13 +2474,12 @@
       </Docs>
     </Member>
     <Member MemberName="Item">
-      <MemberSignature Language="C#" Value="public virtual object this[int index] { get; set; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual object this[int index] { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Item(int32)" />
       <MemberSignature Language="DocId" Value="P:System.Collections.ArrayList.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public Overridable Property Item(index As Integer) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::Object ^ default[int] { System::Object ^ get(int index); void set(int index, System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Item(int) : obj with get, set" Usage="System.Collections.ArrayList.Item" />
-      <MemberSignature Language="C#" Value="public virtual object? this[int index] { get; set; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.IList.Item(System.Int32)</InterfaceMember>
@@ -3208,13 +3207,12 @@
       </Docs>
     </Member>
     <Member MemberName="Repeat">
-      <MemberSignature Language="C#" Value="public static System.Collections.ArrayList Repeat (object value, int count);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static System.Collections.ArrayList Repeat (object value, int count);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.ArrayList Repeat(object value, int32 count) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.ArrayList.Repeat(System.Object,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Repeat (value As Object, count As Integer) As ArrayList" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Collections::ArrayList ^ Repeat(System::Object ^ value, int count);" />
       <MemberSignature Language="F#" Value="static member Repeat : obj * int -&gt; System.Collections.ArrayList" Usage="System.Collections.ArrayList.Repeat (value, count)" />
-      <MemberSignature Language="C#" Value="public static System.Collections.ArrayList Repeat (object? value, int count);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.NonGeneric</AssemblyName>
@@ -3979,13 +3977,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="ToArray">
-      <MemberSignature Language="C#" Value="public virtual object[] ToArray ();" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual object[] ToArray ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object[] ToArray() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.ArrayList.ToArray" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ToArray () As Object()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::Object ^&gt; ^ ToArray();" />
       <MemberSignature Language="F#" Value="abstract member ToArray : unit -&gt; obj[]&#xA;override this.ToArray : unit -&gt; obj[]" Usage="arrayList.ToArray " />
-      <MemberSignature Language="C#" Value="public virtual object[]? ToArray ();" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.NonGeneric</AssemblyName>

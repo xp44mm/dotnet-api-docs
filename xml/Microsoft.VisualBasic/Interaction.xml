@@ -252,13 +252,12 @@ procID = Shell("C:\Windows\system32\calc.exe", AppWinStyle.NormalFocus)
       </Docs>
     </Member>
     <Member MemberName="CallByName">
-      <MemberSignature Language="C#" Value="public static object CallByName (object ObjectRef, string? ProcName, Microsoft.VisualBasic.CallType UseCallType, params object[]? Args);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static object CallByName (object ObjectRef, string ProcName, Microsoft.VisualBasic.CallType UseCallType, params object[] Args);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object CallByName(object ObjectRef, string ProcName, valuetype Microsoft.VisualBasic.CallType UseCallType, object[] Args) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Interaction.CallByName(System.Object,System.String,Microsoft.VisualBasic.CallType,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function CallByName (ObjectRef As Object, ProcName As String, UseCallType As CallType, ParamArray Args As Object()) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ CallByName(System::Object ^ ObjectRef, System::String ^ ProcName, Microsoft::VisualBasic::CallType UseCallType, ... cli::array &lt;System::Object ^&gt; ^ Args);" />
       <MemberSignature Language="F#" Value="static member CallByName : obj * string * Microsoft.VisualBasic.CallType * obj[] -&gt; obj" Usage="Microsoft.VisualBasic.Interaction.CallByName (ObjectRef, ProcName, UseCallType, Args)" />
-      <MemberSignature Language="C#" Value="public static object CallByName (object ObjectRef, string ProcName, Microsoft.VisualBasic.CallType UseCallType, params object[] Args);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static object CallByName(object ObjectRef, string ProcName, valuetype Microsoft.VisualBasic.CallType UseCallType, object[] Args) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -325,13 +324,12 @@ procID = Shell("C:\Windows\system32\calc.exe", AppWinStyle.NormalFocus)
       </Docs>
     </Member>
     <Member MemberName="Choose">
-      <MemberSignature Language="C#" Value="public static object Choose (double Index, params object[]? Choice);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static object Choose (double Index, params object[] Choice);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object Choose(float64 Index, object[] Choice) cil managed" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Interaction.Choose(System.Double,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function Choose (Index As Double, ParamArray Choice As Object()) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ Choose(double Index, ... cli::array &lt;System::Object ^&gt; ^ Choice);" />
       <MemberSignature Language="F#" Value="static member Choose : double * obj[] -&gt; obj" Usage="Microsoft.VisualBasic.Interaction.Choose (Index, Choice)" />
-      <MemberSignature Language="C#" Value="public static object Choose (double Index, params object[] Choice);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static object Choose(float64 Index, object[] Choice) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -449,12 +447,11 @@ procID = Shell("C:\Windows\system32\calc.exe", AppWinStyle.NormalFocus)
       </Docs>
     </Member>
     <Member MemberName="CreateObject">
-      <MemberSignature Language="C#" Value="public static object CreateObject (string ProgId, string? ServerName = &quot;&quot;);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static object CreateObject (string ProgId, string ServerName = &quot;&quot;);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object CreateObject(string ProgId, string ServerName) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Interaction.CreateObject(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateObject (ProgId As String, Optional ServerName As String = &quot;&quot;) As Object" />
       <MemberSignature Language="F#" Value="static member CreateObject : string * string -&gt; obj" Usage="Microsoft.VisualBasic.Interaction.CreateObject (ProgId, ServerName)" />
-      <MemberSignature Language="C#" Value="public static object CreateObject (string ProgId, string ServerName = &quot;&quot;);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static object CreateObject(string ProgId, string ServerName) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -561,12 +558,11 @@ End Sub
       </Docs>
     </Member>
     <Member MemberName="DeleteSetting">
-      <MemberSignature Language="C#" Value="public static void DeleteSetting (string? AppName, string Section = default, string Key = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static void DeleteSetting (string AppName, string Section = default, string Key = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void DeleteSetting(string AppName, string Section, string Key) cil managed" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Interaction.DeleteSetting(System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub DeleteSetting (AppName As String, Optional Section As String = Nothing, Optional Key As String = Nothing)" />
       <MemberSignature Language="F#" Value="static member DeleteSetting : string * string * string -&gt; unit" Usage="Microsoft.VisualBasic.Interaction.DeleteSetting (AppName, Section, Key)" />
-      <MemberSignature Language="C#" Value="public static void DeleteSetting (string AppName, string Section = default, string Key = default);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static void DeleteSetting(string AppName, string Section, string Key) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -695,13 +691,12 @@ End Sub
       </Docs>
     </Member>
     <Member MemberName="Environ">
-      <MemberSignature Language="C#" Value="public static string Environ (string? Expression);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static string Environ (string Expression);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Environ(string Expression) cil managed" FrameworkAlternate="net-5.0;netframework-1.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Interaction.Environ(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function Environ (Expression As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Environ(System::String ^ Expression);" />
       <MemberSignature Language="F#" Value="static member Environ : string -&gt; string" Usage="Microsoft.VisualBasic.Interaction.Environ Expression" />
-      <MemberSignature Language="C#" Value="public static string Environ (string Expression);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static string Environ(string Expression) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -751,13 +746,12 @@ End Sub
       </Docs>
     </Member>
     <Member MemberName="GetAllSettings">
-      <MemberSignature Language="C#" Value="public static string[,]? GetAllSettings (string AppName, string Section);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static string[,] GetAllSettings (string AppName, string Section);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string[,] GetAllSettings(string AppName, string Section) cil managed" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Interaction.GetAllSettings(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAllSettings (AppName As String, Section As String) As String(,)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::String ^, 2&gt; ^ GetAllSettings(System::String ^ AppName, System::String ^ Section);" />
       <MemberSignature Language="F#" Value="static member GetAllSettings : string * string -&gt; string[,]" Usage="Microsoft.VisualBasic.Interaction.GetAllSettings (AppName, Section)" />
-      <MemberSignature Language="C#" Value="public static string[,] GetAllSettings (string AppName, string Section);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static string[,] GetAllSettings(string AppName, string Section) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -953,12 +947,11 @@ drawObj.SaveAs("C:\Drawings\sample.drw")
       </Docs>
     </Member>
     <Member MemberName="GetSetting">
-      <MemberSignature Language="C#" Value="public static string? GetSetting (string AppName, string Section, string Key, string? Default = &quot;&quot;);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static string GetSetting (string AppName, string Section, string Key, string Default = &quot;&quot;);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GetSetting(string AppName, string Section, string Key, string Default) cil managed" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Interaction.GetSetting(System.String,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetSetting (AppName As String, Section As String, Key As String, Optional Default As String = &quot;&quot;) As String" />
       <MemberSignature Language="F#" Value="static member GetSetting : string * string * string * string -&gt; string" Usage="Microsoft.VisualBasic.Interaction.GetSetting (AppName, Section, Key, Default)" />
-      <MemberSignature Language="C#" Value="public static string GetSetting (string AppName, string Section, string Key, string Default = &quot;&quot;);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static string GetSetting(string AppName, string Section, string Key, string Default) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -1147,7 +1140,7 @@ drawObj.SaveAs("C:\Drawings\sample.drw")
       </Docs>
     </Member>
     <Member MemberName="MsgBox">
-      <MemberSignature Language="C#" Value="public static Microsoft.VisualBasic.MsgBoxResult MsgBox (object Prompt, Microsoft.VisualBasic.MsgBoxStyle Buttons = Microsoft.VisualBasic.MsgBoxStyle.OkOnly, object? Title = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static Microsoft.VisualBasic.MsgBoxResult MsgBox (object Prompt, Microsoft.VisualBasic.MsgBoxStyle Buttons = Microsoft.VisualBasic.MsgBoxStyle.OkOnly, object Title = default);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype Microsoft.VisualBasic.MsgBoxResult MsgBox(object Prompt, valuetype Microsoft.VisualBasic.MsgBoxStyle Buttons, object Title) cil managed" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Interaction.MsgBox(System.Object,Microsoft.VisualBasic.MsgBoxStyle,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function MsgBox (Prompt As Object, Optional Buttons As MsgBoxStyle = Microsoft.VisualBasic.MsgBoxStyle.OkOnly, Optional Title As Object = Nothing) As MsgBoxResult" FrameworkAlternate="net-5.0" />

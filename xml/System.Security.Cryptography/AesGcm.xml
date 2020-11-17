@@ -89,12 +89,11 @@
       </Docs>
     </Member>
     <Member MemberName="Decrypt">
-      <MemberSignature Language="C#" Value="public void Decrypt (byte[] nonce, byte[] ciphertext, byte[] tag, byte[] plaintext, byte[]? associatedData = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public void Decrypt (byte[] nonce, byte[] ciphertext, byte[] tag, byte[] plaintext, byte[] associatedData = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Decrypt(unsigned int8[] nonce, unsigned int8[] ciphertext, unsigned int8[] tag, unsigned int8[] plaintext, unsigned int8[] associatedData) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.AesGcm.Decrypt(System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.Byte[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub Decrypt (nonce As Byte(), ciphertext As Byte(), tag As Byte(), plaintext As Byte(), Optional associatedData As Byte() = Nothing)" />
       <MemberSignature Language="F#" Value="member this.Decrypt : byte[] * byte[] * byte[] * byte[] * byte[] -&gt; unit" Usage="aesGcm.Decrypt (nonce, ciphertext, tag, plaintext, associatedData)" />
-      <MemberSignature Language="C#" Value="public void Decrypt (byte[] nonce, byte[] ciphertext, byte[] tag, byte[] plaintext, byte[] associatedData = default);" FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
@@ -231,12 +230,11 @@ The <paramref name="tag" /> parameter length is not permitted by <see cref="P:Sy
       </Docs>
     </Member>
     <Member MemberName="Encrypt">
-      <MemberSignature Language="C#" Value="public void Encrypt (byte[] nonce, byte[] plaintext, byte[] ciphertext, byte[] tag, byte[]? associatedData = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public void Encrypt (byte[] nonce, byte[] plaintext, byte[] ciphertext, byte[] tag, byte[] associatedData = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Encrypt(unsigned int8[] nonce, unsigned int8[] plaintext, unsigned int8[] ciphertext, unsigned int8[] tag, unsigned int8[] associatedData) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.AesGcm.Encrypt(System.Byte[],System.Byte[],System.Byte[],System.Byte[],System.Byte[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub Encrypt (nonce As Byte(), plaintext As Byte(), ciphertext As Byte(), tag As Byte(), Optional associatedData As Byte() = Nothing)" />
       <MemberSignature Language="F#" Value="member this.Encrypt : byte[] * byte[] * byte[] * byte[] * byte[] -&gt; unit" Usage="aesGcm.Encrypt (nonce, plaintext, ciphertext, tag, associatedData)" />
-      <MemberSignature Language="C#" Value="public void Encrypt (byte[] nonce, byte[] plaintext, byte[] ciphertext, byte[] tag, byte[] associatedData = default);" FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>

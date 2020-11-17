@@ -220,13 +220,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="BinarySearch">
-      <MemberSignature Language="C#" Value="public static int BinarySearch (Array array, object value);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int BinarySearch (Array array, object value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 BinarySearch(class System.Array array, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.BinarySearch(System.Array,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BinarySearch (array As Array, value As Object) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int BinarySearch(Array ^ array, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="static member BinarySearch : Array * obj -&gt; int" Usage="System.Array.BinarySearch (array, value)" />
-      <MemberSignature Language="C#" Value="public static int BinarySearch (Array array, object? value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -319,13 +318,12 @@
       </Docs>
     </Member>
     <Member MemberName="BinarySearch">
-      <MemberSignature Language="C#" Value="public static int BinarySearch (Array array, object value, System.Collections.IComparer comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int BinarySearch (Array array, object value, System.Collections.IComparer comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 BinarySearch(class System.Array array, object value, class System.Collections.IComparer comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.BinarySearch(System.Array,System.Object,System.Collections.IComparer)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BinarySearch (array As Array, value As Object, comparer As IComparer) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int BinarySearch(Array ^ array, System::Object ^ value, System::Collections::IComparer ^ comparer);" />
       <MemberSignature Language="F#" Value="static member BinarySearch : Array * obj * System.Collections.IComparer -&gt; int" Usage="System.Array.BinarySearch (array, value, comparer)" />
-      <MemberSignature Language="C#" Value="public static int BinarySearch (Array? array, object value, System.Collections.IComparer comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -417,13 +415,12 @@
       </Docs>
     </Member>
     <Member MemberName="BinarySearch">
-      <MemberSignature Language="C#" Value="public static int BinarySearch (Array array, int index, int length, object value);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int BinarySearch (Array array, int index, int length, object value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 BinarySearch(class System.Array array, int32 index, int32 length, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BinarySearch (array As Array, index As Integer, length As Integer, value As Object) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int BinarySearch(Array ^ array, int index, int length, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="static member BinarySearch : Array * int * int * obj -&gt; int" Usage="System.Array.BinarySearch (array, index, length, value)" />
-      <MemberSignature Language="C#" Value="public static int BinarySearch (Array array, int index, int length, object? value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -518,13 +515,12 @@
       </Docs>
     </Member>
     <Member MemberName="BinarySearch">
-      <MemberSignature Language="C#" Value="public static int BinarySearch (Array array, int index, int length, object value, System.Collections.IComparer comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int BinarySearch (Array array, int index, int length, object value, System.Collections.IComparer comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 BinarySearch(class System.Array array, int32 index, int32 length, object value, class System.Collections.IComparer comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object,System.Collections.IComparer)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BinarySearch (array As Array, index As Integer, length As Integer, value As Object, comparer As IComparer) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int BinarySearch(Array ^ array, int index, int length, System::Object ^ value, System::Collections::IComparer ^ comparer);" />
       <MemberSignature Language="F#" Value="static member BinarySearch : Array * int * int * obj * System.Collections.IComparer -&gt; int" Usage="System.Array.BinarySearch (array, index, length, value, comparer)" />
-      <MemberSignature Language="C#" Value="public static int BinarySearch (Array? array, int index, int length, object value, System.Collections.IComparer comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -732,13 +728,12 @@
       </Docs>
     </Member>
     <Member MemberName="BinarySearch&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (T[] array, T value, System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (T[] array, T value, System.Collections.Generic.IComparer&lt;T&gt; comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 BinarySearch&lt;T&gt;(!!T[] array, !!T value, class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.BinarySearch``1(``0[],``0,System.Collections.Generic.IComparer{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BinarySearch(Of T) (array As T(), value As T, comparer As IComparer(Of T)) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static int BinarySearch(cli::array &lt;T&gt; ^ array, T value, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" />
       <MemberSignature Language="F#" Value="static member BinarySearch : 'T[] * 'T * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; int" Usage="System.Array.BinarySearch (array, value, comparer)" />
-      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (T[] array, T value, System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -947,13 +942,12 @@
       </Docs>
     </Member>
     <Member MemberName="BinarySearch&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (T[] array, int index, int length, T value, System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (T[] array, int index, int length, T value, System.Collections.Generic.IComparer&lt;T&gt; comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 BinarySearch&lt;T&gt;(!!T[] array, int32 index, int32 length, !!T value, class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.BinarySearch``1(``0[],System.Int32,System.Int32,``0,System.Collections.Generic.IComparer{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BinarySearch(Of T) (array As T(), index As Integer, length As Integer, value As T, comparer As IComparer(Of T)) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static int BinarySearch(cli::array &lt;T&gt; ^ array, int index, int length, T value, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" />
       <MemberSignature Language="F#" Value="static member BinarySearch : 'T[] * int * int * 'T * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; int" Usage="System.Array.BinarySearch (array, index, length, value, comparer)" />
-      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (T[] array, int index, int length, T value, System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -2925,13 +2919,12 @@
       </Docs>
     </Member>
     <Member MemberName="Find&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T Find&lt;T&gt; (T[] array, Predicate&lt;T&gt; match);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static T Find&lt;T&gt; (T[] array, Predicate&lt;T&gt; match);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T Find&lt;T&gt;(!!T[] array, class System.Predicate`1&lt;!!T&gt; match) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Find``1(``0[],System.Predicate{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Find(Of T) (array As T(), match As Predicate(Of T)) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static T Find(cli::array &lt;T&gt; ^ array, Predicate&lt;T&gt; ^ match);" />
       <MemberSignature Language="F#" Value="static member Find : 'T[] * Predicate&lt;'T&gt; -&gt; 'T" Usage="System.Array.Find (array, match)" />
-      <MemberSignature Language="C#" Value="public static T? Find&lt;T&gt; (T[] array, Predicate&lt;T&gt; match);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3379,13 +3372,12 @@
       </Docs>
     </Member>
     <Member MemberName="FindLast&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T FindLast&lt;T&gt; (T[] array, Predicate&lt;T&gt; match);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static T FindLast&lt;T&gt; (T[] array, Predicate&lt;T&gt; match);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T FindLast&lt;T&gt;(!!T[] array, class System.Predicate`1&lt;!!T&gt; match) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.FindLast``1(``0[],System.Predicate{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FindLast(Of T) (array As T(), match As Predicate(Of T)) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static T FindLast(cli::array &lt;T&gt; ^ array, Predicate&lt;T&gt; ^ match);" />
       <MemberSignature Language="F#" Value="static member FindLast : 'T[] * Predicate&lt;'T&gt; -&gt; 'T" Usage="System.Array.FindLast (array, match)" />
-      <MemberSignature Language="C#" Value="public static T? FindLast&lt;T&gt; (T[] array, Predicate&lt;T&gt; match);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4305,13 +4297,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetValue">
-      <MemberSignature Language="C#" Value="public object GetValue (params int[] indices);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public object GetValue (params int[] indices);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetValue(int32[] indices) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.GetValue(System.Int32[])" />
       <MemberSignature Language="VB.NET" Value="Public Function GetValue (ParamArray indices As Integer()) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetValue(... cli::array &lt;int&gt; ^ indices);" />
       <MemberSignature Language="F#" Value="member this.GetValue : int[] -&gt; obj" Usage="array.GetValue indices" />
-      <MemberSignature Language="C#" Value="public object? GetValue (params int[] indices);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4442,13 +4433,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetValue">
-      <MemberSignature Language="C#" Value="public object? GetValue (params long[] indices);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public object GetValue (params long[] indices);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object GetValue(int64[] indices) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.GetValue(System.Int64[])" />
       <MemberSignature Language="VB.NET" Value="Public Function GetValue (ParamArray indices As Long()) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ GetValue(... cli::array &lt;long&gt; ^ indices);" />
       <MemberSignature Language="F#" Value="member this.GetValue : int64[] -&gt; obj" Usage="array.GetValue indices" />
-      <MemberSignature Language="C#" Value="public object GetValue (params long[] indices);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -4781,13 +4771,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="IndexOf">
-      <MemberSignature Language="C#" Value="public static int IndexOf (Array array, object value);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int IndexOf (Array array, object value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 IndexOf(class System.Array array, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.IndexOf(System.Array,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function IndexOf (array As Array, value As Object) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int IndexOf(Array ^ array, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="static member IndexOf : Array * obj -&gt; int" Usage="System.Array.IndexOf (array, value)" />
-      <MemberSignature Language="C#" Value="public static int IndexOf (Array array, object? value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4865,13 +4854,12 @@
       </Docs>
     </Member>
     <Member MemberName="IndexOf">
-      <MemberSignature Language="C#" Value="public static int IndexOf (Array array, object value, int startIndex);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int IndexOf (Array array, object value, int startIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 IndexOf(class System.Array array, object value, int32 startIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.IndexOf(System.Array,System.Object,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function IndexOf (array As Array, value As Object, startIndex As Integer) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int IndexOf(Array ^ array, System::Object ^ value, int startIndex);" />
       <MemberSignature Language="F#" Value="static member IndexOf : Array * obj * int -&gt; int" Usage="System.Array.IndexOf (array, value, startIndex)" />
-      <MemberSignature Language="C#" Value="public static int IndexOf (Array array, object? value, int startIndex);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4956,13 +4944,12 @@
       </Docs>
     </Member>
     <Member MemberName="IndexOf">
-      <MemberSignature Language="C#" Value="public static int IndexOf (Array array, object value, int startIndex, int count);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int IndexOf (Array array, object value, int startIndex, int count);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 IndexOf(class System.Array array, object value, int32 startIndex, int32 count) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.IndexOf(System.Array,System.Object,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function IndexOf (array As Array, value As Object, startIndex As Integer, count As Integer) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int IndexOf(Array ^ array, System::Object ^ value, int startIndex, int count);" />
       <MemberSignature Language="F#" Value="static member IndexOf : Array * obj * int * int -&gt; int" Usage="System.Array.IndexOf (array, value, startIndex, count)" />
-      <MemberSignature Language="C#" Value="public static int IndexOf (Array array, object? value, int startIndex, int count);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -5554,13 +5541,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="LastIndexOf">
-      <MemberSignature Language="C#" Value="public static int LastIndexOf (Array array, object value);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int LastIndexOf (Array array, object value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 LastIndexOf(class System.Array array, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.LastIndexOf(System.Array,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LastIndexOf (array As Array, value As Object) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int LastIndexOf(Array ^ array, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="static member LastIndexOf : Array * obj -&gt; int" Usage="System.Array.LastIndexOf (array, value)" />
-      <MemberSignature Language="C#" Value="public static int LastIndexOf (Array array, object? value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -5637,13 +5623,12 @@
       </Docs>
     </Member>
     <Member MemberName="LastIndexOf">
-      <MemberSignature Language="C#" Value="public static int LastIndexOf (Array array, object value, int startIndex);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int LastIndexOf (Array array, object value, int startIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 LastIndexOf(class System.Array array, object value, int32 startIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.LastIndexOf(System.Array,System.Object,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LastIndexOf (array As Array, value As Object, startIndex As Integer) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int LastIndexOf(Array ^ array, System::Object ^ value, int startIndex);" />
       <MemberSignature Language="F#" Value="static member LastIndexOf : Array * obj * int -&gt; int" Usage="System.Array.LastIndexOf (array, value, startIndex)" />
-      <MemberSignature Language="C#" Value="public static int LastIndexOf (Array array, object? value, int startIndex);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -5722,13 +5707,12 @@
       </Docs>
     </Member>
     <Member MemberName="LastIndexOf">
-      <MemberSignature Language="C#" Value="public static int LastIndexOf (Array array, object value, int startIndex, int count);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static int LastIndexOf (Array array, object value, int startIndex, int count);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 LastIndexOf(class System.Array array, object value, int32 startIndex, int32 count) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.LastIndexOf(System.Array,System.Object,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LastIndexOf (array As Array, value As Object, startIndex As Integer, count As Integer) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static int LastIndexOf(Array ^ array, System::Object ^ value, int startIndex, int count);" />
       <MemberSignature Language="F#" Value="static member LastIndexOf : Array * obj * int * int -&gt; int" Usage="System.Array.LastIndexOf (array, value, startIndex, count)" />
-      <MemberSignature Language="C#" Value="public static int LastIndexOf (Array array, object? value, int startIndex, int count);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -6276,13 +6260,12 @@ int[,,] TDArray = new int[1,1,1];
       </Docs>
     </Member>
     <Member MemberName="Resize&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static void Resize&lt;T&gt; (ref T[] array, int newSize);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Resize&lt;T&gt; (ref T[] array, int newSize);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Resize&lt;T&gt;(!!T[]&amp; array, int32 newSize) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Resize``1(``0[]@,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Resize(Of T) (ByRef array As T(), newSize As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static void Resize(cli::array &lt;T&gt; ^ % array, int newSize);" />
       <MemberSignature Language="F#" Value="static member Resize : T[] * int -&gt; unit" Usage="System.Array.Resize (array, newSize)" />
-      <MemberSignature Language="C#" Value="public static void Resize&lt;T&gt; (ref T[]? array, int newSize);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -6725,13 +6708,12 @@ int[,,] TDArray = new int[1,1,1];
       </Docs>
     </Member>
     <Member MemberName="SetValue">
-      <MemberSignature Language="C#" Value="public void SetValue (object value, params int[] indices);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public void SetValue (object value, params int[] indices);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetValue(object value, int32[] indices) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.SetValue(System.Object,System.Int32[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetValue (value As Object, ParamArray indices As Integer())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetValue(System::Object ^ value, ... cli::array &lt;int&gt; ^ indices);" />
       <MemberSignature Language="F#" Value="member this.SetValue : obj * int[] -&gt; unit" Usage="array.SetValue (value, indices)" />
-      <MemberSignature Language="C#" Value="public void SetValue (object? value, params int[] indices);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -6896,13 +6878,12 @@ int[,,] TDArray = new int[1,1,1];
       </Docs>
     </Member>
     <Member MemberName="SetValue">
-      <MemberSignature Language="C#" Value="public void SetValue (object? value, params long[] indices);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public void SetValue (object value, params long[] indices);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetValue(object value, int64[] indices) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.SetValue(System.Object,System.Int64[])" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetValue (value As Object, ParamArray indices As Long())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetValue(System::Object ^ value, ... cli::array &lt;long&gt; ^ indices);" />
       <MemberSignature Language="F#" Value="member this.SetValue : obj * int64[] -&gt; unit" Usage="array.SetValue (value, indices)" />
-      <MemberSignature Language="C#" Value="public void SetValue (object value, params long[] indices);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -7406,13 +7387,12 @@ int[,,] TDArray = new int[1,1,1];
       </Docs>
     </Member>
     <Member MemberName="Sort">
-      <MemberSignature Language="C#" Value="public static void Sort (Array keys, Array items);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort (Array keys, Array items);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort(class System.Array keys, class System.Array items) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort(System.Array,System.Array)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort (keys As Array, items As Array)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Sort(Array ^ keys, Array ^ items);" />
       <MemberSignature Language="F#" Value="static member Sort : Array * Array -&gt; unit" Usage="System.Array.Sort (keys, items)" />
-      <MemberSignature Language="C#" Value="public static void Sort (Array keys, Array? items);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -7508,13 +7488,12 @@ int[,,] TDArray = new int[1,1,1];
       </Docs>
     </Member>
     <Member MemberName="Sort">
-      <MemberSignature Language="C#" Value="public static void Sort (Array array, System.Collections.IComparer comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort (Array array, System.Collections.IComparer comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort(class System.Array array, class System.Collections.IComparer comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort(System.Array,System.Collections.IComparer)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort (array As Array, comparer As IComparer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Sort(Array ^ array, System::Collections::IComparer ^ comparer);" />
       <MemberSignature Language="F#" Value="static member Sort : Array * System.Collections.IComparer -&gt; unit" Usage="System.Array.Sort (array, comparer)" />
-      <MemberSignature Language="C#" Value="public static void Sort (Array array, System.Collections.IComparer? comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -7619,13 +7598,12 @@ This method is an O(`n` log `n`) operation, where `n` is the <xref:System.Array.
       </Docs>
     </Member>
     <Member MemberName="Sort">
-      <MemberSignature Language="C#" Value="public static void Sort (Array keys, Array items, System.Collections.IComparer comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort (Array keys, Array items, System.Collections.IComparer comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort(class System.Array keys, class System.Array items, class System.Collections.IComparer comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort(System.Array,System.Array,System.Collections.IComparer)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort (keys As Array, items As Array, comparer As IComparer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Sort(Array ^ keys, Array ^ items, System::Collections::IComparer ^ comparer);" />
       <MemberSignature Language="F#" Value="static member Sort : Array * Array * System.Collections.IComparer -&gt; unit" Usage="System.Array.Sort (keys, items, comparer)" />
-      <MemberSignature Language="C#" Value="public static void Sort (Array? keys, Array items, System.Collections.IComparer comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -7845,13 +7823,12 @@ This method is an O(`n` log `n`) operation, where `n` is the <xref:System.Array.
       </Docs>
     </Member>
     <Member MemberName="Sort">
-      <MemberSignature Language="C#" Value="public static void Sort (Array keys, Array items, int index, int length);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort (Array keys, Array items, int index, int length);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort(class System.Array keys, class System.Array items, int32 index, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort(System.Array,System.Array,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort (keys As Array, items As Array, index As Integer, length As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Sort(Array ^ keys, Array ^ items, int index, int length);" />
       <MemberSignature Language="F#" Value="static member Sort : Array * Array * int * int -&gt; unit" Usage="System.Array.Sort (keys, items, index, length)" />
-      <MemberSignature Language="C#" Value="public static void Sort (Array keys, Array? items, int index, int length);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -7964,13 +7941,12 @@ This method is an O(`n` log `n`) operation, where `n` is the <xref:System.Array.
       </Docs>
     </Member>
     <Member MemberName="Sort">
-      <MemberSignature Language="C#" Value="public static void Sort (Array array, int index, int length, System.Collections.IComparer comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort (Array array, int index, int length, System.Collections.IComparer comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort(class System.Array array, int32 index, int32 length, class System.Collections.IComparer comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort(System.Array,System.Int32,System.Int32,System.Collections.IComparer)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort (array As Array, index As Integer, length As Integer, comparer As IComparer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Sort(Array ^ array, int index, int length, System::Collections::IComparer ^ comparer);" />
       <MemberSignature Language="F#" Value="static member Sort : Array * int * int * System.Collections.IComparer -&gt; unit" Usage="System.Array.Sort (array, index, length, comparer)" />
-      <MemberSignature Language="C#" Value="public static void Sort (Array array, int index, int length, System.Collections.IComparer? comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -8090,13 +8066,12 @@ This method is an O(`n` log `n`) operation, where `n` is the <xref:System.Array.
       </Docs>
     </Member>
     <Member MemberName="Sort">
-      <MemberSignature Language="C#" Value="public static void Sort (Array keys, Array items, int index, int length, System.Collections.IComparer comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort (Array keys, Array items, int index, int length, System.Collections.IComparer comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort(class System.Array keys, class System.Array items, int32 index, int32 length, class System.Collections.IComparer comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort(System.Array,System.Array,System.Int32,System.Int32,System.Collections.IComparer)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort (keys As Array, items As Array, index As Integer, length As Integer, comparer As IComparer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Sort(Array ^ keys, Array ^ items, int index, int length, System::Collections::IComparer ^ comparer);" />
       <MemberSignature Language="F#" Value="static member Sort : Array * Array * int * int * System.Collections.IComparer -&gt; unit" Usage="System.Array.Sort (keys, items, index, length, comparer)" />
-      <MemberSignature Language="C#" Value="public static void Sort (Array? keys, Array items, int index, int length, System.Collections.IComparer comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -8338,13 +8313,12 @@ This method is an O(`n` log `n`) operation, where `n` is the <xref:System.Array.
       </Docs>
     </Member>
     <Member MemberName="Sort&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static void Sort&lt;T&gt; (T[] array, System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort&lt;T&gt; (T[] array, System.Collections.Generic.IComparer&lt;T&gt; comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort&lt;T&gt;(!!T[] array, class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort``1(``0[],System.Collections.Generic.IComparer{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort(Of T) (array As T(), comparer As IComparer(Of T))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static void Sort(cli::array &lt;T&gt; ^ array, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" />
       <MemberSignature Language="F#" Value="static member Sort : 'T[] * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; unit" Usage="System.Array.Sort (array, comparer)" />
-      <MemberSignature Language="C#" Value="public static void Sort&lt;T&gt; (T[] array, System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -8644,13 +8618,12 @@ This method is an O(`n` log `n`) operation, where `n` is the <xref:System.Array.
       </Docs>
     </Member>
     <Member MemberName="Sort&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static void Sort&lt;T&gt; (T[] array, int index, int length, System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort&lt;T&gt; (T[] array, int index, int length, System.Collections.Generic.IComparer&lt;T&gt; comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort&lt;T&gt;(!!T[] array, int32 index, int32 length, class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort``1(``0[],System.Int32,System.Int32,System.Collections.Generic.IComparer{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort(Of T) (array As T(), index As Integer, length As Integer, comparer As IComparer(Of T))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static void Sort(cli::array &lt;T&gt; ^ array, int index, int length, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" />
       <MemberSignature Language="F#" Value="static member Sort : 'T[] * int * int * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; unit" Usage="System.Array.Sort (array, index, length, comparer)" />
-      <MemberSignature Language="C#" Value="public static void Sort&lt;T&gt; (T[] array, int index, int length, System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -8767,13 +8740,12 @@ This method is an O(`n` log `n`) operation, where `n` is the <xref:System.Array.
       </Docs>
     </Member>
     <Member MemberName="Sort&lt;TKey,TValue&gt;">
-      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[] keys, TValue[] items);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[] keys, TValue[] items);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort&lt;TKey, TValue&gt;(!!TKey[] keys, !!TValue[] items) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort``2(``0[],``1[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort(Of TKey, TValue) (keys As TKey(), items As TValue())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA; static void Sort(cli::array &lt;TKey&gt; ^ keys, cli::array &lt;TValue&gt; ^ items);" />
       <MemberSignature Language="F#" Value="static member Sort : 'Key[] * 'Value[] -&gt; unit" Usage="System.Array.Sort (keys, items)" />
-      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[]? keys, TValue[]? items);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -8884,13 +8856,12 @@ This method is an O(`n` log `n`) operation, where `n` is the <xref:System.Array.
       </Docs>
     </Member>
     <Member MemberName="Sort&lt;TKey,TValue&gt;">
-      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[] keys, TValue[] items, System.Collections.Generic.IComparer&lt;TKey&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[] keys, TValue[] items, System.Collections.Generic.IComparer&lt;TKey&gt; comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort&lt;TKey, TValue&gt;(!!TKey[] keys, !!TValue[] items, class System.Collections.Generic.IComparer`1&lt;!!TKey&gt; comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort``2(``0[],``1[],System.Collections.Generic.IComparer{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort(Of TKey, TValue) (keys As TKey(), items As TValue(), comparer As IComparer(Of TKey))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA; static void Sort(cli::array &lt;TKey&gt; ^ keys, cli::array &lt;TValue&gt; ^ items, System::Collections::Generic::IComparer&lt;TKey&gt; ^ comparer);" />
       <MemberSignature Language="F#" Value="static member Sort : 'Key[] * 'Value[] * System.Collections.Generic.IComparer&lt;'Key&gt; -&gt; unit" Usage="System.Array.Sort (keys, items, comparer)" />
-      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[]? keys, TValue[]? items, System.Collections.Generic.IComparer&lt;TKey&gt;? comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -9009,13 +8980,12 @@ This method is an O(`n` log `n`) operation, where `n` is the <xref:System.Array.
       </Docs>
     </Member>
     <Member MemberName="Sort&lt;TKey,TValue&gt;">
-      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[] keys, TValue[] items, int index, int length);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[] keys, TValue[] items, int index, int length);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort&lt;TKey, TValue&gt;(!!TKey[] keys, !!TValue[] items, int32 index, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort``2(``0[],``1[],System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort(Of TKey, TValue) (keys As TKey(), items As TValue(), index As Integer, length As Integer)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA; static void Sort(cli::array &lt;TKey&gt; ^ keys, cli::array &lt;TValue&gt; ^ items, int index, int length);" />
       <MemberSignature Language="F#" Value="static member Sort : 'Key[] * 'Value[] * int * int -&gt; unit" Usage="System.Array.Sort (keys, items, index, length)" />
-      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[]? keys, TValue[]? items, int index, int length);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -9141,13 +9111,12 @@ This method is an O(`n` log `n`) operation, where `n` is the <xref:System.Array.
       </Docs>
     </Member>
     <Member MemberName="Sort&lt;TKey,TValue&gt;">
-      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[] keys, TValue[] items, int index, int length, System.Collections.Generic.IComparer&lt;TKey&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[] keys, TValue[] items, int index, int length, System.Collections.Generic.IComparer&lt;TKey&gt; comparer);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Sort&lt;TKey, TValue&gt;(!!TKey[] keys, !!TValue[] items, int32 index, int32 length, class System.Collections.Generic.IComparer`1&lt;!!TKey&gt; comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Array.Sort``2(``0[],``1[],System.Int32,System.Int32,System.Collections.Generic.IComparer{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Sort(Of TKey, TValue) (keys As TKey(), items As TValue(), index As Integer, length As Integer, comparer As IComparer(Of TKey))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA; static void Sort(cli::array &lt;TKey&gt; ^ keys, cli::array &lt;TValue&gt; ^ items, int index, int length, System::Collections::Generic::IComparer&lt;TKey&gt; ^ comparer);" />
       <MemberSignature Language="F#" Value="static member Sort : 'Key[] * 'Value[] * int * int * System.Collections.Generic.IComparer&lt;'Key&gt; -&gt; unit" Usage="System.Array.Sort (keys, items, index, length, comparer)" />
-      <MemberSignature Language="C#" Value="public static void Sort&lt;TKey,TValue&gt; (TKey[]? keys, TValue[]? items, int index, int length, System.Collections.Generic.IComparer&lt;TKey&gt;? comparer);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -9825,13 +9794,12 @@ This property implements the <xref:System.Collections.ICollection?displayPropert
       </Docs>
     </Member>
     <Member MemberName="System.Collections.IList.Item">
-      <MemberSignature Language="C#" Value="object System.Collections.IList.Item[int index] { get; set; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="object System.Collections.IList.Item[int index] { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object System.Collections.IList.Item(int32)" />
       <MemberSignature Language="DocId" Value="P:System.Array.System#Collections#IList#Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value=" Property Item(index As Integer) As Object Implements IList.Item" />
       <MemberSignature Language="C++ CLI" Value="property System::Object ^ System::Collections::IList::Item[int] { System::Object ^ get(int index); void set(int index, System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.System.Collections.IList.Item(int) : obj with get, set" Usage="System.Collections.IList.Item" />
-      <MemberSignature Language="C#" Value="object? System.Collections.IList.Item[int index] { get; set; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.Collections.IList.Item(System.Int32)</InterfaceMember>

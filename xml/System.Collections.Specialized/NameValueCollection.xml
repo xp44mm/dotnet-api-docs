@@ -771,13 +771,12 @@
       </Docs>
     </Member>
     <Member MemberName="AllKeys">
-      <MemberSignature Language="C#" Value="public virtual string[] AllKeys { get; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual string[] AllKeys { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string[] AllKeys" />
       <MemberSignature Language="DocId" Value="P:System.Collections.Specialized.NameValueCollection.AllKeys" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AllKeys As String()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property cli::array &lt;System::String ^&gt; ^ AllKeys { cli::array &lt;System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.AllKeys : string[]" Usage="System.Collections.Specialized.NameValueCollection.AllKeys" />
-      <MemberSignature Language="C#" Value="public virtual string[]? AllKeys { get; }" FrameworkAlternate="net-5.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Specialized</AssemblyName>
@@ -1122,13 +1121,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="GetValues">
-      <MemberSignature Language="C#" Value="public virtual string[] GetValues (int index);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual string[] GetValues (int index);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string[] GetValues(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.Specialized.NameValueCollection.GetValues(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetValues (index As Integer) As String()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::String ^&gt; ^ GetValues(int index);" />
       <MemberSignature Language="F#" Value="abstract member GetValues : int -&gt; string[]&#xA;override this.GetValues : int -&gt; string[]" Usage="nameValueCollection.GetValues index" />
-      <MemberSignature Language="C#" Value="public virtual string[]? GetValues (int index);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Specialized</AssemblyName>
@@ -1177,13 +1175,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetValues">
-      <MemberSignature Language="C#" Value="public virtual string[] GetValues (string name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual string[] GetValues (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string[] GetValues(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.Specialized.NameValueCollection.GetValues(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetValues (name As String) As String()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::String ^&gt; ^ GetValues(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member GetValues : string -&gt; string[]&#xA;override this.GetValues : string -&gt; string[]" Usage="nameValueCollection.GetValues name" />
-      <MemberSignature Language="C#" Value="public virtual string[]? GetValues (string name);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Specialized</AssemblyName>

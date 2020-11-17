@@ -388,6 +388,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract System::Web::UI::HierarchicalDataSourceView ^ GetHierarchicalView(System::String ^ viewPath);" />
       <MemberSignature Language="F#" Value="abstract member GetHierarchicalView : string -&gt; System.Web.UI.HierarchicalDataSourceView" Usage="hierarchicalDataSourceControl.GetHierarchicalView viewPath" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IHierarchicalDataSource.GetHierarchicalView(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

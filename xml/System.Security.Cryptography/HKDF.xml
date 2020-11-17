@@ -34,7 +34,7 @@ In situations where the input key material is already a uniformly random bit str
   </Docs>
   <Members>
     <Member MemberName="DeriveKey">
-      <MemberSignature Language="C#" Value="public static byte[] DeriveKey (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] ikm, int outputLength, byte[]? salt = default, byte[]? info = default);" />
+      <MemberSignature Language="C#" Value="public static byte[] DeriveKey (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] ikm, int outputLength, byte[] salt = default, byte[] info = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] DeriveKey(valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, unsigned int8[] ikm, int32 outputLength, unsigned int8[] salt, unsigned int8[] info) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HKDF.DeriveKey(System.Security.Cryptography.HashAlgorithmName,System.Byte[],System.Int32,System.Byte[],System.Byte[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DeriveKey (hashAlgorithmName As HashAlgorithmName, ikm As Byte(), outputLength As Integer, Optional salt As Byte() = Nothing, Optional info As Byte() = Nothing) As Byte()" />
@@ -98,7 +98,7 @@ In situations where the input key material is already a uniformly random bit str
       </Docs>
     </Member>
     <Member MemberName="Expand">
-      <MemberSignature Language="C#" Value="public static byte[] Expand (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] prk, int outputLength, byte[]? info = default);" />
+      <MemberSignature Language="C#" Value="public static byte[] Expand (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] prk, int outputLength, byte[] info = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] Expand(valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, unsigned int8[] prk, int32 outputLength, unsigned int8[] info) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HKDF.Expand(System.Security.Cryptography.HashAlgorithmName,System.Byte[],System.Int32,System.Byte[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Expand (hashAlgorithmName As HashAlgorithmName, prk As Byte(), outputLength As Integer, Optional info As Byte() = Nothing) As Byte()" />
@@ -158,7 +158,7 @@ In situations where the input key material is already a uniformly random bit str
       </Docs>
     </Member>
     <Member MemberName="Extract">
-      <MemberSignature Language="C#" Value="public static byte[] Extract (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] ikm, byte[]? salt = default);" />
+      <MemberSignature Language="C#" Value="public static byte[] Extract (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] ikm, byte[] salt = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] Extract(valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, unsigned int8[] ikm, unsigned int8[] salt) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HKDF.Extract(System.Security.Cryptography.HashAlgorithmName,System.Byte[],System.Byte[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Extract (hashAlgorithmName As HashAlgorithmName, ikm As Byte(), Optional salt As Byte() = Nothing) As Byte()" />

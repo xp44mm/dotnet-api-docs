@@ -1694,13 +1694,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="GetStore">
-      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, object? applicationIdentity);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, object applicationIdentity);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.IsolatedStorage.IsolatedStorageFile GetStore(valuetype System.IO.IsolatedStorage.IsolatedStorageScope scope, object applicationIdentity) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetStore (scope As IsolatedStorageScope, applicationIdentity As Object) As IsolatedStorageFile" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::IsolatedStorage::IsolatedStorageFile ^ GetStore(System::IO::IsolatedStorage::IsolatedStorageScope scope, System::Object ^ applicationIdentity);" />
       <MemberSignature Language="F#" Value="static member GetStore : System.IO.IsolatedStorage.IsolatedStorageScope * obj -&gt; System.IO.IsolatedStorage.IsolatedStorageFile" Usage="System.IO.IsolatedStorage.IsolatedStorageFile.GetStore (scope, applicationIdentity)" />
-      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, object applicationIdentity);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1771,13 +1770,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetStore">
-      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, Type? applicationEvidenceType);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, Type applicationEvidenceType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.IsolatedStorage.IsolatedStorageFile GetStore(valuetype System.IO.IsolatedStorage.IsolatedStorageScope scope, class System.Type applicationEvidenceType) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetStore (scope As IsolatedStorageScope, applicationEvidenceType As Type) As IsolatedStorageFile" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::IsolatedStorage::IsolatedStorageFile ^ GetStore(System::IO::IsolatedStorage::IsolatedStorageScope scope, Type ^ applicationEvidenceType);" />
       <MemberSignature Language="F#" Value="static member GetStore : System.IO.IsolatedStorage.IsolatedStorageScope * Type -&gt; System.IO.IsolatedStorage.IsolatedStorageFile" Usage="System.IO.IsolatedStorage.IsolatedStorageFile.GetStore (scope, applicationEvidenceType)" />
-      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, Type applicationEvidenceType);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1848,13 +1846,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetStore">
-      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile? GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, object domainIdentity, object assemblyIdentity);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, object domainIdentity, object assemblyIdentity);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.IsolatedStorage.IsolatedStorageFile GetStore(valuetype System.IO.IsolatedStorage.IsolatedStorageScope scope, object domainIdentity, object assemblyIdentity) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetStore (scope As IsolatedStorageScope, domainIdentity As Object, assemblyIdentity As Object) As IsolatedStorageFile" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::IsolatedStorage::IsolatedStorageFile ^ GetStore(System::IO::IsolatedStorage::IsolatedStorageScope scope, System::Object ^ domainIdentity, System::Object ^ assemblyIdentity);" />
       <MemberSignature Language="F#" Value="static member GetStore : System.IO.IsolatedStorage.IsolatedStorageScope * obj * obj -&gt; System.IO.IsolatedStorage.IsolatedStorageFile" Usage="System.IO.IsolatedStorage.IsolatedStorageFile.GetStore (scope, domainIdentity, assemblyIdentity)" />
-      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, object domainIdentity, object assemblyIdentity);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1933,13 +1930,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetStore">
-      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile? GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, Type domainEvidenceType, Type assemblyEvidenceType);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, Type domainEvidenceType, Type assemblyEvidenceType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.IsolatedStorage.IsolatedStorageFile GetStore(valuetype System.IO.IsolatedStorage.IsolatedStorageScope scope, class System.Type domainEvidenceType, class System.Type assemblyEvidenceType) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.IsolatedStorage.IsolatedStorageFile.GetStore(System.IO.IsolatedStorage.IsolatedStorageScope,System.Type,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetStore (scope As IsolatedStorageScope, domainEvidenceType As Type, assemblyEvidenceType As Type) As IsolatedStorageFile" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::IsolatedStorage::IsolatedStorageFile ^ GetStore(System::IO::IsolatedStorage::IsolatedStorageScope scope, Type ^ domainEvidenceType, Type ^ assemblyEvidenceType);" />
       <MemberSignature Language="F#" Value="static member GetStore : System.IO.IsolatedStorage.IsolatedStorageScope * Type * Type -&gt; System.IO.IsolatedStorage.IsolatedStorageFile" Usage="System.IO.IsolatedStorage.IsolatedStorageFile.GetStore (scope, domainEvidenceType, assemblyEvidenceType)" />
-      <MemberSignature Language="C#" Value="public static System.IO.IsolatedStorage.IsolatedStorageFile GetStore (System.IO.IsolatedStorage.IsolatedStorageScope scope, Type domainEvidenceType, Type assemblyEvidenceType);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

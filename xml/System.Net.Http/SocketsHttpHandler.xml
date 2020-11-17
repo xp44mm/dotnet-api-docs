@@ -143,7 +143,7 @@ If this change is undesirable, you can configure your application to use the old
       </Docs>
     </Member>
     <Member MemberName="ConnectCallback">
-      <MemberSignature Language="C#" Value="public Func&lt;System.Net.Http.SocketsHttpConnectionContext,System.Threading.CancellationToken,System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;&gt;? ConnectCallback { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;System.Net.Http.SocketsHttpConnectionContext,System.Threading.CancellationToken,System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;&gt; ConnectCallback { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`3&lt;class System.Net.Http.SocketsHttpConnectionContext, valuetype System.Threading.CancellationToken, valuetype System.Threading.Tasks.ValueTask`1&lt;class System.IO.Stream&gt;&gt; ConnectCallback" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.SocketsHttpHandler.ConnectCallback" />
       <MemberSignature Language="VB.NET" Value="Public Property ConnectCallback As Func(Of SocketsHttpConnectionContext, CancellationToken, ValueTask(Of Stream))" />
@@ -187,13 +187,12 @@ If this change is undesirable, you can configure your application to use the old
       </Docs>
     </Member>
     <Member MemberName="CookieContainer">
-      <MemberSignature Language="C#" Value="public System.Net.CookieContainer? CookieContainer { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Net.CookieContainer CookieContainer { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.CookieContainer CookieContainer" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.SocketsHttpHandler.CookieContainer" />
       <MemberSignature Language="VB.NET" Value="Public Property CookieContainer As CookieContainer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::CookieContainer ^ CookieContainer { System::Net::CookieContainer ^ get(); void set(System::Net::CookieContainer ^ value); };" />
       <MemberSignature Language="F#" Value="member this.CookieContainer : System.Net.CookieContainer with get, set" Usage="System.Net.Http.SocketsHttpHandler.CookieContainer" />
-      <MemberSignature Language="C#" Value="public System.Net.CookieContainer CookieContainer { get; set; }" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -556,7 +555,7 @@ For example, if the value is 64, then 65,536 bytes are allowed for the maximum r
       </Docs>
     </Member>
     <Member MemberName="PlaintextStreamFilter">
-      <MemberSignature Language="C#" Value="public Func&lt;System.Net.Http.SocketsHttpPlaintextStreamFilterContext,System.Threading.CancellationToken,System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;&gt;? PlaintextStreamFilter { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;System.Net.Http.SocketsHttpPlaintextStreamFilterContext,System.Threading.CancellationToken,System.Threading.Tasks.ValueTask&lt;System.IO.Stream&gt;&gt; PlaintextStreamFilter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`3&lt;class System.Net.Http.SocketsHttpPlaintextStreamFilterContext, valuetype System.Threading.CancellationToken, valuetype System.Threading.Tasks.ValueTask`1&lt;class System.IO.Stream&gt;&gt; PlaintextStreamFilter" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.SocketsHttpHandler.PlaintextStreamFilter" />
       <MemberSignature Language="VB.NET" Value="Public Property PlaintextStreamFilter As Func(Of SocketsHttpPlaintextStreamFilterContext, CancellationToken, ValueTask(Of Stream))" />
@@ -658,13 +657,12 @@ For example, if the value is 64, then 65,536 bytes are allowed for the maximum r
       </Docs>
     </Member>
     <Member MemberName="Properties">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt;? Properties { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; Properties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Properties" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.SocketsHttpHandler.Properties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As IDictionary(Of String, Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::Object ^&gt; ^ Properties { System::Collections::Generic::IDictionary&lt;System::String ^, System::Object ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Properties : System.Collections.Generic.IDictionary&lt;string, obj&gt;" Usage="System.Net.Http.SocketsHttpHandler.Properties" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; Properties { get; }" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -705,7 +703,7 @@ For example, if the value is 64, then 65,536 bytes are allowed for the maximum r
       </Docs>
     </Member>
     <Member MemberName="RequestHeaderEncodingSelector">
-      <MemberSignature Language="C#" Value="public System.Net.Http.HeaderEncodingSelector&lt;System.Net.Http.HttpRequestMessage&gt;? RequestHeaderEncodingSelector { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Net.Http.HeaderEncodingSelector&lt;System.Net.Http.HttpRequestMessage&gt; RequestHeaderEncodingSelector { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.Http.HeaderEncodingSelector`1&lt;class System.Net.Http.HttpRequestMessage&gt; RequestHeaderEncodingSelector" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.SocketsHttpHandler.RequestHeaderEncodingSelector" />
       <MemberSignature Language="VB.NET" Value="Public Property RequestHeaderEncodingSelector As HeaderEncodingSelector(Of HttpRequestMessage)" />
@@ -755,7 +753,7 @@ Draining occurs when a request is cancelled or a response is disposed prior to f
       </Docs>
     </Member>
     <Member MemberName="ResponseHeaderEncodingSelector">
-      <MemberSignature Language="C#" Value="public System.Net.Http.HeaderEncodingSelector&lt;System.Net.Http.HttpRequestMessage&gt;? ResponseHeaderEncodingSelector { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Net.Http.HeaderEncodingSelector&lt;System.Net.Http.HttpRequestMessage&gt; ResponseHeaderEncodingSelector { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.Http.HeaderEncodingSelector`1&lt;class System.Net.Http.HttpRequestMessage&gt; ResponseHeaderEncodingSelector" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.SocketsHttpHandler.ResponseHeaderEncodingSelector" />
       <MemberSignature Language="VB.NET" Value="Public Property ResponseHeaderEncodingSelector As HeaderEncodingSelector(Of HttpRequestMessage)" />
@@ -841,13 +839,12 @@ Draining occurs when a request is cancelled or a response is disposed prior to f
       </Docs>
     </Member>
     <Member MemberName="SslOptions">
-      <MemberSignature Language="C#" Value="public System.Net.Security.SslClientAuthenticationOptions? SslOptions { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Net.Security.SslClientAuthenticationOptions SslOptions { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.Security.SslClientAuthenticationOptions SslOptions" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.SocketsHttpHandler.SslOptions" />
       <MemberSignature Language="VB.NET" Value="Public Property SslOptions As SslClientAuthenticationOptions" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::Security::SslClientAuthenticationOptions ^ SslOptions { System::Net::Security::SslClientAuthenticationOptions ^ get(); void set(System::Net::Security::SslClientAuthenticationOptions ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SslOptions : System.Net.Security.SslClientAuthenticationOptions with get, set" Usage="System.Net.Http.SocketsHttpHandler.SslOptions" />
-      <MemberSignature Language="C#" Value="public System.Net.Security.SslClientAuthenticationOptions SslOptions { get; set; }" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>

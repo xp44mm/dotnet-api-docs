@@ -100,6 +100,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void AddParsedSubObject(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="member this.AddParsedSubObject : obj -&gt; unit" Usage="deviceSpecificChoice.AddParsedSubObject obj" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IParserAccessor.AddParsedSubObject(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -263,6 +266,9 @@ public bool myChoiceMethod(System.Web.Mobile.MobileCapabilities
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; System::String ^ GetAttribute(System::String ^ key);" />
       <MemberSignature Language="F#" Value="member this.GetAttribute : string -&gt; string" Usage="deviceSpecificChoice.GetAttribute key" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IAttributeAccessor.GetAttribute(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -326,6 +332,9 @@ public bool myChoiceMethod(System.Web.Mobile.MobileCapabilities
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void SetAttribute(System::String ^ key, System::String ^ value);" />
       <MemberSignature Language="F#" Value="member this.SetAttribute : string * string -&gt; unit" Usage="deviceSpecificChoice.SetAttribute (key, value)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IAttributeAccessor.SetAttribute(System.String,System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

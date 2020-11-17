@@ -60,6 +60,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; property bool IsReusable { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsReusable : bool" Usage="System.Web.Handlers.TraceHandler.IsReusable" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Web.IHttpHandler.IsReusable</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -83,6 +86,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void ProcessRequest(System::Web::HttpContext ^ context);" />
       <MemberSignature Language="F#" Value="member this.ProcessRequest : System.Web.HttpContext -&gt; unit" Usage="traceHandler.ProcessRequest context" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

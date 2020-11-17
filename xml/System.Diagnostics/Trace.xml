@@ -515,13 +515,12 @@
       </Docs>
     </Member>
     <Member MemberName="CorrelationManager">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.CorrelationManager? CorrelationManager { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.CorrelationManager CorrelationManager { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class System.Diagnostics.CorrelationManager CorrelationManager" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.Trace.CorrelationManager" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property CorrelationManager As CorrelationManager" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Diagnostics::CorrelationManager ^ CorrelationManager { System::Diagnostics::CorrelationManager ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.CorrelationManager : System.Diagnostics.CorrelationManager" Usage="System.Diagnostics.Trace.CorrelationManager" />
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.CorrelationManager CorrelationManager { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -1003,13 +1002,12 @@ End of list of errors
       </Docs>
     </Member>
     <Member MemberName="Listeners">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.TraceListenerCollection? Listeners { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.TraceListenerCollection Listeners { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class System.Diagnostics.TraceListenerCollection Listeners" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.Trace.Listeners" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Listeners As TraceListenerCollection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property System::Diagnostics::TraceListenerCollection ^ Listeners { System::Diagnostics::TraceListenerCollection ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Listeners : System.Diagnostics.TraceListenerCollection" Usage="System.Diagnostics.Trace.Listeners" />
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.TraceListenerCollection Listeners { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1179,13 +1177,12 @@ End of list of errors
       </Docs>
     </Member>
     <Member MemberName="TraceError">
-      <MemberSignature Language="C#" Value="public static void TraceError (string format, params object[]? args);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static void TraceError (string format, params object[] args);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceError(string format, object[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceError(System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceError (format As String, ParamArray args As Object())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceError(System::String ^ format, ... cli::array &lt;System::Object ^&gt; ^ args);" />
       <MemberSignature Language="F#" Value="static member TraceError : string * obj[] -&gt; unit" Usage="System.Diagnostics.Trace.TraceError (format, args)" />
-      <MemberSignature Language="C#" Value="public static void TraceError (string format, params object[] args);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1317,13 +1314,12 @@ End of list of errors
       </Docs>
     </Member>
     <Member MemberName="TraceInformation">
-      <MemberSignature Language="C#" Value="public static void TraceInformation (string format, params object[]? args);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static void TraceInformation (string format, params object[] args);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceInformation(string format, object[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceInformation(System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceInformation (format As String, ParamArray args As Object())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceInformation(System::String ^ format, ... cli::array &lt;System::Object ^&gt; ^ args);" />
       <MemberSignature Language="F#" Value="static member TraceInformation : string * obj[] -&gt; unit" Usage="System.Diagnostics.Trace.TraceInformation (format, args)" />
-      <MemberSignature Language="C#" Value="public static void TraceInformation (string format, params object[] args);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1455,13 +1451,12 @@ End of list of errors
       </Docs>
     </Member>
     <Member MemberName="TraceWarning">
-      <MemberSignature Language="C#" Value="public static void TraceWarning (string format, params object[]? args);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static void TraceWarning (string format, params object[] args);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceWarning(string format, object[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceWarning(System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceWarning (format As String, ParamArray args As Object())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceWarning(System::String ^ format, ... cli::array &lt;System::Object ^&gt; ^ args);" />
       <MemberSignature Language="F#" Value="static member TraceWarning : string * obj[] -&gt; unit" Usage="System.Diagnostics.Trace.TraceWarning (format, args)" />
-      <MemberSignature Language="C#" Value="public static void TraceWarning (string format, params object[] args);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>

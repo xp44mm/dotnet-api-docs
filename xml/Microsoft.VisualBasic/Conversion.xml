@@ -51,13 +51,12 @@
   </Docs>
   <Members>
     <Member MemberName="CTypeDynamic">
-      <MemberSignature Language="C#" Value="public static object CTypeDynamic (object? Expression, Type TargetType);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static object CTypeDynamic (object Expression, Type TargetType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object CTypeDynamic(object Expression, class System.Type TargetType) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Conversion.CTypeDynamic(System.Object,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Function CTypeDynamic (Expression As Object, TargetType As Type) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ CTypeDynamic(System::Object ^ Expression, Type ^ TargetType);" />
       <MemberSignature Language="F#" Value="static member CTypeDynamic : obj * Type -&gt; obj" Usage="Microsoft.VisualBasic.Conversion.CTypeDynamic (Expression, TargetType)" />
-      <MemberSignature Language="C#" Value="public static object CTypeDynamic (object Expression, Type TargetType);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static object CTypeDynamic(object Expression, class System.Type TargetType) cil managed" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -132,13 +131,12 @@ End Class
       </Docs>
     </Member>
     <Member MemberName="CTypeDynamic&lt;TargetType&gt;">
-      <MemberSignature Language="C#" Value="public static TargetType? CTypeDynamic&lt;TargetType&gt; (object Expression);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static TargetType CTypeDynamic&lt;TargetType&gt; (object Expression);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TargetType CTypeDynamic&lt;TargetType&gt;(object Expression) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.Conversion.CTypeDynamic``1(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function CTypeDynamic(Of TargetType) (Expression As Object) As TargetType" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TargetType&gt;&#xA; static TargetType CTypeDynamic(System::Object ^ Expression);" />
       <MemberSignature Language="F#" Value="static member CTypeDynamic : obj -&gt; 'argetType" Usage="Microsoft.VisualBasic.Conversion.CTypeDynamic Expression" />
-      <MemberSignature Language="C#" Value="public static TargetType CTypeDynamic&lt;TargetType&gt; (object Expression);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static !!TargetType CTypeDynamic&lt;TargetType&gt;(object Expression) cil managed" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>

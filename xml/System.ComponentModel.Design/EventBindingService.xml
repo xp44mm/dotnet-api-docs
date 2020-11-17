@@ -85,6 +85,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract System::String ^ CreateUniqueMethodName(System::ComponentModel::IComponent ^ component, System::ComponentModel::EventDescriptor ^ e);" />
       <MemberSignature Language="F#" Value="abstract member CreateUniqueMethodName : System.ComponentModel.IComponent * System.ComponentModel.EventDescriptor -&gt; string" Usage="eventBindingService.CreateUniqueMethodName (component, e)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ComponentModel.Design.IEventBindingService.CreateUniqueMethodName(System.ComponentModel.IComponent,System.ComponentModel.EventDescriptor)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Design</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -174,6 +177,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract System::Collections::ICollection ^ GetCompatibleMethods(System::ComponentModel::EventDescriptor ^ e);" />
       <MemberSignature Language="F#" Value="abstract member GetCompatibleMethods : System.ComponentModel.EventDescriptor -&gt; System.Collections.ICollection" Usage="eventBindingService.GetCompatibleMethods e" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ComponentModel.Design.IEventBindingService.GetCompatibleMethods(System.ComponentModel.EventDescriptor)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Design</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -257,6 +263,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract bool ShowCode();" />
       <MemberSignature Language="F#" Value="abstract member ShowCode : unit -&gt; bool" Usage="eventBindingService.ShowCode " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ComponentModel.Design.IEventBindingService.ShowCode</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Design</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -293,6 +302,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract bool ShowCode(int lineNumber);" />
       <MemberSignature Language="F#" Value="abstract member ShowCode : int -&gt; bool" Usage="eventBindingService.ShowCode lineNumber" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ComponentModel.Design.IEventBindingService.ShowCode(System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Design</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

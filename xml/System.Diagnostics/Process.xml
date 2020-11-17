@@ -1690,13 +1690,12 @@ The following code example creates a process that prints a file. It sets the <xr
       </Docs>
     </MemberGroup>
     <Member MemberName="GetProcessesByName">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process[] GetProcessesByName (string? processName);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process[] GetProcessesByName (string processName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Diagnostics.Process[] GetProcessesByName(string processName) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Process.GetProcessesByName(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetProcessesByName (processName As String) As Process()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Diagnostics::Process ^&gt; ^ GetProcessesByName(System::String ^ processName);" />
       <MemberSignature Language="F#" Value="static member GetProcessesByName : string -&gt; System.Diagnostics.Process[]" Usage="System.Diagnostics.Process.GetProcessesByName processName" />
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process[] GetProcessesByName (string processName);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Process</AssemblyName>
@@ -1763,13 +1762,12 @@ The following code example creates a process that prints a file. It sets the <xr
       </Docs>
     </Member>
     <Member MemberName="GetProcessesByName">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process[] GetProcessesByName (string? processName, string machineName);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process[] GetProcessesByName (string processName, string machineName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Diagnostics.Process[] GetProcessesByName(string processName, string machineName) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Process.GetProcessesByName(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetProcessesByName (processName As String, machineName As String) As Process()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Diagnostics::Process ^&gt; ^ GetProcessesByName(System::String ^ processName, System::String ^ machineName);" />
       <MemberSignature Language="F#" Value="static member GetProcessesByName : string * string -&gt; System.Diagnostics.Process[]" Usage="System.Diagnostics.Process.GetProcessesByName (processName, machineName)" />
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process[] GetProcessesByName (string processName, string machineName);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Process</AssemblyName>
@@ -2411,13 +2409,12 @@ The calling process is a member of the associated process' descendant tree.</exc
       </Docs>
     </Member>
     <Member MemberName="MainModule">
-      <MemberSignature Language="C#" Value="public System.Diagnostics.ProcessModule? MainModule { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Diagnostics.ProcessModule MainModule { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Diagnostics.ProcessModule MainModule" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.Process.MainModule" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MainModule As ProcessModule" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Diagnostics::ProcessModule ^ MainModule { System::Diagnostics::ProcessModule ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.MainModule : System.Diagnostics.ProcessModule" Usage="System.Diagnostics.Process.MainModule" />
-      <MemberSignature Language="C#" Value="public System.Diagnostics.ProcessModule MainModule { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Process</AssemblyName>
@@ -5010,13 +5007,12 @@ The <see cref="P:System.Diagnostics.ProcessStartInfo.UseShellExecute" /> member 
       </Docs>
     </Member>
     <Member MemberName="Start">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process? Start (System.Diagnostics.ProcessStartInfo startInfo);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process Start (System.Diagnostics.ProcessStartInfo startInfo);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Diagnostics.Process Start(class System.Diagnostics.ProcessStartInfo startInfo) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Process.Start(System.Diagnostics.ProcessStartInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Start (startInfo As ProcessStartInfo) As Process" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Diagnostics::Process ^ Start(System::Diagnostics::ProcessStartInfo ^ startInfo);" />
       <MemberSignature Language="F#" Value="static member Start : System.Diagnostics.ProcessStartInfo -&gt; System.Diagnostics.Process" Usage="System.Diagnostics.Process.Start startInfo" />
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process Start (System.Diagnostics.ProcessStartInfo startInfo);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Process</AssemblyName>
@@ -5332,13 +5328,12 @@ The file specified in the <paramref name="fileName" /> could not be found.
       </Docs>
     </Member>
     <Member MemberName="Start">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process? Start (string fileName, string userName, System.Security.SecureString password, string domain);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process Start (string fileName, string userName, System.Security.SecureString password, string domain);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Diagnostics.Process Start(string fileName, string userName, class System.Security.SecureString password, string domain) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Process.Start(System.String,System.String,System.Security.SecureString,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Start (fileName As String, userName As String, password As SecureString, domain As String) As Process" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Diagnostics::Process ^ Start(System::String ^ fileName, System::String ^ userName, System::Security::SecureString ^ password, System::String ^ domain);" />
       <MemberSignature Language="F#" Value="static member Start : string * string * System.Security.SecureString * string -&gt; System.Diagnostics.Process" Usage="System.Diagnostics.Process.Start (fileName, userName, password, domain)" />
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process Start (string fileName, string userName, System.Security.SecureString password, string domain);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -5422,13 +5417,12 @@ The file specified in the <paramref name="fileName" /> could not be found.</exce
       </Docs>
     </Member>
     <Member MemberName="Start">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process? Start (string fileName, string arguments, string userName, System.Security.SecureString password, string domain);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process Start (string fileName, string arguments, string userName, System.Security.SecureString password, string domain);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Diagnostics.Process Start(string fileName, string arguments, string userName, class System.Security.SecureString password, string domain) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.Process.Start(System.String,System.String,System.String,System.Security.SecureString,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Start (fileName As String, arguments As String, userName As String, password As SecureString, domain As String) As Process" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Diagnostics::Process ^ Start(System::String ^ fileName, System::String ^ arguments, System::String ^ userName, System::Security::SecureString ^ password, System::String ^ domain);" />
       <MemberSignature Language="F#" Value="static member Start : string * string * string * System.Security.SecureString * string -&gt; System.Diagnostics.Process" Usage="System.Diagnostics.Process.Start (fileName, arguments, userName, password, domain)" />
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.Process Start (string fileName, string arguments, string userName, System.Security.SecureString password, string domain);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -5651,13 +5645,12 @@ The file specified in the <paramref name="fileName" /> could not be found.
       </Docs>
     </Member>
     <Member MemberName="SynchronizingObject">
-      <MemberSignature Language="C#" Value="public System.ComponentModel.ISynchronizeInvoke? SynchronizingObject { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.ComponentModel.ISynchronizeInvoke SynchronizingObject { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.ComponentModel.ISynchronizeInvoke SynchronizingObject" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.Process.SynchronizingObject" />
       <MemberSignature Language="VB.NET" Value="Public Property SynchronizingObject As ISynchronizeInvoke" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ComponentModel::ISynchronizeInvoke ^ SynchronizingObject { System::ComponentModel::ISynchronizeInvoke ^ get(); void set(System::ComponentModel::ISynchronizeInvoke ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SynchronizingObject : System.ComponentModel.ISynchronizeInvoke with get, set" Usage="System.Diagnostics.Process.SynchronizingObject" />
-      <MemberSignature Language="C#" Value="public System.ComponentModel.ISynchronizeInvoke SynchronizingObject { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>

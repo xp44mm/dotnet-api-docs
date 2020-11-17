@@ -1052,6 +1052,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void RecreateChildControls();" />
       <MemberSignature Language="F#" Value="abstract member RecreateChildControls : unit -&gt; unit&#xA;override this.RecreateChildControls : unit -&gt; unit" Usage="dataPager.RecreateChildControls " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.WebControls.ICompositeControlDesignerAccessor.RecreateChildControls</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Extensions</AssemblyName>
         <AssemblyVersion>3.5.0.0</AssemblyVersion>

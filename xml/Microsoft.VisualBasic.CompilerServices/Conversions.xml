@@ -33,13 +33,12 @@
   </Docs>
   <Members>
     <Member MemberName="ChangeType">
-      <MemberSignature Language="C#" Value="public static object ChangeType (object Expression, Type TargetType);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="C#" Value="public static object ChangeType (object Expression, Type TargetType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ChangeType(object Expression, class System.Type TargetType) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType(System.Object,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ChangeType (Expression As Object, TargetType As Type) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ ChangeType(System::Object ^ Expression, Type ^ TargetType);" />
       <MemberSignature Language="F#" Value="static member ChangeType : obj * Type -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.Conversions.ChangeType (Expression, TargetType)" />
-      <MemberSignature Language="C#" Value="public static object ChangeType (object Expression, Type? TargetType);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static object ChangeType(object Expression, class System.Type TargetType) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -462,13 +461,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="ToCharArrayRankOne">
-      <MemberSignature Language="C#" Value="public static char[] ToCharArrayRankOne (object Value);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="C#" Value="public static char[] ToCharArrayRankOne (object Value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig char[] ToCharArrayRankOne(object Value) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.Conversions.ToCharArrayRankOne(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToCharArrayRankOne (Value As Object) As Char()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;char&gt; ^ ToCharArrayRankOne(System::Object ^ Value);" />
       <MemberSignature Language="F#" Value="static member ToCharArrayRankOne : obj -&gt; char[]" Usage="Microsoft.VisualBasic.CompilerServices.Conversions.ToCharArrayRankOne Value" />
-      <MemberSignature Language="C#" Value="public static char[] ToCharArrayRankOne (object? Value);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static char[] ToCharArrayRankOne(object Value) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -496,13 +494,12 @@
       </Docs>
     </Member>
     <Member MemberName="ToCharArrayRankOne">
-      <MemberSignature Language="C#" Value="public static char[] ToCharArrayRankOne (string Value);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="C#" Value="public static char[] ToCharArrayRankOne (string Value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig char[] ToCharArrayRankOne(string Value) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.Conversions.ToCharArrayRankOne(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToCharArrayRankOne (Value As String) As Char()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;char&gt; ^ ToCharArrayRankOne(System::String ^ Value);" />
       <MemberSignature Language="F#" Value="static member ToCharArrayRankOne : string -&gt; char[]" Usage="Microsoft.VisualBasic.CompilerServices.Conversions.ToCharArrayRankOne Value" />
-      <MemberSignature Language="C#" Value="public static char[] ToCharArrayRankOne (string? Value);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static char[] ToCharArrayRankOne(string Value) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -1720,13 +1717,12 @@
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public static string ToString (decimal Value, System.Globalization.NumberFormatInfo? NumberFormat);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static string ToString (decimal Value, System.Globalization.NumberFormatInfo NumberFormat);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToString(valuetype System.Decimal Value, class System.Globalization.NumberFormatInfo NumberFormat) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.Conversions.ToString(System.Decimal,System.Globalization.NumberFormatInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToString (Value As Decimal, NumberFormat As NumberFormatInfo) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ ToString(System::Decimal Value, System::Globalization::NumberFormatInfo ^ NumberFormat);" />
       <MemberSignature Language="F#" Value="static member ToString : decimal * System.Globalization.NumberFormatInfo -&gt; string" Usage="Microsoft.VisualBasic.CompilerServices.Conversions.ToString (Value, NumberFormat)" />
-      <MemberSignature Language="C#" Value="public static string ToString (decimal Value, System.Globalization.NumberFormatInfo NumberFormat);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static string ToString(valuetype System.Decimal Value, class System.Globalization.NumberFormatInfo NumberFormat) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -1756,13 +1752,12 @@
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public static string ToString (double Value, System.Globalization.NumberFormatInfo? NumberFormat);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static string ToString (double Value, System.Globalization.NumberFormatInfo NumberFormat);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToString(float64 Value, class System.Globalization.NumberFormatInfo NumberFormat) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.Conversions.ToString(System.Double,System.Globalization.NumberFormatInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToString (Value As Double, NumberFormat As NumberFormatInfo) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ ToString(double Value, System::Globalization::NumberFormatInfo ^ NumberFormat);" />
       <MemberSignature Language="F#" Value="static member ToString : double * System.Globalization.NumberFormatInfo -&gt; string" Usage="Microsoft.VisualBasic.CompilerServices.Conversions.ToString (Value, NumberFormat)" />
-      <MemberSignature Language="C#" Value="public static string ToString (double Value, System.Globalization.NumberFormatInfo NumberFormat);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static string ToString(float64 Value, class System.Globalization.NumberFormatInfo NumberFormat) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -1792,13 +1787,12 @@
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public static string ToString (float Value, System.Globalization.NumberFormatInfo? NumberFormat);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static string ToString (float Value, System.Globalization.NumberFormatInfo NumberFormat);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ToString(float32 Value, class System.Globalization.NumberFormatInfo NumberFormat) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.Conversions.ToString(System.Single,System.Globalization.NumberFormatInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToString (Value As Single, NumberFormat As NumberFormatInfo) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ ToString(float Value, System::Globalization::NumberFormatInfo ^ NumberFormat);" />
       <MemberSignature Language="F#" Value="static member ToString : single * System.Globalization.NumberFormatInfo -&gt; string" Usage="Microsoft.VisualBasic.CompilerServices.Conversions.ToString (Value, NumberFormat)" />
-      <MemberSignature Language="C#" Value="public static string ToString (float Value, System.Globalization.NumberFormatInfo NumberFormat);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static string ToString(float32 Value, class System.Globalization.NumberFormatInfo NumberFormat) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>

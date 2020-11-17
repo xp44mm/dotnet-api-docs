@@ -40,7 +40,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ActivityEvent (string name, DateTimeOffset timestamp = default, System.Diagnostics.ActivityTagsCollection? tags = default);" />
+      <MemberSignature Language="C#" Value="public ActivityEvent (string name, DateTimeOffset timestamp = default, System.Diagnostics.ActivityTagsCollection tags = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype System.DateTimeOffset timestamp, class System.Diagnostics.ActivityTagsCollection tags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityEvent.#ctor(System.String,System.DateTimeOffset,System.Diagnostics.ActivityTagsCollection)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, Optional timestamp As DateTimeOffset = Nothing, Optional tags As ActivityTagsCollection = Nothing)" />
@@ -85,7 +85,7 @@
       </Docs>
     </Member>
     <Member MemberName="Tags">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt;? Tags { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt; Tags { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt; Tags" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.ActivityEvent.Tags" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tags As IEnumerable(Of KeyValuePair(Of String, Object))" />

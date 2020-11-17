@@ -387,6 +387,9 @@
       <MemberSignature Language="C++ CLI" Value="protected public:&#xA; virtual void ColumnStartedEditing(System::Windows::Forms::Control ^ editingControl);" />
       <MemberSignature Language="F#" Value="abstract member ColumnStartedEditing : System.Windows.Forms.Control -&gt; unit&#xA;override this.ColumnStartedEditing : System.Windows.Forms.Control -&gt; unit" Usage="dataGridColumnStyle.ColumnStartedEditing editingControl" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Forms.IDataGridColumnStyleEditingNotificationService.ColumnStartedEditing(System.Windows.Forms.Control)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>

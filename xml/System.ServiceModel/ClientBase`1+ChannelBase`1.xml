@@ -542,6 +542,7 @@
       <MemberType>Property</MemberType>
       <Implements>
         <InterfaceMember>P:System.ServiceModel.Channels.IOutputChannel.RemoteAddress</InterfaceMember>
+        <InterfaceMember>P:System.ServiceModel.Channels.IRequestChannel.RemoteAddress</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.ServiceModel</AssemblyName>
@@ -2722,6 +2723,7 @@ This member is an explicit interface member implementation. It can be used only 
       <Implements>
         <InterfaceMember>P:System.ServiceModel.IClientChannel.Via</InterfaceMember>
         <InterfaceMember>P:System.ServiceModel.Channels.IOutputChannel.Via</InterfaceMember>
+        <InterfaceMember>P:System.ServiceModel.Channels.IRequestChannel.Via</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.ServiceModel</AssemblyName>

@@ -108,13 +108,12 @@
       </Docs>
     </Member>
     <Member MemberName="CombinePath">
-      <MemberSignature Language="C#" Value="public static string CombinePath (string baseDirectory, string? relativePath);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static string CombinePath (string baseDirectory, string relativePath);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string CombinePath(string baseDirectory, string relativePath) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.FileIO.FileSystem.CombinePath(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CombinePath (baseDirectory As String, relativePath As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ CombinePath(System::String ^ baseDirectory, System::String ^ relativePath);" />
       <MemberSignature Language="F#" Value="static member CombinePath : string * string -&gt; string" Usage="Microsoft.VisualBasic.FileIO.FileSystem.CombinePath (baseDirectory, relativePath)" />
-      <MemberSignature Language="C#" Value="public static string CombinePath (string baseDirectory, string relativePath);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".method public static string CombinePath(string baseDirectory, string relativePath) cil managed" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>

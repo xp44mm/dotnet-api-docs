@@ -2383,7 +2383,7 @@ Note that rooted paths can be either absolute (that is, fully qualified) or rela
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string Join (params string[]? paths);" />
+      <MemberSignature Language="C#" Value="public static string Join (params string[] paths);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(string[] paths) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Path.Join(System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (ParamArray paths As String()) As String" />
@@ -2443,13 +2443,12 @@ Not all invalid characters for directory and file names are interpreted as unacc
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string? Join (ReadOnlySpan&lt;char&gt; path1, ReadOnlySpan&lt;char&gt; path2);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static string Join (ReadOnlySpan&lt;char&gt; path1, ReadOnlySpan&lt;char&gt; path2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(valuetype System.ReadOnlySpan`1&lt;char&gt; path1, valuetype System.ReadOnlySpan`1&lt;char&gt; path2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Path.Join(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (path1 As ReadOnlySpan(Of Char), path2 As ReadOnlySpan(Of Char)) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Join(ReadOnlySpan&lt;char&gt; path1, ReadOnlySpan&lt;char&gt; path2);" />
       <MemberSignature Language="F#" Value="static member Join : ReadOnlySpan&lt;char&gt; * ReadOnlySpan&lt;char&gt; -&gt; string" Usage="System.IO.Path.Join (path1, path2)" />
-      <MemberSignature Language="C#" Value="public static string Join (ReadOnlySpan&lt;char&gt; path1, ReadOnlySpan&lt;char&gt; path2);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Extensions</AssemblyName>
@@ -2510,7 +2509,7 @@ The following example illustrates the difference in the paths returned by the <x
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string? Join (string path1, string path2);" />
+      <MemberSignature Language="C#" Value="public static string Join (string path1, string path2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(string path1, string path2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Path.Join(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (path1 As String, path2 As String) As String" />
@@ -2566,13 +2565,12 @@ Not all invalid characters for directory and file names are interpreted as unacc
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string? Join (ReadOnlySpan&lt;char&gt; path1, ReadOnlySpan&lt;char&gt; path2, ReadOnlySpan&lt;char&gt; path3);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static string Join (ReadOnlySpan&lt;char&gt; path1, ReadOnlySpan&lt;char&gt; path2, ReadOnlySpan&lt;char&gt; path3);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(valuetype System.ReadOnlySpan`1&lt;char&gt; path1, valuetype System.ReadOnlySpan`1&lt;char&gt; path2, valuetype System.ReadOnlySpan`1&lt;char&gt; path3) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Path.Join(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (path1 As ReadOnlySpan(Of Char), path2 As ReadOnlySpan(Of Char), path3 As ReadOnlySpan(Of Char)) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Join(ReadOnlySpan&lt;char&gt; path1, ReadOnlySpan&lt;char&gt; path2, ReadOnlySpan&lt;char&gt; path3);" />
       <MemberSignature Language="F#" Value="static member Join : ReadOnlySpan&lt;char&gt; * ReadOnlySpan&lt;char&gt; * ReadOnlySpan&lt;char&gt; -&gt; string" Usage="System.IO.Path.Join (path1, path2, path3)" />
-      <MemberSignature Language="C#" Value="public static string Join (ReadOnlySpan&lt;char&gt; path1, ReadOnlySpan&lt;char&gt; path2, ReadOnlySpan&lt;char&gt; path3);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Extensions</AssemblyName>
@@ -2634,7 +2632,7 @@ The following example illustrates the difference in the paths returned by the <x
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string? Join (string path1, string path2, string path3);" />
+      <MemberSignature Language="C#" Value="public static string Join (string path1, string path2, string path3);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(string path1, string path2, string path3) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Path.Join(System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (path1 As String, path2 As String, path3 As String) As String" />
@@ -2692,7 +2690,7 @@ Not all invalid characters for directory and file names are interpreted as unacc
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string? Join (ReadOnlySpan&lt;char&gt; path1, ReadOnlySpan&lt;char&gt; path2, ReadOnlySpan&lt;char&gt; path3, ReadOnlySpan&lt;char&gt; path4);" />
+      <MemberSignature Language="C#" Value="public static string Join (ReadOnlySpan&lt;char&gt; path1, ReadOnlySpan&lt;char&gt; path2, ReadOnlySpan&lt;char&gt; path3, ReadOnlySpan&lt;char&gt; path4);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(valuetype System.ReadOnlySpan`1&lt;char&gt; path1, valuetype System.ReadOnlySpan`1&lt;char&gt; path2, valuetype System.ReadOnlySpan`1&lt;char&gt; path3, valuetype System.ReadOnlySpan`1&lt;char&gt; path4) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Path.Join(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (path1 As ReadOnlySpan(Of Char), path2 As ReadOnlySpan(Of Char), path3 As ReadOnlySpan(Of Char), path4 As ReadOnlySpan(Of Char)) As String" />
@@ -2752,7 +2750,7 @@ Not all invalid characters for directory and file names are interpreted as unacc
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string? Join (string path1, string path2, string path3, string path4);" />
+      <MemberSignature Language="C#" Value="public static string Join (string path1, string path2, string path3, string path4);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(string path1, string path2, string path3, string path4) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Path.Join(System.String,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (path1 As String, path2 As String, path3 As String, path4 As String) As String" />

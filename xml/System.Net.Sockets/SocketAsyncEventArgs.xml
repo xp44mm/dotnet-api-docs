@@ -308,13 +308,12 @@
       </Docs>
     </Member>
     <Member MemberName="BufferList">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;ArraySegment&lt;byte&gt;&gt; BufferList { get; set; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;ArraySegment&lt;byte&gt;&gt; BufferList { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype System.ArraySegment`1&lt;unsigned int8&gt;&gt; BufferList" />
       <MemberSignature Language="DocId" Value="P:System.Net.Sockets.SocketAsyncEventArgs.BufferList" />
       <MemberSignature Language="VB.NET" Value="Public Property BufferList As IList(Of ArraySegment(Of Byte))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IList&lt;ArraySegment&lt;System::Byte&gt;&gt; ^ BufferList { System::Collections::Generic::IList&lt;ArraySegment&lt;System::Byte&gt;&gt; ^ get(); void set(System::Collections::Generic::IList&lt;ArraySegment&lt;System::Byte&gt;&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BufferList : System.Collections.Generic.IList&lt;ArraySegment&lt;byte&gt;&gt; with get, set" Usage="System.Net.Sockets.SocketAsyncEventArgs.BufferList" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;ArraySegment&lt;byte&gt;&gt;? BufferList { get; set; }" FrameworkAlternate="net-5.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Sockets</AssemblyName>
@@ -439,13 +438,12 @@
       </Docs>
     </Member>
     <Member MemberName="Completed">
-      <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Net.Sockets.SocketAsyncEventArgs&gt; Completed;" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Net.Sockets.SocketAsyncEventArgs&gt; Completed;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.Net.Sockets.SocketAsyncEventArgs&gt; Completed" />
       <MemberSignature Language="DocId" Value="E:System.Net.Sockets.SocketAsyncEventArgs.Completed" />
       <MemberSignature Language="VB.NET" Value="Public Custom Event Completed As EventHandler(Of SocketAsyncEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event EventHandler&lt;System::Net::Sockets::SocketAsyncEventArgs ^&gt; ^ Completed;" />
       <MemberSignature Language="F#" Value="member this.Completed : EventHandler&lt;System.Net.Sockets.SocketAsyncEventArgs&gt; " Usage="member this.Completed : System.EventHandler&lt;System.Net.Sockets.SocketAsyncEventArgs&gt; " />
-      <MemberSignature Language="C#" Value="public event EventHandler&lt;System.Net.Sockets.SocketAsyncEventArgs&gt;? Completed;" FrameworkAlternate="net-5.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Sockets</AssemblyName>
@@ -898,13 +896,12 @@
       </Docs>
     </Member>
     <Member MemberName="MemoryBuffer">
-      <MemberSignature Language="C#" Value="public Memory&lt;byte&gt;? MemoryBuffer { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public Memory&lt;byte&gt; MemoryBuffer { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Memory`1&lt;unsigned int8&gt; MemoryBuffer" />
       <MemberSignature Language="DocId" Value="P:System.Net.Sockets.SocketAsyncEventArgs.MemoryBuffer" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property MemoryBuffer As Memory(Of Byte)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Memory&lt;System::Byte&gt; MemoryBuffer { Memory&lt;System::Byte&gt; get(); };" />
       <MemberSignature Language="F#" Value="member this.MemoryBuffer : Memory&lt;byte&gt;" Usage="System.Net.Sockets.SocketAsyncEventArgs.MemoryBuffer" />
-      <MemberSignature Language="C#" Value="public Memory&lt;byte&gt; MemoryBuffer { get; }" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Sockets</AssemblyName>
@@ -1207,13 +1204,12 @@ This property is used with the <xref:System.Net.Sockets.Socket.AcceptAsync%2A?di
       </Docs>
     </Member>
     <Member MemberName="SendPacketsElements">
-      <MemberSignature Language="C#" Value="public System.Net.Sockets.SendPacketsElement[]? SendPacketsElements { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Net.Sockets.SendPacketsElement[] SendPacketsElements { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.Sockets.SendPacketsElement[] SendPacketsElements" />
       <MemberSignature Language="DocId" Value="P:System.Net.Sockets.SocketAsyncEventArgs.SendPacketsElements" />
       <MemberSignature Language="VB.NET" Value="Public Property SendPacketsElements As SendPacketsElement()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property cli::array &lt;System::Net::Sockets::SendPacketsElement ^&gt; ^ SendPacketsElements { cli::array &lt;System::Net::Sockets::SendPacketsElement ^&gt; ^ get(); void set(cli::array &lt;System::Net::Sockets::SendPacketsElement ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.SendPacketsElements : System.Net.Sockets.SendPacketsElement[] with get, set" Usage="System.Net.Sockets.SocketAsyncEventArgs.SendPacketsElements" />
-      <MemberSignature Language="C#" Value="public System.Net.Sockets.SendPacketsElement[] SendPacketsElements { get; set; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Sockets</AssemblyName>

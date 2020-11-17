@@ -260,6 +260,10 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Description { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Description : string" Usage="Microsoft.JScript.JScriptException.Description" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5">P:Microsoft.Vsa.IVsaError.Description</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">P:Microsoft.JScript.Vsa.IJSVsaError.Description</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.JScript</AssemblyName>
         <AssemblyVersion>7.0.5000.0</AssemblyVersion>
@@ -632,6 +636,10 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Number { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Number : int" Usage="Microsoft.JScript.JScriptException.Number" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5">P:Microsoft.Vsa.IVsaError.Number</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">P:Microsoft.JScript.Vsa.IJSVsaError.Number</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.JScript</AssemblyName>
         <AssemblyVersion>7.0.5000.0</AssemblyVersion>
