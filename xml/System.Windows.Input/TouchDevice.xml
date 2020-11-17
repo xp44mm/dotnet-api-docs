@@ -469,6 +469,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Id { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Id : int" Usage="System.Windows.Input.TouchDevice.Id" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Windows.Input.IManipulator.Id</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

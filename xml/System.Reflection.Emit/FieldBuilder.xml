@@ -154,13 +154,12 @@
       </Docs>
     </Member>
     <Member MemberName="DeclaringType">
-      <MemberSignature Language="C#" Value="public override Type? DeclaringType { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override Type DeclaringType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type DeclaringType" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.Emit.FieldBuilder.DeclaringType" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property DeclaringType As Type" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Type ^ DeclaringType { Type ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.DeclaringType : Type" Usage="System.Reflection.Emit.FieldBuilder.DeclaringType" />
-      <MemberSignature Language="C#" Value="public override Type DeclaringType { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Emit</AssemblyName>
@@ -561,13 +560,12 @@
       </Docs>
     </Member>
     <Member MemberName="ReflectedType">
-      <MemberSignature Language="C#" Value="public override Type? ReflectedType { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public override Type ReflectedType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Type ReflectedType" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.Emit.FieldBuilder.ReflectedType" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property ReflectedType As Type" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property Type ^ ReflectedType { Type ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ReflectedType : Type" Usage="System.Reflection.Emit.FieldBuilder.ReflectedType" />
-      <MemberSignature Language="C#" Value="public override Type ReflectedType { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1;xamarinandroid-7.1;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

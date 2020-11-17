@@ -1073,6 +1073,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual bool ReceiveWeakEvent(Type ^ managerType, System::Object ^ sender, EventArgs ^ e);" />
       <MemberSignature Language="F#" Value="abstract member ReceiveWeakEvent : Type * obj * EventArgs -&gt; bool&#xA;override this.ReceiveWeakEvent : Type * obj * EventArgs -&gt; bool" Usage="collectionViewSource.ReceiveWeakEvent (managerType, sender, e)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.IWeakEventListener.ReceiveWeakEvent(System.Type,System.Object,System.EventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>

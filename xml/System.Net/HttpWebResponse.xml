@@ -231,13 +231,12 @@ The contents of the response from the Internet resource are returned as a <xref:
       </Docs>
     </Member>
     <Member MemberName="CharacterSet">
-      <MemberSignature Language="C#" Value="public string? CharacterSet { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public string CharacterSet { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string CharacterSet" />
       <MemberSignature Language="DocId" Value="P:System.Net.HttpWebResponse.CharacterSet" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CharacterSet As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CharacterSet { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.CharacterSet : string" Usage="System.Net.HttpWebResponse.CharacterSet" />
-      <MemberSignature Language="C#" Value="public string CharacterSet { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -699,6 +698,9 @@ The GetHashCode method returns a hash code of the web response instance. This va
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void GetObjectData(System::Runtime::Serialization::SerializationInfo ^ serializationInfo, System::Runtime::Serialization::StreamingContext streamingContext);" />
       <MemberSignature Language="F#" Value="override this.GetObjectData : System.Runtime.Serialization.SerializationInfo * System.Runtime.Serialization.StreamingContext -&gt; unit" Usage="httpWebResponse.GetObjectData (serializationInfo, streamingContext)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Runtime.Serialization.ISerializable.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

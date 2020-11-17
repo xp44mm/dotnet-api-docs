@@ -1843,7 +1843,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static System.Net.IPAddress? Parse (ReadOnlySpan&lt;char&gt; ipSpan);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Net.IPAddress Parse (ReadOnlySpan&lt;char&gt; ipSpan);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.IPAddress Parse(valuetype System.ReadOnlySpan`1&lt;char&gt; ipSpan) cil managed" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="DocId" Value="M:System.Net.IPAddress.Parse(System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (ipSpan As ReadOnlySpan(Of Char)) As IPAddress" FrameworkAlternate="net-5.0" />
@@ -2107,7 +2107,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; ipSpan, out System.Net.IPAddress? address);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; ipSpan, out System.Net.IPAddress address);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;char&gt; ipSpan, [out] class System.Net.IPAddress&amp; address) cil managed" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="DocId" Value="M:System.Net.IPAddress.TryParse(System.ReadOnlySpan{System.Char},System.Net.IPAddress@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (ipSpan As ReadOnlySpan(Of Char), ByRef address As IPAddress) As Boolean" FrameworkAlternate="net-5.0" />

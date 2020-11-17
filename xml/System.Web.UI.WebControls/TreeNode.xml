@@ -548,6 +548,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Object ^ Clone();" />
       <MemberSignature Language="F#" Value="abstract member Clone : unit -&gt; obj&#xA;override this.Clone : unit -&gt; obj" Usage="treeNode.Clone " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.ICloneable.Clone</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1288,6 +1291,9 @@ if( TreeView1.Nodes[0].Expanded == true ) { //some work here}
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; property bool IsTrackingViewState { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsTrackingViewState : bool" Usage="System.Web.UI.WebControls.TreeNode.IsTrackingViewState" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Web.UI.IStateManager.IsTrackingViewState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1319,6 +1325,9 @@ if( TreeView1.Nodes[0].Expanded == true ) { //some work here}
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void LoadViewState(System::Object ^ state);" />
       <MemberSignature Language="F#" Value="abstract member LoadViewState : obj -&gt; unit&#xA;override this.LoadViewState : obj -&gt; unit" Usage="treeNode.LoadViewState state" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.LoadViewState(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1591,6 +1600,9 @@ if( TreeView1.Nodes[0].Expanded == true ) { //some work here}
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Object ^ SaveViewState();" />
       <MemberSignature Language="F#" Value="abstract member SaveViewState : unit -&gt; obj&#xA;override this.SaveViewState : unit -&gt; obj" Usage="treeNode.SaveViewState " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.SaveViewState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -2314,6 +2326,9 @@ if( TreeView1.Nodes[0].Expanded == true ) { //some work here}
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void TrackViewState();" />
       <MemberSignature Language="F#" Value="member this.TrackViewState : unit -&gt; unit" Usage="treeNode.TrackViewState " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.TrackViewState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

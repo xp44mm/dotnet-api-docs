@@ -104,6 +104,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property bool IsReusable { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsReusable : bool" Usage="System.Web.Routing.UrlRoutingHandler.IsReusable" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Web.IHttpHandler.IsReusable</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -140,6 +143,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void ProcessRequest(System::Web::HttpContext ^ httpContext);" />
       <MemberSignature Language="F#" Value="abstract member ProcessRequest : System.Web.HttpContext -&gt; unit&#xA;override this.ProcessRequest : System.Web.HttpContext -&gt; unit" Usage="urlRoutingHandler.ProcessRequest httpContext" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.IHttpHandler.ProcessRequest(System.Web.HttpContext)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

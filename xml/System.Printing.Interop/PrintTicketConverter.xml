@@ -296,7 +296,7 @@
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="printTicketConverter.Dispose " FrameworkAlternate="netframework-3.0;netframework-3.5" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="netframework-3.0;netframework-3.5">M:System.IDisposable.Dispose</InterfaceMember>
+        <InterfaceMember>M:System.IDisposable.Dispose</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>ReachFramework</AssemblyName>

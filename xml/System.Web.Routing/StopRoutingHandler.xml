@@ -97,6 +97,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Web::IHttpHandler ^ GetHttpHandler(System::Web::Routing::RequestContext ^ requestContext);" />
       <MemberSignature Language="F#" Value="abstract member GetHttpHandler : System.Web.Routing.RequestContext -&gt; System.Web.IHttpHandler&#xA;override this.GetHttpHandler : System.Web.Routing.RequestContext -&gt; System.Web.IHttpHandler" Usage="stopRoutingHandler.GetHttpHandler requestContext" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.Routing.IRouteHandler.GetHttpHandler(System.Web.Routing.RequestContext)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

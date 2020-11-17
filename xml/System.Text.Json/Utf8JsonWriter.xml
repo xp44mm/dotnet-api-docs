@@ -538,13 +538,12 @@ The property name is escaped and the bytes are encoded before writing.
       </Docs>
     </Member>
     <Member MemberName="WriteBase64String">
-      <MemberSignature Language="C#" Value="public void WriteBase64String (string? propertyName, ReadOnlySpan&lt;byte&gt; bytes);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public void WriteBase64String (string propertyName, ReadOnlySpan&lt;byte&gt; bytes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteBase64String(string propertyName, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; bytes) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.WriteBase64String(System.String,System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteBase64String (propertyName As String, bytes As ReadOnlySpan(Of Byte))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WriteBase64String(System::String ^ propertyName, ReadOnlySpan&lt;System::Byte&gt; bytes);" />
       <MemberSignature Language="F#" Value="member this.WriteBase64String : string * ReadOnlySpan&lt;byte&gt; -&gt; unit" Usage="utf8JsonWriter.WriteBase64String (propertyName, bytes)" />
-      <MemberSignature Language="C#" Value="public void WriteBase64String (string propertyName, ReadOnlySpan&lt;byte&gt; bytes);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -3315,13 +3314,12 @@ The property name and value are escaped before writing.
       </Docs>
     </Member>
     <Member MemberName="WriteString">
-      <MemberSignature Language="C#" Value="public void WriteString (ReadOnlySpan&lt;byte&gt; utf8PropertyName, string? value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public void WriteString (ReadOnlySpan&lt;byte&gt; utf8PropertyName, string value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; utf8PropertyName, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.WriteString(System.ReadOnlySpan{System.Byte},System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteString (utf8PropertyName As ReadOnlySpan(Of Byte), value As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WriteString(ReadOnlySpan&lt;System::Byte&gt; utf8PropertyName, System::String ^ value);" />
       <MemberSignature Language="F#" Value="member this.WriteString : ReadOnlySpan&lt;byte&gt; * string -&gt; unit" Usage="utf8JsonWriter.WriteString (utf8PropertyName, value)" />
-      <MemberSignature Language="C#" Value="public void WriteString (ReadOnlySpan&lt;byte&gt; utf8PropertyName, string value);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -3592,13 +3590,12 @@ The property name and value are escaped before writing.
       </Docs>
     </Member>
     <Member MemberName="WriteString">
-      <MemberSignature Language="C#" Value="public void WriteString (ReadOnlySpan&lt;char&gt; propertyName, string? value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public void WriteString (ReadOnlySpan&lt;char&gt; propertyName, string value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteString(valuetype System.ReadOnlySpan`1&lt;char&gt; propertyName, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.WriteString(System.ReadOnlySpan{System.Char},System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteString (propertyName As ReadOnlySpan(Of Char), value As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WriteString(ReadOnlySpan&lt;char&gt; propertyName, System::String ^ value);" />
       <MemberSignature Language="F#" Value="member this.WriteString : ReadOnlySpan&lt;char&gt; * string -&gt; unit" Usage="utf8JsonWriter.WriteString (propertyName, value)" />
-      <MemberSignature Language="C#" Value="public void WriteString (ReadOnlySpan&lt;char&gt; propertyName, string value);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -3796,13 +3793,12 @@ Writes the <xref:System.Guid> using the default <xref:System.Buffers.StandardFor
       </Docs>
     </Member>
     <Member MemberName="WriteString">
-      <MemberSignature Language="C#" Value="public void WriteString (string? propertyName, ReadOnlySpan&lt;byte&gt; utf8Value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public void WriteString (string propertyName, ReadOnlySpan&lt;byte&gt; utf8Value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteString(string propertyName, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; utf8Value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.WriteString(System.String,System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteString (propertyName As String, utf8Value As ReadOnlySpan(Of Byte))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WriteString(System::String ^ propertyName, ReadOnlySpan&lt;System::Byte&gt; utf8Value);" />
       <MemberSignature Language="F#" Value="member this.WriteString : string * ReadOnlySpan&lt;byte&gt; -&gt; unit" Usage="utf8JsonWriter.WriteString (propertyName, utf8Value)" />
-      <MemberSignature Language="C#" Value="public void WriteString (string propertyName, ReadOnlySpan&lt;byte&gt; utf8Value);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -3836,13 +3832,12 @@ The property name and value are escaped before writing.
       </Docs>
     </Member>
     <Member MemberName="WriteString">
-      <MemberSignature Language="C#" Value="public void WriteString (string? propertyName, ReadOnlySpan&lt;char&gt; value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public void WriteString (string propertyName, ReadOnlySpan&lt;char&gt; value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteString(string propertyName, valuetype System.ReadOnlySpan`1&lt;char&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.WriteString(System.String,System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteString (propertyName As String, value As ReadOnlySpan(Of Char))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WriteString(System::String ^ propertyName, ReadOnlySpan&lt;char&gt; value);" />
       <MemberSignature Language="F#" Value="member this.WriteString : string * ReadOnlySpan&lt;char&gt; -&gt; unit" Usage="utf8JsonWriter.WriteString (propertyName, value)" />
-      <MemberSignature Language="C#" Value="public void WriteString (string propertyName, ReadOnlySpan&lt;char&gt; value);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -3876,13 +3871,12 @@ The property name and value are escaped before writing.
       </Docs>
     </Member>
     <Member MemberName="WriteString">
-      <MemberSignature Language="C#" Value="public void WriteString (string propertyName, string? value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public void WriteString (string propertyName, string value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteString(string propertyName, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonWriter.WriteString(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteString (propertyName As String, value As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WriteString(System::String ^ propertyName, System::String ^ value);" />
       <MemberSignature Language="F#" Value="member this.WriteString : string * string -&gt; unit" Usage="utf8JsonWriter.WriteString (propertyName, value)" />
-      <MemberSignature Language="C#" Value="public void WriteString (string propertyName, string value);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>

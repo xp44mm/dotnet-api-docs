@@ -390,6 +390,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; property bool IsTrackingViewState { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsTrackingViewState : bool" Usage="System.Web.UI.MobileControls.MobileListItem.IsTrackingViewState" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Web.UI.IStateManager.IsTrackingViewState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -416,6 +419,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void LoadViewState(System::Object ^ state);" />
       <MemberSignature Language="F#" Value="override this.LoadViewState : obj -&gt; unit" Usage="mobileListItem.LoadViewState state" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.LoadViewState(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -519,6 +525,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; System::Object ^ SaveViewState();" />
       <MemberSignature Language="F#" Value="override this.SaveViewState : unit -&gt; obj" Usage="mobileListItem.SaveViewState " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.SaveViewState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -789,6 +798,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void TrackViewState();" />
       <MemberSignature Language="F#" Value="override this.TrackViewState : unit -&gt; unit" Usage="mobileListItem.TrackViewState " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.TrackViewState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

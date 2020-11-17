@@ -4744,13 +4744,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static decimal Parse (string s, IFormatProvider provider);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static decimal Parse (string s, IFormatProvider provider);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Decimal Parse(string s, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Decimal.Parse(System.String,System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (s As String, provider As IFormatProvider) As Decimal" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Decimal Parse(System::String ^ s, IFormatProvider ^ provider);" />
       <MemberSignature Language="F#" Value="static member Parse : string * IFormatProvider -&gt; decimal" Usage="System.decimal.Parse (s, provider)" />
-      <MemberSignature Language="C#" Value="public static decimal Parse (string s, IFormatProvider? provider);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4838,12 +4837,11 @@
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static decimal Parse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Number, IFormatProvider? provider = default);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static decimal Parse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Number, IFormatProvider provider = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Decimal Parse(valuetype System.ReadOnlySpan`1&lt;char&gt; s, valuetype System.Globalization.NumberStyles style, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Decimal.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (s As ReadOnlySpan(Of Char), Optional style As NumberStyles = System.Globalization.NumberStyles.Number, Optional provider As IFormatProvider = Nothing) As Decimal" />
       <MemberSignature Language="F#" Value="static member Parse : ReadOnlySpan&lt;char&gt; * System.Globalization.NumberStyles * IFormatProvider -&gt; decimal" Usage="System.decimal.Parse (s, style, provider)" />
-      <MemberSignature Language="C#" Value="public static decimal Parse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.Number, IFormatProvider provider = default);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4876,13 +4874,12 @@
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static decimal Parse (string s, System.Globalization.NumberStyles style, IFormatProvider provider);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static decimal Parse (string s, System.Globalization.NumberStyles style, IFormatProvider provider);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Decimal Parse(string s, valuetype System.Globalization.NumberStyles style, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Decimal.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (s As String, style As NumberStyles, provider As IFormatProvider) As Decimal" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Decimal Parse(System::String ^ s, System::Globalization::NumberStyles style, IFormatProvider ^ provider);" />
       <MemberSignature Language="F#" Value="static member Parse : string * System.Globalization.NumberStyles * IFormatProvider -&gt; decimal" Usage="System.decimal.Parse (s, style, provider)" />
-      <MemberSignature Language="C#" Value="public static decimal Parse (string s, System.Globalization.NumberStyles style, IFormatProvider? provider);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -7049,13 +7046,12 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider provider);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider provider);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ToString(class System.IFormatProvider provider) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="DocId" Value="M:System.Decimal.ToString(System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (provider As IFormatProvider) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ ToString(IFormatProvider ^ provider);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="override this.ToString : IFormatProvider -&gt; string" Usage="decimal.ToString provider" />
-      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider? provider);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ToString(class System.IFormatProvider provider) cil managed" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ToString(IFormatProvider ^ provider);" FrameworkAlternate="netstandard-1.0;netstandard-1.1;netstandard-1.2" />
       <MemberType>Method</MemberType>
@@ -7139,13 +7135,12 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string ToString (string format);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string ToString (string format);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ToString(string format) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Decimal.ToString(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ToString(System::String ^ format);" />
       <MemberSignature Language="F#" Value="override this.ToString : string -&gt; string" Usage="decimal.ToString format" />
-      <MemberSignature Language="C#" Value="public string ToString (string? format);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -7228,13 +7223,12 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string ToString (string format, IFormatProvider provider);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string ToString (string format, IFormatProvider provider);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ToString(string format, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Decimal.ToString(System.String,System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String, provider As IFormatProvider) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ ToString(System::String ^ format, IFormatProvider ^ provider);" />
       <MemberSignature Language="F#" Value="override this.ToString : string * IFormatProvider -&gt; string" Usage="decimal.ToString (format, provider)" />
-      <MemberSignature Language="C#" Value="public string? ToString (string format, IFormatProvider provider);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IFormattable.ToString(System.String,System.IFormatProvider)</InterfaceMember>
@@ -7610,12 +7604,11 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="TryFormat">
-      <MemberSignature Language="C#" Value="public bool TryFormat (Span&lt;char&gt; destination, out int charsWritten, ReadOnlySpan&lt;char&gt; format = default, IFormatProvider? provider = default);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public bool TryFormat (Span&lt;char&gt; destination, out int charsWritten, ReadOnlySpan&lt;char&gt; format = default, IFormatProvider provider = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryFormat(valuetype System.Span`1&lt;char&gt; destination, [out] int32&amp; charsWritten, valuetype System.ReadOnlySpan`1&lt;char&gt; format, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Decimal.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryFormat (destination As Span(Of Char), ByRef charsWritten As Integer, Optional format As ReadOnlySpan(Of Char) = Nothing, Optional provider As IFormatProvider = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="member this.TryFormat : Span&lt;char&gt; * int * ReadOnlySpan&lt;char&gt; * IFormatProvider -&gt; bool" Usage="decimal.TryFormat (destination, charsWritten, format, provider)" />
-      <MemberSignature Language="C#" Value="public bool TryFormat (Span&lt;char&gt; destination, out int charsWritten, ReadOnlySpan&lt;char&gt; format = default, IFormatProvider provider = default);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -7833,13 +7826,12 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style, IFormatProvider? provider, out decimal result);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style, IFormatProvider provider, out decimal result);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;char&gt; s, valuetype System.Globalization.NumberStyles style, class System.IFormatProvider provider, [out] valuetype System.Decimal&amp; result) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Decimal.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Decimal@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (s As ReadOnlySpan(Of Char), style As NumberStyles, provider As IFormatProvider, ByRef result As Decimal) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParse(ReadOnlySpan&lt;char&gt; s, System::Globalization::NumberStyles style, IFormatProvider ^ provider, [Runtime::InteropServices::Out] System::Decimal % result);" />
       <MemberSignature Language="F#" Value="static member TryParse : ReadOnlySpan&lt;char&gt; * System.Globalization.NumberStyles * IFormatProvider * decimal -&gt; bool" Usage="System.decimal.TryParse (s, style, provider, result)" />
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style, IFormatProvider provider, out decimal result);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>

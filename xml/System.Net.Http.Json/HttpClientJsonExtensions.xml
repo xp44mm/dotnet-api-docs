@@ -19,7 +19,7 @@
   </Docs>
   <Members>
     <Member MemberName="GetFromJsonAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object&gt;? GetFromJsonAsync (this System.Net.Http.HttpClient client, string? requestUri, Type type, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, string requestUri, Type type, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, string requestUri, class System.Type type, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As String, type As Type, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" />
@@ -57,7 +57,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object&gt;? GetFromJsonAsync (this System.Net.Http.HttpClient client, Uri? requestUri, Type type, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, Uri requestUri, Type type, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, class System.Uri requestUri, class System.Type type, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As Uri, type As Type, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" />
@@ -95,7 +95,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object&gt;? GetFromJsonAsync (this System.Net.Http.HttpClient client, string? requestUri, Type type, System.Text.Json.JsonSerializerOptions? options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, string requestUri, Type type, System.Text.Json.JsonSerializerOptions options, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, string requestUri, class System.Type type, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As String, type As Type, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" />
@@ -127,7 +127,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object&gt;? GetFromJsonAsync (this System.Net.Http.HttpClient client, Uri? requestUri, Type type, System.Text.Json.JsonSerializerOptions? options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, Uri requestUri, Type type, System.Text.Json.JsonSerializerOptions options, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, class System.Uri requestUri, class System.Type type, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As Uri, type As Type, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" />
@@ -159,7 +159,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue&gt;? GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient? client, string requestUri, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string requestUri, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" />
@@ -199,7 +199,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue&gt;? GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient? client, Uri requestUri, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri requestUri, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" />
@@ -239,7 +239,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue&gt;? GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient? client, string requestUri, System.Text.Json.JsonSerializerOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string requestUri, System.Text.Json.JsonSerializerOptions options, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As String, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" />
@@ -273,7 +273,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue&gt;? GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient? client, Uri requestUri, System.Text.Json.JsonSerializerOptions options, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri requestUri, System.Text.Json.JsonSerializerOptions options, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" />
@@ -307,7 +307,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PostAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
@@ -350,7 +350,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PostAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
@@ -393,7 +393,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PostAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string requestUri, TValue value, System.Text.Json.JsonSerializerOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />
@@ -429,7 +429,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PostAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri requestUri, TValue value, System.Text.Json.JsonSerializerOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />
@@ -465,7 +465,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PutAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
@@ -508,7 +508,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PutAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
@@ -551,7 +551,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PutAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string requestUri, TValue value, System.Text.Json.JsonSerializerOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />
@@ -587,7 +587,7 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PutAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri requestUri, TValue value, System.Text.Json.JsonSerializerOptions options = default, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />

@@ -3678,6 +3678,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDragDrop(System::Windows::Forms::DragEventArgs ^ dragEvent);" />
       <MemberSignature Language="F#" Value="abstract member OnDragDrop : System.Windows.Forms.DragEventArgs -&gt; unit&#xA;override this.OnDragDrop : System.Windows.Forms.DragEventArgs -&gt; unit" Usage="toolStripItem.OnDragDrop dragEvent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Forms.IDropTarget.OnDragDrop(System.Windows.Forms.DragEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -3722,6 +3725,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDragEnter(System::Windows::Forms::DragEventArgs ^ dragEvent);" />
       <MemberSignature Language="F#" Value="abstract member OnDragEnter : System.Windows.Forms.DragEventArgs -&gt; unit&#xA;override this.OnDragEnter : System.Windows.Forms.DragEventArgs -&gt; unit" Usage="toolStripItem.OnDragEnter dragEvent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Forms.IDropTarget.OnDragEnter(System.Windows.Forms.DragEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -3766,6 +3772,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDragLeave(EventArgs ^ e);" />
       <MemberSignature Language="F#" Value="abstract member OnDragLeave : EventArgs -&gt; unit&#xA;override this.OnDragLeave : EventArgs -&gt; unit" Usage="toolStripItem.OnDragLeave e" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Forms.IDropTarget.OnDragLeave(System.EventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -3810,6 +3819,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void OnDragOver(System::Windows::Forms::DragEventArgs ^ dragEvent);" />
       <MemberSignature Language="F#" Value="abstract member OnDragOver : System.Windows.Forms.DragEventArgs -&gt; unit&#xA;override this.OnDragOver : System.Windows.Forms.DragEventArgs -&gt; unit" Usage="toolStripItem.OnDragOver dragEvent" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Forms.IDropTarget.OnDragOver(System.Windows.Forms.DragEventArgs)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

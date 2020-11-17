@@ -61,13 +61,12 @@
   </Docs>
   <Members>
     <Member MemberName="BeginGetHostAddresses">
-      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostAddresses (string hostNameOrAddress, AsyncCallback? requestCallback, object? state);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostAddresses (string hostNameOrAddress, AsyncCallback requestCallback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IAsyncResult BeginGetHostAddresses(string hostNameOrAddress, class System.AsyncCallback requestCallback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Dns.BeginGetHostAddresses(System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BeginGetHostAddresses (hostNameOrAddress As String, requestCallback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static IAsyncResult ^ BeginGetHostAddresses(System::String ^ hostNameOrAddress, AsyncCallback ^ requestCallback, System::Object ^ state);" />
       <MemberSignature Language="F#" Value="static member BeginGetHostAddresses : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="System.Net.Dns.BeginGetHostAddresses (hostNameOrAddress, requestCallback, state)" />
-      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostAddresses (string hostNameOrAddress, AsyncCallback requestCallback, object state);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -129,13 +128,12 @@
       </Docs>
     </Member>
     <Member MemberName="BeginGetHostByName">
-      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostByName (string hostName, AsyncCallback? requestCallback, object? stateObject);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostByName (string hostName, AsyncCallback requestCallback, object stateObject);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IAsyncResult BeginGetHostByName(string hostName, class System.AsyncCallback requestCallback, object stateObject) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Dns.BeginGetHostByName(System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BeginGetHostByName (hostName As String, requestCallback As AsyncCallback, stateObject As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static IAsyncResult ^ BeginGetHostByName(System::String ^ hostName, AsyncCallback ^ requestCallback, System::Object ^ stateObject);" />
       <MemberSignature Language="F#" Value="static member BeginGetHostByName : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="System.Net.Dns.BeginGetHostByName (hostName, requestCallback, stateObject)" />
-      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostByName (string hostName, AsyncCallback requestCallback, object stateObject);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -216,13 +214,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="BeginGetHostEntry">
-      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostEntry (System.Net.IPAddress address, AsyncCallback? requestCallback, object? stateObject);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostEntry (System.Net.IPAddress address, AsyncCallback requestCallback, object stateObject);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IAsyncResult BeginGetHostEntry(class System.Net.IPAddress address, class System.AsyncCallback requestCallback, object stateObject) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Dns.BeginGetHostEntry(System.Net.IPAddress,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BeginGetHostEntry (address As IPAddress, requestCallback As AsyncCallback, stateObject As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static IAsyncResult ^ BeginGetHostEntry(System::Net::IPAddress ^ address, AsyncCallback ^ requestCallback, System::Object ^ stateObject);" />
       <MemberSignature Language="F#" Value="static member BeginGetHostEntry : System.Net.IPAddress * AsyncCallback * obj -&gt; IAsyncResult" Usage="System.Net.Dns.BeginGetHostEntry (address, requestCallback, stateObject)" />
-      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostEntry (System.Net.IPAddress address, AsyncCallback requestCallback, object stateObject);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -289,13 +286,12 @@
       </Docs>
     </Member>
     <Member MemberName="BeginGetHostEntry">
-      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostEntry (string hostNameOrAddress, AsyncCallback? requestCallback, object? stateObject);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostEntry (string hostNameOrAddress, AsyncCallback requestCallback, object stateObject);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IAsyncResult BeginGetHostEntry(string hostNameOrAddress, class System.AsyncCallback requestCallback, object stateObject) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Dns.BeginGetHostEntry(System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BeginGetHostEntry (hostNameOrAddress As String, requestCallback As AsyncCallback, stateObject As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static IAsyncResult ^ BeginGetHostEntry(System::String ^ hostNameOrAddress, AsyncCallback ^ requestCallback, System::Object ^ stateObject);" />
       <MemberSignature Language="F#" Value="static member BeginGetHostEntry : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="System.Net.Dns.BeginGetHostEntry (hostNameOrAddress, requestCallback, stateObject)" />
-      <MemberSignature Language="C#" Value="public static IAsyncResult BeginGetHostEntry (string hostNameOrAddress, AsyncCallback requestCallback, object stateObject);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -363,13 +359,12 @@
       </Docs>
     </Member>
     <Member MemberName="BeginResolve">
-      <MemberSignature Language="C#" Value="public static IAsyncResult BeginResolve (string hostName, AsyncCallback? requestCallback, object? stateObject);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static IAsyncResult BeginResolve (string hostName, AsyncCallback requestCallback, object stateObject);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IAsyncResult BeginResolve(string hostName, class System.AsyncCallback requestCallback, object stateObject) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Dns.BeginResolve(System.String,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BeginResolve (hostName As String, requestCallback As AsyncCallback, stateObject As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static IAsyncResult ^ BeginResolve(System::String ^ hostName, AsyncCallback ^ requestCallback, System::Object ^ stateObject);" />
       <MemberSignature Language="F#" Value="static member BeginResolve : string * AsyncCallback * obj -&gt; IAsyncResult" Usage="System.Net.Dns.BeginResolve (hostName, requestCallback, stateObject)" />
-      <MemberSignature Language="C#" Value="public static IAsyncResult BeginResolve (string hostName, AsyncCallback requestCallback, object stateObject);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>

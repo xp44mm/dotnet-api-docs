@@ -238,13 +238,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;.Enumerator GetEnumerator ();" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;.Enumerator GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Immutable.ImmutableSortedSet`1/Enumerator&lt;!T&gt; GetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As ImmutableSortedSet(Of T).Enumerator" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Immutable::ImmutableSortedSet&lt;T&gt;::Enumerator GetEnumerator();" />
       <MemberSignature Language="F#" Value="member this.GetEnumerator : unit -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.Enumerator" Usage="builder.GetEnumerator " />
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;.Enumerator? GetEnumerator ();" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -554,13 +553,12 @@
       </Docs>
     </Member>
     <Member MemberName="Max">
-      <MemberSignature Language="C#" Value="public T Max { get; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public T Max { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance !T Max" />
       <MemberSignature Language="DocId" Value="P:System.Collections.Immutable.ImmutableSortedSet`1.Builder.Max" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Max As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property T Max { T get(); };" />
       <MemberSignature Language="F#" Value="member this.Max : 'T" Usage="System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.Builder.Max" />
-      <MemberSignature Language="C#" Value="public T? Max { get; }" FrameworkAlternate="net-5.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -583,13 +581,12 @@
       </Docs>
     </Member>
     <Member MemberName="Min">
-      <MemberSignature Language="C#" Value="public T Min { get; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public T Min { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance !T Min" />
       <MemberSignature Language="DocId" Value="P:System.Collections.Immutable.ImmutableSortedSet`1.Builder.Min" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Min As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property T Min { T get(); };" />
       <MemberSignature Language="F#" Value="member this.Min : 'T" Usage="System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.Builder.Min" />
-      <MemberSignature Language="C#" Value="public T? Min { get; }" FrameworkAlternate="net-5.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>

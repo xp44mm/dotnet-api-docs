@@ -243,6 +243,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void AddParsedSubObject(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="abstract member AddParsedSubObject : obj -&gt; unit&#xA;override this.AddParsedSubObject : obj -&gt; unit" Usage="control.AddParsedSubObject obj" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IParserAccessor.AddParsedSubObject(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -1867,6 +1870,9 @@ The following example shows <xref:System.Web.UI.WebControls.Label> controls that
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Collections::IDictionary ^ GetDesignModeState();" />
       <MemberSignature Language="F#" Value="abstract member GetDesignModeState : unit -&gt; System.Collections.IDictionary&#xA;override this.GetDesignModeState : unit -&gt; System.Collections.IDictionary" Usage="control.GetDesignModeState " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IControlDesignerAccessor.GetDesignModeState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -3863,6 +3869,9 @@ HyperLink1.NavigateUrl = HyperLink1.GetRouteUrl("Product",
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void SetDesignModeState(System::Collections::IDictionary ^ data);" />
       <MemberSignature Language="F#" Value="abstract member SetDesignModeState : System.Collections.IDictionary -&gt; unit&#xA;override this.SetDesignModeState : System.Collections.IDictionary -&gt; unit" Usage="control.SetDesignModeState data" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IControlDesignerAccessor.SetDesignModeState(System.Collections.IDictionary)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

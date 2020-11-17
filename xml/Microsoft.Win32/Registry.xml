@@ -314,13 +314,12 @@ The <xref:Microsoft.Win32.Registry> class also contains `static` <xref:Microsoft
       </Docs>
     </Member>
     <Member MemberName="GetValue">
-      <MemberSignature Language="C#" Value="public static object GetValue (string keyName, string valueName, object defaultValue);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static object GetValue (string keyName, string valueName, object defaultValue);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object GetValue(string keyName, string valueName, object defaultValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.Registry.GetValue(System.String,System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetValue (keyName As String, valueName As String, defaultValue As Object) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ GetValue(System::String ^ keyName, System::String ^ valueName, System::Object ^ defaultValue);" />
       <MemberSignature Language="F#" Value="static member GetValue : string * string * obj -&gt; obj" Usage="Microsoft.Win32.Registry.GetValue (keyName, valueName, defaultValue)" />
-      <MemberSignature Language="C#" Value="public static object GetValue (string? keyName, string valueName, object defaultValue);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Win32.Registry</AssemblyName>
@@ -542,13 +541,12 @@ The <xref:Microsoft.Win32.Registry> class also contains `static` <xref:Microsoft
       </Docs>
     </MemberGroup>
     <Member MemberName="SetValue">
-      <MemberSignature Language="C#" Value="public static void SetValue (string keyName, string valueName, object value);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void SetValue (string keyName, string valueName, object value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetValue(string keyName, string valueName, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.Registry.SetValue(System.String,System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetValue (keyName As String, valueName As String, value As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetValue(System::String ^ keyName, System::String ^ valueName, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="static member SetValue : string * string * obj -&gt; unit" Usage="Microsoft.Win32.Registry.SetValue (keyName, valueName, value)" />
-      <MemberSignature Language="C#" Value="public static void SetValue (string keyName, string? valueName, object value);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Win32.Registry</AssemblyName>
@@ -638,13 +636,12 @@ The <xref:Microsoft.Win32.Registry> class also contains `static` <xref:Microsoft
       </Docs>
     </Member>
     <Member MemberName="SetValue">
-      <MemberSignature Language="C#" Value="public static void SetValue (string keyName, string valueName, object value, Microsoft.Win32.RegistryValueKind valueKind);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static void SetValue (string keyName, string valueName, object value, Microsoft.Win32.RegistryValueKind valueKind);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetValue(string keyName, string valueName, object value, valuetype Microsoft.Win32.RegistryValueKind valueKind) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.Registry.SetValue(System.String,System.String,System.Object,Microsoft.Win32.RegistryValueKind)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub SetValue (keyName As String, valueName As String, value As Object, valueKind As RegistryValueKind)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void SetValue(System::String ^ keyName, System::String ^ valueName, System::Object ^ value, Microsoft::Win32::RegistryValueKind valueKind);" />
       <MemberSignature Language="F#" Value="static member SetValue : string * string * obj * Microsoft.Win32.RegistryValueKind -&gt; unit" Usage="Microsoft.Win32.Registry.SetValue (keyName, valueName, value, valueKind)" />
-      <MemberSignature Language="C#" Value="public static void SetValue (string keyName, string? valueName, object value, Microsoft.Win32.RegistryValueKind valueKind);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Win32.Registry</AssemblyName>

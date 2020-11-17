@@ -931,7 +931,7 @@
       <MemberSignature Language="F#" Value="member this.IsTrackingViewState : bool" Usage="System.Web.UI.WebControls.Style.IsTrackingViewState" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="netframework-1.1">P:System.Web.UI.IStateManager.IsTrackingViewState</InterfaceMember>
+        <InterfaceMember>P:System.Web.UI.IStateManager.IsTrackingViewState</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -970,6 +970,9 @@
       <MemberSignature Language="C++ CLI" Value="protected public:&#xA; void LoadViewState(System::Object ^ state);" />
       <MemberSignature Language="F#" Value="member this.LoadViewState : obj -&gt; unit" Usage="style.LoadViewState state" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.LoadViewState(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -1110,6 +1113,9 @@
       <MemberSignature Language="C++ CLI" Value="protected public:&#xA; virtual System::Object ^ SaveViewState();" />
       <MemberSignature Language="F#" Value="abstract member SaveViewState : unit -&gt; obj&#xA;override this.SaveViewState : unit -&gt; obj" Usage="style.SaveViewState " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.SaveViewState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -1371,6 +1377,9 @@
       <MemberSignature Language="C++ CLI" Value="protected public:&#xA; virtual void TrackViewState();" />
       <MemberSignature Language="F#" Value="abstract member TrackViewState : unit -&gt; unit&#xA;override this.TrackViewState : unit -&gt; unit" Usage="style.TrackViewState " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.TrackViewState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>

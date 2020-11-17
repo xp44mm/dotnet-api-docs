@@ -337,6 +337,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual void Clear();" />
       <MemberSignature Language="F#" Value="abstract member Clear : unit -&gt; unit&#xA;override this.Clear : unit -&gt; unit" Usage="toolStripItemCollection.Clear " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -729,6 +732,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveAt(int index);" />
       <MemberSignature Language="F#" Value="member this.RemoveAt : int -&gt; unit" Usage="toolStripItemCollection.RemoveAt index" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IList.RemoveAt(System.Int32)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

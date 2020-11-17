@@ -925,6 +925,9 @@ public override void EnsureTemplatedUI()
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; System::String ^ GetAttribute(System::String ^ name);" />
       <MemberSignature Language="F#" Value="member this.GetAttribute : string -&gt; string" Usage="mobileControl.GetAttribute name" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IAttributeAccessor.GetAttribute(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1793,6 +1796,9 @@ public override void EnsureTemplatedUI()
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void SetAttribute(System::String ^ name, System::String ^ value);" />
       <MemberSignature Language="F#" Value="member this.SetAttribute : string * string -&gt; unit" Usage="mobileControl.SetAttribute (name, value)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IAttributeAccessor.SetAttribute(System.String,System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

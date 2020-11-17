@@ -823,6 +823,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; property bool IsTrackingViewState { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.IsTrackingViewState : bool" Usage="System.Web.UI.WebControls.DataControlField.IsTrackingViewState" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Web.UI.IStateManager.IsTrackingViewState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -908,6 +911,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void LoadViewState(System::Object ^ savedState);" />
       <MemberSignature Language="F#" Value="abstract member LoadViewState : obj -&gt; unit&#xA;override this.LoadViewState : obj -&gt; unit" Usage="dataControlField.LoadViewState savedState" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.LoadViewState(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -982,6 +988,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Object ^ SaveViewState();" />
       <MemberSignature Language="F#" Value="abstract member SaveViewState : unit -&gt; obj&#xA;override this.SaveViewState : unit -&gt; obj" Usage="dataControlField.SaveViewState " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.SaveViewState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -1301,6 +1310,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void TrackViewState();" />
       <MemberSignature Language="F#" Value="abstract member TrackViewState : unit -&gt; unit&#xA;override this.TrackViewState : unit -&gt; unit" Usage="dataControlField.TrackViewState " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IStateManager.TrackViewState</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

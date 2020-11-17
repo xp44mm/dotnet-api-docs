@@ -915,7 +915,7 @@
       </Docs>
     </Member>
     <Member MemberName="Import">
-      <MemberSignature Language="C#" Value="public void Import (byte[] rawData, string? password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public void Import (byte[] rawData, string password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Import(unsigned int8[] rawData, string password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2Collection.Import(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Import (rawData As Byte(), password As String, Optional keyStorageFlags As X509KeyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet)" FrameworkAlternate="net-5.0" />
@@ -1016,7 +1016,7 @@
       </Docs>
     </Member>
     <Member MemberName="Import">
-      <MemberSignature Language="C#" Value="public void Import (ReadOnlySpan&lt;byte&gt; rawData, string? password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet);" />
+      <MemberSignature Language="C#" Value="public void Import (ReadOnlySpan&lt;byte&gt; rawData, string password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Import(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; rawData, string password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2Collection.Import(System.ReadOnlySpan{System.Byte},System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Import (rawData As ReadOnlySpan(Of Byte), password As String, Optional keyStorageFlags As X509KeyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet)" />
@@ -1046,7 +1046,7 @@
       </Docs>
     </Member>
     <Member MemberName="Import">
-      <MemberSignature Language="C#" Value="public void Import (string? fileName, ReadOnlySpan&lt;char&gt; password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet);" />
+      <MemberSignature Language="C#" Value="public void Import (string fileName, ReadOnlySpan&lt;char&gt; password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Import(string fileName, valuetype System.ReadOnlySpan`1&lt;char&gt; password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2Collection.Import(System.String,System.ReadOnlySpan{System.Char},System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Import (fileName As String, password As ReadOnlySpan(Of Char), Optional keyStorageFlags As X509KeyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet)" />
@@ -1076,7 +1076,7 @@
       </Docs>
     </Member>
     <Member MemberName="Import">
-      <MemberSignature Language="C#" Value="public void Import (string fileName, string? password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public void Import (string fileName, string password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Import(string fileName, string password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2Collection.Import(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Import (fileName As String, password As String, Optional keyStorageFlags As X509KeyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet)" FrameworkAlternate="net-5.0" />

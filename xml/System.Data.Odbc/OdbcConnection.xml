@@ -1062,13 +1062,12 @@ driver-defined-attribute-keyword ::= identifier
       </Docs>
     </Member>
     <Member MemberName="GetSchema">
-      <MemberSignature Language="C#" Value="public override System.Data.DataTable GetSchema (string collectionName, string[]? restrictionValues);" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public override System.Data.DataTable GetSchema (string collectionName, string[] restrictionValues);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Data.DataTable GetSchema(string collectionName, string[] restrictionValues) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Odbc.OdbcConnection.GetSchema(System.String,System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetSchema (collectionName As String, restrictionValues As String()) As DataTable" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override System::Data::DataTable ^ GetSchema(System::String ^ collectionName, cli::array &lt;System::String ^&gt; ^ restrictionValues);" />
       <MemberSignature Language="F#" Value="override this.GetSchema : string * string[] -&gt; System.Data.DataTable" Usage="odbcConnection.GetSchema (collectionName, restrictionValues)" />
-      <MemberSignature Language="C#" Value="public override System.Data.DataTable GetSchema (string collectionName, string[] restrictionValues);" FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>

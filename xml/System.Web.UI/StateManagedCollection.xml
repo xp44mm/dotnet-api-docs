@@ -87,6 +87,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
       <MemberSignature Language="F#" Value="member this.Clear : unit -&gt; unit" Usage="stateManagedCollection.Clear " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -171,6 +174,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property int Count { int get(); };" />
       <MemberSignature Language="F#" Value="member this.Count : int" Usage="System.Web.UI.StateManagedCollection.Count" />
       <MemberType>Property</MemberType>
+      <Implements>
+        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -236,6 +242,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
       <MemberSignature Language="F#" Value="member this.GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="stateManagedCollection.GetEnumerator " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

@@ -1406,6 +1406,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void RaisePostBackEvent(System::String ^ eventArgument);" />
       <MemberSignature Language="F#" Value="abstract member RaisePostBackEvent : string -&gt; unit&#xA;override this.RaisePostBackEvent : string -&gt; unit" Usage="calendar.RaisePostBackEvent eventArgument" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IPostBackEventHandler.RaisePostBackEvent(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

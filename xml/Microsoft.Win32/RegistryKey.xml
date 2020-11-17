@@ -347,13 +347,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateSubKey">
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey CreateSubKey (string subkey, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, System.Security.AccessControl.RegistrySecurity registrySecurity);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey CreateSubKey (string subkey, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, System.Security.AccessControl.RegistrySecurity registrySecurity);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey CreateSubKey(string subkey, valuetype Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, class System.Security.AccessControl.RegistrySecurity registrySecurity) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.RegistryKey.CreateSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistrySecurity)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateSubKey (subkey As String, permissionCheck As RegistryKeyPermissionCheck, registrySecurity As RegistrySecurity) As RegistryKey" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Win32::RegistryKey ^ CreateSubKey(System::String ^ subkey, Microsoft::Win32::RegistryKeyPermissionCheck permissionCheck, System::Security::AccessControl::RegistrySecurity ^ registrySecurity);" />
       <MemberSignature Language="F#" Value="member this.CreateSubKey : string * Microsoft.Win32.RegistryKeyPermissionCheck * System.Security.AccessControl.RegistrySecurity -&gt; Microsoft.Win32.RegistryKey" Usage="registryKey.CreateSubKey (subkey, permissionCheck, registrySecurity)" />
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey CreateSubKey (string subkey, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, System.Security.AccessControl.RegistrySecurity? registrySecurity);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -561,13 +560,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateSubKey">
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey CreateSubKey (string subkey, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, Microsoft.Win32.RegistryOptions registryOptions, System.Security.AccessControl.RegistrySecurity registrySecurity);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey CreateSubKey (string subkey, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, Microsoft.Win32.RegistryOptions registryOptions, System.Security.AccessControl.RegistrySecurity registrySecurity);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey CreateSubKey(string subkey, valuetype Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, valuetype Microsoft.Win32.RegistryOptions registryOptions, class System.Security.AccessControl.RegistrySecurity registrySecurity) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.RegistryKey.CreateSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,Microsoft.Win32.RegistryOptions,System.Security.AccessControl.RegistrySecurity)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateSubKey (subkey As String, permissionCheck As RegistryKeyPermissionCheck, registryOptions As RegistryOptions, registrySecurity As RegistrySecurity) As RegistryKey" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Win32::RegistryKey ^ CreateSubKey(System::String ^ subkey, Microsoft::Win32::RegistryKeyPermissionCheck permissionCheck, Microsoft::Win32::RegistryOptions registryOptions, System::Security::AccessControl::RegistrySecurity ^ registrySecurity);" />
       <MemberSignature Language="F#" Value="member this.CreateSubKey : string * Microsoft.Win32.RegistryKeyPermissionCheck * Microsoft.Win32.RegistryOptions * System.Security.AccessControl.RegistrySecurity -&gt; Microsoft.Win32.RegistryKey" Usage="registryKey.CreateSubKey (subkey, permissionCheck, registryOptions, registrySecurity)" />
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey CreateSubKey (string subkey, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, Microsoft.Win32.RegistryOptions registryOptions, System.Security.AccessControl.RegistrySecurity? registrySecurity);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -2201,13 +2199,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="OpenSubKey">
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey OpenSubKey(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.RegistryKey.OpenSubKey(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function OpenSubKey (name As String) As RegistryKey" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Win32::RegistryKey ^ OpenSubKey(System::String ^ name);" />
       <MemberSignature Language="F#" Value="member this.OpenSubKey : string -&gt; Microsoft.Win32.RegistryKey" Usage="registryKey.OpenSubKey name" />
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey? OpenSubKey (string name);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Win32.Registry</AssemblyName>
@@ -2271,13 +2268,12 @@
       </Docs>
     </Member>
     <Member MemberName="OpenSubKey">
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey OpenSubKey(string name, valuetype Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.RegistryKey.OpenSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck)" />
       <MemberSignature Language="VB.NET" Value="Public Function OpenSubKey (name As String, permissionCheck As RegistryKeyPermissionCheck) As RegistryKey" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Win32::RegistryKey ^ OpenSubKey(System::String ^ name, Microsoft::Win32::RegistryKeyPermissionCheck permissionCheck);" />
       <MemberSignature Language="F#" Value="member this.OpenSubKey : string * Microsoft.Win32.RegistryKeyPermissionCheck -&gt; Microsoft.Win32.RegistryKey" Usage="registryKey.OpenSubKey (name, permissionCheck)" />
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey? OpenSubKey (string name, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -2350,13 +2346,12 @@
       </Docs>
     </Member>
     <Member MemberName="OpenSubKey">
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name, bool writable);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name, bool writable);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey OpenSubKey(string name, bool writable) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function OpenSubKey (name As String, writable As Boolean) As RegistryKey" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Win32::RegistryKey ^ OpenSubKey(System::String ^ name, bool writable);" />
       <MemberSignature Language="F#" Value="member this.OpenSubKey : string * bool -&gt; Microsoft.Win32.RegistryKey" Usage="registryKey.OpenSubKey (name, writable)" />
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey? OpenSubKey (string name, bool writable);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Win32.Registry</AssemblyName>
@@ -2428,13 +2423,12 @@
       </Docs>
     </Member>
     <Member MemberName="OpenSubKey">
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name, System.Security.AccessControl.RegistryRights rights);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name, System.Security.AccessControl.RegistryRights rights);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey OpenSubKey(string name, valuetype System.Security.AccessControl.RegistryRights rights) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.RegistryKey.OpenSubKey(System.String,System.Security.AccessControl.RegistryRights)" />
       <MemberSignature Language="VB.NET" Value="Public Function OpenSubKey (name As String, rights As RegistryRights) As RegistryKey" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Win32::RegistryKey ^ OpenSubKey(System::String ^ name, System::Security::AccessControl::RegistryRights rights);" />
       <MemberSignature Language="F#" Value="member this.OpenSubKey : string * System.Security.AccessControl.RegistryRights -&gt; Microsoft.Win32.RegistryKey" Usage="registryKey.OpenSubKey (name, rights)" />
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey? OpenSubKey (string name, System.Security.AccessControl.RegistryRights rights);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Win32.Registry</AssemblyName>
@@ -2488,13 +2482,12 @@
       </Docs>
     </Member>
     <Member MemberName="OpenSubKey">
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, System.Security.AccessControl.RegistryRights rights);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey OpenSubKey (string name, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, System.Security.AccessControl.RegistryRights rights);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class Microsoft.Win32.RegistryKey OpenSubKey(string name, valuetype Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, valuetype System.Security.AccessControl.RegistryRights rights) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.RegistryKey.OpenSubKey(System.String,Microsoft.Win32.RegistryKeyPermissionCheck,System.Security.AccessControl.RegistryRights)" />
       <MemberSignature Language="VB.NET" Value="Public Function OpenSubKey (name As String, permissionCheck As RegistryKeyPermissionCheck, rights As RegistryRights) As RegistryKey" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Microsoft::Win32::RegistryKey ^ OpenSubKey(System::String ^ name, Microsoft::Win32::RegistryKeyPermissionCheck permissionCheck, System::Security::AccessControl::RegistryRights rights);" />
       <MemberSignature Language="F#" Value="member this.OpenSubKey : string * Microsoft.Win32.RegistryKeyPermissionCheck * System.Security.AccessControl.RegistryRights -&gt; Microsoft.Win32.RegistryKey" Usage="registryKey.OpenSubKey (name, permissionCheck, rights)" />
-      <MemberSignature Language="C#" Value="public Microsoft.Win32.RegistryKey? OpenSubKey (string name, Microsoft.Win32.RegistryKeyPermissionCheck permissionCheck, System.Security.AccessControl.RegistryRights rights);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -2642,13 +2635,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="SetValue">
-      <MemberSignature Language="C#" Value="public void SetValue (string name, object value);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public void SetValue (string name, object value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetValue(string name, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.RegistryKey.SetValue(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetValue (name As String, value As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetValue(System::String ^ name, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="member this.SetValue : string * obj -&gt; unit" Usage="registryKey.SetValue (name, value)" />
-      <MemberSignature Language="C#" Value="public void SetValue (string? name, object value);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Win32.Registry</AssemblyName>
@@ -2732,13 +2724,12 @@
       </Docs>
     </Member>
     <Member MemberName="SetValue">
-      <MemberSignature Language="C#" Value="public void SetValue (string name, object value, Microsoft.Win32.RegistryValueKind valueKind);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public void SetValue (string name, object value, Microsoft.Win32.RegistryValueKind valueKind);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetValue(string name, object value, valuetype Microsoft.Win32.RegistryValueKind valueKind) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Win32.RegistryKey.SetValue(System.String,System.Object,Microsoft.Win32.RegistryValueKind)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SetValue (name As String, value As Object, valueKind As RegistryValueKind)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetValue(System::String ^ name, System::Object ^ value, Microsoft::Win32::RegistryValueKind valueKind);" />
       <MemberSignature Language="F#" Value="member this.SetValue : string * obj * Microsoft.Win32.RegistryValueKind -&gt; unit" Usage="registryKey.SetValue (name, value, valueKind)" />
-      <MemberSignature Language="C#" Value="public void SetValue (string? name, object value, Microsoft.Win32.RegistryValueKind valueKind);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Win32.Registry</AssemblyName>

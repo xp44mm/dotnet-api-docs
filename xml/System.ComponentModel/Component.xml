@@ -477,13 +477,12 @@
       </Docs>
     </Member>
     <Member MemberName="Events">
-      <MemberSignature Language="C#" Value="protected System.ComponentModel.EventHandlerList? Events { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="protected System.ComponentModel.EventHandlerList Events { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.ComponentModel.EventHandlerList Events" />
       <MemberSignature Language="DocId" Value="P:System.ComponentModel.Component.Events" />
       <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property Events As EventHandlerList" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; property System::ComponentModel::EventHandlerList ^ Events { System::ComponentModel::EventHandlerList ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Events : System.ComponentModel.EventHandlerList" Usage="System.ComponentModel.Component.Events" />
-      <MemberSignature Language="C#" Value="protected System.ComponentModel.EventHandlerList Events { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -573,13 +572,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetService">
-      <MemberSignature Language="C#" Value="protected virtual object? GetService (Type service);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="protected virtual object GetService (Type service);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance object GetService(class System.Type service) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.ComponentModel.Component.GetService(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function GetService (service As Type) As Object" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Object ^ GetService(Type ^ service);" />
       <MemberSignature Language="F#" Value="abstract member GetService : Type -&gt; obj&#xA;override this.GetService : Type -&gt; obj" Usage="component.GetService service" />
-      <MemberSignature Language="C#" Value="protected virtual object GetService (Type service);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>

@@ -498,12 +498,11 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="Pack">
-      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* Pack (System.Threading.IOCompletionCallback? iocb);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* Pack (System.Threading.IOCompletionCallback iocb);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Threading.NativeOverlapped* Pack(class System.Threading.IOCompletionCallback iocb) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Overlapped.Pack(System.Threading.IOCompletionCallback)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::NativeOverlapped* Pack(System::Threading::IOCompletionCallback ^ iocb);" />
       <MemberSignature Language="F#" Value="member this.Pack : System.Threading.IOCompletionCallback -&gt; nativeptr&lt;System.Threading.NativeOverlapped&gt;" Usage="overlapped.Pack iocb" />
-      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* Pack (System.Threading.IOCompletionCallback iocb);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -571,12 +570,11 @@
       </Docs>
     </Member>
     <Member MemberName="Pack">
-      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped*? Pack (System.Threading.IOCompletionCallback iocb, object userData);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* Pack (System.Threading.IOCompletionCallback iocb, object userData);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Threading.NativeOverlapped* Pack(class System.Threading.IOCompletionCallback iocb, object userData) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Overlapped.Pack(System.Threading.IOCompletionCallback,System.Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::NativeOverlapped* Pack(System::Threading::IOCompletionCallback ^ iocb, System::Object ^ userData);" />
       <MemberSignature Language="F#" Value="member this.Pack : System.Threading.IOCompletionCallback * obj -&gt; nativeptr&lt;System.Threading.NativeOverlapped&gt;" Usage="overlapped.Pack (iocb, userData)" />
-      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* Pack (System.Threading.IOCompletionCallback iocb, object userData);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -639,12 +637,11 @@
       </Docs>
     </Member>
     <Member MemberName="Unpack">
-      <MemberSignature Language="C#" Value="public static System.Threading.Overlapped? Unpack (System.Threading.NativeOverlapped* nativeOverlappedPtr);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Overlapped Unpack (System.Threading.NativeOverlapped* nativeOverlappedPtr);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Overlapped Unpack(valuetype System.Threading.NativeOverlapped* nativeOverlappedPtr) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Overlapped.Unpack(System.Threading.NativeOverlapped*)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Overlapped ^ Unpack(System::Threading::NativeOverlapped* nativeOverlappedPtr);" />
       <MemberSignature Language="F#" Value="static member Unpack : nativeptr&lt;System.Threading.NativeOverlapped&gt; -&gt; System.Threading.Overlapped" Usage="System.Threading.Overlapped.Unpack nativeOverlappedPtr" />
-      <MemberSignature Language="C#" Value="public static System.Threading.Overlapped Unpack (System.Threading.NativeOverlapped* nativeOverlappedPtr);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -708,12 +705,11 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="UnsafePack">
-      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* UnsafePack (System.Threading.IOCompletionCallback? iocb);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* UnsafePack (System.Threading.IOCompletionCallback iocb);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Threading.NativeOverlapped* UnsafePack(class System.Threading.IOCompletionCallback iocb) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Overlapped.UnsafePack(System.Threading.IOCompletionCallback)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::NativeOverlapped* UnsafePack(System::Threading::IOCompletionCallback ^ iocb);" />
       <MemberSignature Language="F#" Value="member this.UnsafePack : System.Threading.IOCompletionCallback -&gt; nativeptr&lt;System.Threading.NativeOverlapped&gt;" Usage="overlapped.UnsafePack iocb" />
-      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* UnsafePack (System.Threading.IOCompletionCallback iocb);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -783,12 +779,11 @@
       </Docs>
     </Member>
     <Member MemberName="UnsafePack">
-      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped*? UnsafePack (System.Threading.IOCompletionCallback iocb, object userData);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* UnsafePack (System.Threading.IOCompletionCallback iocb, object userData);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Threading.NativeOverlapped* UnsafePack(class System.Threading.IOCompletionCallback iocb, object userData) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Overlapped.UnsafePack(System.Threading.IOCompletionCallback,System.Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::NativeOverlapped* UnsafePack(System::Threading::IOCompletionCallback ^ iocb, System::Object ^ userData);" />
       <MemberSignature Language="F#" Value="member this.UnsafePack : System.Threading.IOCompletionCallback * obj -&gt; nativeptr&lt;System.Threading.NativeOverlapped&gt;" Usage="overlapped.UnsafePack (iocb, userData)" />
-      <MemberSignature Language="C#" Value="public System.Threading.NativeOverlapped* UnsafePack (System.Threading.IOCompletionCallback iocb, object userData);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

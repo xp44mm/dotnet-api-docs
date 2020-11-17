@@ -1929,13 +1929,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateWrapperOfType">
-      <MemberSignature Language="C#" Value="public static object CreateWrapperOfType (object o, Type t);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static object CreateWrapperOfType (object o, Type t);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object CreateWrapperOfType(object o, class System.Type t) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.Marshal.CreateWrapperOfType(System.Object,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateWrapperOfType (o As Object, t As Type) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ CreateWrapperOfType(System::Object ^ o, Type ^ t);" />
       <MemberSignature Language="F#" Value="static member CreateWrapperOfType : obj * Type -&gt; obj" Usage="System.Runtime.InteropServices.Marshal.CreateWrapperOfType (o, t)" />
-      <MemberSignature Language="C#" Value="public static object CreateWrapperOfType (object o, Type? t);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
@@ -2019,13 +2018,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateWrapperOfType&lt;T,TWrapper&gt;">
-      <MemberSignature Language="C#" Value="public static TWrapper CreateWrapperOfType&lt;T,TWrapper&gt; (T o);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static TWrapper CreateWrapperOfType&lt;T,TWrapper&gt; (T o);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TWrapper CreateWrapperOfType&lt;T, TWrapper&gt;(!!T o) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.Marshal.CreateWrapperOfType``2(``0)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateWrapperOfType(Of T, TWrapper) (o As T) As TWrapper" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename TWrapper&gt;&#xA; static TWrapper CreateWrapperOfType(T o);" />
       <MemberSignature Language="F#" Value="static member CreateWrapperOfType : 'T -&gt; 'Wrapper" Usage="System.Runtime.InteropServices.Marshal.CreateWrapperOfType o" />
-      <MemberSignature Language="C#" Value="public static TWrapper? CreateWrapperOfType&lt;T,TWrapper&gt; (T o);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
@@ -2575,13 +2573,12 @@
       </Docs>
     </Member>
     <Member MemberName="GenerateProgIdForType">
-      <MemberSignature Language="C#" Value="public static string? GenerateProgIdForType (Type type);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static string GenerateProgIdForType (Type type);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string GenerateProgIdForType(class System.Type type) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.Marshal.GenerateProgIdForType(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GenerateProgIdForType (type As Type) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ GenerateProgIdForType(Type ^ type);" />
       <MemberSignature Language="F#" Value="static member GenerateProgIdForType : Type -&gt; string" Usage="System.Runtime.InteropServices.Marshal.GenerateProgIdForType type" />
-      <MemberSignature Language="C#" Value="public static string GenerateProgIdForType (Type type);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1;xamarinandroid-7.1;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -2894,13 +2891,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetComInterfaceForObject&lt;T,TInterface&gt;">
-      <MemberSignature Language="C#" Value="public static IntPtr GetComInterfaceForObject&lt;T,TInterface&gt; (T o);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static IntPtr GetComInterfaceForObject&lt;T,TInterface&gt; (T o);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig native int GetComInterfaceForObject&lt;T, TInterface&gt;(!!T o) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.Marshal.GetComInterfaceForObject``2(``0)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetComInterfaceForObject(Of T, TInterface) (o As T) As IntPtr" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename TInterface&gt;&#xA; static IntPtr GetComInterfaceForObject(T o);" />
       <MemberSignature Language="F#" Value="static member GetComInterfaceForObject : 'T -&gt; nativeint" Usage="System.Runtime.InteropServices.Marshal.GetComInterfaceForObject o" />
-      <MemberSignature Language="C#" Value="public static IntPtr GetComInterfaceForObject&lt;T,TInterface&gt; (T? o);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
@@ -3046,13 +3042,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetComObjectData">
-      <MemberSignature Language="C#" Value="public static object? GetComObjectData (object obj, object key);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static object GetComObjectData (object obj, object key);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object GetComObjectData(object obj, object key) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.Marshal.GetComObjectData(System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetComObjectData (obj As Object, key As Object) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ GetComObjectData(System::Object ^ obj, System::Object ^ key);" />
       <MemberSignature Language="F#" Value="static member GetComObjectData : obj * obj -&gt; obj" Usage="System.Runtime.InteropServices.Marshal.GetComObjectData (obj, key)" />
-      <MemberSignature Language="C#" Value="public static object GetComObjectData (object obj, object key);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1;xamarinandroid-7.1;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -4830,13 +4825,12 @@ There is a difference in the behavior of the `GetLastWin32Error` method on .NET 
       </Docs>
     </Member>
     <Member MemberName="GetObjectsForNativeVariants">
-      <MemberSignature Language="C#" Value="public static object[] GetObjectsForNativeVariants (IntPtr aSrcNativeVariant, int cVars);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static object[] GetObjectsForNativeVariants (IntPtr aSrcNativeVariant, int cVars);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object[] GetObjectsForNativeVariants(native int aSrcNativeVariant, int32 cVars) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.Marshal.GetObjectsForNativeVariants(System.IntPtr,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetObjectsForNativeVariants (aSrcNativeVariant As IntPtr, cVars As Integer) As Object()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Object ^&gt; ^ GetObjectsForNativeVariants(IntPtr aSrcNativeVariant, int cVars);" />
       <MemberSignature Language="F#" Value="static member GetObjectsForNativeVariants : nativeint * int -&gt; obj[]" Usage="System.Runtime.InteropServices.Marshal.GetObjectsForNativeVariants (aSrcNativeVariant, cVars)" />
-      <MemberSignature Language="C#" Value="public static object[]? GetObjectsForNativeVariants (IntPtr aSrcNativeVariant, int cVars);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
@@ -7075,13 +7069,12 @@ There is a difference in the behavior of the `GetLastWin32Error` method on .NET 
       </Docs>
     </Member>
     <Member MemberName="PtrToStructure">
-      <MemberSignature Language="C#" Value="public static object PtrToStructure (IntPtr ptr, Type structureType);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static object PtrToStructure (IntPtr ptr, Type structureType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig object PtrToStructure(native int ptr, class System.Type structureType) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.Marshal.PtrToStructure(System.IntPtr,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function PtrToStructure (ptr As IntPtr, structureType As Type) As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ PtrToStructure(IntPtr ptr, Type ^ structureType);" />
       <MemberSignature Language="F#" Value="static member PtrToStructure : nativeint * Type -&gt; obj" Usage="System.Runtime.InteropServices.Marshal.PtrToStructure (ptr, structureType)" />
-      <MemberSignature Language="C#" Value="public static object? PtrToStructure (IntPtr ptr, Type structureType);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
@@ -9325,13 +9318,12 @@ There is a difference in the behavior of the `GetLastWin32Error` method on .NET 
       </Docs>
     </Member>
     <Member MemberName="SetComObjectData">
-      <MemberSignature Language="C#" Value="public static bool SetComObjectData (object obj, object key, object? data);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool SetComObjectData (object obj, object key, object data);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool SetComObjectData(object obj, object key, object data) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.Marshal.SetComObjectData(System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function SetComObjectData (obj As Object, key As Object, data As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool SetComObjectData(System::Object ^ obj, System::Object ^ key, System::Object ^ data);" />
       <MemberSignature Language="F#" Value="static member SetComObjectData : obj * obj * obj -&gt; bool" Usage="System.Runtime.InteropServices.Marshal.SetComObjectData (obj, key, data)" />
-      <MemberSignature Language="C#" Value="public static bool SetComObjectData (object obj, object key, object data);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1;xamarinandroid-7.1;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

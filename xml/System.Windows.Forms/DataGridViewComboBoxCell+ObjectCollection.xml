@@ -86,6 +86,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; int Add(System::Object ^ item);" />
       <MemberSignature Language="F#" Value="member this.Add : obj -&gt; int" Usage="objectCollection.Add item" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IList.Add(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

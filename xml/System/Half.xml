@@ -835,7 +835,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static Half Parse (string s, IFormatProvider? provider);" />
+      <MemberSignature Language="C#" Value="public static Half Parse (string s, IFormatProvider provider);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Half Parse(string s, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Half.Parse(System.String,System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (s As String, provider As IFormatProvider) As Half" />
@@ -868,7 +868,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static Half Parse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.AllowDecimalPoint | System.Globalization.NumberStyles.AllowExponent | System.Globalization.NumberStyles.AllowLeadingSign | System.Globalization.NumberStyles.AllowLeadingWhite | System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.AllowTrailingWhite | System.Globalization.NumberStyles.Float | System.Globalization.NumberStyles.Integer, IFormatProvider? provider = default);" />
+      <MemberSignature Language="C#" Value="public static Half Parse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.AllowDecimalPoint | System.Globalization.NumberStyles.AllowExponent | System.Globalization.NumberStyles.AllowLeadingSign | System.Globalization.NumberStyles.AllowLeadingWhite | System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.AllowTrailingWhite | System.Globalization.NumberStyles.Float | System.Globalization.NumberStyles.Integer, IFormatProvider provider = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Half Parse(valuetype System.ReadOnlySpan`1&lt;char&gt; s, valuetype System.Globalization.NumberStyles style, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Half.Parse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (s As ReadOnlySpan(Of Char), Optional style As NumberStyles = System.Globalization.NumberStyles.AllowDecimalPoint | System.Globalization.NumberStyles.AllowExponent | System.Globalization.NumberStyles.AllowLeadingSign | System.Globalization.NumberStyles.AllowLeadingWhite | System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.AllowTrailingWhite | System.Globalization.NumberStyles.Float | System.Globalization.NumberStyles.Integer, Optional provider As IFormatProvider = Nothing) As Half" />
@@ -905,7 +905,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static Half Parse (string s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.AllowDecimalPoint | System.Globalization.NumberStyles.AllowExponent | System.Globalization.NumberStyles.AllowLeadingSign | System.Globalization.NumberStyles.AllowLeadingWhite | System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.AllowTrailingWhite | System.Globalization.NumberStyles.Float | System.Globalization.NumberStyles.Integer, IFormatProvider? provider = default);" />
+      <MemberSignature Language="C#" Value="public static Half Parse (string s, System.Globalization.NumberStyles style = System.Globalization.NumberStyles.AllowDecimalPoint | System.Globalization.NumberStyles.AllowExponent | System.Globalization.NumberStyles.AllowLeadingSign | System.Globalization.NumberStyles.AllowLeadingWhite | System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.AllowTrailingWhite | System.Globalization.NumberStyles.Float | System.Globalization.NumberStyles.Integer, IFormatProvider provider = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Half Parse(string s, valuetype System.Globalization.NumberStyles style, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Half.Parse(System.String,System.Globalization.NumberStyles,System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (s As String, Optional style As NumberStyles = System.Globalization.NumberStyles.AllowDecimalPoint | System.Globalization.NumberStyles.AllowExponent | System.Globalization.NumberStyles.AllowLeadingSign | System.Globalization.NumberStyles.AllowLeadingWhite | System.Globalization.NumberStyles.AllowThousands | System.Globalization.NumberStyles.AllowTrailingWhite | System.Globalization.NumberStyles.Float | System.Globalization.NumberStyles.Integer, Optional provider As IFormatProvider = Nothing) As Half" />
@@ -989,7 +989,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider? provider);" />
+      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider provider);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ToString(class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Half.ToString(System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (provider As IFormatProvider) As String" />
@@ -1014,7 +1014,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string ToString (string? format);" />
+      <MemberSignature Language="C#" Value="public string ToString (string format);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ToString(string format) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Half.ToString(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String) As String" />
@@ -1041,7 +1041,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string? ToString (string format, IFormatProvider provider);" />
+      <MemberSignature Language="C#" Value="public string ToString (string format, IFormatProvider provider);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ToString(string format, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Half.ToString(System.String,System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String, provider As IFormatProvider) As String" />
@@ -1071,7 +1071,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryFormat">
-      <MemberSignature Language="C#" Value="public bool TryFormat (Span&lt;char&gt; destination, out int charsWritten, ReadOnlySpan&lt;char&gt; format = default, IFormatProvider? provider = default);" />
+      <MemberSignature Language="C#" Value="public bool TryFormat (Span&lt;char&gt; destination, out int charsWritten, ReadOnlySpan&lt;char&gt; format = default, IFormatProvider provider = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryFormat(valuetype System.Span`1&lt;char&gt; destination, [out] int32&amp; charsWritten, valuetype System.ReadOnlySpan`1&lt;char&gt; format, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Half.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char},System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryFormat (destination As Span(Of Char), ByRef charsWritten As Integer, Optional format As ReadOnlySpan(Of Char) = Nothing, Optional provider As IFormatProvider = Nothing) As Boolean" />
@@ -1166,7 +1166,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style, IFormatProvider? provider, out Half result);" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; s, System.Globalization.NumberStyles style, IFormatProvider provider, out Half result);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;char&gt; s, valuetype System.Globalization.NumberStyles style, class System.IFormatProvider provider, [out] valuetype System.Half&amp; result) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Half.TryParse(System.ReadOnlySpan{System.Char},System.Globalization.NumberStyles,System.IFormatProvider,System.Half@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (s As ReadOnlySpan(Of Char), style As NumberStyles, provider As IFormatProvider, ByRef result As Half) As Boolean" />

@@ -227,13 +227,12 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
       </Docs>
     </MemberGroup>
     <Member MemberName="GetCustomAttribute">
-      <MemberSignature Language="C#" Value="public static Attribute? GetCustomAttribute (System.Reflection.Assembly element, Type attributeType);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.Assembly element, Type attributeType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Attribute GetCustomAttribute(class System.Reflection.Assembly element, class System.Type attributeType) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetCustomAttribute (element As Assembly, attributeType As Type) As Attribute" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Attribute ^ GetCustomAttribute(System::Reflection::Assembly ^ element, Type ^ attributeType);" />
       <MemberSignature Language="F#" Value="static member GetCustomAttribute : System.Reflection.Assembly * Type -&gt; Attribute" Usage="System.Attribute.GetCustomAttribute (element, attributeType)" />
-      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.Assembly element, Type attributeType);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -294,13 +293,12 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
       </Docs>
     </Member>
     <Member MemberName="GetCustomAttribute">
-      <MemberSignature Language="C#" Value="public static Attribute? GetCustomAttribute (System.Reflection.MemberInfo element, Type attributeType);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.MemberInfo element, Type attributeType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Attribute GetCustomAttribute(class System.Reflection.MemberInfo element, class System.Type attributeType) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetCustomAttribute (element As MemberInfo, attributeType As Type) As Attribute" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Attribute ^ GetCustomAttribute(System::Reflection::MemberInfo ^ element, Type ^ attributeType);" />
       <MemberSignature Language="F#" Value="static member GetCustomAttribute : System.Reflection.MemberInfo * Type -&gt; Attribute" Usage="System.Attribute.GetCustomAttribute (element, attributeType)" />
-      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.MemberInfo element, Type attributeType);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -364,13 +362,12 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
       </Docs>
     </Member>
     <Member MemberName="GetCustomAttribute">
-      <MemberSignature Language="C#" Value="public static Attribute? GetCustomAttribute (System.Reflection.Module element, Type attributeType);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.Module element, Type attributeType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Attribute GetCustomAttribute(class System.Reflection.Module element, class System.Type attributeType) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetCustomAttribute (element As Module, attributeType As Type) As Attribute" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Attribute ^ GetCustomAttribute(System::Reflection::Module ^ element, Type ^ attributeType);" />
       <MemberSignature Language="F#" Value="static member GetCustomAttribute : System.Reflection.Module * Type -&gt; Attribute" Usage="System.Attribute.GetCustomAttribute (element, attributeType)" />
-      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.Module element, Type attributeType);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -423,13 +420,12 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
       </Docs>
     </Member>
     <Member MemberName="GetCustomAttribute">
-      <MemberSignature Language="C#" Value="public static Attribute? GetCustomAttribute (System.Reflection.ParameterInfo element, Type attributeType);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.ParameterInfo element, Type attributeType);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Attribute GetCustomAttribute(class System.Reflection.ParameterInfo element, class System.Type attributeType) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetCustomAttribute (element As ParameterInfo, attributeType As Type) As Attribute" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Attribute ^ GetCustomAttribute(System::Reflection::ParameterInfo ^ element, Type ^ attributeType);" />
       <MemberSignature Language="F#" Value="static member GetCustomAttribute : System.Reflection.ParameterInfo * Type -&gt; Attribute" Usage="System.Attribute.GetCustomAttribute (element, attributeType)" />
-      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.ParameterInfo element, Type attributeType);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -488,13 +484,12 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
       </Docs>
     </Member>
     <Member MemberName="GetCustomAttribute">
-      <MemberSignature Language="C#" Value="public static Attribute? GetCustomAttribute (System.Reflection.Assembly element, Type attributeType, bool inherit);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.Assembly element, Type attributeType, bool inherit);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Attribute GetCustomAttribute(class System.Reflection.Assembly element, class System.Type attributeType, bool inherit) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Attribute.GetCustomAttribute(System.Reflection.Assembly,System.Type,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetCustomAttribute (element As Assembly, attributeType As Type, inherit As Boolean) As Attribute" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Attribute ^ GetCustomAttribute(System::Reflection::Assembly ^ element, Type ^ attributeType, bool inherit);" />
       <MemberSignature Language="F#" Value="static member GetCustomAttribute : System.Reflection.Assembly * Type * bool -&gt; Attribute" Usage="System.Attribute.GetCustomAttribute (element, attributeType, inherit)" />
-      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.Assembly element, Type attributeType, bool inherit);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -556,13 +551,12 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
       </Docs>
     </Member>
     <Member MemberName="GetCustomAttribute">
-      <MemberSignature Language="C#" Value="public static Attribute? GetCustomAttribute (System.Reflection.MemberInfo element, Type attributeType, bool inherit);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.MemberInfo element, Type attributeType, bool inherit);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Attribute GetCustomAttribute(class System.Reflection.MemberInfo element, class System.Type attributeType, bool inherit) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Attribute.GetCustomAttribute(System.Reflection.MemberInfo,System.Type,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetCustomAttribute (element As MemberInfo, attributeType As Type, inherit As Boolean) As Attribute" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Attribute ^ GetCustomAttribute(System::Reflection::MemberInfo ^ element, Type ^ attributeType, bool inherit);" />
       <MemberSignature Language="F#" Value="static member GetCustomAttribute : System.Reflection.MemberInfo * Type * bool -&gt; Attribute" Usage="System.Attribute.GetCustomAttribute (element, attributeType, inherit)" />
-      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.MemberInfo element, Type attributeType, bool inherit);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -627,13 +621,12 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
       </Docs>
     </Member>
     <Member MemberName="GetCustomAttribute">
-      <MemberSignature Language="C#" Value="public static Attribute? GetCustomAttribute (System.Reflection.Module element, Type attributeType, bool inherit);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.Module element, Type attributeType, bool inherit);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Attribute GetCustomAttribute(class System.Reflection.Module element, class System.Type attributeType, bool inherit) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Attribute.GetCustomAttribute(System.Reflection.Module,System.Type,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetCustomAttribute (element As Module, attributeType As Type, inherit As Boolean) As Attribute" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Attribute ^ GetCustomAttribute(System::Reflection::Module ^ element, Type ^ attributeType, bool inherit);" />
       <MemberSignature Language="F#" Value="static member GetCustomAttribute : System.Reflection.Module * Type * bool -&gt; Attribute" Usage="System.Attribute.GetCustomAttribute (element, attributeType, inherit)" />
-      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.Module element, Type attributeType, bool inherit);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -688,13 +681,12 @@ When implementing your own class derived from <xref:System.Attribute>, you can o
       </Docs>
     </Member>
     <Member MemberName="GetCustomAttribute">
-      <MemberSignature Language="C#" Value="public static Attribute? GetCustomAttribute (System.Reflection.ParameterInfo element, Type attributeType, bool inherit);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.ParameterInfo element, Type attributeType, bool inherit);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Attribute GetCustomAttribute(class System.Reflection.ParameterInfo element, class System.Type attributeType, bool inherit) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Attribute.GetCustomAttribute(System.Reflection.ParameterInfo,System.Type,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetCustomAttribute (element As ParameterInfo, attributeType As Type, inherit As Boolean) As Attribute" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Attribute ^ GetCustomAttribute(System::Reflection::ParameterInfo ^ element, Type ^ attributeType, bool inherit);" />
       <MemberSignature Language="F#" Value="static member GetCustomAttribute : System.Reflection.ParameterInfo * Type * bool -&gt; Attribute" Usage="System.Attribute.GetCustomAttribute (element, attributeType, inherit)" />
-      <MemberSignature Language="C#" Value="public static Attribute GetCustomAttribute (System.Reflection.ParameterInfo element, Type attributeType, bool inherit);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

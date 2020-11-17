@@ -117,13 +117,12 @@
       </Docs>
     </Member>
     <Member MemberName="BindIPEndPointDelegate">
-      <MemberSignature Language="C#" Value="public System.Net.BindIPEndPoint? BindIPEndPointDelegate { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Net.BindIPEndPoint BindIPEndPointDelegate { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.BindIPEndPoint BindIPEndPointDelegate" />
       <MemberSignature Language="DocId" Value="P:System.Net.ServicePoint.BindIPEndPointDelegate" />
       <MemberSignature Language="VB.NET" Value="Public Property BindIPEndPointDelegate As BindIPEndPoint" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Net::BindIPEndPoint ^ BindIPEndPointDelegate { System::Net::BindIPEndPoint ^ get(); void set(System::Net::BindIPEndPoint ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BindIPEndPointDelegate : System.Net.BindIPEndPoint with get, set" Usage="System.Net.ServicePoint.BindIPEndPointDelegate" />
-      <MemberSignature Language="C#" Value="public System.Net.BindIPEndPoint BindIPEndPointDelegate { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -166,13 +165,12 @@
       </Docs>
     </Member>
     <Member MemberName="Certificate">
-      <MemberSignature Language="C#" Value="public System.Security.Cryptography.X509Certificates.X509Certificate? Certificate { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Security.Cryptography.X509Certificates.X509Certificate Certificate { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Cryptography.X509Certificates.X509Certificate Certificate" />
       <MemberSignature Language="DocId" Value="P:System.Net.ServicePoint.Certificate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Certificate As X509Certificate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::Cryptography::X509Certificates::X509Certificate ^ Certificate { System::Security::Cryptography::X509Certificates::X509Certificate ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Certificate : System.Security.Cryptography.X509Certificates.X509Certificate" Usage="System.Net.ServicePoint.Certificate" />
-      <MemberSignature Language="C#" Value="public System.Security.Cryptography.X509Certificates.X509Certificate Certificate { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -221,13 +219,12 @@
       </Docs>
     </Member>
     <Member MemberName="ClientCertificate">
-      <MemberSignature Language="C#" Value="public System.Security.Cryptography.X509Certificates.X509Certificate? ClientCertificate { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Security.Cryptography.X509Certificates.X509Certificate ClientCertificate { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Cryptography.X509Certificates.X509Certificate ClientCertificate" />
       <MemberSignature Language="DocId" Value="P:System.Net.ServicePoint.ClientCertificate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ClientCertificate As X509Certificate" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::Cryptography::X509Certificates::X509Certificate ^ ClientCertificate { System::Security::Cryptography::X509Certificates::X509Certificate ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ClientCertificate : System.Security.Cryptography.X509Certificates.X509Certificate" Usage="System.Net.ServicePoint.ClientCertificate" />
-      <MemberSignature Language="C#" Value="public System.Security.Cryptography.X509Certificates.X509Certificate ClientCertificate { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>

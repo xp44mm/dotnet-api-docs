@@ -401,6 +401,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; abstract System::Web::UI::DataSourceView ^ GetView(System::String ^ viewName);" />
       <MemberSignature Language="F#" Value="abstract member GetView : string -&gt; System.Web.UI.DataSourceView" Usage="dataSourceControl.GetView viewName" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IDataSource.GetView(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -448,6 +451,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Collections::ICollection ^ GetViewNames();" />
       <MemberSignature Language="F#" Value="abstract member GetViewNames : unit -&gt; System.Collections.ICollection&#xA;override this.GetViewNames : unit -&gt; System.Collections.ICollection" Usage="dataSourceControl.GetViewNames " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IDataSource.GetViewNames</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

@@ -205,6 +205,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual bool GetToolSupported(System::Drawing::Design::ToolboxItem ^ tool);" />
       <MemberSignature Language="F#" Value="abstract member GetToolSupported : System.Drawing.Design.ToolboxItem -&gt; bool&#xA;override this.GetToolSupported : System.Drawing.Design.ToolboxItem -&gt; bool" Usage="documentDesigner.GetToolSupported tool" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Drawing.Design.IToolboxUser.GetToolSupported(System.Drawing.Design.ToolboxItem)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Design</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -635,6 +638,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void ToolPicked(System::Drawing::Design::ToolboxItem ^ tool);" />
       <MemberSignature Language="F#" Value="abstract member ToolPicked : System.Drawing.Design.ToolboxItem -&gt; unit&#xA;override this.ToolPicked : System.Drawing.Design.ToolboxItem -&gt; unit" Usage="documentDesigner.ToolPicked tool" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Drawing.Design.IToolboxUser.ToolPicked(System.Drawing.Design.ToolboxItem)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Design</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>

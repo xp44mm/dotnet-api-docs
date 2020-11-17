@@ -225,13 +225,12 @@
       </Docs>
     </Member>
     <Member MemberName="ExecuteCodeWithGuaranteedCleanup">
-      <MemberSignature Language="C#" Value="public static void ExecuteCodeWithGuaranteedCleanup (System.Runtime.CompilerServices.RuntimeHelpers.TryCode code, System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode backoutCode, object? userData);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static void ExecuteCodeWithGuaranteedCleanup (System.Runtime.CompilerServices.RuntimeHelpers.TryCode code, System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode backoutCode, object userData);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ExecuteCodeWithGuaranteedCleanup(class System.Runtime.CompilerServices.RuntimeHelpers/TryCode code, class System.Runtime.CompilerServices.RuntimeHelpers/CleanupCode backoutCode, object userData) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup(System.Runtime.CompilerServices.RuntimeHelpers.TryCode,System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub ExecuteCodeWithGuaranteedCleanup (code As RuntimeHelpers.TryCode, backoutCode As RuntimeHelpers.CleanupCode, userData As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void ExecuteCodeWithGuaranteedCleanup(System::Runtime::CompilerServices::RuntimeHelpers::TryCode ^ code, System::Runtime::CompilerServices::RuntimeHelpers::CleanupCode ^ backoutCode, System::Object ^ userData);" />
       <MemberSignature Language="F#" Value="static member ExecuteCodeWithGuaranteedCleanup : System.Runtime.CompilerServices.RuntimeHelpers.TryCode * System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode * obj -&gt; unit" Usage="System.Runtime.CompilerServices.RuntimeHelpers.ExecuteCodeWithGuaranteedCleanup (code, backoutCode, userData)" />
-      <MemberSignature Language="C#" Value="public static void ExecuteCodeWithGuaranteedCleanup (System.Runtime.CompilerServices.RuntimeHelpers.TryCode code, System.Runtime.CompilerServices.RuntimeHelpers.CleanupCode backoutCode, object userData);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

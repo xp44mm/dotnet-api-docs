@@ -698,6 +698,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual bool LoadPostData(System::String ^ postDataKey, System::Collections::Specialized::NameValueCollection ^ postCollection);" />
       <MemberSignature Language="F#" Value="abstract member LoadPostData : string * System.Collections.Specialized.NameValueCollection -&gt; bool&#xA;override this.LoadPostData : string * System.Collections.Specialized.NameValueCollection -&gt; bool" Usage="catalogZoneBase.LoadPostData (postDataKey, postCollection)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IPostBackDataHandler.LoadPostData(System.String,System.Collections.Specialized.NameValueCollection)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

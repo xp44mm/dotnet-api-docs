@@ -1258,6 +1258,7 @@
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IList.Remove(System.Object)</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-3.0;netframework-3.5">M:System.ComponentModel.IEditableCollectionView.Remove(System.Object)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>
@@ -1295,6 +1296,7 @@
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.Collections.IList.RemoveAt(System.Int32)</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-3.0;netframework-3.5">M:System.ComponentModel.IEditableCollectionView.RemoveAt(System.Int32)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationFramework</AssemblyName>

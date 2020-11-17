@@ -525,13 +525,12 @@ If you use this property to set command-line arguments, <xref:System.Diagnostics
       </Docs>
     </Member>
     <Member MemberName="Environment">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt;? Environment { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Environment { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Environment" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.ProcessStartInfo.Environment" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Environment As IDictionary(Of String, String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ Environment { System::Collections::Generic::IDictionary&lt;System::String ^, System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Environment : System.Collections.Generic.IDictionary&lt;string, string&gt;" Usage="System.Diagnostics.ProcessStartInfo.Environment" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Environment { get; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Process</AssemblyName>
@@ -982,13 +981,12 @@ If you use this property to set command-line arguments, <xref:System.Diagnostics
       </Docs>
     </Member>
     <Member MemberName="Password">
-      <MemberSignature Language="C#" Value="public System.Security.SecureString? Password { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Security.SecureString Password { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.SecureString Password" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.ProcessStartInfo.Password" />
       <MemberSignature Language="VB.NET" Value="Public Property Password As SecureString" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::SecureString ^ Password { System::Security::SecureString ^ get(); void set(System::Security::SecureString ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Password : System.Security.SecureString with get, set" Usage="System.Diagnostics.ProcessStartInfo.Password" />
-      <MemberSignature Language="C#" Value="public System.Security.SecureString Password { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -1051,13 +1049,12 @@ If you use this property to set command-line arguments, <xref:System.Diagnostics
       </Docs>
     </Member>
     <Member MemberName="PasswordInClearText">
-      <MemberSignature Language="C#" Value="public string? PasswordInClearText { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public string PasswordInClearText { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string PasswordInClearText" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.ProcessStartInfo.PasswordInClearText" />
       <MemberSignature Language="VB.NET" Value="Public Property PasswordInClearText As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ PasswordInClearText { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PasswordInClearText : string with get, set" Usage="System.Diagnostics.ProcessStartInfo.PasswordInClearText" />
-      <MemberSignature Language="C#" Value="public string PasswordInClearText { get; set; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Process</AssemblyName>
@@ -1402,13 +1399,12 @@ You can use asynchronous read operations to avoid these dependencies and their d
       </Docs>
     </Member>
     <Member MemberName="StandardErrorEncoding">
-      <MemberSignature Language="C#" Value="public System.Text.Encoding? StandardErrorEncoding { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Text.Encoding StandardErrorEncoding { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Encoding StandardErrorEncoding" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.ProcessStartInfo.StandardErrorEncoding" />
       <MemberSignature Language="VB.NET" Value="Public Property StandardErrorEncoding As Encoding" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Text::Encoding ^ StandardErrorEncoding { System::Text::Encoding ^ get(); void set(System::Text::Encoding ^ value); };" />
       <MemberSignature Language="F#" Value="member this.StandardErrorEncoding : System.Text.Encoding with get, set" Usage="System.Diagnostics.ProcessStartInfo.StandardErrorEncoding" />
-      <MemberSignature Language="C#" Value="public System.Text.Encoding StandardErrorEncoding { get; set; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Process</AssemblyName>
@@ -1456,13 +1452,12 @@ You can use asynchronous read operations to avoid these dependencies and their d
       </Docs>
     </Member>
     <Member MemberName="StandardInputEncoding">
-      <MemberSignature Language="C#" Value="public System.Text.Encoding? StandardInputEncoding { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Text.Encoding StandardInputEncoding { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Encoding StandardInputEncoding" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.ProcessStartInfo.StandardInputEncoding" />
       <MemberSignature Language="VB.NET" Value="Public Property StandardInputEncoding As Encoding" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Text::Encoding ^ StandardInputEncoding { System::Text::Encoding ^ get(); void set(System::Text::Encoding ^ value); };" />
       <MemberSignature Language="F#" Value="member this.StandardInputEncoding : System.Text.Encoding with get, set" Usage="System.Diagnostics.ProcessStartInfo.StandardInputEncoding" />
-      <MemberSignature Language="C#" Value="public System.Text.Encoding StandardInputEncoding { get; set; }" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Process</AssemblyName>
@@ -1491,13 +1486,12 @@ You can use asynchronous read operations to avoid these dependencies and their d
       </Docs>
     </Member>
     <Member MemberName="StandardOutputEncoding">
-      <MemberSignature Language="C#" Value="public System.Text.Encoding? StandardOutputEncoding { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Text.Encoding StandardOutputEncoding { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Encoding StandardOutputEncoding" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.ProcessStartInfo.StandardOutputEncoding" />
       <MemberSignature Language="VB.NET" Value="Public Property StandardOutputEncoding As Encoding" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Text::Encoding ^ StandardOutputEncoding { System::Text::Encoding ^ get(); void set(System::Text::Encoding ^ value); };" />
       <MemberSignature Language="F#" Value="member this.StandardOutputEncoding : System.Text.Encoding with get, set" Usage="System.Diagnostics.ProcessStartInfo.StandardOutputEncoding" />
-      <MemberSignature Language="C#" Value="public System.Text.Encoding StandardOutputEncoding { get; set; }" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Process</AssemblyName>

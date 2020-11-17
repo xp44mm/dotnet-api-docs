@@ -1059,13 +1059,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetThumbnailImage">
-      <MemberSignature Language="C#" Value="public System.Drawing.Image GetThumbnailImage (int thumbWidth, int thumbHeight, System.Drawing.Image.GetThumbnailImageAbort callback, IntPtr callbackData);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="C#" Value="public System.Drawing.Image GetThumbnailImage (int thumbWidth, int thumbHeight, System.Drawing.Image.GetThumbnailImageAbort callback, IntPtr callbackData);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Drawing.Image GetThumbnailImage(int32 thumbWidth, int32 thumbHeight, class System.Drawing.Image/GetThumbnailImageAbort callback, native int callbackData) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.Image.GetThumbnailImage(System.Int32,System.Int32,System.Drawing.Image.GetThumbnailImageAbort,System.IntPtr)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetThumbnailImage (thumbWidth As Integer, thumbHeight As Integer, callback As Image.GetThumbnailImageAbort, callbackData As IntPtr) As Image" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Drawing::Image ^ GetThumbnailImage(int thumbWidth, int thumbHeight, System::Drawing::Image::GetThumbnailImageAbort ^ callback, IntPtr callbackData);" />
       <MemberSignature Language="F#" Value="member this.GetThumbnailImage : int * int * System.Drawing.Image.GetThumbnailImageAbort * nativeint -&gt; System.Drawing.Image" Usage="image.GetThumbnailImage (thumbWidth, thumbHeight, callback, callbackData)" />
-      <MemberSignature Language="C#" Value="public System.Drawing.Image GetThumbnailImage (int thumbWidth, int thumbHeight, System.Drawing.Image.GetThumbnailImageAbort? callback, IntPtr callbackData);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing</AssemblyName>
@@ -1876,13 +1875,12 @@
       </Docs>
     </Member>
     <Member MemberName="Save">
-      <MemberSignature Language="C#" Value="public void Save (System.IO.Stream stream, System.Drawing.Imaging.ImageCodecInfo encoder, System.Drawing.Imaging.EncoderParameters encoderParams);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="C#" Value="public void Save (System.IO.Stream stream, System.Drawing.Imaging.ImageCodecInfo encoder, System.Drawing.Imaging.EncoderParameters encoderParams);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(class System.IO.Stream stream, class System.Drawing.Imaging.ImageCodecInfo encoder, class System.Drawing.Imaging.EncoderParameters encoderParams) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.Image.Save(System.IO.Stream,System.Drawing.Imaging.ImageCodecInfo,System.Drawing.Imaging.EncoderParameters)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Save (stream As Stream, encoder As ImageCodecInfo, encoderParams As EncoderParameters)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::IO::Stream ^ stream, System::Drawing::Imaging::ImageCodecInfo ^ encoder, System::Drawing::Imaging::EncoderParameters ^ encoderParams);" />
       <MemberSignature Language="F#" Value="member this.Save : System.IO.Stream * System.Drawing.Imaging.ImageCodecInfo * System.Drawing.Imaging.EncoderParameters -&gt; unit" Usage="image.Save (stream, encoder, encoderParams)" />
-      <MemberSignature Language="C#" Value="public void Save (System.IO.Stream stream, System.Drawing.Imaging.ImageCodecInfo encoder, System.Drawing.Imaging.EncoderParameters? encoderParams);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing</AssemblyName>
@@ -1927,13 +1925,12 @@
       </Docs>
     </Member>
     <Member MemberName="Save">
-      <MemberSignature Language="C#" Value="public void Save (string filename, System.Drawing.Imaging.ImageCodecInfo encoder, System.Drawing.Imaging.EncoderParameters encoderParams);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="C#" Value="public void Save (string filename, System.Drawing.Imaging.ImageCodecInfo encoder, System.Drawing.Imaging.EncoderParameters encoderParams);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Save(string filename, class System.Drawing.Imaging.ImageCodecInfo encoder, class System.Drawing.Imaging.EncoderParameters encoderParams) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.Image.Save(System.String,System.Drawing.Imaging.ImageCodecInfo,System.Drawing.Imaging.EncoderParameters)" />
       <MemberSignature Language="VB.NET" Value="Public Sub Save (filename As String, encoder As ImageCodecInfo, encoderParams As EncoderParameters)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Save(System::String ^ filename, System::Drawing::Imaging::ImageCodecInfo ^ encoder, System::Drawing::Imaging::EncoderParameters ^ encoderParams);" />
       <MemberSignature Language="F#" Value="member this.Save : string * System.Drawing.Imaging.ImageCodecInfo * System.Drawing.Imaging.EncoderParameters -&gt; unit" Usage="image.Save (filename, encoder, encoderParams)" />
-      <MemberSignature Language="C#" Value="public void Save (string filename, System.Drawing.Imaging.ImageCodecInfo encoder, System.Drawing.Imaging.EncoderParameters? encoderParams);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing</AssemblyName>
@@ -2033,13 +2030,12 @@
       </Docs>
     </Member>
     <Member MemberName="SaveAdd">
-      <MemberSignature Language="C#" Value="public void SaveAdd (System.Drawing.Image image, System.Drawing.Imaging.EncoderParameters encoderParams);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="C#" Value="public void SaveAdd (System.Drawing.Image image, System.Drawing.Imaging.EncoderParameters encoderParams);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SaveAdd(class System.Drawing.Image image, class System.Drawing.Imaging.EncoderParameters encoderParams) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Drawing.Image.SaveAdd(System.Drawing.Image,System.Drawing.Imaging.EncoderParameters)" />
       <MemberSignature Language="VB.NET" Value="Public Sub SaveAdd (image As Image, encoderParams As EncoderParameters)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void SaveAdd(System::Drawing::Image ^ image, System::Drawing::Imaging::EncoderParameters ^ encoderParams);" />
       <MemberSignature Language="F#" Value="member this.SaveAdd : System.Drawing.Image * System.Drawing.Imaging.EncoderParameters -&gt; unit" Usage="image.SaveAdd (image, encoderParams)" />
-      <MemberSignature Language="C#" Value="public void SaveAdd (System.Drawing.Image image, System.Drawing.Imaging.EncoderParameters? encoderParams);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing</AssemblyName>
@@ -2254,13 +2250,12 @@
       </Docs>
     </Member>
     <Member MemberName="Tag">
-      <MemberSignature Language="C#" Value="public object Tag { get; set; }" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="C#" Value="public object Tag { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance object Tag" />
       <MemberSignature Language="DocId" Value="P:System.Drawing.Image.Tag" />
       <MemberSignature Language="VB.NET" Value="Public Property Tag As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Tag { System::Object ^ get(); void set(System::Object ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Tag : obj with get, set" Usage="System.Drawing.Image.Tag" />
-      <MemberSignature Language="C#" Value="public object? Tag { get; set; }" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing</AssemblyName>

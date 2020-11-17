@@ -200,6 +200,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
       <MemberSignature Language="F#" Value="member this.Clear : unit -&gt; unit" Usage="codeNamespaceImportCollection.Clear " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IList.Clear</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>
@@ -232,7 +235,7 @@
       <MemberSignature Language="F#" Value="member this.Count : int" Usage="System.CodeDom.CodeNamespaceImportCollection.Count" />
       <MemberType>Property</MemberType>
       <Implements>
-        <InterfaceMember FrameworkAlternate="netframework-1.1">P:System.Collections.ICollection.Count</InterfaceMember>
+        <InterfaceMember>P:System.Collections.ICollection.Count</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -276,6 +279,9 @@
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::IEnumerator ^ GetEnumerator();" />
       <MemberSignature Language="F#" Value="member this.GetEnumerator : unit -&gt; System.Collections.IEnumerator" Usage="codeNamespaceImportCollection.GetEnumerator " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Collections.IEnumerable.GetEnumerator</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
         <AssemblyVersion>1.0.5000.0</AssemblyVersion>

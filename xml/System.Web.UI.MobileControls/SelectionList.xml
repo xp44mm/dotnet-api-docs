@@ -492,6 +492,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; bool LoadPostData(System::String ^ postDataKey, System::Collections::Specialized::NameValueCollection ^ postCollection);" />
       <MemberSignature Language="F#" Value="member this.LoadPostData : string * System.Collections.Specialized.NameValueCollection -&gt; bool" Usage="selectionList.LoadPostData (postDataKey, postCollection)" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IPostBackDataHandler.LoadPostData(System.String,System.Collections.Specialized.NameValueCollection)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
@@ -682,6 +685,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; void RaisePostDataChangedEvent();" />
       <MemberSignature Language="F#" Value="member this.RaisePostDataChangedEvent : unit -&gt; unit" Usage="selectionList.RaisePostDataChangedEvent " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IPostBackDataHandler.RaisePostDataChangedEvent</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Mobile</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>

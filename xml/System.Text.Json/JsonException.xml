@@ -273,13 +273,12 @@ Note that the `bytePositionInLine` counts the number of bytes (that is, UTF-8 co
       </Docs>
     </Member>
     <Member MemberName="Message">
-      <MemberSignature Language="C#" Value="public override string? Message { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override string Message { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Message" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.JsonException.Message" />
       <MemberSignature Language="VB.NET" Value="Public Overrides ReadOnly Property Message As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ Message { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Message : string" Usage="System.Text.Json.JsonException.Message" />
-      <MemberSignature Language="C#" Value="public override string Message { get; }" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>

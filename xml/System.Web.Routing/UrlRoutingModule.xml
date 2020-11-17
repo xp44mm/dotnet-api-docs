@@ -79,6 +79,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void Dispose();" />
       <MemberSignature Language="F#" Value="abstract member Dispose : unit -&gt; unit&#xA;override this.Dispose : unit -&gt; unit" Usage="urlRoutingModule.Dispose " />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.IHttpModule.Dispose</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
@@ -105,6 +108,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void Init(System::Web::HttpApplication ^ application);" />
       <MemberSignature Language="F#" Value="abstract member Init : System.Web.HttpApplication -&gt; unit&#xA;override this.Init : System.Web.HttpApplication -&gt; unit" Usage="urlRoutingModule.Init application" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.IHttpModule.Init(System.Web.HttpApplication)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>

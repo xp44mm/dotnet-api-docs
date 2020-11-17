@@ -75,7 +75,7 @@ This attribute allows tools to understand which methods are unsafe to call when 
       </Docs>
     </Member>
     <Member MemberName="Url">
-      <MemberSignature Language="C#" Value="public string? Url { get; set; }" />
+      <MemberSignature Language="C#" Value="public string Url { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance string Url" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.CodeAnalysis.RequiresUnreferencedCodeAttribute.Url" />
       <MemberSignature Language="VB.NET" Value="Public Property Url As String" />

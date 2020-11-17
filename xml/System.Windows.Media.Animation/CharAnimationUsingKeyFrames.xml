@@ -69,6 +69,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void AddChild(System::Object ^ child);" />
       <MemberSignature Language="F#" Value="abstract member AddChild : obj -&gt; unit&#xA;override this.AddChild : obj -&gt; unit" Usage="charAnimationUsingKeyFrames.AddChild child" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Markup.IAddChild.AddChild(System.Object)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
@@ -109,6 +112,9 @@
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual void AddText(System::String ^ childText);" />
       <MemberSignature Language="F#" Value="abstract member AddText : string -&gt; unit&#xA;override this.AddText : string -&gt; unit" Usage="charAnimationUsingKeyFrames.AddText childText" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Windows.Markup.IAddChild.AddText(System.String)</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>PresentationCore</AssemblyName>
         <AssemblyVersion>3.0.0.0</AssemblyVersion>

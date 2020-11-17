@@ -1017,13 +1017,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="CreateCustomTimeZone">
-      <MemberSignature Language="C#" Value="public static TimeZoneInfo CreateCustomTimeZone (string id, TimeSpan baseUtcOffset, string? displayName, string? standardDisplayName);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static TimeZoneInfo CreateCustomTimeZone (string id, TimeSpan baseUtcOffset, string displayName, string standardDisplayName);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.TimeZoneInfo CreateCustomTimeZone(string id, valuetype System.TimeSpan baseUtcOffset, string displayName, string standardDisplayName) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.TimeZoneInfo.CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateCustomTimeZone (id As String, baseUtcOffset As TimeSpan, displayName As String, standardDisplayName As String) As TimeZoneInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static TimeZoneInfo ^ CreateCustomTimeZone(System::String ^ id, TimeSpan baseUtcOffset, System::String ^ displayName, System::String ^ standardDisplayName);" />
       <MemberSignature Language="F#" Value="static member CreateCustomTimeZone : string * TimeSpan * string * string -&gt; TimeZoneInfo" Usage="System.TimeZoneInfo.CreateCustomTimeZone (id, baseUtcOffset, displayName, standardDisplayName)" />
-      <MemberSignature Language="C#" Value="public static TimeZoneInfo CreateCustomTimeZone (string id, TimeSpan baseUtcOffset, string displayName, string standardDisplayName);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1106,13 +1105,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateCustomTimeZone">
-      <MemberSignature Language="C#" Value="public static TimeZoneInfo? CreateCustomTimeZone (string? id, TimeSpan baseUtcOffset, string displayName, string standardDisplayName, string daylightDisplayName, TimeZoneInfo.AdjustmentRule[]? adjustmentRules);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static TimeZoneInfo CreateCustomTimeZone (string id, TimeSpan baseUtcOffset, string displayName, string standardDisplayName, string daylightDisplayName, TimeZoneInfo.AdjustmentRule[] adjustmentRules);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.TimeZoneInfo CreateCustomTimeZone(string id, valuetype System.TimeSpan baseUtcOffset, string displayName, string standardDisplayName, string daylightDisplayName, class System.TimeZoneInfo/AdjustmentRule[] adjustmentRules) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.TimeZoneInfo.CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo.AdjustmentRule[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateCustomTimeZone (id As String, baseUtcOffset As TimeSpan, displayName As String, standardDisplayName As String, daylightDisplayName As String, adjustmentRules As TimeZoneInfo.AdjustmentRule()) As TimeZoneInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static TimeZoneInfo ^ CreateCustomTimeZone(System::String ^ id, TimeSpan baseUtcOffset, System::String ^ displayName, System::String ^ standardDisplayName, System::String ^ daylightDisplayName, cli::array &lt;TimeZoneInfo::AdjustmentRule ^&gt; ^ adjustmentRules);" />
       <MemberSignature Language="F#" Value="static member CreateCustomTimeZone : string * TimeSpan * string * string * string * TimeZoneInfo.AdjustmentRule[] -&gt; TimeZoneInfo" Usage="System.TimeZoneInfo.CreateCustomTimeZone (id, baseUtcOffset, displayName, standardDisplayName, daylightDisplayName, adjustmentRules)" />
-      <MemberSignature Language="C#" Value="public static TimeZoneInfo CreateCustomTimeZone (string id, TimeSpan baseUtcOffset, string displayName, string standardDisplayName, string daylightDisplayName, TimeZoneInfo.AdjustmentRule[] adjustmentRules);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1228,13 +1226,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateCustomTimeZone">
-      <MemberSignature Language="C#" Value="public static TimeZoneInfo? CreateCustomTimeZone (string? id, TimeSpan baseUtcOffset, string displayName, string standardDisplayName, string daylightDisplayName, TimeZoneInfo.AdjustmentRule[]? adjustmentRules, bool disableDaylightSavingTime);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static TimeZoneInfo CreateCustomTimeZone (string id, TimeSpan baseUtcOffset, string displayName, string standardDisplayName, string daylightDisplayName, TimeZoneInfo.AdjustmentRule[] adjustmentRules, bool disableDaylightSavingTime);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.TimeZoneInfo CreateCustomTimeZone(string id, valuetype System.TimeSpan baseUtcOffset, string displayName, string standardDisplayName, string daylightDisplayName, class System.TimeZoneInfo/AdjustmentRule[] adjustmentRules, bool disableDaylightSavingTime) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.TimeZoneInfo.CreateCustomTimeZone(System.String,System.TimeSpan,System.String,System.String,System.String,System.TimeZoneInfo.AdjustmentRule[],System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateCustomTimeZone (id As String, baseUtcOffset As TimeSpan, displayName As String, standardDisplayName As String, daylightDisplayName As String, adjustmentRules As TimeZoneInfo.AdjustmentRule(), disableDaylightSavingTime As Boolean) As TimeZoneInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static TimeZoneInfo ^ CreateCustomTimeZone(System::String ^ id, TimeSpan baseUtcOffset, System::String ^ displayName, System::String ^ standardDisplayName, System::String ^ daylightDisplayName, cli::array &lt;TimeZoneInfo::AdjustmentRule ^&gt; ^ adjustmentRules, bool disableDaylightSavingTime);" />
       <MemberSignature Language="F#" Value="static member CreateCustomTimeZone : string * TimeSpan * string * string * string * TimeZoneInfo.AdjustmentRule[] * bool -&gt; TimeZoneInfo" Usage="System.TimeZoneInfo.CreateCustomTimeZone (id, baseUtcOffset, displayName, standardDisplayName, daylightDisplayName, adjustmentRules, disableDaylightSavingTime)" />
-      <MemberSignature Language="C#" Value="public static TimeZoneInfo CreateCustomTimeZone (string id, TimeSpan baseUtcOffset, string displayName, string standardDisplayName, string daylightDisplayName, TimeZoneInfo.AdjustmentRule[] adjustmentRules, bool disableDaylightSavingTime);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

@@ -365,13 +365,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, System.Security.SecureString? password);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, System.Security.SecureString password);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(unsigned int8[] rawData, class System.Security.SecureString password) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.#ctor(System.Byte[],System.Security.SecureString)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (rawData As Byte(), password As SecureString)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; X509Certificate2(cli::array &lt;System::Byte&gt; ^ rawData, System::Security::SecureString ^ password);" />
       <MemberSignature Language="F#" Value="new System.Security.Cryptography.X509Certificates.X509Certificate2 : byte[] * System.Security.SecureString -&gt; System.Security.Cryptography.X509Certificates.X509Certificate2" Usage="new System.Security.Cryptography.X509Certificates.X509Certificate2 (rawData, password)" />
-      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, System.Security.SecureString password);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -428,13 +427,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, string? password);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, string password);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(unsigned int8[] rawData, string password) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.#ctor(System.Byte[],System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (rawData As Byte(), password As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; X509Certificate2(cli::array &lt;System::Byte&gt; ^ rawData, System::String ^ password);" />
       <MemberSignature Language="F#" Value="new System.Security.Cryptography.X509Certificates.X509Certificate2 : byte[] * string -&gt; System.Security.Cryptography.X509Certificates.X509Certificate2" Usage="new System.Security.Cryptography.X509Certificates.X509Certificate2 (rawData, password)" />
-      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, string password);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.X509Certificates</AssemblyName>
@@ -524,13 +522,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, System.Security.SecureString? password);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, System.Security.SecureString password);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string fileName, class System.Security.SecureString password) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.#ctor(System.String,System.Security.SecureString)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (fileName As String, password As SecureString)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; X509Certificate2(System::String ^ fileName, System::Security::SecureString ^ password);" />
       <MemberSignature Language="F#" Value="new System.Security.Cryptography.X509Certificates.X509Certificate2 : string * System.Security.SecureString -&gt; System.Security.Cryptography.X509Certificates.X509Certificate2" Usage="new System.Security.Cryptography.X509Certificates.X509Certificate2 (fileName, password)" />
-      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, System.Security.SecureString password);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -587,13 +584,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, string? password);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, string password);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string fileName, string password) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.#ctor(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (fileName As String, password As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; X509Certificate2(System::String ^ fileName, System::String ^ password);" />
       <MemberSignature Language="F#" Value="new System.Security.Cryptography.X509Certificates.X509Certificate2 : string * string -&gt; System.Security.Cryptography.X509Certificates.X509Certificate2" Usage="new System.Security.Cryptography.X509Certificates.X509Certificate2 (fileName, password)" />
-      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, string password);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.X509Certificates</AssemblyName>
@@ -646,13 +642,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, System.Security.SecureString? password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, System.Security.SecureString password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(unsigned int8[] rawData, class System.Security.SecureString password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.#ctor(System.Byte[],System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (rawData As Byte(), password As SecureString, keyStorageFlags As X509KeyStorageFlags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; X509Certificate2(cli::array &lt;System::Byte&gt; ^ rawData, System::Security::SecureString ^ password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="F#" Value="new System.Security.Cryptography.X509Certificates.X509Certificate2 : byte[] * System.Security.SecureString * System.Security.Cryptography.X509Certificates.X509KeyStorageFlags -&gt; System.Security.Cryptography.X509Certificates.X509Certificate2" Usage="new System.Security.Cryptography.X509Certificates.X509Certificate2 (rawData, password, keyStorageFlags)" />
-      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, System.Security.SecureString password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -711,13 +706,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, string? password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, string password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(unsigned int8[] rawData, string password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.#ctor(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (rawData As Byte(), password As String, keyStorageFlags As X509KeyStorageFlags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; X509Certificate2(cli::array &lt;System::Byte&gt; ^ rawData, System::String ^ password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="F#" Value="new System.Security.Cryptography.X509Certificates.X509Certificate2 : byte[] * string * System.Security.Cryptography.X509Certificates.X509KeyStorageFlags -&gt; System.Security.Cryptography.X509Certificates.X509Certificate2" Usage="new System.Security.Cryptography.X509Certificates.X509Certificate2 (rawData, password, keyStorageFlags)" />
-      <MemberSignature Language="C#" Value="public X509Certificate2 (byte[] rawData, string password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.X509Certificates</AssemblyName>
@@ -800,7 +794,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public X509Certificate2 (string? fileName, ReadOnlySpan&lt;char&gt; password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet);" />
+      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, ReadOnlySpan&lt;char&gt; password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string fileName, valuetype System.ReadOnlySpan`1&lt;char&gt; password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.#ctor(System.String,System.ReadOnlySpan{System.Char},System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (fileName As String, password As ReadOnlySpan(Of Char), Optional keyStorageFlags As X509KeyStorageFlags = System.Security.Cryptography.X509Certificates.X509KeyStorageFlags.DefaultKeySet)" />
@@ -844,13 +838,12 @@ If you create an <xref:System.Security.Cryptography.X509Certificates.X509Certifi
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, System.Security.SecureString? password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, System.Security.SecureString password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string fileName, class System.Security.SecureString password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.#ctor(System.String,System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (fileName As String, password As SecureString, keyStorageFlags As X509KeyStorageFlags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; X509Certificate2(System::String ^ fileName, System::Security::SecureString ^ password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="F#" Value="new System.Security.Cryptography.X509Certificates.X509Certificate2 : string * System.Security.SecureString * System.Security.Cryptography.X509Certificates.X509KeyStorageFlags -&gt; System.Security.Cryptography.X509Certificates.X509Certificate2" Usage="new System.Security.Cryptography.X509Certificates.X509Certificate2 (fileName, password, keyStorageFlags)" />
-      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, System.Security.SecureString password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -904,13 +897,12 @@ If you create an <xref:System.Security.Cryptography.X509Certificates.X509Certifi
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, string? password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, string password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string fileName, string password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.#ctor(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (fileName As String, password As String, keyStorageFlags As X509KeyStorageFlags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; X509Certificate2(System::String ^ fileName, System::String ^ password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="F#" Value="new System.Security.Cryptography.X509Certificates.X509Certificate2 : string * string * System.Security.Cryptography.X509Certificates.X509KeyStorageFlags -&gt; System.Security.Cryptography.X509Certificates.X509Certificate2" Usage="new System.Security.Cryptography.X509Certificates.X509Certificate2 (fileName, password, keyStorageFlags)" />
-      <MemberSignature Language="C#" Value="public X509Certificate2 (string fileName, string password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.X509Certificates</AssemblyName>
@@ -1022,7 +1014,7 @@ If you create an <xref:System.Security.Cryptography.X509Certificates.X509Certifi
       </Docs>
     </Member>
     <Member MemberName="CreateFromEncryptedPem">
-      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2? CreateFromEncryptedPem (ReadOnlySpan&lt;char&gt; certPem, ReadOnlySpan&lt;char&gt; keyPem, ReadOnlySpan&lt;char&gt; password);" />
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2 CreateFromEncryptedPem (ReadOnlySpan&lt;char&gt; certPem, ReadOnlySpan&lt;char&gt; keyPem, ReadOnlySpan&lt;char&gt; password);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.X509Certificates.X509Certificate2 CreateFromEncryptedPem(valuetype System.ReadOnlySpan`1&lt;char&gt; certPem, valuetype System.ReadOnlySpan`1&lt;char&gt; keyPem, valuetype System.ReadOnlySpan`1&lt;char&gt; password) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.CreateFromEncryptedPem(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromEncryptedPem (certPem As ReadOnlySpan(Of Char), keyPem As ReadOnlySpan(Of Char), password As ReadOnlySpan(Of Char)) As X509Certificate2" />
@@ -1086,7 +1078,7 @@ The password specified for the private key is incorrect.</exception>
       </Docs>
     </Member>
     <Member MemberName="CreateFromEncryptedPemFile">
-      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2 CreateFromEncryptedPemFile (string certPemFilePath, ReadOnlySpan&lt;char&gt;? password, string? keyPemFilePath = default);" />
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2 CreateFromEncryptedPemFile (string certPemFilePath, ReadOnlySpan&lt;char&gt; password, string keyPemFilePath = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.X509Certificates.X509Certificate2 CreateFromEncryptedPemFile(string certPemFilePath, valuetype System.ReadOnlySpan`1&lt;char&gt; password, string keyPemFilePath) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.CreateFromEncryptedPemFile(System.String,System.ReadOnlySpan{System.Char},System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromEncryptedPemFile (certPemFilePath As String, password As ReadOnlySpan(Of Char), Optional keyPemFilePath As String = Nothing) As X509Certificate2" />
@@ -1154,7 +1146,7 @@ The password specified for the private key is incorrect.</exception>
       </Docs>
     </Member>
     <Member MemberName="CreateFromPem">
-      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2? CreateFromPem (ReadOnlySpan&lt;char&gt; certPem, ReadOnlySpan&lt;char&gt; keyPem);" />
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2 CreateFromPem (ReadOnlySpan&lt;char&gt; certPem, ReadOnlySpan&lt;char&gt; keyPem);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.X509Certificates.X509Certificate2 CreateFromPem(valuetype System.ReadOnlySpan`1&lt;char&gt; certPem, valuetype System.ReadOnlySpan`1&lt;char&gt; keyPem) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.CreateFromPem(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromPem (certPem As ReadOnlySpan(Of Char), keyPem As ReadOnlySpan(Of Char)) As X509Certificate2" />
@@ -1215,7 +1207,7 @@ The certificate uses an unknown public key algorithm.</exception>
       </Docs>
     </Member>
     <Member MemberName="CreateFromPemFile">
-      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2 CreateFromPemFile (string certPemFilePath, string? keyPemFilePath = default);" />
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.X509Certificates.X509Certificate2 CreateFromPemFile (string certPemFilePath, string keyPemFilePath = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.X509Certificates.X509Certificate2 CreateFromPemFile(string certPemFilePath, string keyPemFilePath) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.CreateFromPemFile(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromPemFile (certPemFilePath As String, Optional keyPemFilePath As String = Nothing) As X509Certificate2" />
@@ -1814,13 +1806,12 @@ The certificate uses an unknown public key algorithm.</exception>
       </Docs>
     </Member>
     <Member MemberName="Import">
-      <MemberSignature Language="C#" Value="public override void Import (byte[] rawData, System.Security.SecureString? password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override void Import (byte[] rawData, System.Security.SecureString password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Import(unsigned int8[] rawData, class System.Security.SecureString password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.Import(System.Byte[],System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Import (rawData As Byte(), password As SecureString, keyStorageFlags As X509KeyStorageFlags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Import(cli::array &lt;System::Byte&gt; ^ rawData, System::Security::SecureString ^ password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="F#" Value="override this.Import : byte[] * System.Security.SecureString * System.Security.Cryptography.X509Certificates.X509KeyStorageFlags -&gt; unit" Usage="x509Certificate2.Import (rawData, password, keyStorageFlags)" />
-      <MemberSignature Language="C#" Value="public override void Import (byte[] rawData, System.Security.SecureString password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -1877,13 +1868,12 @@ The certificate uses an unknown public key algorithm.</exception>
       </Docs>
     </Member>
     <Member MemberName="Import">
-      <MemberSignature Language="C#" Value="public override void Import (byte[] rawData, string? password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override void Import (byte[] rawData, string password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Import(unsigned int8[] rawData, string password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.Import(System.Byte[],System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Import (rawData As Byte(), password As String, keyStorageFlags As X509KeyStorageFlags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Import(cli::array &lt;System::Byte&gt; ^ rawData, System::String ^ password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="F#" Value="override this.Import : byte[] * string * System.Security.Cryptography.X509Certificates.X509KeyStorageFlags -&gt; unit" Usage="x509Certificate2.Import (rawData, password, keyStorageFlags)" />
-      <MemberSignature Language="C#" Value="public override void Import (byte[] rawData, string password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -1947,13 +1937,12 @@ The certificate uses an unknown public key algorithm.</exception>
       </Docs>
     </Member>
     <Member MemberName="Import">
-      <MemberSignature Language="C#" Value="public override void Import (string fileName, System.Security.SecureString? password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override void Import (string fileName, System.Security.SecureString password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Import(string fileName, class System.Security.SecureString password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.Import(System.String,System.Security.SecureString,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Import (fileName As String, password As SecureString, keyStorageFlags As X509KeyStorageFlags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Import(System::String ^ fileName, System::Security::SecureString ^ password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="F#" Value="override this.Import : string * System.Security.SecureString * System.Security.Cryptography.X509Certificates.X509KeyStorageFlags -&gt; unit" Usage="x509Certificate2.Import (fileName, password, keyStorageFlags)" />
-      <MemberSignature Language="C#" Value="public override void Import (string fileName, System.Security.SecureString password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -2007,13 +1996,12 @@ The certificate uses an unknown public key algorithm.</exception>
       </Docs>
     </Member>
     <Member MemberName="Import">
-      <MemberSignature Language="C#" Value="public override void Import (string fileName, string? password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override void Import (string fileName, string password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Import(string fileName, string password, valuetype System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509Certificate2.Import(System.String,System.String,System.Security.Cryptography.X509Certificates.X509KeyStorageFlags)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Import (fileName As String, password As String, keyStorageFlags As X509KeyStorageFlags)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override void Import(System::String ^ fileName, System::String ^ password, System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);" />
       <MemberSignature Language="F#" Value="override this.Import : string * string * System.Security.Cryptography.X509Certificates.X509KeyStorageFlags -&gt; unit" Usage="x509Certificate2.Import (fileName, password, keyStorageFlags)" />
-      <MemberSignature Language="C#" Value="public override void Import (string fileName, string password, System.Security.Cryptography.X509Certificates.X509KeyStorageFlags keyStorageFlags);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -2230,13 +2218,12 @@ The certificate uses an unknown public key algorithm.</exception>
       </Docs>
     </Member>
     <Member MemberName="PrivateKey">
-      <MemberSignature Language="C#" Value="public System.Security.Cryptography.AsymmetricAlgorithm? PrivateKey { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Security.Cryptography.AsymmetricAlgorithm PrivateKey { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Cryptography.AsymmetricAlgorithm PrivateKey" />
       <MemberSignature Language="DocId" Value="P:System.Security.Cryptography.X509Certificates.X509Certificate2.PrivateKey" />
       <MemberSignature Language="VB.NET" Value="Public Property PrivateKey As AsymmetricAlgorithm" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::Cryptography::AsymmetricAlgorithm ^ PrivateKey { System::Security::Cryptography::AsymmetricAlgorithm ^ get(); void set(System::Security::Cryptography::AsymmetricAlgorithm ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PrivateKey : System.Security.Cryptography.AsymmetricAlgorithm with get, set" Usage="System.Security.Cryptography.X509Certificates.X509Certificate2.PrivateKey" />
-      <MemberSignature Language="C#" Value="public System.Security.Cryptography.AsymmetricAlgorithm PrivateKey { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>

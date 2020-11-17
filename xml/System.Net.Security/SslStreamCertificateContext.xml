@@ -29,7 +29,7 @@ The <see cref="T:System.Net.Security.SslStreamCertificateContext" /> can be used
   </Docs>
   <Members>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Net.Security.SslStreamCertificateContext Create (System.Security.Cryptography.X509Certificates.X509Certificate2 target, System.Security.Cryptography.X509Certificates.X509Certificate2Collection? additionalCertificates, bool offline = false);" />
+      <MemberSignature Language="C#" Value="public static System.Net.Security.SslStreamCertificateContext Create (System.Security.Cryptography.X509Certificates.X509Certificate2 target, System.Security.Cryptography.X509Certificates.X509Certificate2Collection additionalCertificates, bool offline = false);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.Security.SslStreamCertificateContext Create(class System.Security.Cryptography.X509Certificates.X509Certificate2 target, class System.Security.Cryptography.X509Certificates.X509Certificate2Collection additionalCertificates, bool offline) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Security.SslStreamCertificateContext.Create(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Create (target As X509Certificate2, additionalCertificates As X509Certificate2Collection, Optional offline As Boolean = false) As SslStreamCertificateContext" />

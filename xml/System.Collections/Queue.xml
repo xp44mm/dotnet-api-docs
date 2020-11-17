@@ -1088,13 +1088,12 @@ This class implements a queue as a circular array. Objects stored in a <xref:Sys
       </Docs>
     </Member>
     <Member MemberName="ToArray">
-      <MemberSignature Language="C#" Value="public virtual object[] ToArray ();" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual object[] ToArray ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance object[] ToArray() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.Queue.ToArray" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function ToArray () As Object()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual cli::array &lt;System::Object ^&gt; ^ ToArray();" />
       <MemberSignature Language="F#" Value="abstract member ToArray : unit -&gt; obj[]&#xA;override this.ToArray : unit -&gt; obj[]" Usage="queue.ToArray " />
-      <MemberSignature Language="C#" Value="public virtual object[]? ToArray ();" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.NonGeneric</AssemblyName>

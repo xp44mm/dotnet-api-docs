@@ -410,13 +410,12 @@
       </Docs>
     </Member>
     <Member MemberName="CommandText">
-      <MemberSignature Language="C#" Value="public override string CommandText { get; set; }" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public override string CommandText { get; set; }" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string CommandText" />
       <MemberSignature Language="DocId" Value="P:System.Data.OleDb.OleDbCommand.CommandText" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Property CommandText As String" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual property System::String ^ CommandText { System::String ^ get(); void set(System::String ^ value); };" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="member this.CommandText : string with get, set" Usage="System.Data.OleDb.OleDbCommand.CommandText" />
-      <MemberSignature Language="C#" Value="public override string? CommandText { get; set; }" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberSignature Language="C#" Value="public string CommandText { get; set; }" FrameworkAlternate="netframework-1.1" />
       <MemberSignature Language="VB.NET" Value="Public Property CommandText As String" FrameworkAlternate="netframework-1.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ CommandText { System::String ^ get(); void set(System::String ^ value); };" FrameworkAlternate="netframework-1.1" />
@@ -793,13 +792,12 @@
       </Docs>
     </Member>
     <Member MemberName="DbParameterCollection">
-      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbParameterCollection DbParameterCollection { get; }" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbParameterCollection DbParameterCollection { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Data.Common.DbParameterCollection DbParameterCollection" />
       <MemberSignature Language="DocId" Value="P:System.Data.OleDb.OleDbCommand.DbParameterCollection" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides ReadOnly Property DbParameterCollection As DbParameterCollection" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual property System::Data::Common::DbParameterCollection ^ DbParameterCollection { System::Data::Common::DbParameterCollection ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.DbParameterCollection : System.Data.Common.DbParameterCollection" Usage="System.Data.OleDb.OleDbCommand.DbParameterCollection" />
-      <MemberSignature Language="C#" Value="protected override System.Data.Common.DbParameterCollection? DbParameterCollection { get; }" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -1211,13 +1209,12 @@ Int32 count = (int32) ExecuteScalar();
       </Docs>
     </Member>
     <Member MemberName="Parameters">
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameterCollection Parameters { get; }" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameterCollection Parameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Data.OleDb.OleDbParameterCollection Parameters" />
       <MemberSignature Language="DocId" Value="P:System.Data.OleDb.OleDbCommand.Parameters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parameters As OleDbParameterCollection" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Data::OleDb::OleDbParameterCollection ^ Parameters { System::Data::OleDb::OleDbParameterCollection ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Parameters : System.Data.OleDb.OleDbParameterCollection" Usage="System.Data.OleDb.OleDbCommand.Parameters" />
-      <MemberSignature Language="C#" Value="public System.Data.OleDb.OleDbParameterCollection? Parameters { get; }" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>

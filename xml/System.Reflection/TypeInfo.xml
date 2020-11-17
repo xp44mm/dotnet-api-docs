@@ -1119,13 +1119,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetDeclaredEvent">
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.EventInfo GetDeclaredEvent (string name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.EventInfo GetDeclaredEvent (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.EventInfo GetDeclaredEvent(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.GetDeclaredEvent(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredEvent (name As String) As EventInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::EventInfo ^ GetDeclaredEvent(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member GetDeclaredEvent : string -&gt; System.Reflection.EventInfo&#xA;override this.GetDeclaredEvent : string -&gt; System.Reflection.EventInfo" Usage="typeInfo.GetDeclaredEvent name" />
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.EventInfo? GetDeclaredEvent (string name);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
@@ -1172,13 +1171,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetDeclaredField">
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.FieldInfo GetDeclaredField (string name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.FieldInfo GetDeclaredField (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.FieldInfo GetDeclaredField(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.GetDeclaredField(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredField (name As String) As FieldInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::FieldInfo ^ GetDeclaredField(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member GetDeclaredField : string -&gt; System.Reflection.FieldInfo&#xA;override this.GetDeclaredField : string -&gt; System.Reflection.FieldInfo" Usage="typeInfo.GetDeclaredField name" />
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.FieldInfo? GetDeclaredField (string name);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
@@ -1225,13 +1223,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetDeclaredMethod">
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.MethodInfo GetDeclaredMethod (string name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.MethodInfo GetDeclaredMethod (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.MethodInfo GetDeclaredMethod(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.GetDeclaredMethod(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredMethod (name As String) As MethodInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::MethodInfo ^ GetDeclaredMethod(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member GetDeclaredMethod : string -&gt; System.Reflection.MethodInfo&#xA;override this.GetDeclaredMethod : string -&gt; System.Reflection.MethodInfo" Usage="typeInfo.GetDeclaredMethod name" />
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.MethodInfo? GetDeclaredMethod (string name);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
@@ -1339,13 +1336,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetDeclaredNestedType">
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.TypeInfo GetDeclaredNestedType (string name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.TypeInfo GetDeclaredNestedType (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.TypeInfo GetDeclaredNestedType(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.GetDeclaredNestedType(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredNestedType (name As String) As TypeInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::TypeInfo ^ GetDeclaredNestedType(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member GetDeclaredNestedType : string -&gt; System.Reflection.TypeInfo&#xA;override this.GetDeclaredNestedType : string -&gt; System.Reflection.TypeInfo" Usage="typeInfo.GetDeclaredNestedType name" />
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.TypeInfo? GetDeclaredNestedType (string name);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>
@@ -1392,13 +1388,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetDeclaredProperty">
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.PropertyInfo GetDeclaredProperty (string name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Reflection.PropertyInfo GetDeclaredProperty (string name);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Reflection.PropertyInfo GetDeclaredProperty(string name) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.TypeInfo.GetDeclaredProperty(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetDeclaredProperty (name As String) As PropertyInfo" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Reflection::PropertyInfo ^ GetDeclaredProperty(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member GetDeclaredProperty : string -&gt; System.Reflection.PropertyInfo&#xA;override this.GetDeclaredProperty : string -&gt; System.Reflection.PropertyInfo" Usage="typeInfo.GetDeclaredProperty name" />
-      <MemberSignature Language="C#" Value="public virtual System.Reflection.PropertyInfo? GetDeclaredProperty (string name);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection</AssemblyName>

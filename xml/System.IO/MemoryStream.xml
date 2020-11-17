@@ -565,14 +565,12 @@
       </Docs>
     </Member>
     <Member MemberName="BeginRead">
-      <MemberSignature Language="C#" Value="public override IAsyncResult BeginRead (byte[] buffer, int offset, int count, AsyncCallback? callback, object? state);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override IAsyncResult BeginRead (byte[] buffer, int offset, int count, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.IAsyncResult BeginRead(unsigned int8[] buffer, int32 offset, int32 count, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.MemoryStream.BeginRead(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function BeginRead (buffer As Byte(), offset As Integer, count As Integer, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override IAsyncResult ^ BeginRead(cli::array &lt;System::Byte&gt; ^ buffer, int offset, int count, AsyncCallback ^ callback, System::Object ^ state);" />
       <MemberSignature Language="F#" Value="override this.BeginRead : byte[] * int * int * AsyncCallback * obj -&gt; IAsyncResult" Usage="memoryStream.BeginRead (buffer, offset, count, callback, state)" />
-      <MemberSignature Language="C#" Value="public override IAsyncResult BeginRead (byte[] buffer, int offset, int count, AsyncCallback callback, object state);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netstandard-2.1" />
-      <MemberSignature Language="C#" Value="public override IAsyncResult BeginRead (byte[] buffer, int offset, int count, AsyncCallback callback, object? state);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Extensions</AssemblyName>
@@ -628,14 +626,12 @@ Refer to the <xref:System.IO.Stream.BeginRead%2A> remarks for additional usage i
       </Docs>
     </Member>
     <Member MemberName="BeginWrite">
-      <MemberSignature Language="C#" Value="public override IAsyncResult BeginWrite (byte[] buffer, int offset, int count, AsyncCallback? callback, object? state);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override IAsyncResult BeginWrite (byte[] buffer, int offset, int count, AsyncCallback callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.IAsyncResult BeginWrite(unsigned int8[] buffer, int32 offset, int32 count, class System.AsyncCallback callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.MemoryStream.BeginWrite(System.Byte[],System.Int32,System.Int32,System.AsyncCallback,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function BeginWrite (buffer As Byte(), offset As Integer, count As Integer, callback As AsyncCallback, state As Object) As IAsyncResult" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override IAsyncResult ^ BeginWrite(cli::array &lt;System::Byte&gt; ^ buffer, int offset, int count, AsyncCallback ^ callback, System::Object ^ state);" />
       <MemberSignature Language="F#" Value="override this.BeginWrite : byte[] * int * int * AsyncCallback * obj -&gt; IAsyncResult" Usage="memoryStream.BeginWrite (buffer, offset, count, callback, state)" />
-      <MemberSignature Language="C#" Value="public override IAsyncResult BeginWrite (byte[] buffer, int offset, int count, AsyncCallback callback, object state);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netstandard-2.1" />
-      <MemberSignature Language="C#" Value="public override IAsyncResult BeginWrite (byte[] buffer, int offset, int count, AsyncCallback callback, object? state);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Extensions</AssemblyName>

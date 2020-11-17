@@ -475,6 +475,9 @@
       <MemberSignature Language="F#" Value="abstract member GetScriptDescriptors : unit -&gt; seq&lt;System.Web.UI.ScriptDescriptor&gt;&#xA;override this.GetScriptDescriptors : unit -&gt; seq&lt;System.Web.UI.ScriptDescriptor&gt;" Usage="updateProgress.GetScriptDescriptors " />
       <MemberSignature Language="VB.NET" Value="Protected Iterator Overridable Function GetScriptDescriptors () As IEnumerable(Of ScriptDescriptor)" FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IScriptControl.GetScriptDescriptors</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Extensions</AssemblyName>
         <AssemblyVersion>3.5.0.0</AssemblyVersion>
@@ -517,6 +520,9 @@
       <MemberSignature Language="F#" Value="abstract member GetScriptReferences : unit -&gt; seq&lt;System.Web.UI.ScriptReference&gt;&#xA;override this.GetScriptReferences : unit -&gt; seq&lt;System.Web.UI.ScriptReference&gt;" Usage="updateProgress.GetScriptReferences " />
       <MemberSignature Language="VB.NET" Value="Protected Iterator Overridable Function GetScriptReferences () As IEnumerable(Of ScriptReference)" FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberType>Method</MemberType>
+      <Implements>
+        <InterfaceMember>M:System.Web.UI.IScriptControl.GetScriptReferences</InterfaceMember>
+      </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Web.Extensions</AssemblyName>
         <AssemblyVersion>3.5.0.0</AssemblyVersion>

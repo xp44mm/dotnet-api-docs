@@ -1271,12 +1271,11 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public String (sbyte* value, int startIndex, int length, System.Text.Encoding? enc);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public String (sbyte* value, int startIndex, int length, System.Text.Encoding enc);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(int8* value, int32 startIndex, int32 length, class System.Text.Encoding enc) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.#ctor(System.SByte*,System.Int32,System.Int32,System.Text.Encoding)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; String(System::SByte* value, int startIndex, int length, System::Text::Encoding ^ enc);" />
       <MemberSignature Language="F#" Value="new string : nativeptr&lt;sbyte&gt; * int * int * System.Text.Encoding -&gt; string" Usage="new System.string (value, startIndex, length, enc)" />
-      <MemberSignature Language="C#" Value="public String (sbyte* value, int startIndex, int length, System.Text.Encoding enc);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -3219,13 +3218,12 @@ Examples of instantiating strings:
       </Docs>
     </MemberGroup>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string Concat (System.Collections.Generic.IEnumerable&lt;string&gt; values);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Concat (System.Collections.Generic.IEnumerable&lt;string&gt; values);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(class System.Collections.Generic.IEnumerable`1&lt;string&gt; values) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.Collections.Generic.IEnumerable{System.String})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (values As IEnumerable(Of String)) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Concat(System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ values);" />
       <MemberSignature Language="F#" Value="static member Concat : seq&lt;string&gt; -&gt; string" Usage="System.string.Concat values" />
-      <MemberSignature Language="C#" Value="public static string Concat (System.Collections.Generic.IEnumerable&lt;string&gt;? values);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3292,13 +3290,12 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string Concat (object arg0);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Concat (object arg0);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(object arg0) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (arg0 As Object) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Concat(System::Object ^ arg0);" />
       <MemberSignature Language="F#" Value="static member Concat : obj -&gt; string" Usage="System.string.Concat arg0" />
-      <MemberSignature Language="C#" Value="public static string Concat (object? arg0);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3355,13 +3352,12 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string Concat (params object[] args);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Concat (params object[] args);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(object[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (ParamArray args As Object()) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Concat(... cli::array &lt;System::Object ^&gt; ^ args);" />
       <MemberSignature Language="F#" Value="static member Concat : obj[] -&gt; string" Usage="System.string.Concat args" />
-      <MemberSignature Language="C#" Value="public static string Concat (params object[]? args);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3432,13 +3428,12 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string Concat (params string[] values);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Concat (params string[] values);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(string[] values) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (ParamArray values As String()) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Concat(... cli::array &lt;System::String ^&gt; ^ values);" />
       <MemberSignature Language="F#" Value="static member Concat : string[] -&gt; string" Usage="System.string.Concat values" />
-      <MemberSignature Language="C#" Value="public static string Concat (params string[]? values);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3512,13 +3507,12 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string Concat (object arg0, object arg1);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Concat (object arg0, object arg1);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(object arg0, object arg1) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (arg0 As Object, arg1 As Object) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Concat(System::Object ^ arg0, System::Object ^ arg1);" />
       <MemberSignature Language="F#" Value="static member Concat : obj * obj -&gt; string" Usage="System.string.Concat (arg0, arg1)" />
-      <MemberSignature Language="C#" Value="public static string? Concat (object arg0, object arg1);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3581,7 +3575,7 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string? Concat (ReadOnlySpan&lt;char&gt; str0, ReadOnlySpan&lt;char&gt; str1);" />
+      <MemberSignature Language="C#" Value="public static string Concat (ReadOnlySpan&lt;char&gt; str0, ReadOnlySpan&lt;char&gt; str1);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(valuetype System.ReadOnlySpan`1&lt;char&gt; str0, valuetype System.ReadOnlySpan`1&lt;char&gt; str1) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (str0 As ReadOnlySpan(Of Char), str1 As ReadOnlySpan(Of Char)) As String" />
@@ -3616,13 +3610,12 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string Concat (string str0, string str1);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Concat (string str0, string str1);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(string str0, string str1) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (str0 As String, str1 As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Concat(System::String ^ str0, System::String ^ str1);" />
       <MemberSignature Language="F#" Value="static member Concat : string * string -&gt; string" Usage="System.string.Concat (str0, str1)" />
-      <MemberSignature Language="C#" Value="public static string? Concat (string str0, string str1);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3686,13 +3679,12 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string Concat (object arg0, object arg1, object arg2);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Concat (object arg0, object arg1, object arg2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(object arg0, object arg1, object arg2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (arg0 As Object, arg1 As Object, arg2 As Object) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Concat(System::Object ^ arg0, System::Object ^ arg1, System::Object ^ arg2);" />
       <MemberSignature Language="F#" Value="static member Concat : obj * obj * obj -&gt; string" Usage="System.string.Concat (arg0, arg1, arg2)" />
-      <MemberSignature Language="C#" Value="public static string? Concat (object arg0, object arg1, object arg2);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3755,7 +3747,7 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string? Concat (ReadOnlySpan&lt;char&gt; str0, ReadOnlySpan&lt;char&gt; str1, ReadOnlySpan&lt;char&gt; str2);" />
+      <MemberSignature Language="C#" Value="public static string Concat (ReadOnlySpan&lt;char&gt; str0, ReadOnlySpan&lt;char&gt; str1, ReadOnlySpan&lt;char&gt; str2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(valuetype System.ReadOnlySpan`1&lt;char&gt; str0, valuetype System.ReadOnlySpan`1&lt;char&gt; str1, valuetype System.ReadOnlySpan`1&lt;char&gt; str2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (str0 As ReadOnlySpan(Of Char), str1 As ReadOnlySpan(Of Char), str2 As ReadOnlySpan(Of Char)) As String" />
@@ -3792,13 +3784,12 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string Concat (string str0, string str1, string str2);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Concat (string str0, string str1, string str2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(string str0, string str1, string str2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (str0 As String, str1 As String, str2 As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Concat(System::String ^ str0, System::String ^ str1, System::String ^ str2);" />
       <MemberSignature Language="F#" Value="static member Concat : string * string * string -&gt; string" Usage="System.string.Concat (str0, str1, str2)" />
-      <MemberSignature Language="C#" Value="public static string? Concat (string str0, string str1, string str2);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -3940,7 +3931,7 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string? Concat (ReadOnlySpan&lt;char&gt; str0, ReadOnlySpan&lt;char&gt; str1, ReadOnlySpan&lt;char&gt; str2, ReadOnlySpan&lt;char&gt; str3);" />
+      <MemberSignature Language="C#" Value="public static string Concat (ReadOnlySpan&lt;char&gt; str0, ReadOnlySpan&lt;char&gt; str1, ReadOnlySpan&lt;char&gt; str2, ReadOnlySpan&lt;char&gt; str3);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(valuetype System.ReadOnlySpan`1&lt;char&gt; str0, valuetype System.ReadOnlySpan`1&lt;char&gt; str1, valuetype System.ReadOnlySpan`1&lt;char&gt; str2, valuetype System.ReadOnlySpan`1&lt;char&gt; str3) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (str0 As ReadOnlySpan(Of Char), str1 As ReadOnlySpan(Of Char), str2 As ReadOnlySpan(Of Char), str3 As ReadOnlySpan(Of Char)) As String" />
@@ -3979,13 +3970,12 @@ Examples of instantiating strings:
       </Docs>
     </Member>
     <Member MemberName="Concat">
-      <MemberSignature Language="C#" Value="public static string Concat (string str0, string str1, string str2, string str3);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Concat (string str0, string str1, string str2, string str3);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Concat(string str0, string str1, string str2, string str3) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Concat(System.String,System.String,System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Concat (str0 As String, str1 As String, str2 As String, str3 As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Concat(System::String ^ str0, System::String ^ str1, System::String ^ str2, System::String ^ str3);" />
       <MemberSignature Language="F#" Value="static member Concat : string * string * string * string -&gt; string" Usage="System.string.Concat (str0, str1, str2, str3)" />
-      <MemberSignature Language="C#" Value="public static string? Concat (string str0, string str1, string str2, string str3);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -4804,13 +4794,12 @@ This method performs a case-sensitive and culture-sensitive comparison using the
       </Docs>
     </Member>
     <Member MemberName="EndsWith">
-      <MemberSignature Language="C#" Value="public bool EndsWith (string value, bool ignoreCase, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public bool EndsWith (string value, bool ignoreCase, System.Globalization.CultureInfo culture);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool EndsWith(string value, bool ignoreCase, class System.Globalization.CultureInfo culture) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.EndsWith(System.String,System.Boolean,System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function EndsWith (value As String, ignoreCase As Boolean, culture As CultureInfo) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool EndsWith(System::String ^ value, bool ignoreCase, System::Globalization::CultureInfo ^ culture);" />
       <MemberSignature Language="F#" Value="member this.EndsWith : string * bool * System.Globalization.CultureInfo -&gt; bool" Usage="string.EndsWith (value, ignoreCase, culture)" />
-      <MemberSignature Language="C#" Value="public bool EndsWith (string value, bool ignoreCase, System.Globalization.CultureInfo culture);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -5649,13 +5638,12 @@ The following are some of the examples included in the article:
       </Docs>
     </MemberGroup>
     <Member MemberName="Format">
-      <MemberSignature Language="C#" Value="public static string Format (string format, object arg0);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Format (string format, object arg0);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Format(string format, object arg0) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Format(System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Format (format As String, arg0 As Object) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Format(System::String ^ format, System::Object ^ arg0);" />
       <MemberSignature Language="F#" Value="static member Format : string * obj -&gt; string" Usage="System.string.Format (format, arg0)" />
-      <MemberSignature Language="C#" Value="public static string Format (string format, object? arg0);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -5730,13 +5718,12 @@ This method uses the [composite formatting feature](/dotnet/standard/base-types/
       </Docs>
     </Member>
     <Member MemberName="Format">
-      <MemberSignature Language="C#" Value="public static string Format (string format, params object[] args);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Format (string format, params object[] args);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Format(string format, object[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Format(System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Format (format As String, ParamArray args As Object()) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Format(System::String ^ format, ... cli::array &lt;System::Object ^&gt; ^ args);" />
       <MemberSignature Language="F#" Value="static member Format : string * obj[] -&gt; string" Usage="System.string.Format (format, args)" />
-      <MemberSignature Language="C#" Value="public static string Format (string format, params object[]? args);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -5827,13 +5814,12 @@ This method uses the [composite formatting feature](/dotnet/standard/base-types/
       </Docs>
     </Member>
     <Member MemberName="Format">
-      <MemberSignature Language="C#" Value="public static string Format (IFormatProvider provider, string format, object arg0);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Format (IFormatProvider provider, string format, object arg0);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Format(class System.IFormatProvider provider, string format, object arg0) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Format(System.IFormatProvider,System.String,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Format (provider As IFormatProvider, format As String, arg0 As Object) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Format(IFormatProvider ^ provider, System::String ^ format, System::Object ^ arg0);" />
       <MemberSignature Language="F#" Value="static member Format : IFormatProvider * string * obj -&gt; string" Usage="System.string.Format (provider, format, arg0)" />
-      <MemberSignature Language="C#" Value="public static string Format (IFormatProvider? provider, string format, object? arg0);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -5892,13 +5878,12 @@ This method uses the [composite formatting feature](/dotnet/standard/base-types/
       </Docs>
     </Member>
     <Member MemberName="Format">
-      <MemberSignature Language="C#" Value="public static string Format (IFormatProvider provider, string format, params object[] args);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Format (IFormatProvider provider, string format, params object[] args);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Format(class System.IFormatProvider provider, string format, object[] args) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Format(System.IFormatProvider,System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Format (provider As IFormatProvider, format As String, ParamArray args As Object()) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Format(IFormatProvider ^ provider, System::String ^ format, ... cli::array &lt;System::Object ^&gt; ^ args);" />
       <MemberSignature Language="F#" Value="static member Format : IFormatProvider * string * obj[] -&gt; string" Usage="System.string.Format (provider, format, args)" />
-      <MemberSignature Language="C#" Value="public static string Format (IFormatProvider? provider, string format, params object[]? args);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -5996,13 +5981,12 @@ This method uses the [composite formatting feature](/dotnet/standard/base-types/
       </Docs>
     </Member>
     <Member MemberName="Format">
-      <MemberSignature Language="C#" Value="public static string Format (string format, object arg0, object arg1);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Format (string format, object arg0, object arg1);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Format(string format, object arg0, object arg1) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Format(System.String,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Format (format As String, arg0 As Object, arg1 As Object) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Format(System::String ^ format, System::Object ^ arg0, System::Object ^ arg1);" />
       <MemberSignature Language="F#" Value="static member Format : string * obj * obj -&gt; string" Usage="System.string.Format (format, arg0, arg1)" />
-      <MemberSignature Language="C#" Value="public static string Format (string format, object? arg0, object? arg1);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -6080,13 +6064,12 @@ This method uses the [composite formatting feature](/dotnet/standard/base-types/
       </Docs>
     </Member>
     <Member MemberName="Format">
-      <MemberSignature Language="C#" Value="public static string Format (IFormatProvider provider, string format, object arg0, object arg1);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Format (IFormatProvider provider, string format, object arg0, object arg1);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Format(class System.IFormatProvider provider, string format, object arg0, object arg1) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Format (provider As IFormatProvider, format As String, arg0 As Object, arg1 As Object) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Format(IFormatProvider ^ provider, System::String ^ format, System::Object ^ arg0, System::Object ^ arg1);" />
       <MemberSignature Language="F#" Value="static member Format : IFormatProvider * string * obj * obj -&gt; string" Usage="System.string.Format (provider, format, arg0, arg1)" />
-      <MemberSignature Language="C#" Value="public static string? Format (IFormatProvider provider, string? format, object arg0, object arg1);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -6147,13 +6130,12 @@ This method uses the [composite formatting feature](/dotnet/standard/base-types/
       </Docs>
     </Member>
     <Member MemberName="Format">
-      <MemberSignature Language="C#" Value="public static string Format (string format, object arg0, object arg1, object arg2);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Format (string format, object arg0, object arg1, object arg2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Format(string format, object arg0, object arg1, object arg2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Format(System.String,System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Format (format As String, arg0 As Object, arg1 As Object, arg2 As Object) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Format(System::String ^ format, System::Object ^ arg0, System::Object ^ arg1, System::Object ^ arg2);" />
       <MemberSignature Language="F#" Value="static member Format : string * obj * obj * obj -&gt; string" Usage="System.string.Format (format, arg0, arg1, arg2)" />
-      <MemberSignature Language="C#" Value="public static string? Format (string? format, object arg0, object arg1, object arg2);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -6226,13 +6208,12 @@ This method uses the [composite formatting feature](/dotnet/standard/base-types/
       </Docs>
     </Member>
     <Member MemberName="Format">
-      <MemberSignature Language="C#" Value="public static string Format (IFormatProvider provider, string format, object arg0, object arg1, object arg2);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Format (IFormatProvider provider, string format, object arg0, object arg1, object arg2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Format(class System.IFormatProvider provider, string format, object arg0, object arg1, object arg2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Format(System.IFormatProvider,System.String,System.Object,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Format (provider As IFormatProvider, format As String, arg0 As Object, arg1 As Object, arg2 As Object) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Format(IFormatProvider ^ provider, System::String ^ format, System::Object ^ arg0, System::Object ^ arg1, System::Object ^ arg2);" />
       <MemberSignature Language="F#" Value="static member Format : IFormatProvider * string * obj * obj * obj -&gt; string" Usage="System.string.Format (provider, format, arg0, arg1, arg2)" />
-      <MemberSignature Language="C#" Value="public static string? Format (IFormatProvider provider, string? format, object arg0, object arg1, object arg2);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -7955,13 +7936,12 @@ The `comparisonType` parameter is a <xref:System.StringComparison> enumeration m
       </Docs>
     </Member>
     <Member MemberName="IsInterned">
-      <MemberSignature Language="C#" Value="public static string? IsInterned (string str);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static string IsInterned (string str);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string IsInterned(string str) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.IsInterned(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function IsInterned (str As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ IsInterned(System::String ^ str);" />
       <MemberSignature Language="F#" Value="static member IsInterned : string -&gt; string" Usage="System.string.IsInterned str" />
-      <MemberSignature Language="C#" Value="public static string IsInterned (string str);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -8333,13 +8313,12 @@ A string is empty if it  is explicitly assigned an empty string ("") or <xref:Sy
       </Docs>
     </MemberGroup>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string Join (char separator, params object[]? values);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static string Join (char separator, params object[] values);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(char separator, object[] values) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Join(System.Char,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (separator As Char, ParamArray values As Object()) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Join(char separator, ... cli::array &lt;System::Object ^&gt; ^ values);" />
       <MemberSignature Language="F#" Value="static member Join : char * obj[] -&gt; string" Usage="System.string.Join (separator, values)" />
-      <MemberSignature Language="C#" Value="public static string Join (char separator, params object[] values);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -8384,13 +8363,12 @@ A string is empty if it  is explicitly assigned an empty string ("") or <xref:Sy
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string Join (char separator, params string[]? value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static string Join (char separator, params string[] value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(char separator, string[] value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Join(System.Char,System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (separator As Char, ParamArray value As String()) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Join(char separator, ... cli::array &lt;System::String ^&gt; ^ value);" />
       <MemberSignature Language="F#" Value="static member Join : char * string[] -&gt; string" Usage="System.string.Join (separator, value)" />
-      <MemberSignature Language="C#" Value="public static string Join (char separator, params string[] value);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -8435,13 +8413,12 @@ A string is empty if it  is explicitly assigned an empty string ("") or <xref:Sy
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string Join (string separator, System.Collections.Generic.IEnumerable&lt;string&gt; values);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Join (string separator, System.Collections.Generic.IEnumerable&lt;string&gt; values);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(string separator, class System.Collections.Generic.IEnumerable`1&lt;string&gt; values) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Join(System.String,System.Collections.Generic.IEnumerable{System.String})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (separator As String, values As IEnumerable(Of String)) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Join(System::String ^ separator, System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ values);" />
       <MemberSignature Language="F#" Value="static member Join : string * seq&lt;string&gt; -&gt; string" Usage="System.string.Join (separator, values)" />
-      <MemberSignature Language="C#" Value="public static string Join (string? separator, System.Collections.Generic.IEnumerable&lt;string&gt;? values);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -8512,13 +8489,12 @@ A string is empty if it  is explicitly assigned an empty string ("") or <xref:Sy
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string Join (string separator, params object[] values);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Join (string separator, params object[] values);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(string separator, object[] values) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Join(System.String,System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (separator As String, ParamArray values As Object()) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Join(System::String ^ separator, ... cli::array &lt;System::Object ^&gt; ^ values);" />
       <MemberSignature Language="F#" Value="static member Join : string * obj[] -&gt; string" Usage="System.string.Join (separator, values)" />
-      <MemberSignature Language="C#" Value="public static string Join (string? separator, params object[]? values);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -8597,13 +8573,12 @@ A string is empty if it  is explicitly assigned an empty string ("") or <xref:Sy
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string Join (string separator, params string[] value);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Join (string separator, params string[] value);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(string separator, string[] value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Join(System.String,System.String[])" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (separator As String, ParamArray value As String()) As String" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Join(System::String ^ separator, ... cli::array &lt;System::String ^&gt; ^ value);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="F#" Value="static member Join : string * string[] -&gt; string" Usage="System.string.Join (separator, value)" />
-      <MemberSignature Language="C#" Value="public static string Join (string? separator, params string[]? value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="C#" Value="public static string Join (string separator, string[] value);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (separator As String, value As String()) As String" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Join(System::String ^ separator, cli::array &lt;System::String ^&gt; ^ value);" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5" />
@@ -8676,13 +8651,12 @@ A string is empty if it  is explicitly assigned an empty string ("") or <xref:Sy
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string Join (char separator, string[]? value, int startIndex, int count);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static string Join (char separator, string[] value, int startIndex, int count);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(char separator, string[] value, int32 startIndex, int32 count) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Join(System.Char,System.String[],System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (separator As Char, value As String(), startIndex As Integer, count As Integer) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Join(char separator, cli::array &lt;System::String ^&gt; ^ value, int startIndex, int count);" />
       <MemberSignature Language="F#" Value="static member Join : char * string[] * int * int -&gt; string" Usage="System.string.Join (separator, value, startIndex, count)" />
-      <MemberSignature Language="C#" Value="public static string Join (char separator, string[] value, int startIndex, int count);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -8731,13 +8705,12 @@ A string is empty if it  is explicitly assigned an empty string ("") or <xref:Sy
       </Docs>
     </Member>
     <Member MemberName="Join">
-      <MemberSignature Language="C#" Value="public static string Join (string separator, string[] value, int startIndex, int count);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Join (string separator, string[] value, int startIndex, int count);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join(string separator, string[] value, int32 startIndex, int32 count) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Join(System.String,System.String[],System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join (separator As String, value As String(), startIndex As Integer, count As Integer) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ Join(System::String ^ separator, cli::array &lt;System::String ^&gt; ^ value, int startIndex, int count);" />
       <MemberSignature Language="F#" Value="static member Join : string * string[] * int * int -&gt; string" Usage="System.string.Join (separator, value, startIndex, count)" />
-      <MemberSignature Language="C#" Value="public static string Join (string? separator, string[]? value, int startIndex, int count);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -8864,13 +8837,12 @@ A string is empty if it  is explicitly assigned an empty string ("") or <xref:Sy
       </Docs>
     </Member>
     <Member MemberName="Join&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static string Join&lt;T&gt; (string separator, System.Collections.Generic.IEnumerable&lt;T&gt; values);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static string Join&lt;T&gt; (string separator, System.Collections.Generic.IEnumerable&lt;T&gt; values);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string Join&lt;T&gt;(string separator, class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; values) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Join``1(System.String,System.Collections.Generic.IEnumerable{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Join(Of T) (separator As String, values As IEnumerable(Of T)) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::String ^ Join(System::String ^ separator, System::Collections::Generic::IEnumerable&lt;T&gt; ^ values);" />
       <MemberSignature Language="F#" Value="static member Join : string * seq&lt;'T&gt; -&gt; string" Usage="System.string.Join (separator, values)" />
-      <MemberSignature Language="C#" Value="public static string Join&lt;T&gt; (string? separator, System.Collections.Generic.IEnumerable&lt;T&gt; values);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -10284,13 +10256,12 @@ In the following example, the <xref:System.String.LastIndexOf%2A> method is used
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator ReadOnlySpan&lt;char&gt; (string? value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static implicit operator ReadOnlySpan&lt;char&gt; (string value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.ReadOnlySpan`1&lt;char&gt; op_Implicit(string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.op_Implicit(System.String)~System.ReadOnlySpan{System.Char}" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (value As String) As ReadOnlySpan(Of Char)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator ReadOnlySpan&lt;char&gt;(System::String ^ value);" />
       <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; ReadOnlySpan&lt;char&gt;" Usage="System.string.op_Implicit value" />
-      <MemberSignature Language="C#" Value="public static implicit operator ReadOnlySpan&lt;char&gt; (string value);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -10970,13 +10941,12 @@ In the following example, the <xref:System.String.LastIndexOf%2A> method is used
       </Docs>
     </Member>
     <Member MemberName="Replace">
-      <MemberSignature Language="C#" Value="public string Replace (string oldValue, string newValue);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string Replace (string oldValue, string newValue);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string Replace(string oldValue, string newValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Replace(System.String,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function Replace (oldValue As String, newValue As String) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ Replace(System::String ^ oldValue, System::String ^ newValue);" />
       <MemberSignature Language="F#" Value="member this.Replace : string * string -&gt; string" Usage="string.Replace (oldValue, newValue)" />
-      <MemberSignature Language="C#" Value="public string Replace (string oldValue, string? newValue);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -11064,13 +11034,12 @@ In the following example, the <xref:System.String.LastIndexOf%2A> method is used
       </Docs>
     </Member>
     <Member MemberName="Replace">
-      <MemberSignature Language="C#" Value="public string Replace (string oldValue, string? newValue, StringComparison comparisonType);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string Replace (string oldValue, string newValue, StringComparison comparisonType);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string Replace(string oldValue, string newValue, valuetype System.StringComparison comparisonType) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Replace(System.String,System.String,System.StringComparison)" />
       <MemberSignature Language="VB.NET" Value="Public Function Replace (oldValue As String, newValue As String, comparisonType As StringComparison) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ Replace(System::String ^ oldValue, System::String ^ newValue, StringComparison comparisonType);" />
       <MemberSignature Language="F#" Value="member this.Replace : string * string * StringComparison -&gt; string" Usage="string.Replace (oldValue, newValue, comparisonType)" />
-      <MemberSignature Language="C#" Value="public string Replace (string oldValue, string newValue, StringComparison comparisonType);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -11125,13 +11094,12 @@ Because this method returns the modified string, you can chain together successi
       </Docs>
     </Member>
     <Member MemberName="Replace">
-      <MemberSignature Language="C#" Value="public string Replace (string oldValue, string? newValue, bool ignoreCase, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string Replace (string oldValue, string newValue, bool ignoreCase, System.Globalization.CultureInfo culture);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string Replace(string oldValue, string newValue, bool ignoreCase, class System.Globalization.CultureInfo culture) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Replace(System.String,System.String,System.Boolean,System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function Replace (oldValue As String, newValue As String, ignoreCase As Boolean, culture As CultureInfo) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ Replace(System::String ^ oldValue, System::String ^ newValue, bool ignoreCase, System::Globalization::CultureInfo ^ culture);" />
       <MemberSignature Language="F#" Value="member this.Replace : string * string * bool * System.Globalization.CultureInfo -&gt; string" Usage="string.Replace (oldValue, newValue, ignoreCase, culture)" />
-      <MemberSignature Language="C#" Value="public string Replace (string oldValue, string newValue, bool ignoreCase, System.Globalization.CultureInfo culture);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -11286,13 +11254,12 @@ Because this method returns the modified string, you can chain together successi
       </Docs>
     </MemberGroup>
     <Member MemberName="Split">
-      <MemberSignature Language="C#" Value="public string[] Split (params char[] separator);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string[] Split (params char[] separator);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] Split(char[] separator) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Split(System.Char[])" />
       <MemberSignature Language="VB.NET" Value="Public Function Split (ParamArray separator As Char()) As String()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::String ^&gt; ^ Split(... cli::array &lt;char&gt; ^ separator);" />
       <MemberSignature Language="F#" Value="member this.Split : char[] -&gt; string[]" Usage="string.Split separator" />
-      <MemberSignature Language="C#" Value="public string[] Split (params char[]? separator);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -11436,13 +11403,12 @@ Because this method returns the modified string, you can chain together successi
       </Docs>
     </Member>
     <Member MemberName="Split">
-      <MemberSignature Language="C#" Value="public string[] Split (char[] separator, int count);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string[] Split (char[] separator, int count);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] Split(char[] separator, int32 count) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Split(System.Char[],System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function Split (separator As Char(), count As Integer) As String()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::String ^&gt; ^ Split(cli::array &lt;char&gt; ^ separator, int count);" />
       <MemberSignature Language="F#" Value="member this.Split : char[] * int -&gt; string[]" Usage="string.Split (separator, count)" />
-      <MemberSignature Language="C#" Value="public string[] Split (char[]? separator, int count);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -11541,13 +11507,12 @@ Because this method returns the modified string, you can chain together successi
       </Docs>
     </Member>
     <Member MemberName="Split">
-      <MemberSignature Language="C#" Value="public string[] Split (char[] separator, StringSplitOptions options);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string[] Split (char[] separator, StringSplitOptions options);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] Split(char[] separator, valuetype System.StringSplitOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Split(System.Char[],System.StringSplitOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Function Split (separator As Char(), options As StringSplitOptions) As String()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::String ^&gt; ^ Split(cli::array &lt;char&gt; ^ separator, StringSplitOptions options);" />
       <MemberSignature Language="F#" Value="member this.Split : char[] * StringSplitOptions -&gt; string[]" Usage="string.Split (separator, options)" />
-      <MemberSignature Language="C#" Value="public string[] Split (char[]? separator, StringSplitOptions options);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -11653,12 +11618,11 @@ Because this method returns the modified string, you can chain together successi
       </Docs>
     </Member>
     <Member MemberName="Split">
-      <MemberSignature Language="C#" Value="public string[] Split (string? separator, StringSplitOptions options = System.StringSplitOptions.None);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string[] Split (string separator, StringSplitOptions options = System.StringSplitOptions.None);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] Split(string separator, valuetype System.StringSplitOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Split(System.String,System.StringSplitOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Function Split (separator As String, Optional options As StringSplitOptions = System.StringSplitOptions.None) As String()" />
       <MemberSignature Language="F#" Value="member this.Split : string * StringSplitOptions -&gt; string[]" Usage="string.Split (separator, options)" />
-      <MemberSignature Language="C#" Value="public string[] Split (string separator, StringSplitOptions options = System.StringSplitOptions.None);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -11690,13 +11654,12 @@ Because this method returns the modified string, you can chain together successi
       </Docs>
     </Member>
     <Member MemberName="Split">
-      <MemberSignature Language="C#" Value="public string[] Split (string[] separator, StringSplitOptions options);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string[] Split (string[] separator, StringSplitOptions options);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] Split(string[] separator, valuetype System.StringSplitOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Split(System.String[],System.StringSplitOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Function Split (separator As String(), options As StringSplitOptions) As String()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::String ^&gt; ^ Split(cli::array &lt;System::String ^&gt; ^ separator, StringSplitOptions options);" />
       <MemberSignature Language="F#" Value="member this.Split : string[] * StringSplitOptions -&gt; string[]" Usage="string.Split (separator, options)" />
-      <MemberSignature Language="C#" Value="public string[] Split (string[]? separator, StringSplitOptions options);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -11865,13 +11828,12 @@ If the string has already been split `count` - 1 times, but the end of the strin
       </Docs>
     </Member>
     <Member MemberName="Split">
-      <MemberSignature Language="C#" Value="public string[] Split (char[] separator, int count, StringSplitOptions options);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string[] Split (char[] separator, int count, StringSplitOptions options);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] Split(char[] separator, int32 count, valuetype System.StringSplitOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Split(System.Char[],System.Int32,System.StringSplitOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Function Split (separator As Char(), count As Integer, options As StringSplitOptions) As String()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::String ^&gt; ^ Split(cli::array &lt;char&gt; ^ separator, int count, StringSplitOptions options);" />
       <MemberSignature Language="F#" Value="member this.Split : char[] * int * StringSplitOptions -&gt; string[]" Usage="string.Split (separator, count, options)" />
-      <MemberSignature Language="C#" Value="public string[] Split (char[]? separator, int count, StringSplitOptions options);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -11963,12 +11925,11 @@ If the string has already been split `count` - 1 times, but the end of the strin
       </Docs>
     </Member>
     <Member MemberName="Split">
-      <MemberSignature Language="C#" Value="public string[] Split (string? separator, int count, StringSplitOptions options = System.StringSplitOptions.None);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string[] Split (string separator, int count, StringSplitOptions options = System.StringSplitOptions.None);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] Split(string separator, int32 count, valuetype System.StringSplitOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Split(System.String,System.Int32,System.StringSplitOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Function Split (separator As String, count As Integer, Optional options As StringSplitOptions = System.StringSplitOptions.None) As String()" />
       <MemberSignature Language="F#" Value="member this.Split : string * int * StringSplitOptions -&gt; string[]" Usage="string.Split (separator, count, options)" />
-      <MemberSignature Language="C#" Value="public string[] Split (string separator, int count, StringSplitOptions options = System.StringSplitOptions.None);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -12010,13 +11971,12 @@ If the string has already been split `count` - 1 times, but the end of the strin
       </Docs>
     </Member>
     <Member MemberName="Split">
-      <MemberSignature Language="C#" Value="public string[] Split (string[] separator, int count, StringSplitOptions options);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string[] Split (string[] separator, int count, StringSplitOptions options);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string[] Split(string[] separator, int32 count, valuetype System.StringSplitOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Split(System.String[],System.Int32,System.StringSplitOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Function Split (separator As String(), count As Integer, options As StringSplitOptions) As String()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::String ^&gt; ^ Split(cli::array &lt;System::String ^&gt; ^ separator, int count, StringSplitOptions options);" />
       <MemberSignature Language="F#" Value="member this.Split : string[] * int * StringSplitOptions -&gt; string[]" Usage="string.Split (separator, count, options)" />
-      <MemberSignature Language="C#" Value="public string[] Split (string[]? separator, int count, StringSplitOptions options);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -12337,13 +12297,12 @@ The following example defines a `StripStartTags` method that uses the <xref:Syst
       </Docs>
     </Member>
     <Member MemberName="StartsWith">
-      <MemberSignature Language="C#" Value="public bool StartsWith (string value, bool ignoreCase, System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public bool StartsWith (string value, bool ignoreCase, System.Globalization.CultureInfo culture);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool StartsWith(string value, bool ignoreCase, class System.Globalization.CultureInfo culture) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.StartsWith(System.String,System.Boolean,System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function StartsWith (value As String, ignoreCase As Boolean, culture As CultureInfo) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool StartsWith(System::String ^ value, bool ignoreCase, System::Globalization::CultureInfo ^ culture);" />
       <MemberSignature Language="F#" Value="member this.StartsWith : string * bool * System.Globalization.CultureInfo -&gt; bool" Usage="string.StartsWith (value, ignoreCase, culture)" />
-      <MemberSignature Language="C#" Value="public bool StartsWith (string value, bool ignoreCase, System.Globalization.CultureInfo culture);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -14043,13 +14002,12 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="ToLower">
-      <MemberSignature Language="C#" Value="public string ToLower (System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string ToLower (System.Globalization.CultureInfo culture);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ToLower(class System.Globalization.CultureInfo culture) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.ToLower(System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToLower (culture As CultureInfo) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ToLower(System::Globalization::CultureInfo ^ culture);" />
       <MemberSignature Language="F#" Value="member this.ToLower : System.Globalization.CultureInfo -&gt; string" Usage="string.ToLower culture" />
-      <MemberSignature Language="C#" Value="public string ToLower (System.Globalization.CultureInfo culture);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -14266,13 +14224,12 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider? provider);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider provider);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ToString(class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.ToString(System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (provider As IFormatProvider) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::String ^ ToString(IFormatProvider ^ provider);" />
       <MemberSignature Language="F#" Value="override this.ToString : IFormatProvider -&gt; string" Usage="string.ToString provider" />
-      <MemberSignature Language="C#" Value="public string ToString (IFormatProvider provider);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IConvertible.ToString(System.IFormatProvider)</InterfaceMember>
@@ -14409,13 +14366,12 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="ToUpper">
-      <MemberSignature Language="C#" Value="public string ToUpper (System.Globalization.CultureInfo? culture);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string ToUpper (System.Globalization.CultureInfo culture);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string ToUpper(class System.Globalization.CultureInfo culture) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.ToUpper(System.Globalization.CultureInfo)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToUpper (culture As CultureInfo) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ ToUpper(System::Globalization::CultureInfo ^ culture);" />
       <MemberSignature Language="F#" Value="member this.ToUpper : System.Globalization.CultureInfo -&gt; string" Usage="string.ToUpper culture" />
-      <MemberSignature Language="C#" Value="public string ToUpper (System.Globalization.CultureInfo culture);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -14685,13 +14641,12 @@ If the current string equals <xref:System.String.Empty?displayProperty=nameWitht
       </Docs>
     </Member>
     <Member MemberName="Trim">
-      <MemberSignature Language="C#" Value="public string Trim (params char[] trimChars);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string Trim (params char[] trimChars);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string Trim(char[] trimChars) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.Trim(System.Char[])" />
       <MemberSignature Language="VB.NET" Value="Public Function Trim (ParamArray trimChars As Char()) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ Trim(... cli::array &lt;char&gt; ^ trimChars);" />
       <MemberSignature Language="F#" Value="member this.Trim : char[] -&gt; string" Usage="string.Trim trimChars" />
-      <MemberSignature Language="C#" Value="public string Trim (params char[]? trimChars);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -14862,13 +14817,12 @@ The `TrimEnd(System.Char)` method removes from the current string all trailing `
       </Docs>
     </Member>
     <Member MemberName="TrimEnd">
-      <MemberSignature Language="C#" Value="public string TrimEnd (params char[] trimChars);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string TrimEnd (params char[] trimChars);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string TrimEnd(char[] trimChars) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.TrimEnd(System.Char[])" />
       <MemberSignature Language="VB.NET" Value="Public Function TrimEnd (ParamArray trimChars As Char()) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ TrimEnd(... cli::array &lt;char&gt; ^ trimChars);" />
       <MemberSignature Language="F#" Value="member this.TrimEnd : char[] -&gt; string" Usage="string.TrimEnd trimChars" />
-      <MemberSignature Language="C#" Value="public string TrimEnd (params char[]? trimChars);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -15034,13 +14988,12 @@ The `TrimStart(System.Char)` method removes from the current string all leading 
       </Docs>
     </Member>
     <Member MemberName="TrimStart">
-      <MemberSignature Language="C#" Value="public string TrimStart (params char[] trimChars);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public string TrimStart (params char[] trimChars);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string TrimStart(char[] trimChars) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.String.TrimStart(System.Char[])" />
       <MemberSignature Language="VB.NET" Value="Public Function TrimStart (ParamArray trimChars As Char()) As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ TrimStart(... cli::array &lt;char&gt; ^ trimChars);" />
       <MemberSignature Language="F#" Value="member this.TrimStart : char[] -&gt; string" Usage="string.TrimStart trimChars" />
-      <MemberSignature Language="C#" Value="public string TrimStart (params char[]? trimChars);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>

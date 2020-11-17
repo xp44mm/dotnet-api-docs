@@ -291,13 +291,12 @@ The specified `handler` will be disposed of by calling [HttpClient.Dispose](xref
       </Docs>
     </Member>
     <Member MemberName="BaseAddress">
-      <MemberSignature Language="C#" Value="public Uri BaseAddress { get; set; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public Uri BaseAddress { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri BaseAddress" />
       <MemberSignature Language="DocId" Value="P:System.Net.Http.HttpClient.BaseAddress" />
       <MemberSignature Language="VB.NET" Value="Public Property BaseAddress As Uri" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Uri ^ BaseAddress { Uri ^ get(); void set(Uri ^ value); };" />
       <MemberSignature Language="F#" Value="member this.BaseAddress : Uri with get, set" Usage="System.Net.Http.HttpClient.BaseAddress" />
-      <MemberSignature Language="C#" Value="public Uri? BaseAddress { get; set; }" FrameworkAlternate="net-5.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -544,13 +543,12 @@ This property has no effect on any of the <xref:System.Net.Http.HttpClient.Send%
       </Docs>
     </MemberGroup>
     <Member MemberName="DeleteAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (string requestUri);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (string requestUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; DeleteAsync(string requestUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.DeleteAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function DeleteAsync (requestUri As String) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ DeleteAsync(System::String ^ requestUri);" />
       <MemberSignature Language="F#" Value="member this.DeleteAsync : string -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.DeleteAsync requestUri" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (string? requestUri);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -604,13 +602,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="DeleteAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (Uri requestUri);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (Uri requestUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; DeleteAsync(class System.Uri requestUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.DeleteAsync(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Function DeleteAsync (requestUri As Uri) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ DeleteAsync(Uri ^ requestUri);" />
       <MemberSignature Language="F#" Value="member this.DeleteAsync : Uri -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.DeleteAsync requestUri" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (Uri? requestUri);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -664,13 +661,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="DeleteAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (string requestUri, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (string requestUri, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; DeleteAsync(string requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.DeleteAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function DeleteAsync (requestUri As String, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ DeleteAsync(System::String ^ requestUri, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.DeleteAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.DeleteAsync (requestUri, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (string? requestUri, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -726,13 +722,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="DeleteAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (Uri requestUri, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (Uri requestUri, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; DeleteAsync(class System.Uri requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.DeleteAsync(System.Uri,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function DeleteAsync (requestUri As Uri, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ DeleteAsync(Uri ^ requestUri, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.DeleteAsync : Uri * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.DeleteAsync (requestUri, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; DeleteAsync (Uri? requestUri, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -854,13 +849,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </MemberGroup>
     <Member MemberName="GetAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string requestUri);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string requestUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; GetAsync(string requestUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAsync (requestUri As String) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ GetAsync(System::String ^ requestUri);" />
       <MemberSignature Language="F#" Value="member this.GetAsync : string -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.GetAsync requestUri" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string? requestUri);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -906,13 +900,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri requestUri);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri requestUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; GetAsync(class System.Uri requestUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetAsync(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAsync (requestUri As Uri) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ GetAsync(Uri ^ requestUri);" />
       <MemberSignature Language="F#" Value="member this.GetAsync : Uri -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.GetAsync requestUri" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri? requestUri);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -958,13 +951,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string requestUri, System.Net.Http.HttpCompletionOption completionOption);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string requestUri, System.Net.Http.HttpCompletionOption completionOption);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; GetAsync(string requestUri, valuetype System.Net.Http.HttpCompletionOption completionOption) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetAsync(System.String,System.Net.Http.HttpCompletionOption)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAsync (requestUri As String, completionOption As HttpCompletionOption) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ GetAsync(System::String ^ requestUri, System::Net::Http::HttpCompletionOption completionOption);" />
       <MemberSignature Language="F#" Value="member this.GetAsync : string * System.Net.Http.HttpCompletionOption -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.GetAsync (requestUri, completionOption)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string? requestUri, System.Net.Http.HttpCompletionOption completionOption);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1012,13 +1004,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string requestUri, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string requestUri, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; GetAsync(string requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAsync (requestUri As String, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ GetAsync(System::String ^ requestUri, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.GetAsync : string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.GetAsync (requestUri, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string? requestUri, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1066,13 +1057,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri requestUri, System.Net.Http.HttpCompletionOption completionOption);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri requestUri, System.Net.Http.HttpCompletionOption completionOption);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; GetAsync(class System.Uri requestUri, valuetype System.Net.Http.HttpCompletionOption completionOption) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetAsync(System.Uri,System.Net.Http.HttpCompletionOption)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAsync (requestUri As Uri, completionOption As HttpCompletionOption) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ GetAsync(Uri ^ requestUri, System::Net::Http::HttpCompletionOption completionOption);" />
       <MemberSignature Language="F#" Value="member this.GetAsync : Uri * System.Net.Http.HttpCompletionOption -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.GetAsync (requestUri, completionOption)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri? requestUri, System.Net.Http.HttpCompletionOption completionOption);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1120,13 +1110,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri requestUri, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri requestUri, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; GetAsync(class System.Uri requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetAsync(System.Uri,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAsync (requestUri As Uri, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ GetAsync(Uri ^ requestUri, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.GetAsync : Uri * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.GetAsync (requestUri, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri? requestUri, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1174,13 +1163,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string requestUri, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string requestUri, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; GetAsync(string requestUri, valuetype System.Net.Http.HttpCompletionOption completionOption, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetAsync(System.String,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAsync (requestUri As String, completionOption As HttpCompletionOption, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ GetAsync(System::String ^ requestUri, System::Net::Http::HttpCompletionOption completionOption, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.GetAsync : string * System.Net.Http.HttpCompletionOption * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.GetAsync (requestUri, completionOption, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (string? requestUri, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1230,13 +1218,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri requestUri, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri requestUri, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; GetAsync(class System.Uri requestUri, valuetype System.Net.Http.HttpCompletionOption completionOption, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetAsync(System.Uri,System.Net.Http.HttpCompletionOption,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAsync (requestUri As Uri, completionOption As HttpCompletionOption, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ GetAsync(Uri ^ requestUri, System::Net::Http::HttpCompletionOption completionOption, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.GetAsync : Uri * System.Net.Http.HttpCompletionOption * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.GetAsync (requestUri, completionOption, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; GetAsync (Uri? requestUri, System.Net.Http.HttpCompletionOption completionOption, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1305,13 +1292,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </MemberGroup>
     <Member MemberName="GetByteArrayAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;byte[]&gt; GetByteArrayAsync (string requestUri);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;byte[]&gt; GetByteArrayAsync (string requestUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;unsigned int8[]&gt; GetByteArrayAsync(string requestUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetByteArrayAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetByteArrayAsync (requestUri As String) As Task(Of Byte())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;cli::array &lt;System::Byte&gt; ^&gt; ^ GetByteArrayAsync(System::String ^ requestUri);" />
       <MemberSignature Language="F#" Value="member this.GetByteArrayAsync : string -&gt; System.Threading.Tasks.Task&lt;byte[]&gt;" Usage="httpClient.GetByteArrayAsync requestUri" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;byte[]&gt; GetByteArrayAsync (string? requestUri);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1363,13 +1349,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetByteArrayAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;byte[]&gt; GetByteArrayAsync (Uri requestUri);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;byte[]&gt; GetByteArrayAsync (Uri requestUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;unsigned int8[]&gt; GetByteArrayAsync(class System.Uri requestUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetByteArrayAsync(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetByteArrayAsync (requestUri As Uri) As Task(Of Byte())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;cli::array &lt;System::Byte&gt; ^&gt; ^ GetByteArrayAsync(Uri ^ requestUri);" />
       <MemberSignature Language="F#" Value="member this.GetByteArrayAsync : Uri -&gt; System.Threading.Tasks.Task&lt;byte[]&gt;" Usage="httpClient.GetByteArrayAsync requestUri" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;byte[]&gt; GetByteArrayAsync (Uri? requestUri);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1422,7 +1407,7 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetByteArrayAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;byte[]&gt; GetByteArrayAsync (string? requestUri, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;byte[]&gt; GetByteArrayAsync (string requestUri, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;unsigned int8[]&gt; GetByteArrayAsync(string requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetByteArrayAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetByteArrayAsync (requestUri As String, cancellationToken As CancellationToken) As Task(Of Byte())" />
@@ -1467,7 +1452,7 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetByteArrayAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;byte[]&gt; GetByteArrayAsync (Uri? requestUri, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;byte[]&gt; GetByteArrayAsync (Uri requestUri, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;unsigned int8[]&gt; GetByteArrayAsync(class System.Uri requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetByteArrayAsync(System.Uri,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetByteArrayAsync (requestUri As Uri, cancellationToken As CancellationToken) As Task(Of Byte())" />
@@ -1531,13 +1516,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </MemberGroup>
     <Member MemberName="GetStreamAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.IO.Stream&gt; GetStreamAsync (string requestUri);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.IO.Stream&gt; GetStreamAsync (string requestUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt; GetStreamAsync(string requestUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetStreamAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStreamAsync (requestUri As String) As Task(Of Stream)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^ GetStreamAsync(System::String ^ requestUri);" />
       <MemberSignature Language="F#" Value="member this.GetStreamAsync : string -&gt; System.Threading.Tasks.Task&lt;System.IO.Stream&gt;" Usage="httpClient.GetStreamAsync requestUri" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.IO.Stream&gt; GetStreamAsync (string? requestUri);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1589,13 +1573,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetStreamAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.IO.Stream&gt; GetStreamAsync (Uri requestUri);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.IO.Stream&gt; GetStreamAsync (Uri requestUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt; GetStreamAsync(class System.Uri requestUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetStreamAsync(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStreamAsync (requestUri As Uri) As Task(Of Stream)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::IO::Stream ^&gt; ^ GetStreamAsync(Uri ^ requestUri);" />
       <MemberSignature Language="F#" Value="member this.GetStreamAsync : Uri -&gt; System.Threading.Tasks.Task&lt;System.IO.Stream&gt;" Usage="httpClient.GetStreamAsync requestUri" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.IO.Stream&gt; GetStreamAsync (Uri? requestUri);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1647,7 +1630,7 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetStreamAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.IO.Stream&gt; GetStreamAsync (string? requestUri, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.IO.Stream&gt; GetStreamAsync (string requestUri, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt; GetStreamAsync(string requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetStreamAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStreamAsync (requestUri As String, cancellationToken As CancellationToken) As Task(Of Stream)" />
@@ -1692,7 +1675,7 @@ The <paramref name="requestUri" /> is not an absolute URI.
       <exception cref="T:System.Threading.Tasks.TaskCanceledException">.NET Core and .NET 5.0 and later only: The request failed due to timeout.</exception>
     </Member>
     <Member MemberName="GetStreamAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.IO.Stream&gt; GetStreamAsync (Uri? requestUri, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.IO.Stream&gt; GetStreamAsync (Uri requestUri, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.IO.Stream&gt; GetStreamAsync(class System.Uri requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetStreamAsync(System.Uri,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStreamAsync (requestUri As Uri, cancellationToken As CancellationToken) As Task(Of Stream)" />
@@ -1756,13 +1739,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </MemberGroup>
     <Member MemberName="GetStringAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (string requestUri);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (string requestUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; GetStringAsync(string requestUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetStringAsync(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStringAsync (requestUri As String) As Task(Of String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::String ^&gt; ^ GetStringAsync(System::String ^ requestUri);" />
       <MemberSignature Language="F#" Value="member this.GetStringAsync : string -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="httpClient.GetStringAsync requestUri" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (string? requestUri);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1814,13 +1796,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetStringAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (Uri requestUri);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (Uri requestUri);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; GetStringAsync(class System.Uri requestUri) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetStringAsync(System.Uri)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStringAsync (requestUri As Uri) As Task(Of String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::String ^&gt; ^ GetStringAsync(Uri ^ requestUri);" />
       <MemberSignature Language="F#" Value="member this.GetStringAsync : Uri -&gt; System.Threading.Tasks.Task&lt;string&gt;" Usage="httpClient.GetStringAsync requestUri" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (Uri? requestUri);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -1872,7 +1853,7 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetStringAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (string? requestUri, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (string requestUri, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; GetStringAsync(string requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetStringAsync(System.String,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStringAsync (requestUri As String, cancellationToken As CancellationToken) As Task(Of String)" />
@@ -1917,7 +1898,7 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="GetStringAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (Uri? requestUri, System.Threading.CancellationToken cancellationToken);" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;string&gt; GetStringAsync (Uri requestUri, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;string&gt; GetStringAsync(class System.Uri requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.GetStringAsync(System.Uri,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetStringAsync (requestUri As Uri, cancellationToken As CancellationToken) As Task(Of String)" />
@@ -2004,13 +1985,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="PatchAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (string? requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (string requestUri, System.Net.Http.HttpContent content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PatchAsync(string requestUri, class System.Net.Http.HttpContent content) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PatchAsync(System.String,System.Net.Http.HttpContent)" />
       <MemberSignature Language="VB.NET" Value="Public Function PatchAsync (requestUri As String, content As HttpContent) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PatchAsync(System::String ^ requestUri, System::Net::Http::HttpContent ^ content);" />
       <MemberSignature Language="F#" Value="member this.PatchAsync : string * System.Net.Http.HttpContent -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PatchAsync (requestUri, content)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (string requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -2045,13 +2025,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="PatchAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (Uri? requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (Uri requestUri, System.Net.Http.HttpContent content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PatchAsync(class System.Uri requestUri, class System.Net.Http.HttpContent content) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PatchAsync(System.Uri,System.Net.Http.HttpContent)" />
       <MemberSignature Language="VB.NET" Value="Public Function PatchAsync (requestUri As Uri, content As HttpContent) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PatchAsync(Uri ^ requestUri, System::Net::Http::HttpContent ^ content);" />
       <MemberSignature Language="F#" Value="member this.PatchAsync : Uri * System.Net.Http.HttpContent -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PatchAsync (requestUri, content)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (Uri requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -2086,13 +2065,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="PatchAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (string? requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (string requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PatchAsync(string requestUri, class System.Net.Http.HttpContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PatchAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function PatchAsync (requestUri As String, content As HttpContent, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PatchAsync(System::String ^ requestUri, System::Net::Http::HttpContent ^ content, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.PatchAsync : string * System.Net.Http.HttpContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PatchAsync (requestUri, content, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (string requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -2129,13 +2107,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="PatchAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (Uri? requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (Uri requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PatchAsync(class System.Uri requestUri, class System.Net.Http.HttpContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PatchAsync(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function PatchAsync (requestUri As Uri, content As HttpContent, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PatchAsync(Uri ^ requestUri, System::Net::Http::HttpContent ^ content, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.PatchAsync : Uri * System.Net.Http.HttpContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PatchAsync (requestUri, content, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PatchAsync (Uri requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -2191,13 +2168,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </MemberGroup>
     <Member MemberName="PostAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (string requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (string requestUri, System.Net.Http.HttpContent content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsync(string requestUri, class System.Net.Http.HttpContent content) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PostAsync(System.String,System.Net.Http.HttpContent)" />
       <MemberSignature Language="VB.NET" Value="Public Function PostAsync (requestUri As String, content As HttpContent) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PostAsync(System::String ^ requestUri, System::Net::Http::HttpContent ^ content);" />
       <MemberSignature Language="F#" Value="member this.PostAsync : string * System.Net.Http.HttpContent -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PostAsync (requestUri, content)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (string? requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -2245,13 +2221,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="PostAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (Uri requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (Uri requestUri, System.Net.Http.HttpContent content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsync(class System.Uri requestUri, class System.Net.Http.HttpContent content) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PostAsync(System.Uri,System.Net.Http.HttpContent)" />
       <MemberSignature Language="VB.NET" Value="Public Function PostAsync (requestUri As Uri, content As HttpContent) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PostAsync(Uri ^ requestUri, System::Net::Http::HttpContent ^ content);" />
       <MemberSignature Language="F#" Value="member this.PostAsync : Uri * System.Net.Http.HttpContent -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PostAsync (requestUri, content)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (Uri? requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -2299,13 +2274,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="PostAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (string requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (string requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsync(string requestUri, class System.Net.Http.HttpContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PostAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function PostAsync (requestUri As String, content As HttpContent, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PostAsync(System::String ^ requestUri, System::Net::Http::HttpContent ^ content, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.PostAsync : string * System.Net.Http.HttpContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PostAsync (requestUri, content, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (string? requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -2355,13 +2329,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="PostAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (Uri requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (Uri requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsync(class System.Uri requestUri, class System.Net.Http.HttpContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PostAsync(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function PostAsync (requestUri As Uri, content As HttpContent, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PostAsync(Uri ^ requestUri, System::Net::Http::HttpContent ^ content, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.PostAsync : Uri * System.Net.Http.HttpContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PostAsync (requestUri, content, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsync (Uri? requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -2430,13 +2403,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </MemberGroup>
     <Member MemberName="PutAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (string requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (string requestUri, System.Net.Http.HttpContent content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsync(string requestUri, class System.Net.Http.HttpContent content) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PutAsync(System.String,System.Net.Http.HttpContent)" />
       <MemberSignature Language="VB.NET" Value="Public Function PutAsync (requestUri As String, content As HttpContent) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PutAsync(System::String ^ requestUri, System::Net::Http::HttpContent ^ content);" />
       <MemberSignature Language="F#" Value="member this.PutAsync : string * System.Net.Http.HttpContent -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PutAsync (requestUri, content)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (string? requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -2484,13 +2456,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="PutAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (Uri requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (Uri requestUri, System.Net.Http.HttpContent content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsync(class System.Uri requestUri, class System.Net.Http.HttpContent content) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PutAsync(System.Uri,System.Net.Http.HttpContent)" />
       <MemberSignature Language="VB.NET" Value="Public Function PutAsync (requestUri As Uri, content As HttpContent) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PutAsync(Uri ^ requestUri, System::Net::Http::HttpContent ^ content);" />
       <MemberSignature Language="F#" Value="member this.PutAsync : Uri * System.Net.Http.HttpContent -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PutAsync (requestUri, content)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (Uri? requestUri, System.Net.Http.HttpContent content);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -2538,13 +2509,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="PutAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (string requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (string requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsync(string requestUri, class System.Net.Http.HttpContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PutAsync(System.String,System.Net.Http.HttpContent,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function PutAsync (requestUri As String, content As HttpContent, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PutAsync(System::String ^ requestUri, System::Net::Http::HttpContent ^ content, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.PutAsync : string * System.Net.Http.HttpContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PutAsync (requestUri, content, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (string? requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
@@ -2594,13 +2564,12 @@ The <paramref name="requestUri" /> is not an absolute URI.
       </Docs>
     </Member>
     <Member MemberName="PutAsync">
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (Uri requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (Uri requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsync(class System.Uri requestUri, class System.Net.Http.HttpContent content, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.HttpClient.PutAsync(System.Uri,System.Net.Http.HttpContent,System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Function PutAsync (requestUri As Uri, content As HttpContent, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PutAsync(Uri ^ requestUri, System::Net::Http::HttpContent ^ content, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="member this.PutAsync : Uri * System.Net.Http.HttpContent * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="httpClient.PutAsync (requestUri, content, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsync (Uri? requestUri, System.Net.Http.HttpContent content, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http</AssemblyName>
