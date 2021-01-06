@@ -258,7 +258,7 @@ Both <xref:System.Net.HttpWebRequest> constructors are obsolete and should not b
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -2794,7 +2794,7 @@ The GetHashCode method returns a hash code of the web request. This value can be
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -4477,7 +4477,7 @@ The GetHashCode method returns a hash code of the web request. This value can be
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>

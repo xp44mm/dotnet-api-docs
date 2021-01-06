@@ -256,6 +256,10 @@
           <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[System.Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId="SYSLIB0004", UrlFormat="https://aka.ms/dotnet-warnings/{0}")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId="SYSLIB0004", UrlFormat="https://aka.ms/dotnet-warnings/{0}")&gt;]</AttributeName>
+        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -715,6 +719,10 @@
           <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[System.Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId="SYSLIB0004", UrlFormat="https://aka.ms/dotnet-warnings/{0}")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId="SYSLIB0004", UrlFormat="https://aka.ms/dotnet-warnings/{0}")&gt;]</AttributeName>
+        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -785,6 +793,10 @@
           <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline across NGen image boundaries")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[System.Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId="SYSLIB0004", UrlFormat="https://aka.ms/dotnet-warnings/{0}")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId="SYSLIB0004", UrlFormat="https://aka.ms/dotnet-warnings/{0}")&gt;]</AttributeName>
+        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -831,6 +843,10 @@
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[System.Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId="SYSLIB0004", UrlFormat="https://aka.ms/dotnet-warnings/{0}")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId="SYSLIB0004", UrlFormat="https://aka.ms/dotnet-warnings/{0}")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1061,6 +1077,10 @@
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.Runtime.ConstrainedExecution.ReliabilityContract(System.Runtime.ConstrainedExecution.Consistency.WillNotCorruptState, System.Runtime.ConstrainedExecution.Cer.MayFail)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.ConstrainedExecution.ReliabilityContract(System.Runtime.ConstrainedExecution.Consistency.WillNotCorruptState, System.Runtime.ConstrainedExecution.Cer.MayFail)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[System.Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId="SYSLIB0004", UrlFormat="https://aka.ms/dotnet-warnings/{0}")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("The Constrained Execution Region (CER) feature is not supported.", DiagnosticId="SYSLIB0004", UrlFormat="https://aka.ms/dotnet-warnings/{0}")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

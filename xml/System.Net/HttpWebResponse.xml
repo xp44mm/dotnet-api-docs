@@ -202,7 +202,7 @@ The contents of the response from the Internet resource are returned as a <xref:
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -725,7 +725,7 @@ The GetHashCode method returns a hash code of the web response instance. This va
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -1528,7 +1528,7 @@ Call `Dispose` when you are finished using the <xref:System.Net.HttpWebResponse>
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Serialization is obsoleted for this type.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>

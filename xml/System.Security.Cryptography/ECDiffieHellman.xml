@@ -27,6 +27,12 @@
     <BaseTypeName>System.Security.Cryptography.AsymmetricAlgorithm</BaseTypeName>
   </Base>
   <Interfaces />
+  <Attributes>
+    <Attribute FrameworkAlternate="net-5.0">
+      <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>Provides an abstract base class that Elliptic Curve Diffie-Hellman (ECDH) algorithm implementations can derive from. This class provides the basic set of operations that all ECDH implementations must support.</summary>
     <remarks>

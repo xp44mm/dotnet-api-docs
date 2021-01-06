@@ -37,6 +37,10 @@
       <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(true)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.ComVisible(true)&gt;]</AttributeName>
     </Attribute>
+    <Attribute FrameworkAlternate="net-5.0">
+      <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
+    </Attribute>
   </Attributes>
   <Docs>
     <summary>Contains information about the properties of a digital signature.</summary>

@@ -3761,7 +3761,7 @@ Authentication has not occurred.</exception>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0">
           <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>

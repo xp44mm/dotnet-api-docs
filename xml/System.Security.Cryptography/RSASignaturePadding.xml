@@ -37,6 +37,12 @@
       <InterfaceName>System.IEquatable&lt;System.Security.Cryptography.RSASignaturePadding&gt;</InterfaceName>
     </Interface>
   </Interfaces>
+  <Attributes>
+    <Attribute FrameworkAlternate="net-5.0">
+      <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>Specifies the padding mode and parameters to use with RSA signature creation or verification operations.</summary>
     <remarks>To be added.</remarks>

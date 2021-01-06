@@ -37,6 +37,10 @@
       <AttributeName Language="C#">[System.Obsolete("This interface has been deprecated. Add a TypeDescriptionProvider to handle type TypeDescriptor.ComObjectType instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Obsolete("This interface has been deprecated. Add a TypeDescriptionProvider to handle type TypeDescriptor.ComObjectType instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
     </Attribute>
+    <Attribute FrameworkAlternate="net-5.0">
+      <AttributeName Language="C#">[System.Obsolete("This interface has been deprecated. Add a TypeDescriptionProvider to handle type TypeDescriptor.ComObjectType instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Obsolete("This interface has been deprecated. Add a TypeDescriptionProvider to handle type TypeDescriptor.ComObjectType instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+    </Attribute>
   </Attributes>
   <Docs>
     <summary>Provides a top-level mapping layer between a COM object and a <see cref="T:System.ComponentModel.TypeDescriptor" />.</summary>
