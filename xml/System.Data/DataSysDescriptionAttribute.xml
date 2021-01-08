@@ -85,7 +85,7 @@
           <AttributeName Language="C#">[System.Obsolete("DataSysDescriptionAttribute has been deprecated.  http://go.microsoft.com/fwlink/?linkid=14202", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("DataSysDescriptionAttribute has been deprecated.  http://go.microsoft.com/fwlink/?linkid=14202", false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("DataSysDescriptionAttribute has been deprecated.  https://go.microsoft.com/fwlink/?linkid=14202", false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("DataSysDescriptionAttribute has been deprecated.  https://go.microsoft.com/fwlink/?linkid=14202", false)&gt;]</AttributeName>
         </Attribute>

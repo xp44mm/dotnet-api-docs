@@ -147,6 +147,10 @@
           <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
           <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
+        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.TimeSpan</ReturnType>
@@ -195,6 +199,10 @@
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
           <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -298,6 +306,10 @@
           <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
           <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
+        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Int64</ReturnType>
@@ -346,6 +358,10 @@
         <Attribute FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.MonoTODO]</AttributeName>
           <AttributeName Language="F#">[&lt;System.MonoTODO&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[set: System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

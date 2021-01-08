@@ -514,6 +514,10 @@ If you use this property to set command-line arguments, <xref:System.Diagnostics
           <AttributeName Language="C#">[set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
           <AttributeName Language="F#">[&lt;set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
+        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -638,7 +642,7 @@ If you use this property to set command-line arguments, <xref:System.Diagnostics
           <AttributeName Language="C#">[System.ComponentModel.NotifyParentProperty(true)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.NotifyParentProperty(true)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0;net-5.0">
           <AttributeName Language="C#">[System.ComponentModel.Editor("System.Diagnostics.Design.StringDictionaryEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Editor("System.Diagnostics.Design.StringDictionaryEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
         </Attribute>
@@ -861,7 +865,7 @@ If you use this property to set command-line arguments, <xref:System.Diagnostics
           <AttributeName Language="C#">[System.ComponentModel.TypeConverter("System.Diagnostics.Design.StringValueConverter, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter("System.Diagnostics.Design.StringValueConverter, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0;net-5.0">
           <AttributeName Language="C#">[System.ComponentModel.Editor("System.Diagnostics.Design.StartFileNameEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Editor("System.Diagnostics.Design.StartFileNameEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
         </Attribute>
@@ -957,6 +961,10 @@ If you use this property to set command-line arguments, <xref:System.Diagnostics
           <AttributeName Language="C#">[set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
           <AttributeName Language="F#">[&lt;set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
+        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1009,7 +1017,7 @@ If you use this property to set command-line arguments, <xref:System.Diagnostics
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
@@ -1020,6 +1028,10 @@ If you use this property to set command-line arguments, <xref:System.Diagnostics
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
           <AttributeName Language="F#">[&lt;set: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1085,6 +1097,10 @@ If you use this property to set command-line arguments, <xref:System.Diagnostics
         <Attribute FrameworkAlternate="netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -1731,7 +1747,7 @@ When <xref:System.Diagnostics.ProcessStartInfo.UseShellExecute> is `false`, the 
           <AttributeName Language="C#">[System.ComponentModel.DefaultValue(null)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(null)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;net-5.0">
           <AttributeName Language="C#">[System.ComponentModel.DefaultValue("")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue("")&gt;]</AttributeName>
         </Attribute>
@@ -1891,7 +1907,7 @@ When <xref:System.Diagnostics.ProcessStartInfo.UseShellExecute> is `false`, the 
           <AttributeName Language="C#">[System.ComponentModel.DefaultValue(null)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(null)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;net-5.0">
           <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
         </Attribute>
@@ -1992,7 +2008,7 @@ When <xref:System.Diagnostics.ProcessStartInfo.UseShellExecute> is `false`, the 
           <AttributeName Language="C#">[System.ComponentModel.TypeConverter("System.Diagnostics.Design.StringValueConverter, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter("System.Diagnostics.Design.StringValueConverter, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0;net-5.0">
           <AttributeName Language="C#">[System.ComponentModel.Editor("System.Diagnostics.Design.WorkingDirectoryEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Editor("System.Diagnostics.Design.WorkingDirectoryEditor, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
         </Attribute>

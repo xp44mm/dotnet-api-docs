@@ -161,7 +161,7 @@
           <AttributeName Language="C#">[System.Obsolete("BeginGetHostByName is obsoleted for this type, please use BeginGetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("BeginGetHostByName is obsoleted for this type, please use BeginGetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("BeginGetHostByName is obsoleted for this type, please use BeginGetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("BeginGetHostByName is obsoleted for this type, please use BeginGetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -395,7 +395,7 @@
           <AttributeName Language="C#">[System.Obsolete("BeginResolve is obsoleted for this type, please use BeginGetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("BeginResolve is obsoleted for this type, please use BeginGetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("BeginResolve is obsoleted for this type, please use BeginGetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("BeginResolve is obsoleted for this type, please use BeginGetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -531,7 +531,7 @@
           <AttributeName Language="C#">[System.Obsolete("EndGetHostByName is obsoleted for this type, please use EndGetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("EndGetHostByName is obsoleted for this type, please use EndGetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("EndGetHostByName is obsoleted for this type, please use EndGetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("EndGetHostByName is obsoleted for this type, please use EndGetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -657,7 +657,7 @@
           <AttributeName Language="C#">[System.Obsolete("EndResolve is obsoleted for this type, please use EndGetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("EndResolve is obsoleted for this type, please use EndGetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("EndResolve is obsoleted for this type, please use EndGetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("EndResolve is obsoleted for this type, please use EndGetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -871,7 +871,7 @@
           <AttributeName Language="C#">[System.Obsolete("GetHostByAddress is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("GetHostByAddress is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("GetHostByAddress is obsoleted for this type, please use GetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("GetHostByAddress is obsoleted for this type, please use GetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -946,7 +946,7 @@
           <AttributeName Language="C#">[System.Obsolete("GetHostByAddress is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("GetHostByAddress is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("GetHostByAddress is obsoleted for this type, please use GetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("GetHostByAddress is obsoleted for this type, please use GetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -1014,7 +1014,7 @@
           <AttributeName Language="C#">[System.Obsolete("GetHostByName is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("GetHostByName is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("GetHostByName is obsoleted for this type, please use GetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("GetHostByName is obsoleted for this type, please use GetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -1457,7 +1457,7 @@
           <AttributeName Language="C#">[System.Obsolete("Resolve is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Resolve is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+        <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
           <AttributeName Language="C#">[System.Obsolete("Resolve is obsoleted for this type, please use GetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("Resolve is obsoleted for this type, please use GetHostEntry instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
