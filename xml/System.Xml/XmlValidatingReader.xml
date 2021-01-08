@@ -48,7 +48,7 @@
       <AttributeName Language="C#">[System.Obsolete("Use XmlReader created by XmlReader.Create() method using appropriate XmlReaderSettings instead. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Obsolete("Use XmlReader created by XmlReader.Create() method using appropriate XmlReaderSettings instead. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
+    <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1;net-5.0">
       <AttributeName Language="C#">[System.Obsolete("Use XmlReader created by XmlReader.Create() method using appropriate XmlReaderSettings instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Obsolete("Use XmlReader created by XmlReader.Create() method using appropriate XmlReaderSettings instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
     </Attribute>

@@ -142,6 +142,10 @@ The root designer may return any type of object, but the object must be compatib
           <AttributeName Language="C#">[System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.ComponentModel.Design.ViewTechnology</ReturnType>
@@ -188,6 +192,10 @@ The view object must implement any interfaces the development environment requir
         <Attribute FrameworkAlternate="netcore-3.0;netcore-3.1;netstandard-2.1">
           <AttributeName Language="C#">[System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead.  https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead.  https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("This value has been deprecated. Use ViewTechnology.Default instead. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

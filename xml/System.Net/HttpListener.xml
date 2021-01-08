@@ -631,6 +631,10 @@ The following code example demonstrates calling the `Close` method:
           <AttributeName Language="C#">[System.MonoTODO("not used anywhere in the implementation")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.MonoTODO("not used anywhere in the implementation")&gt;]</AttributeName>
         </Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
+          <AttributeName Language="C#">[set: System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
+          <AttributeName Language="F#">[&lt;set: System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
+        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy</ReturnType>
