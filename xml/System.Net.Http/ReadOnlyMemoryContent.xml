@@ -28,7 +28,7 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ReadOnlyMemoryContent (ReadOnlyMemory&lt;byte&gt; content);" />
+      <MemberSignature Language="C#" Value="public ReadOnlyMemoryContent ( content);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; content) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.Http.ReadOnlyMemoryContent.#ctor(System.ReadOnlyMemory{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (content As ReadOnlyMemory(Of Byte))" />

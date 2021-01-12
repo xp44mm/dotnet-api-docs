@@ -178,7 +178,7 @@
       </Docs>
     </Member>
     <Member MemberName="Encode">
-      <MemberSignature Language="C#" Value="public int Encode (Span&lt;byte&gt; destination);" />
+      <MemberSignature Language="C#" Value="public int Encode ( destination);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 Encode(valuetype System.Span`1&lt;unsigned int8&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborWriter.Encode(System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Function Encode (destination As Span(Of Byte)) As Integer" />
@@ -248,7 +248,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryEncode">
-      <MemberSignature Language="C#" Value="public bool TryEncode (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryEncode ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryEncode(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborWriter.TryEncode(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryEncode (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
@@ -377,7 +377,7 @@ The written data is not accepted under the current conformance mode.</exception>
       </Docs>
     </Member>
     <Member MemberName="WriteByteString">
-      <MemberSignature Language="C#" Value="public void WriteByteString (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public void WriteByteString ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteByteString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborWriter.WriteByteString(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteByteString (value As ReadOnlySpan(Of Byte))" />
@@ -557,7 +557,7 @@ The written data is not accepted under the current conformance mode.</exception>
       </Docs>
     </Member>
     <Member MemberName="WriteEncodedValue">
-      <MemberSignature Language="C#" Value="public void WriteEncodedValue (ReadOnlySpan&lt;byte&gt; encodedValue);" />
+      <MemberSignature Language="C#" Value="public void WriteEncodedValue ( encodedValue);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteEncodedValue(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; encodedValue) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborWriter.WriteEncodedValue(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteEncodedValue (encodedValue As ReadOnlySpan(Of Byte))" />
@@ -1095,7 +1095,7 @@ The written data is not accepted under the current conformance mode.</exception>
       </Docs>
     </Member>
     <Member MemberName="WriteTextString">
-      <MemberSignature Language="C#" Value="public void WriteTextString (ReadOnlySpan&lt;char&gt; value);" />
+      <MemberSignature Language="C#" Value="public void WriteTextString ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteTextString(valuetype System.ReadOnlySpan`1&lt;char&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborWriter.WriteTextString(System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteTextString (value As ReadOnlySpan(Of Char))" />

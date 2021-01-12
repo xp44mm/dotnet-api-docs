@@ -33,7 +33,7 @@ Because an `ActivitySpanId` is a structure that contains 8 bytes, it can be pass
   </Docs>
   <Members>
     <Member MemberName="CopyTo">
-      <MemberSignature Language="C#" Value="public void CopyTo (Span&lt;byte&gt; destination);" />
+      <MemberSignature Language="C#" Value="public void CopyTo ( destination);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void CopyTo(valuetype System.Span`1&lt;unsigned int8&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivitySpanId.CopyTo(System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub CopyTo (destination As Span(Of Byte))" />
@@ -59,7 +59,7 @@ Because an `ActivitySpanId` is a structure that contains 8 bytes, it can be pass
       </Docs>
     </Member>
     <Member MemberName="CreateFromBytes">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.ActivitySpanId CreateFromBytes (ReadOnlySpan&lt;byte&gt; idData);" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.ActivitySpanId CreateFromBytes ( idData);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Diagnostics.ActivitySpanId CreateFromBytes(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; idData) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivitySpanId.CreateFromBytes(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromBytes (idData As ReadOnlySpan(Of Byte)) As ActivitySpanId" />
@@ -88,7 +88,7 @@ Because an `ActivitySpanId` is a structure that contains 8 bytes, it can be pass
       </Docs>
     </Member>
     <Member MemberName="CreateFromString">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.ActivitySpanId CreateFromString (ReadOnlySpan&lt;char&gt; idData);" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.ActivitySpanId CreateFromString ( idData);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Diagnostics.ActivitySpanId CreateFromString(valuetype System.ReadOnlySpan`1&lt;char&gt; idData) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivitySpanId.CreateFromString(System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromString (idData As ReadOnlySpan(Of Char)) As ActivitySpanId" />
@@ -129,7 +129,7 @@ The characters in <paramref name="idData" /> are not all lower-case hexadecimal 
       </Docs>
     </Member>
     <Member MemberName="CreateFromUtf8String">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.ActivitySpanId CreateFromUtf8String (ReadOnlySpan&lt;byte&gt; idData);" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.ActivitySpanId CreateFromUtf8String ( idData);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Diagnostics.ActivitySpanId CreateFromUtf8String(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; idData) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivitySpanId.CreateFromUtf8String(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromUtf8String (idData As ReadOnlySpan(Of Byte)) As ActivitySpanId" />
@@ -211,12 +211,13 @@ The characters in <paramref name="idData" /> are not all lower-case hexadecimal 
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivitySpanId.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="activitySpanId.Equals obj" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>

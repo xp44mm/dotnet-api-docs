@@ -78,7 +78,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetAllPropertiesForCurrentUser">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,object&gt; GetAllPropertiesForCurrentUser (bool authenticatedUserOnly);" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string, object&gt; GetAllPropertiesForCurrentUser (bool authenticatedUserOnly);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.Dictionary`2&lt;string, object&gt; GetAllPropertiesForCurrentUser(bool authenticatedUserOnly) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Web.ApplicationServices.ProfileService.GetAllPropertiesForCurrentUser(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAllPropertiesForCurrentUser (authenticatedUserOnly As Boolean) As Dictionary(Of String, Object)" />
@@ -97,7 +97,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="authenticatedUserOnly" Type="System.Boolean" />
@@ -117,7 +117,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetPropertiesForCurrentUser">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,object&gt; GetPropertiesForCurrentUser (System.Collections.Generic.IEnumerable&lt;string&gt; properties, bool authenticatedUserOnly);" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string, object&gt; GetPropertiesForCurrentUser (System.Collections.Generic.IEnumerable&lt;string&gt; properties, bool authenticatedUserOnly);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.Dictionary`2&lt;string, object&gt; GetPropertiesForCurrentUser(class System.Collections.Generic.IEnumerable`1&lt;string&gt; properties, bool authenticatedUserOnly) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Web.ApplicationServices.ProfileService.GetPropertiesForCurrentUser(System.Collections.Generic.IEnumerable{System.String},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPropertiesForCurrentUser (properties As IEnumerable(Of String), authenticatedUserOnly As Boolean) As Dictionary(Of String, Object)" />
@@ -136,7 +136,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="properties" Type="System.Collections.Generic.IEnumerable&lt;System.String&gt;" />

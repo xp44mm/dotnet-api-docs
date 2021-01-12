@@ -95,7 +95,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parameters">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,System.Activities.InArgument&gt; Parameters { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, System.Activities.InArgument&gt; Parameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class System.Activities.InArgument&gt; Parameters" />
       <MemberSignature Language="DocId" Value="P:System.ServiceModel.Activities.SendParametersContent.Parameters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parameters As IDictionary(Of String, InArgument)" />
@@ -113,7 +113,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Activities.InArgument&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Activities.InArgument&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the workflow service operation parameters.</summary>

@@ -223,7 +223,7 @@
       </Docs>
     </Member>
     <Member MemberName="Properties">
-      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.KeyedCollection&lt;string,System.Activities.DynamicActivityProperty&gt; Properties { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.KeyedCollection&lt;string, System.Activities.DynamicActivityProperty&gt; Properties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.KeyedCollection`2&lt;string, class System.Activities.DynamicActivityProperty&gt; Properties" />
       <MemberSignature Language="DocId" Value="P:System.Activities.ActivityBuilder`1.Properties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Properties As KeyedCollection(Of String, DynamicActivityProperty)" />
@@ -245,7 +245,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.ObjectModel.KeyedCollection&lt;System.String,System.Activities.DynamicActivityProperty&gt;</ReturnType>
+        <ReturnType>System.Collections.ObjectModel.KeyedCollection&lt;System.String, System.Activities.DynamicActivityProperty&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a <see cref="T:System.Collections.ObjectModel.KeyedCollection`2" /> of the properties of the current instance of <see cref="T:System.Activities.ActivityBuilder`1" />.</summary>

@@ -38,7 +38,7 @@ The implementation is thread-safe. That is, multiple threads can read data from 
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public PEReader (System.Collections.Immutable.ImmutableArray&lt;byte&gt; peImage);" />
+      <MemberSignature Language="C#" Value="public PEReader ( peImage);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Collections.Immutable.ImmutableArray`1&lt;unsigned int8&gt; peImage) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.PortableExecutable.PEReader.#ctor(System.Collections.Immutable.ImmutableArray{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (peImage As ImmutableArray(Of Byte))" />
@@ -641,7 +641,7 @@ The property returns `false` if the <xref:System.Reflection.PortableExecutable.P
       </Docs>
     </Member>
     <Member MemberName="ReadDebugDirectory">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;System.Reflection.PortableExecutable.DebugDirectoryEntry&gt; ReadDebugDirectory ();" />
+      <MemberSignature Language="C#" Value="public  ReadDebugDirectory ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;valuetype System.Reflection.PortableExecutable.DebugDirectoryEntry&gt; ReadDebugDirectory() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.PortableExecutable.PEReader.ReadDebugDirectory" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadDebugDirectory () As ImmutableArray(Of DebugDirectoryEntry)" />

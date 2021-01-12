@@ -1,5 +1,5 @@
-<Type Name="DictionaryModelBinder&lt;TKey,TValue&gt;" FullName="System.Web.ModelBinding.DictionaryModelBinder&lt;TKey,TValue&gt;">
-  <TypeSignature Language="C#" Value="public class DictionaryModelBinder&lt;TKey,TValue&gt; : System.Web.ModelBinding.CollectionModelBinder&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;" />
+<Type Name="DictionaryModelBinder&lt;TKey, TValue&gt;" FullName="System.Web.ModelBinding.DictionaryModelBinder&lt;TKey, TValue&gt;">
+  <TypeSignature Language="C#" Value="public class DictionaryModelBinder&lt;TKey, TValue&gt; : System.Web.ModelBinding.CollectionModelBinder&lt;&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DictionaryModelBinder`2&lt;TKey, TValue&gt; extends System.Web.ModelBinding.CollectionModelBinder`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;!TKey, !TValue&gt;&gt;" />
   <TypeSignature Language="DocId" Value="T:System.Web.ModelBinding.DictionaryModelBinder`2" />
   <TypeSignature Language="VB.NET" Value="Public Class DictionaryModelBinder(Of TKey, TValue)&#xA;Inherits CollectionModelBinder(Of KeyValuePair(Of TKey, TValue))" />
@@ -14,9 +14,9 @@
     <TypeParameter Name="TValue" />
   </TypeParameters>
   <Base>
-    <BaseTypeName>System.Web.ModelBinding.CollectionModelBinder&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;</BaseTypeName>
+    <BaseTypeName>System.Web.ModelBinding.CollectionModelBinder&lt;System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;&gt;</BaseTypeName>
     <BaseTypeArguments>
-      <BaseTypeArgument TypeParamName="TElement">System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;</BaseTypeArgument>
+      <BaseTypeArgument TypeParamName="TElement">System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;</BaseTypeArgument>
     </BaseTypeArguments>
   </Base>
   <Interfaces />

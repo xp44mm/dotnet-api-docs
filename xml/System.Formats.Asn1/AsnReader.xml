@@ -19,7 +19,7 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public AsnReader (ReadOnlyMemory&lt;byte&gt; data, System.Formats.Asn1.AsnEncodingRules ruleSet, System.Formats.Asn1.AsnReaderOptions options = default);" />
+      <MemberSignature Language="C#" Value="public AsnReader ( data, System.Formats.Asn1.AsnEncodingRules ruleSet, System.Formats.Asn1.AsnReaderOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; data, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, valuetype System.Formats.Asn1.AsnReaderOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.#ctor(System.ReadOnlyMemory{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.AsnReaderOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (data As ReadOnlyMemory(Of Byte), ruleSet As AsnEncodingRules, Optional options As AsnReaderOptions = Nothing)" />
@@ -76,7 +76,7 @@ This constructor does not copy `data`. The caller is responsible for ensuring th
       </Docs>
     </Member>
     <Member MemberName="PeekContentBytes">
-      <MemberSignature Language="C#" Value="public ReadOnlyMemory&lt;byte&gt; PeekContentBytes ();" />
+      <MemberSignature Language="C#" Value="public  PeekContentBytes ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; PeekContentBytes() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.PeekContentBytes" />
       <MemberSignature Language="VB.NET" Value="Public Function PeekContentBytes () As ReadOnlyMemory(Of Byte)" />
@@ -99,7 +99,7 @@ This constructor does not copy `data`. The caller is responsible for ensuring th
       </Docs>
     </Member>
     <Member MemberName="PeekEncodedValue">
-      <MemberSignature Language="C#" Value="public ReadOnlyMemory&lt;byte&gt; PeekEncodedValue ();" />
+      <MemberSignature Language="C#" Value="public  PeekEncodedValue ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; PeekEncodedValue() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.PeekEncodedValue" />
       <MemberSignature Language="VB.NET" Value="Public Function PeekEncodedValue () As ReadOnlyMemory(Of Byte)" />
@@ -246,7 +246,7 @@ This constructor does not copy `data`. The caller is responsible for ensuring th
       </Docs>
     </Member>
     <Member MemberName="ReadEncodedValue">
-      <MemberSignature Language="C#" Value="public ReadOnlyMemory&lt;byte&gt; ReadEncodedValue ();" />
+      <MemberSignature Language="C#" Value="public  ReadEncodedValue ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; ReadEncodedValue() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.ReadEncodedValue" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadEncodedValue () As ReadOnlyMemory(Of Byte)" />
@@ -268,7 +268,7 @@ This constructor does not copy `data`. The caller is responsible for ensuring th
       </Docs>
     </Member>
     <Member MemberName="ReadEnumeratedBytes">
-      <MemberSignature Language="C#" Value="public ReadOnlyMemory&lt;byte&gt; ReadEnumeratedBytes (System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public  ReadEnumeratedBytes (System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; ReadEnumeratedBytes(valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.ReadEnumeratedBytes(System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadEnumeratedBytes (Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As ReadOnlyMemory(Of Byte)" />
@@ -463,7 +463,7 @@ This method does not validate that the return value is defined within <typeparam
       </Docs>
     </Member>
     <Member MemberName="ReadIntegerBytes">
-      <MemberSignature Language="C#" Value="public ReadOnlyMemory&lt;byte&gt; ReadIntegerBytes (System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public  ReadIntegerBytes (System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; ReadIntegerBytes(valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.ReadIntegerBytes(System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadIntegerBytes (Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As ReadOnlyMemory(Of Byte)" />
@@ -947,7 +947,7 @@ This method provides a standardized target and standardized exception for readin
       </Docs>
     </Member>
     <Member MemberName="TryReadBitString">
-      <MemberSignature Language="C#" Value="public bool TryReadBitString (Span&lt;byte&gt; destination, out int unusedBitCount, out int bytesWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public bool TryReadBitString ( destination, out int unusedBitCount, out int bytesWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadBitString(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; unusedBitCount, [out] int32&amp; bytesWritten, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.TryReadBitString(System.Span{System.Byte},System.Int32@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadBitString (destination As Span(Of Byte), ByRef unusedBitCount As Integer, ByRef bytesWritten As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -985,7 +985,7 @@ This method provides a standardized target and standardized exception for readin
       </Docs>
     </Member>
     <Member MemberName="TryReadCharacterString">
-      <MemberSignature Language="C#" Value="public bool TryReadCharacterString (Span&lt;char&gt; destination, System.Formats.Asn1.UniversalTagNumber encodingType, out int charsWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public bool TryReadCharacterString ( destination, System.Formats.Asn1.UniversalTagNumber encodingType, out int charsWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadCharacterString(valuetype System.Span`1&lt;char&gt; destination, valuetype System.Formats.Asn1.UniversalTagNumber encodingType, [out] int32&amp; charsWritten, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.TryReadCharacterString(System.Span{System.Char},System.Formats.Asn1.UniversalTagNumber,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadCharacterString (destination As Span(Of Char), encodingType As UniversalTagNumber, ByRef charsWritten As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -1027,7 +1027,7 @@ This method provides a standardized target and standardized exception for readin
       </Docs>
     </Member>
     <Member MemberName="TryReadCharacterStringBytes">
-      <MemberSignature Language="C#" Value="public bool TryReadCharacterStringBytes (Span&lt;byte&gt; destination, System.Formats.Asn1.Asn1Tag expectedTag, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryReadCharacterStringBytes ( destination, System.Formats.Asn1.Asn1Tag expectedTag, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadCharacterStringBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, valuetype System.Formats.Asn1.Asn1Tag expectedTag, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.TryReadCharacterStringBytes(System.Span{System.Byte},System.Formats.Asn1.Asn1Tag,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadCharacterStringBytes (destination As Span(Of Byte), expectedTag As Asn1Tag, ByRef bytesWritten As Integer) As Boolean" />
@@ -1140,7 +1140,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadOctetString">
-      <MemberSignature Language="C#" Value="public bool TryReadOctetString (Span&lt;byte&gt; destination, out int bytesWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public bool TryReadOctetString ( destination, out int bytesWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadOctetString(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.TryReadOctetString(System.Span{System.Byte},System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadOctetString (destination As Span(Of Byte), ByRef bytesWritten As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -1176,7 +1176,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadPrimitiveBitString">
-      <MemberSignature Language="C#" Value="public bool TryReadPrimitiveBitString (out int unusedBitCount, out ReadOnlyMemory&lt;byte&gt; value, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public bool TryReadPrimitiveBitString (out int unusedBitCount, out  value, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadPrimitiveBitString([out] int32&amp; unusedBitCount, [out] valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt;&amp; value, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.TryReadPrimitiveBitString(System.Int32@,System.ReadOnlyMemory{System.Byte}@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadPrimitiveBitString (ByRef unusedBitCount As Integer, ByRef value As ReadOnlyMemory(Of Byte), Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -1212,7 +1212,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadPrimitiveCharacterStringBytes">
-      <MemberSignature Language="C#" Value="public bool TryReadPrimitiveCharacterStringBytes (System.Formats.Asn1.Asn1Tag expectedTag, out ReadOnlyMemory&lt;byte&gt; contents);" />
+      <MemberSignature Language="C#" Value="public bool TryReadPrimitiveCharacterStringBytes (System.Formats.Asn1.Asn1Tag expectedTag, out  contents);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadPrimitiveCharacterStringBytes(valuetype System.Formats.Asn1.Asn1Tag expectedTag, [out] valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt;&amp; contents) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.TryReadPrimitiveCharacterStringBytes(System.Formats.Asn1.Asn1Tag,System.ReadOnlyMemory{System.Byte}@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadPrimitiveCharacterStringBytes (expectedTag As Asn1Tag, ByRef contents As ReadOnlyMemory(Of Byte)) As Boolean" />
@@ -1255,7 +1255,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadPrimitiveOctetString">
-      <MemberSignature Language="C#" Value="public bool TryReadPrimitiveOctetString (out ReadOnlyMemory&lt;byte&gt; contents, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public bool TryReadPrimitiveOctetString (out  contents, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadPrimitiveOctetString([out] valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt;&amp; contents, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnReader.TryReadPrimitiveOctetString(System.ReadOnlyMemory{System.Byte}@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadPrimitiveOctetString (ByRef contents As ReadOnlyMemory(Of Byte), Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />

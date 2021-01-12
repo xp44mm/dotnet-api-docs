@@ -1,5 +1,5 @@
 <Type Name="FilterLoggerSettings" FullName="Microsoft.Extensions.Logging.FilterLoggerSettings">
-  <TypeSignature Language="C#" Value="public class FilterLoggerSettings : Microsoft.Extensions.Logging.IFilterLoggerSettings, System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,Microsoft.Extensions.Logging.LogLevel&gt;&gt;" />
+  <TypeSignature Language="C#" Value="public class FilterLoggerSettings : Microsoft.Extensions.Logging.IFilterLoggerSettings, System.Collections.Generic.IEnumerable&lt;&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FilterLoggerSettings extends System.Object implements class Microsoft.Extensions.Logging.IFilterLoggerSettings, class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, valuetype Microsoft.Extensions.Logging.LogLevel&gt;&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Extensions.Logging.FilterLoggerSettings" />
   <TypeSignature Language="VB.NET" Value="Public Class FilterLoggerSettings&#xA;Implements IEnumerable(Of KeyValuePair(Of String, LogLevel)), IFilterLoggerSettings" />
@@ -18,7 +18,7 @@
       <InterfaceName>Microsoft.Extensions.Logging.IFilterLoggerSettings</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,Microsoft.Extensions.Logging.LogLevel&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, Microsoft.Extensions.Logging.LogLevel&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>System.Collections.IEnumerable</InterfaceName>
@@ -126,7 +126,7 @@
       </Docs>
     </Member>
     <Member MemberName="Switches">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Microsoft.Extensions.Logging.LogLevel&gt; Switches { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, Microsoft.Extensions.Logging.LogLevel&gt; Switches { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, valuetype Microsoft.Extensions.Logging.LogLevel&gt; Switches" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Logging.FilterLoggerSettings.Switches" />
       <MemberSignature Language="VB.NET" Value="Public Property Switches As IDictionary(Of String, LogLevel)" />
@@ -139,7 +139,7 @@
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Extensions.Logging.LogLevel&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, Microsoft.Extensions.Logging.LogLevel&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>
@@ -147,8 +147,8 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
-    <Member MemberName="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,Microsoft.Extensions.Logging.LogLevel&gt;&gt;.GetEnumerator">
-      <MemberSignature Language="C#" Value="System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;string,Microsoft.Extensions.Logging.LogLevel&gt;&gt; IEnumerable&lt;KeyValuePair&lt;string,LogLevel&gt;&gt;.GetEnumerator ();" />
+    <Member MemberName="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, Microsoft.Extensions.Logging.LogLevel&gt;&gt;.GetEnumerator" ExplicitInterfaceMemberName="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,Microsoft.Extensions.Logging.LogLevel&gt;&gt;.GetEnumerator">
+      <MemberSignature Language="C#" Value="System.Collections.Generic.IEnumerator&lt;&gt; IEnumerable&lt;&gt;.GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, valuetype Microsoft.Extensions.Logging.LogLevel&gt;&gt; System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,Microsoft.Extensions.Logging.LogLevel&gt;&gt;.GetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.FilterLoggerSettings.System#Collections#Generic#IEnumerable&lt;System#Collections#Generic#KeyValuePair&lt;System#String,Microsoft#Extensions#Logging#LogLevel&gt;&gt;#GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator(Of KeyValuePair(Of String, LogLevel)) Implements IEnumerable(Of KeyValuePair(Of String, LogLevel)).GetEnumerator" />
@@ -164,7 +164,7 @@
         <AssemblyVersion>1.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;System.String,Microsoft.Extensions.Logging.LogLevel&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;System.String, Microsoft.Extensions.Logging.LogLevel&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

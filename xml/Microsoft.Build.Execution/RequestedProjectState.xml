@@ -38,7 +38,7 @@
       </Docs>
     </Member>
     <Member MemberName="ItemFilters">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; ItemFilters { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, System.Collections.Generic.List&lt;string&gt;&gt; ItemFilters { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; ItemFilters" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Execution.RequestedProjectState.ItemFilters" />
       <MemberSignature Language="VB.NET" Value="Public Property ItemFilters As IDictionary(Of String, List(Of String))" />
@@ -50,7 +50,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

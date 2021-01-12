@@ -30,7 +30,7 @@
   </Docs>
   <Members>
     <Member MemberName="AsBytes&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;byte&gt; AsBytes&lt;T&gt; (ReadOnlySpan&lt;T&gt; span) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsBytes&lt;T&gt; ( span) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; AsBytes&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.ReadOnlySpan`1&lt;!!T&gt; span) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.AsBytes``1(System.ReadOnlySpan{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsBytes(Of T As Structure) (span As ReadOnlySpan(Of T)) As ReadOnlySpan(Of Byte)" />
@@ -84,7 +84,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsBytes&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Span&lt;byte&gt; AsBytes&lt;T&gt; (Span&lt;T&gt; span) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsBytes&lt;T&gt; ( span) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;unsigned int8&gt; AsBytes&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Span`1&lt;!!T&gt; span) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.AsBytes``1(System.Span{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsBytes(Of T As Structure) (span As Span(Of T)) As Span(Of Byte)" />
@@ -138,13 +138,12 @@
       </Docs>
     </Member>
     <Member MemberName="AsMemory&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt;? AsMemory&lt;T&gt; (ReadOnlyMemory&lt;T&gt;? memory);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static  AsMemory&lt;T&gt; ( memory);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; AsMemory&lt;T&gt;(valuetype System.ReadOnlyMemory`1&lt;!!T&gt; memory) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.AsMemory``1(System.ReadOnlyMemory{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsMemory(Of T) (memory As ReadOnlyMemory(Of T)) As Memory(Of T)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static Memory&lt;T&gt; AsMemory(ReadOnlyMemory&lt;T&gt; memory);" />
       <MemberSignature Language="F#" Value="static member AsMemory : ReadOnlyMemory&lt;'T&gt; -&gt; Memory&lt;'T&gt;" Usage="System.Runtime.InteropServices.MemoryMarshal.AsMemory memory" />
-      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; AsMemory&lt;T&gt; (ReadOnlyMemory&lt;T&gt; memory);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -184,7 +183,7 @@ This method must be used with extreme caution. <xref:System.ReadOnlyMemory%601> 
       </Docs>
     </Member>
     <Member MemberName="AsRef&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static ref readonly T AsRef&lt;T&gt; (ReadOnlySpan&lt;byte&gt; span) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static ref readonly T AsRef&lt;T&gt; ( span) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T AsRef&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; span) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.AsRef``1(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsRef(Of T As Structure) (span As ReadOnlySpan(Of Byte)) As T" />
@@ -240,7 +239,7 @@ This method is supported only on platforms that support misaligned memory access
       </Docs>
     </Member>
     <Member MemberName="AsRef&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static ref T AsRef&lt;T&gt; (Span&lt;byte&gt; span) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static ref T AsRef&lt;T&gt; ( span) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T AsRef&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Span`1&lt;unsigned int8&gt; span) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.AsRef``1(System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsRef(Of T As Structure) (span As Span(Of Byte)) As T" />
@@ -290,7 +289,7 @@ This method is supported only on platforms that support misaligned memory access
       </Docs>
     </Member>
     <Member MemberName="Cast&lt;TFrom,TTo&gt;">
-      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;TTo&gt; Cast&lt;TFrom,TTo&gt; (ReadOnlySpan&lt;TFrom&gt; span) where TFrom : struct where TTo : struct;" />
+      <MemberSignature Language="C#" Value="public static  Cast&lt;TFrom,TTo&gt; ( span) where TFrom : struct where TTo : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlySpan`1&lt;!!TTo&gt; Cast&lt;struct .ctor (class System.ValueType) TFrom, struct .ctor (class System.ValueType) TTo&gt;(valuetype System.ReadOnlySpan`1&lt;!!TFrom&gt; span) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.Cast``2(System.ReadOnlySpan{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Cast(Of TFrom As Structure, TTo As Structure) (span As ReadOnlySpan(Of TFrom)) As ReadOnlySpan(Of TTo)" />
@@ -353,7 +352,7 @@ This method is supported only on platforms that support misaligned memory access
       </Docs>
     </Member>
     <Member MemberName="Cast&lt;TFrom,TTo&gt;">
-      <MemberSignature Language="C#" Value="public static Span&lt;TTo&gt; Cast&lt;TFrom,TTo&gt; (Span&lt;TFrom&gt; span) where TFrom : struct where TTo : struct;" />
+      <MemberSignature Language="C#" Value="public static  Cast&lt;TFrom,TTo&gt; ( span) where TFrom : struct where TTo : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!TTo&gt; Cast&lt;struct .ctor (class System.ValueType) TFrom, struct .ctor (class System.ValueType) TTo&gt;(valuetype System.Span`1&lt;!!TFrom&gt; span) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.Cast``2(System.Span{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Cast(Of TFrom As Structure, TTo As Structure) (span As Span(Of TFrom)) As Span(Of TTo)" />
@@ -422,13 +421,13 @@ This method is supported only on platforms that support misaligned memory access
       </Docs>
     </Member>
     <Member MemberName="CreateFromPinnedArray&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt;? CreateFromPinnedArray&lt;T&gt; (T[]? array, int start, int length);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static  CreateFromPinnedArray&lt;T&gt; (T[]? array, int start, int length);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Memory`1&lt;!!T&gt; CreateFromPinnedArray&lt;T&gt;(!!T[] array, int32 start, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.CreateFromPinnedArray``1(``0[],System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromPinnedArray(Of T) (array As T(), start As Integer, length As Integer) As Memory(Of T)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static Memory&lt;T&gt; CreateFromPinnedArray(cli::array &lt;T&gt; ^ array, int start, int length);" />
       <MemberSignature Language="F#" Value="static member CreateFromPinnedArray : 'T[] * int * int -&gt; Memory&lt;'T&gt;" Usage="System.Runtime.InteropServices.MemoryMarshal.CreateFromPinnedArray (array, start, length)" />
-      <MemberSignature Language="C#" Value="public static Memory&lt;T&gt; CreateFromPinnedArray&lt;T&gt; (T[] array, int start, int length);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public static  CreateFromPinnedArray&lt;T&gt; (T[] array, int start, int length);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -474,13 +473,12 @@ The array must already be pinned before this method is called, and that array mu
       </Docs>
     </Member>
     <Member MemberName="CreateReadOnlySpan&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;T&gt;? CreateReadOnlySpan&lt;T&gt; (ref T reference, int length);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static  CreateReadOnlySpan&lt;T&gt; (ref T reference, int length);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlySpan`1&lt;!!T&gt; CreateReadOnlySpan&lt;T&gt;(!!T&amp; reference, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.CreateReadOnlySpan``1(``0@,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateReadOnlySpan(Of T) (ByRef reference As T, length As Integer) As ReadOnlySpan(Of T)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static ReadOnlySpan&lt;T&gt; CreateReadOnlySpan(T % reference, int length);" />
       <MemberSignature Language="F#" Value="static member CreateReadOnlySpan : 'T * int -&gt; ReadOnlySpan&lt;'T&gt;" Usage="System.Runtime.InteropServices.MemoryMarshal.CreateReadOnlySpan (reference, length)" />
-      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;T&gt; CreateReadOnlySpan&lt;T&gt; (ref T reference, int length);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -525,13 +523,12 @@ This method can be useful if part of a managed object represents a fixed array.
       </Docs>
     </Member>
     <Member MemberName="CreateSpan&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static Span&lt;T&gt;? CreateSpan&lt;T&gt; (ref T reference, int length);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static  CreateSpan&lt;T&gt; (ref T reference, int length);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Span`1&lt;!!T&gt; CreateSpan&lt;T&gt;(!!T&amp; reference, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.CreateSpan``1(``0@,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateSpan(Of T) (ByRef reference As T, length As Integer) As Span(Of T)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static Span&lt;T&gt; CreateSpan(T % reference, int length);" />
       <MemberSignature Language="F#" Value="static member CreateSpan : 'T * int -&gt; Span&lt;'T&gt;" Usage="System.Runtime.InteropServices.MemoryMarshal.CreateSpan (reference, length)" />
-      <MemberSignature Language="C#" Value="public static Span&lt;T&gt; CreateSpan&lt;T&gt; (ref T reference, int length);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -618,13 +615,12 @@ This method does not perform array variance checks. The caller must manually per
       </Docs>
     </Member>
     <Member MemberName="GetReference&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static ref T GetReference&lt;T&gt; (ReadOnlySpan&lt;T&gt;? span);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static ref T GetReference&lt;T&gt; ( span);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetReference&lt;T&gt;(valuetype System.ReadOnlySpan`1&lt;!!T&gt; span) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.GetReference``1(System.ReadOnlySpan{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetReference(Of T) (span As ReadOnlySpan(Of T)) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static T % GetReference(ReadOnlySpan&lt;T&gt; span);" />
       <MemberSignature Language="F#" Value="static member GetReference : ReadOnlySpan&lt;'T&gt; -&gt; 'T" Usage="System.Runtime.InteropServices.MemoryMarshal.GetReference span" />
-      <MemberSignature Language="C#" Value="public static ref T GetReference&lt;T&gt; (ReadOnlySpan&lt;T&gt; span);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -663,13 +659,12 @@ If the read-only span is empty, this method returns a reference to the location 
       </Docs>
     </Member>
     <Member MemberName="GetReference&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static ref T GetReference&lt;T&gt; (Span&lt;T&gt;? span);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static ref T GetReference&lt;T&gt; ( span);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetReference&lt;T&gt;(valuetype System.Span`1&lt;!!T&gt; span) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.GetReference``1(System.Span{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetReference(Of T) (span As Span(Of T)) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static T % GetReference(Span&lt;T&gt; span);" />
       <MemberSignature Language="F#" Value="static member GetReference : Span&lt;'T&gt; -&gt; 'T" Usage="System.Runtime.InteropServices.MemoryMarshal.GetReference span" />
-      <MemberSignature Language="C#" Value="public static ref T GetReference&lt;T&gt; (Span&lt;T&gt; span);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -708,7 +703,7 @@ If the span is empty, this method returns a reference to the location where the 
       </Docs>
     </Member>
     <Member MemberName="Read&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T Read&lt;T&gt; (ReadOnlySpan&lt;byte&gt; source) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static T Read&lt;T&gt; ( source) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T Read&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.Read``1(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Read(Of T As Structure) (source As ReadOnlySpan(Of Byte)) As T" />
@@ -763,13 +758,12 @@ If the span is empty, this method returns a reference to the location where the 
       </Docs>
     </Member>
     <Member MemberName="ToEnumerable&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;T&gt; ToEnumerable&lt;T&gt; (ReadOnlyMemory&lt;T&gt;? memory);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;T&gt; ToEnumerable&lt;T&gt; ( memory);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; ToEnumerable&lt;T&gt;(valuetype System.ReadOnlyMemory`1&lt;!!T&gt; memory) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.ToEnumerable``1(System.ReadOnlyMemory{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToEnumerable(Of T) (memory As ReadOnlyMemory(Of T)) As IEnumerable(Of T)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Generic::IEnumerable&lt;T&gt; ^ ToEnumerable(ReadOnlyMemory&lt;T&gt; memory);" />
       <MemberSignature Language="F#" Value="static member ToEnumerable : ReadOnlyMemory&lt;'T&gt; -&gt; seq&lt;'T&gt;" Usage="System.Runtime.InteropServices.MemoryMarshal.ToEnumerable memory" />
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IEnumerable&lt;T&gt; ToEnumerable&lt;T&gt; (ReadOnlyMemory&lt;T&gt; memory);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -809,13 +803,12 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </Docs>
     </Member>
     <Member MemberName="TryGetArray&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool TryGetArray&lt;T&gt; (ReadOnlyMemory&lt;T&gt;? memory, out ArraySegment&lt;T&gt;? segment);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool TryGetArray&lt;T&gt; ( memory, out  segment);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryGetArray&lt;T&gt;(valuetype System.ReadOnlyMemory`1&lt;!!T&gt; memory, [out] valuetype System.ArraySegment`1&lt;!!T&gt;&amp; segment) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.TryGetArray``1(System.ReadOnlyMemory{``0},System.ArraySegment{``0}@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryGetArray(Of T) (memory As ReadOnlyMemory(Of T), ByRef segment As ArraySegment(Of T)) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static bool TryGetArray(ReadOnlyMemory&lt;T&gt; memory, [Runtime::InteropServices::Out] ArraySegment&lt;T&gt; % segment);" />
       <MemberSignature Language="F#" Value="static member TryGetArray : ReadOnlyMemory&lt;'T&gt; * ArraySegment -&gt; bool" Usage="System.Runtime.InteropServices.MemoryMarshal.TryGetArray (memory, segment)" />
-      <MemberSignature Language="C#" Value="public static bool TryGetArray&lt;T&gt; (ReadOnlyMemory&lt;T&gt; memory, out ArraySegment&lt;T&gt; segment);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -850,13 +843,13 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </Docs>
     </Member>
     <Member MemberName="TryGetMemoryManager&lt;T,TManager&gt;">
-      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; (ReadOnlyMemory&lt;T&gt;? memory, out TManager manager) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; ( memory, out TManager? manager) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryGetMemoryManager&lt;T, (class System.Buffers.MemoryManager`1&lt;!!T&gt;) TManager&gt;(valuetype System.ReadOnlyMemory`1&lt;!!T&gt; memory, [out] !!TManager&amp; manager) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.TryGetMemoryManager``2(System.ReadOnlyMemory{``0},``1@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryGetMemoryManager(Of T, TManager) (memory As ReadOnlyMemory(Of T), ByRef manager As TManager) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename TManager&gt;&#xA; where TManager : System::Buffers::MemoryManager&lt;T&gt; static bool TryGetMemoryManager(ReadOnlyMemory&lt;T&gt; memory, [Runtime::InteropServices::Out] TManager % manager);" />
       <MemberSignature Language="F#" Value="static member TryGetMemoryManager : ReadOnlyMemory&lt;'T&gt; * 'Manager -&gt; bool (requires 'Manager :&gt; System.Buffers.MemoryManager&lt;'T&gt;)" Usage="System.Runtime.InteropServices.MemoryMarshal.TryGetMemoryManager (memory, manager)" />
-      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; (ReadOnlyMemory&lt;T&gt; memory, out TManager manager) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; ( memory, out TManager manager) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -904,13 +897,13 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </Docs>
     </Member>
     <Member MemberName="TryGetMemoryManager&lt;T,TManager&gt;">
-      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; (ReadOnlyMemory&lt;T&gt;? memory, out TManager manager, out int start, out int length) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; ( memory, out TManager? manager, out int? start, out int? length) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryGetMemoryManager&lt;T, (class System.Buffers.MemoryManager`1&lt;!!T&gt;) TManager&gt;(valuetype System.ReadOnlyMemory`1&lt;!!T&gt; memory, [out] !!TManager&amp; manager, [out] int32&amp; start, [out] int32&amp; length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.TryGetMemoryManager``2(System.ReadOnlyMemory{``0},``1@,System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryGetMemoryManager(Of T, TManager) (memory As ReadOnlyMemory(Of T), ByRef manager As TManager, ByRef start As Integer, ByRef length As Integer) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T, typename TManager&gt;&#xA; where TManager : System::Buffers::MemoryManager&lt;T&gt; static bool TryGetMemoryManager(ReadOnlyMemory&lt;T&gt; memory, [Runtime::InteropServices::Out] TManager % manager, [Runtime::InteropServices::Out] int % start, [Runtime::InteropServices::Out] int % length);" />
       <MemberSignature Language="F#" Value="static member TryGetMemoryManager : ReadOnlyMemory&lt;'T&gt; * 'Manager * int * int -&gt; bool (requires 'Manager :&gt; System.Buffers.MemoryManager&lt;'T&gt;)" Usage="System.Runtime.InteropServices.MemoryMarshal.TryGetMemoryManager (memory, manager, start, length)" />
-      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; (ReadOnlyMemory&lt;T&gt; memory, out TManager manager, out int start, out int length) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public static bool TryGetMemoryManager&lt;T,TManager&gt; ( memory, out TManager manager, out int start, out int length) where TManager : System.Buffers.MemoryManager&lt;T&gt;;" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -962,13 +955,13 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </Docs>
     </Member>
     <Member MemberName="TryGetString">
-      <MemberSignature Language="C#" Value="public static bool TryGetString (ReadOnlyMemory&lt;char&gt; memory, out string? text, out int start, out int length);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool TryGetString ( memory, out string? text, out int start, out int length);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryGetString(valuetype System.ReadOnlyMemory`1&lt;char&gt; memory, [out] string&amp; text, [out] int32&amp; start, [out] int32&amp; length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.TryGetString(System.ReadOnlyMemory{System.Char},System.String@,System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryGetString (memory As ReadOnlyMemory(Of Char), ByRef text As String, ByRef start As Integer, ByRef length As Integer) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryGetString(ReadOnlyMemory&lt;char&gt; memory, [Runtime::InteropServices::Out] System::String ^ % text, [Runtime::InteropServices::Out] int % start, [Runtime::InteropServices::Out] int % length);" />
       <MemberSignature Language="F#" Value="static member TryGetString : ReadOnlyMemory&lt;char&gt; * string * int * int -&gt; bool" Usage="System.Runtime.InteropServices.MemoryMarshal.TryGetString (memory, text, start, length)" />
-      <MemberSignature Language="C#" Value="public static bool TryGetString (ReadOnlyMemory&lt;char&gt; memory, out string text, out int start, out int length);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public static bool TryGetString ( memory, out string text, out int start, out int length);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory</AssemblyName>
@@ -1010,7 +1003,7 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </Docs>
     </Member>
     <Member MemberName="TryRead&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool TryRead&lt;T&gt; (ReadOnlySpan&lt;byte&gt; source, out T value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool TryRead&lt;T&gt; ( source, out T value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryRead&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] !!T&amp; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.TryRead``1(System.ReadOnlySpan{System.Byte},``0@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryRead(Of T As Structure) (source As ReadOnlySpan(Of Byte), ByRef value As T) As Boolean" />
@@ -1066,7 +1059,7 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </Docs>
     </Member>
     <Member MemberName="TryWrite&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool TryWrite&lt;T&gt; (Span&lt;byte&gt; destination, ref T value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool TryWrite&lt;T&gt; ( destination, ref T value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryWrite&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Span`1&lt;unsigned int8&gt; destination, !!T&amp; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.TryWrite``1(System.Span{System.Byte},``0@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryWrite(Of T As Structure) (destination As Span(Of Byte), ByRef value As T) As Boolean" />
@@ -1122,7 +1115,7 @@ This method allows a read-only memory buffer to be used in existing APIs that re
       </Docs>
     </Member>
     <Member MemberName="Write&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static void Write&lt;T&gt; (Span&lt;byte&gt; destination, ref T value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static void Write&lt;T&gt; ( destination, ref T value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Write&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Span`1&lt;unsigned int8&gt; destination, !!T&amp; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.InteropServices.MemoryMarshal.Write``1(System.Span{System.Byte},``0@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Write(Of T As Structure) (destination As Span(Of Byte), ByRef value As T)" />

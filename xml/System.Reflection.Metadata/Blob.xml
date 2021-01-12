@@ -30,7 +30,7 @@
   </Docs>
   <Members>
     <Member MemberName="GetBytes">
-      <MemberSignature Language="C#" Value="public ArraySegment&lt;byte&gt; GetBytes ();" />
+      <MemberSignature Language="C#" Value="public  GetBytes ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ArraySegment`1&lt;unsigned int8&gt; GetBytes() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.Blob.GetBytes" />
       <MemberSignature Language="VB.NET" Value="Public Function GetBytes () As ArraySegment(Of Byte)" />

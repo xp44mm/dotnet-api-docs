@@ -376,7 +376,7 @@
       </Docs>
     </Member>
     <Member MemberName="SerializableInstanceOwnerMetadata">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,object&gt; SerializableInstanceOwnerMetadata { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, object&gt; SerializableInstanceOwnerMetadata { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class System.Xml.Linq.XName, object&gt; SerializableInstanceOwnerMetadata" />
       <MemberSignature Language="DocId" Value="P:System.Runtime.DurableInstancing.InstanceLockedException.SerializableInstanceOwnerMetadata" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SerializableInstanceOwnerMetadata As IDictionary(Of XName, Object)" />
@@ -394,7 +394,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets serializable metadata information about the current instance owner (who currently has a lock on the instance).  When present, this consists of the subset of instance owner metadata which is serializable.  The metadata may contain information such as the location of the instance owner, who currently owns the lock.</summary>

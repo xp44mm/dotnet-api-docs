@@ -34,7 +34,7 @@
   </Docs>
   <Members>
     <Member MemberName="GetGlobalProperties">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,string&gt; GetGlobalProperties ();" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string, string&gt; GetGlobalProperties ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, string&gt; GetGlobalProperties() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Build.Framework.IBuildEngine6.GetGlobalProperties" />
       <MemberSignature Language="VB.NET" Value="Public Function GetGlobalProperties () As IReadOnlyDictionary(Of String, String)" />
@@ -46,7 +46,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

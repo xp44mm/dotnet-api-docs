@@ -53,7 +53,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetViewState">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string,object&gt; GetViewState (object instance);" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;string, object&gt; GetViewState (object instance);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;string, object&gt; GetViewState(object instance) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.Presentation.View.WorkflowViewStateService.GetViewState(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetViewState (instance As Object) As Dictionary(Of String, Object)" />
@@ -65,7 +65,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="instance" Type="System.Object" />
@@ -108,7 +108,7 @@
       </Docs>
     </Member>
     <Member MemberName="RetrieveAllViewState">
-      <MemberSignature Language="C#" Value="public override System.Collections.Generic.Dictionary&lt;string,object&gt; RetrieveAllViewState (System.Activities.Presentation.Model.ModelItem modelItem);" />
+      <MemberSignature Language="C#" Value="public override System.Collections.Generic.Dictionary&lt;string, object&gt; RetrieveAllViewState (System.Activities.Presentation.Model.ModelItem modelItem);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance class System.Collections.Generic.Dictionary`2&lt;string, object&gt; RetrieveAllViewState(class System.Activities.Presentation.Model.ModelItem modelItem) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.Presentation.View.WorkflowViewStateService.RetrieveAllViewState(System.Activities.Presentation.Model.ModelItem)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function RetrieveAllViewState (modelItem As ModelItem) As Dictionary(Of String, Object)" />
@@ -120,7 +120,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="modelItem" Type="System.Activities.Presentation.Model.ModelItem" />

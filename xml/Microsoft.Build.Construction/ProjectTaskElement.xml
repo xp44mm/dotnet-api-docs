@@ -64,8 +64,8 @@
         <param name="taskParameter">The name of the task which outputs to the item.</param>
         <param name="itemType">The item type of the new item whose value is set to the output of the task.</param>
         <summary>
-            Convenience method to add an Output Item to this task. 
-            Adds after the last child. 
+            Convenience method to add an Output Item to this task.
+            Adds after the last child.
             </summary>
         <returns>The added Output item.</returns>
         <remarks>To be added.</remarks>
@@ -97,8 +97,8 @@
         <param name="itemType">The item type of the item.</param>
         <param name="condition">The condition of the parameter.</param>
         <summary>
-            Convenience method to add a conditioned Output Item to this task. 
-            Adds after the last child. 
+            Convenience method to add a conditioned Output Item to this task.
+            Adds after the last child.
             </summary>
         <returns>The added conditioned Output item.</returns>
         <remarks>To be added.</remarks>
@@ -137,8 +137,8 @@
         <param name="taskParameter">The name of the parameter.</param>
         <param name="propertyName">The name of the property.</param>
         <summary>
-            Convenience method to add an Output Property to this task. 
-            Adds after the last child. 
+            Convenience method to add an Output Property to this task.
+            Adds after the last child.
             </summary>
         <returns>The added Output property.</returns>
         <remarks>To be added.</remarks>
@@ -170,8 +170,8 @@
         <param name="propertyName">The name of the property.</param>
         <param name="condition">The condition of the property.</param>
         <summary>
-            Convenience method to add a conditioned Output Property to this task. 
-            Adds after the last child. 
+            Convenience method to add a conditioned Output Property to this task.
+            Adds after the last child.
             </summary>
         <returns>The added conditioned Output property.</returns>
         <remarks>To be added.</remarks>
@@ -205,7 +205,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the continue on error value. 
+            Gets or sets the continue on error value.
             Returns empty string if it is not present.
             Removes the attribute if the value to set is empty.
             </summary>
@@ -353,7 +353,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the architecture value for the task. 
+            Gets or sets the architecture value for the task.
             Returns empty string if it is not present.
             Removes the attribute if the value to set is empty.
             </summary>
@@ -414,7 +414,7 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets the runtime value for the task. 
+            Gets or sets the runtime value for the task.
             Returns empty string if it is not present.
             Removes the attribute if the value to set is empty.
             </summary>
@@ -496,7 +496,7 @@
       </Docs>
     </Member>
     <Member MemberName="ParameterLocations">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,Microsoft.Build.Construction.ElementLocation&gt;&gt; ParameterLocations { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;&gt; ParameterLocations { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class Microsoft.Build.Construction.ElementLocation&gt;&gt; ParameterLocations" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Construction.ProjectTaskElement.ParameterLocations" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ParameterLocations As IEnumerable(Of KeyValuePair(Of String, ElementLocation))" />
@@ -509,7 +509,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,Microsoft.Build.Construction.ElementLocation&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, Microsoft.Build.Construction.ElementLocation&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -523,7 +523,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parameters">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Parameters { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, string&gt; Parameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Parameters" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Construction.ProjectTaskElement.Parameters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parameters As IDictionary(Of String, String)" />
@@ -536,7 +536,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

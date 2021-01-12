@@ -386,7 +386,7 @@ For similar types in other programming languages, see [Rust's primitive `char` t
       </Docs>
     </Member>
     <Member MemberName="DecodeFromUtf16">
-      <MemberSignature Language="C#" Value="public static System.Buffers.OperationStatus DecodeFromUtf16 (ReadOnlySpan&lt;char&gt; source, out System.Text.Rune result, out int charsConsumed);" />
+      <MemberSignature Language="C#" Value="public static System.Buffers.OperationStatus DecodeFromUtf16 ( source, out System.Text.Rune result, out int charsConsumed);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Buffers.OperationStatus DecodeFromUtf16(valuetype System.ReadOnlySpan`1&lt;char&gt; source, [out] valuetype System.Text.Rune&amp; result, [out] int32&amp; charsConsumed) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Rune.DecodeFromUtf16(System.ReadOnlySpan{System.Char},System.Text.Rune@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DecodeFromUtf16 (source As ReadOnlySpan(Of Char), ByRef result As Rune, ByRef charsConsumed As Integer) As OperationStatus" />
@@ -431,7 +431,7 @@ The general convention is to call this method in a loop, slicing the `source` bu
       </Docs>
     </Member>
     <Member MemberName="DecodeFromUtf8">
-      <MemberSignature Language="C#" Value="public static System.Buffers.OperationStatus DecodeFromUtf8 (ReadOnlySpan&lt;byte&gt; source, out System.Text.Rune result, out int bytesConsumed);" />
+      <MemberSignature Language="C#" Value="public static System.Buffers.OperationStatus DecodeFromUtf8 ( source, out System.Text.Rune result, out int bytesConsumed);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Buffers.OperationStatus DecodeFromUtf8(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] valuetype System.Text.Rune&amp; result, [out] int32&amp; bytesConsumed) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Rune.DecodeFromUtf8(System.ReadOnlySpan{System.Byte},System.Text.Rune@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DecodeFromUtf8 (source As ReadOnlySpan(Of Byte), ByRef result As Rune, ByRef bytesConsumed As Integer) As OperationStatus" />
@@ -476,7 +476,7 @@ The general convention is to call this method in a loop, slicing the `source` bu
       </Docs>
     </Member>
     <Member MemberName="DecodeLastFromUtf16">
-      <MemberSignature Language="C#" Value="public static System.Buffers.OperationStatus DecodeLastFromUtf16 (ReadOnlySpan&lt;char&gt; source, out System.Text.Rune result, out int charsConsumed);" />
+      <MemberSignature Language="C#" Value="public static System.Buffers.OperationStatus DecodeLastFromUtf16 ( source, out System.Text.Rune result, out int charsConsumed);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Buffers.OperationStatus DecodeLastFromUtf16(valuetype System.ReadOnlySpan`1&lt;char&gt; source, [out] valuetype System.Text.Rune&amp; result, [out] int32&amp; charsConsumed) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Rune.DecodeLastFromUtf16(System.ReadOnlySpan{System.Char},System.Text.Rune@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DecodeLastFromUtf16 (source As ReadOnlySpan(Of Char), ByRef result As Rune, ByRef charsConsumed As Integer) As OperationStatus" />
@@ -521,7 +521,7 @@ This method is very similar to <xref:System.Text.Rune.DecodeFromUtf16(System.Rea
       </Docs>
     </Member>
     <Member MemberName="DecodeLastFromUtf8">
-      <MemberSignature Language="C#" Value="public static System.Buffers.OperationStatus DecodeLastFromUtf8 (ReadOnlySpan&lt;byte&gt; source, out System.Text.Rune value, out int bytesConsumed);" />
+      <MemberSignature Language="C#" Value="public static System.Buffers.OperationStatus DecodeLastFromUtf8 ( source, out System.Text.Rune value, out int bytesConsumed);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Buffers.OperationStatus DecodeLastFromUtf8(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] valuetype System.Text.Rune&amp; value, [out] int32&amp; bytesConsumed) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Rune.DecodeLastFromUtf8(System.ReadOnlySpan{System.Byte},System.Text.Rune@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DecodeLastFromUtf8 (source As ReadOnlySpan(Of Byte), ByRef value As Rune, ByRef bytesConsumed As Integer) As OperationStatus" />
@@ -566,7 +566,7 @@ This method is very similar to <xref:System.Text.Rune.DecodeFromUtf8(System.Read
       </Docs>
     </Member>
     <Member MemberName="EncodeToUtf16">
-      <MemberSignature Language="C#" Value="public int EncodeToUtf16 (Span&lt;char&gt; destination);" />
+      <MemberSignature Language="C#" Value="public int EncodeToUtf16 ( destination);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 EncodeToUtf16(valuetype System.Span`1&lt;char&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Rune.EncodeToUtf16(System.Span{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Function EncodeToUtf16 (destination As Span(Of Char)) As Integer" />
@@ -595,7 +595,7 @@ This method is very similar to <xref:System.Text.Rune.DecodeFromUtf8(System.Read
       </Docs>
     </Member>
     <Member MemberName="EncodeToUtf8">
-      <MemberSignature Language="C#" Value="public int EncodeToUtf8 (Span&lt;byte&gt; destination);" />
+      <MemberSignature Language="C#" Value="public int EncodeToUtf8 ( destination);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 EncodeToUtf8(valuetype System.Span`1&lt;unsigned int8&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Rune.EncodeToUtf8(System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Function EncodeToUtf8 (destination As Span(Of Byte)) As Integer" />
@@ -624,7 +624,7 @@ This method is very similar to <xref:System.Text.Rune.DecodeFromUtf8(System.Read
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Rune.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
@@ -1976,7 +1976,7 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="TryEncodeToUtf16">
-      <MemberSignature Language="C#" Value="public bool TryEncodeToUtf16 (Span&lt;char&gt; destination, out int charsWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryEncodeToUtf16 ( destination, out int charsWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryEncodeToUtf16(valuetype System.Span`1&lt;char&gt; destination, [out] int32&amp; charsWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Rune.TryEncodeToUtf16(System.Span{System.Char},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryEncodeToUtf16 (destination As Span(Of Char), ByRef charsWritten As Integer) As Boolean" />
@@ -2014,7 +2014,7 @@ The <xref:System.Text.Rune.Utf16SequenceLength> property can be queried ahead of
       </Docs>
     </Member>
     <Member MemberName="TryEncodeToUtf8">
-      <MemberSignature Language="C#" Value="public bool TryEncodeToUtf8 (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryEncodeToUtf8 ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryEncodeToUtf8(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Rune.TryEncodeToUtf8(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryEncodeToUtf8 (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />

@@ -143,7 +143,7 @@
       </Docs>
     </Member>
     <Member MemberName="Validation">
-      <MemberSignature Language="C#" Value="public Func&lt;TOptions,bool&gt; Validation { get; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;TOptions, bool&gt; Validation { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;!TOptions, bool&gt; Validation" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Options.ValidateOptions`1.Validation" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Validation As Func(Of TOptions, Boolean)" />
@@ -158,7 +158,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;TOptions,System.Boolean&gt;</ReturnType>
+        <ReturnType>System.Func&lt;TOptions, System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>The validation function.</summary>

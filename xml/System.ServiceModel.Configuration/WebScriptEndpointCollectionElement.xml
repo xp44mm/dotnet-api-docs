@@ -1,5 +1,5 @@
 <Type Name="WebScriptEndpointCollectionElement" FullName="System.ServiceModel.Configuration.WebScriptEndpointCollectionElement">
-  <TypeSignature Language="C#" Value="public class WebScriptEndpointCollectionElement : System.ServiceModel.Configuration.StandardEndpointCollectionElement&lt;System.ServiceModel.Description.WebScriptEndpoint,System.ServiceModel.Configuration.WebScriptEndpointElement&gt;" />
+  <TypeSignature Language="C#" Value="public class WebScriptEndpointCollectionElement : System.ServiceModel.Configuration.StandardEndpointCollectionElement&lt;System.ServiceModel.Description.WebScriptEndpoint, System.ServiceModel.Configuration.WebScriptEndpointElement&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WebScriptEndpointCollectionElement extends System.ServiceModel.Configuration.StandardEndpointCollectionElement`2&lt;class System.ServiceModel.Description.WebScriptEndpoint, class System.ServiceModel.Configuration.WebScriptEndpointElement&gt;" />
   <TypeSignature Language="DocId" Value="T:System.ServiceModel.Configuration.WebScriptEndpointCollectionElement" />
   <TypeSignature Language="VB.NET" Value="Public Class WebScriptEndpointCollectionElement&#xA;Inherits StandardEndpointCollectionElement(Of WebScriptEndpoint, WebScriptEndpointElement)" />
@@ -10,7 +10,7 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.ServiceModel.Configuration.StandardEndpointCollectionElement&lt;System.ServiceModel.Description.WebScriptEndpoint,System.ServiceModel.Configuration.WebScriptEndpointElement&gt;</BaseTypeName>
+    <BaseTypeName>System.ServiceModel.Configuration.StandardEndpointCollectionElement&lt;System.ServiceModel.Description.WebScriptEndpoint, System.ServiceModel.Configuration.WebScriptEndpointElement&gt;</BaseTypeName>
     <BaseTypeArguments>
       <BaseTypeArgument TypeParamName="!0">System.ServiceModel.Description.WebScriptEndpoint</BaseTypeArgument>
       <BaseTypeArgument TypeParamName="!1">System.ServiceModel.Configuration.WebScriptEndpointElement</BaseTypeArgument>

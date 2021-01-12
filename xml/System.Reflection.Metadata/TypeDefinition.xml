@@ -378,7 +378,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetNestedTypes">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;System.Reflection.Metadata.TypeDefinitionHandle&gt; GetNestedTypes ();" />
+      <MemberSignature Language="C#" Value="public  GetNestedTypes ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;valuetype System.Reflection.Metadata.TypeDefinitionHandle&gt; GetNestedTypes() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.TypeDefinition.GetNestedTypes" />
       <MemberSignature Language="VB.NET" Value="Public Function GetNestedTypes () As ImmutableArray(Of TypeDefinitionHandle)" />

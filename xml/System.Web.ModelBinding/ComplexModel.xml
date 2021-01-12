@@ -85,7 +85,7 @@
       </Docs>
     </Member>
     <Member MemberName="Results">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Web.ModelBinding.ModelMetadata,System.Web.ModelBinding.ComplexModelResult&gt; Results { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Web.ModelBinding.ModelMetadata, System.Web.ModelBinding.ComplexModelResult&gt; Results { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class System.Web.ModelBinding.ModelMetadata, class System.Web.ModelBinding.ComplexModelResult&gt; Results" />
       <MemberSignature Language="DocId" Value="P:System.Web.ModelBinding.ComplexModel.Results" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Results As IDictionary(Of ModelMetadata, ComplexModelResult)" />
@@ -97,7 +97,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Web.ModelBinding.ModelMetadata,System.Web.ModelBinding.ComplexModelResult&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Web.ModelBinding.ModelMetadata, System.Web.ModelBinding.ComplexModelResult&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a collection that contains entries that correspond to each property for which binding was attempted.</summary>

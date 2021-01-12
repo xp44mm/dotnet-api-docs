@@ -182,7 +182,7 @@ For more information, see [XML and SOAP Serialization](/dotnet/standard/serializ
       </Docs>
     </Member>
     <Member MemberName="System.Web.DynamicData.IDynamicValidatorException.InnerExceptions">
-      <MemberSignature Language="C#" Value="System.Collections.Generic.IDictionary&lt;string,Exception&gt; System.Web.DynamicData.IDynamicValidatorException.InnerExceptions { get; }" />
+      <MemberSignature Language="C#" Value="System.Collections.Generic.IDictionary&lt;string, Exception&gt; System.Web.DynamicData.IDynamicValidatorException.InnerExceptions { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class System.Exception&gt; System.Web.DynamicData.IDynamicValidatorException.InnerExceptions" />
       <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.EntityDataSourceValidationException.System#Web#DynamicData#IDynamicValidatorException#InnerExceptions" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property InnerExceptions As IDictionary(Of String, Exception) Implements IDynamicValidatorException.InnerExceptions" />
@@ -198,7 +198,7 @@ For more information, see [XML and SOAP Serialization](/dotnet/standard/serializ
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Exception&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Exception&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the exceptions that occur when a new or edited data field is validated.</summary>

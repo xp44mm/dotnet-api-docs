@@ -98,14 +98,14 @@
       </ReturnValue>
       <Docs>
         <summary>
-            Gets or sets a value that indicates whether to emit a default error if a task returns false without logging an error.
+            Indicates whether to emit a default error if a task returns false without logging an error.
             </summary>
         <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="BuildProcessEnvironment">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; BuildProcessEnvironment { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, string&gt; BuildProcessEnvironment { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; BuildProcessEnvironment" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Execution.BuildParameters.BuildProcessEnvironment" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property BuildProcessEnvironment As IDictionary(Of String, String)" />
@@ -118,7 +118,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -379,7 +379,7 @@
       </Docs>
     </Member>
     <Member MemberName="EnvironmentProperties">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; EnvironmentProperties { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, string&gt; EnvironmentProperties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; EnvironmentProperties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Execution.BuildParameters.EnvironmentProperties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EnvironmentProperties As IDictionary(Of String, String)" />
@@ -392,7 +392,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -464,7 +464,7 @@
       </Docs>
     </Member>
     <Member MemberName="GlobalProperties">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; GlobalProperties { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, string&gt; GlobalProperties { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; GlobalProperties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Execution.BuildParameters.GlobalProperties" />
       <MemberSignature Language="VB.NET" Value="Public Property GlobalProperties As IDictionary(Of String, String)" />
@@ -477,7 +477,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

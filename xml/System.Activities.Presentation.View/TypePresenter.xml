@@ -362,7 +362,7 @@
       </Docs>
     </Member>
     <Member MemberName="Filter">
-      <MemberSignature Language="C#" Value="public Func&lt;Type,bool&gt; Filter { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;Type, bool&gt; Filter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Type, bool&gt; Filter" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Presentation.View.TypePresenter.Filter" />
       <MemberSignature Language="VB.NET" Value="Public Property Filter As Func(Of Type, Boolean)" />
@@ -374,7 +374,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Type,System.Boolean&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Type, System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the filter used to show types.</summary>

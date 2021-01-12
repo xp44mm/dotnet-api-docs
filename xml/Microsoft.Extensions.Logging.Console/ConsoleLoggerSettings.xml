@@ -155,7 +155,7 @@
       </Docs>
     </Member>
     <Member MemberName="Switches">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Microsoft.Extensions.Logging.LogLevel&gt; Switches { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, Microsoft.Extensions.Logging.LogLevel&gt; Switches { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, valuetype Microsoft.Extensions.Logging.LogLevel&gt; Switches" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Logging.Console.ConsoleLoggerSettings.Switches" />
       <MemberSignature Language="VB.NET" Value="Public Property Switches As IDictionary(Of String, LogLevel)" />
@@ -171,7 +171,7 @@
         <AssemblyVersion>2.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Extensions.Logging.LogLevel&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, Microsoft.Extensions.Logging.LogLevel&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>

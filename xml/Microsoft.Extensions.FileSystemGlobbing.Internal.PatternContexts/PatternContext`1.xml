@@ -58,7 +58,7 @@
       </Docs>
     </Member>
     <Member MemberName="Declare">
-      <MemberSignature Language="C#" Value="public virtual void Declare (Action&lt;Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment,bool&gt; declare);" />
+      <MemberSignature Language="C#" Value="public virtual void Declare (Action&lt;Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment, bool&gt; declare);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Declare(class System.Action`2&lt;class Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment, bool&gt; declare) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.PatternContext`1.Declare(System.Action{Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment,System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Declare (declare As Action(Of IPathSegment, Boolean))" />
@@ -66,7 +66,7 @@
       <MemberSignature Language="F#" Value="abstract member Declare : Action&lt;Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment, bool&gt; -&gt; unit&#xA;override this.Declare : Action&lt;Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment, bool&gt; -&gt; unit" Usage="patternContext.Declare declare" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:Microsoft.Extensions.FileSystemGlobbing.Internal.IPatternContext.Declare(System.Action{Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment,System.Boolean})</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Extensions.FileSystemGlobbing.Internal.IPatternContext.Declare(System.Action{Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment, System.Boolean})</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.FileSystemGlobbing</AssemblyName>
@@ -83,7 +83,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="declare" Type="System.Action&lt;Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment,System.Boolean&gt;" />
+        <Parameter Name="declare" Type="System.Action&lt;Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment, System.Boolean&gt;" />
       </Parameters>
       <Docs>
         <param name="declare">To be added.</param>

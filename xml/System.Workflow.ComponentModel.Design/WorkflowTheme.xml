@@ -756,7 +756,7 @@
       </Docs>
     </Member>
     <Member MemberName="StandardThemes">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;System.Workflow.ComponentModel.Design.ThemeType,string[]&gt; StandardThemes { get; }" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;System.Workflow.ComponentModel.Design.ThemeType, string[]&gt; StandardThemes { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.IDictionary`2&lt;valuetype System.Workflow.ComponentModel.Design.ThemeType, string[]&gt; StandardThemes" />
       <MemberSignature Language="DocId" Value="P:System.Workflow.ComponentModel.Design.WorkflowTheme.StandardThemes" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property StandardThemes As IDictionary(Of ThemeType, String())" />
@@ -769,7 +769,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Workflow.ComponentModel.Design.ThemeType,System.String[]&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Workflow.ComponentModel.Design.ThemeType, System.String[]&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the list of standard themes.</summary>

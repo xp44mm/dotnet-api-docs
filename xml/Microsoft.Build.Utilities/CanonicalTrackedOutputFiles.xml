@@ -227,7 +227,7 @@
       </Docs>
     </Member>
     <Member MemberName="DependencyTable">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,System.Collections.Generic.Dictionary&lt;string,DateTime&gt;&gt; DependencyTable { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string, System.Collections.Generic.Dictionary&lt;string, DateTime&gt;&gt; DependencyTable { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, class System.Collections.Generic.Dictionary`2&lt;string, valuetype System.DateTime&gt;&gt; DependencyTable" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Utilities.CanonicalTrackedOutputFiles.DependencyTable" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property DependencyTable As Dictionary(Of String, Dictionary(Of String, DateTime))" />
@@ -249,7 +249,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Collections.Generic.Dictionary&lt;System.String,System.DateTime&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.Collections.Generic.Dictionary&lt;System.String, System.DateTime&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

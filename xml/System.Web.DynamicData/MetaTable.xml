@@ -947,7 +947,7 @@ End Class
       </Docs>
     </Member>
     <Member MemberName="GetColumnValuesFromRoute">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; GetColumnValuesFromRoute (System.Web.HttpContext context);" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, object&gt; GetColumnValuesFromRoute (System.Web.HttpContext context);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; GetColumnValuesFromRoute(class System.Web.HttpContext context) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Web.DynamicData.MetaTable.GetColumnValuesFromRoute(System.Web.HttpContext)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetColumnValuesFromRoute (context As HttpContext) As IDictionary(Of String, Object)" />
@@ -959,7 +959,7 @@ End Class
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="context" Type="System.Web.HttpContext" Index="0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
@@ -1071,7 +1071,7 @@ End Class
       </Docs>
     </Member>
     <Member MemberName="GetPrimaryKeyDictionary">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; GetPrimaryKeyDictionary (object row);" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, object&gt; GetPrimaryKeyDictionary (object row);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; GetPrimaryKeyDictionary(object row) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Web.DynamicData.MetaTable.GetPrimaryKeyDictionary(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetPrimaryKeyDictionary (row As Object) As IDictionary(Of String, Object)" />
@@ -1083,7 +1083,7 @@ End Class
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="row" Type="System.Object" Index="0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />

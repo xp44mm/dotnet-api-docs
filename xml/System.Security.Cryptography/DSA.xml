@@ -355,7 +355,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateSignatureCore">
-      <MemberSignature Language="C#" Value="protected virtual byte[]? CreateSignatureCore (ReadOnlySpan&lt;byte&gt; hash, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
+      <MemberSignature Language="C#" Value="protected virtual byte[] CreateSignatureCore ( hash, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance unsigned int8[] CreateSignatureCore(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; hash, valuetype System.Security.Cryptography.DSASignatureFormat signatureFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.CreateSignatureCore(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.DSASignatureFormat)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function CreateSignatureCore (hash As ReadOnlySpan(Of Byte), signatureFormat As DSASignatureFormat) As Byte()" />
@@ -600,7 +600,7 @@
       </Docs>
     </Member>
     <Member MemberName="ImportEncryptedPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override void ImportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;byte&gt; passwordBytes, ReadOnlySpan&lt;byte&gt; source, out int bytesRead);" />
+      <MemberSignature Language="C#" Value="public override void ImportEncryptedPkcs8PrivateKey ( passwordBytes,  source, out int bytesRead);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportEncryptedPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; passwordBytes, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesRead) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.ImportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportEncryptedPkcs8PrivateKey (passwordBytes As ReadOnlySpan(Of Byte), source As ReadOnlySpan(Of Byte), ByRef bytesRead As Integer)" />
@@ -667,7 +667,7 @@ The algorithm-specific key import failed.
       </Docs>
     </Member>
     <Member MemberName="ImportEncryptedPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override void ImportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;char&gt; password, ReadOnlySpan&lt;byte&gt; source, out int bytesRead);" />
+      <MemberSignature Language="C#" Value="public override void ImportEncryptedPkcs8PrivateKey ( password,  source, out int bytesRead);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportEncryptedPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;char&gt; password, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesRead) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.ImportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportEncryptedPkcs8PrivateKey (password As ReadOnlySpan(Of Char), source As ReadOnlySpan(Of Byte), ByRef bytesRead As Integer)" />
@@ -729,7 +729,7 @@ The algorithm-specific key import failed.
       </Docs>
     </Member>
     <Member MemberName="ImportFromEncryptedPem">
-      <MemberSignature Language="C#" Value="public override void ImportFromEncryptedPem (ReadOnlySpan&lt;char&gt; input, ReadOnlySpan&lt;byte&gt; passwordBytes);" />
+      <MemberSignature Language="C#" Value="public override void ImportFromEncryptedPem ( input,  passwordBytes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportFromEncryptedPem(valuetype System.ReadOnlySpan`1&lt;char&gt; input, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; passwordBytes) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.ImportFromEncryptedPem(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportFromEncryptedPem (input As ReadOnlySpan(Of Char), passwordBytes As ReadOnlySpan(Of Byte))" />
@@ -801,7 +801,7 @@ This method supports the `ENCRYPTED PRIVATE KEY` PEM label.
       </Docs>
     </Member>
     <Member MemberName="ImportFromEncryptedPem">
-      <MemberSignature Language="C#" Value="public override void ImportFromEncryptedPem (ReadOnlySpan&lt;char&gt; input, ReadOnlySpan&lt;char&gt; password);" />
+      <MemberSignature Language="C#" Value="public override void ImportFromEncryptedPem ( input,  password);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportFromEncryptedPem(valuetype System.ReadOnlySpan`1&lt;char&gt; input, valuetype System.ReadOnlySpan`1&lt;char&gt; password) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.ImportFromEncryptedPem(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportFromEncryptedPem (input As ReadOnlySpan(Of Char), password As ReadOnlySpan(Of Char))" />
@@ -873,7 +873,7 @@ This method supports the `ENCRYPTED PRIVATE KEY` PEM label.
       </Docs>
     </Member>
     <Member MemberName="ImportFromPem">
-      <MemberSignature Language="C#" Value="public override void ImportFromPem (ReadOnlySpan&lt;char&gt; input);" />
+      <MemberSignature Language="C#" Value="public override void ImportFromPem ( input);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportFromPem(valuetype System.ReadOnlySpan`1&lt;char&gt; input) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.ImportFromPem(System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportFromPem (input As ReadOnlySpan(Of Char))" />
@@ -978,7 +978,7 @@ This method supports the `ENCRYPTED PRIVATE KEY` PEM label.
       </Docs>
     </Member>
     <Member MemberName="ImportPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override void ImportPkcs8PrivateKey (ReadOnlySpan&lt;byte&gt; source, out int bytesRead);" />
+      <MemberSignature Language="C#" Value="public override void ImportPkcs8PrivateKey ( source, out int bytesRead);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesRead) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.ImportPkcs8PrivateKey(System.ReadOnlySpan{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportPkcs8PrivateKey (source As ReadOnlySpan(Of Byte), ByRef bytesRead As Integer)" />
@@ -1033,7 +1033,7 @@ The algorithm-specific key import failed.
       </Docs>
     </Member>
     <Member MemberName="ImportSubjectPublicKeyInfo">
-      <MemberSignature Language="C#" Value="public override void ImportSubjectPublicKeyInfo (ReadOnlySpan&lt;byte&gt; source, out int bytesRead);" />
+      <MemberSignature Language="C#" Value="public override void ImportSubjectPublicKeyInfo ( source, out int bytesRead);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportSubjectPublicKeyInfo(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesRead) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.ImportSubjectPublicKeyInfo(System.ReadOnlySpan{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportSubjectPublicKeyInfo (source As ReadOnlySpan(Of Byte), ByRef bytesRead As Integer)" />
@@ -1418,7 +1418,7 @@ The algorithm-specific key import failed.
       </Docs>
     </Member>
     <Member MemberName="SignDataCore">
-      <MemberSignature Language="C#" Value="protected virtual byte[]? SignDataCore (ReadOnlySpan&lt;byte&gt; data, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
+      <MemberSignature Language="C#" Value="protected virtual byte[] SignDataCore ( data, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance unsigned int8[] SignDataCore(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; data, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, valuetype System.Security.Cryptography.DSASignatureFormat signatureFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.SignDataCore(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.DSASignatureFormat)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function SignDataCore (data As ReadOnlySpan(Of Byte), hashAlgorithm As HashAlgorithmName, signatureFormat As DSASignatureFormat) As Byte()" />
@@ -1496,7 +1496,7 @@ The algorithm-specific key import failed.
       </Docs>
     </Member>
     <Member MemberName="TryCreateSignature">
-      <MemberSignature Language="C#" Value="public virtual bool TryCreateSignature (ReadOnlySpan&lt;byte&gt; hash, Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public virtual bool TryCreateSignature ( hash,  destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryCreateSignature(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; hash, valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.TryCreateSignature(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function TryCreateSignature (hash As ReadOnlySpan(Of Byte), destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
@@ -1551,7 +1551,7 @@ Creating the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryCreateSignature">
-      <MemberSignature Language="C#" Value="public bool TryCreateSignature (ReadOnlySpan&lt;byte&gt; hash, Span&lt;byte&gt; destination, System.Security.Cryptography.DSASignatureFormat signatureFormat, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryCreateSignature ( hash,  destination, System.Security.Cryptography.DSASignatureFormat signatureFormat, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryCreateSignature(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; hash, valuetype System.Span`1&lt;unsigned int8&gt; destination, valuetype System.Security.Cryptography.DSASignatureFormat signatureFormat, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.TryCreateSignature(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Security.Cryptography.DSASignatureFormat,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryCreateSignature (hash As ReadOnlySpan(Of Byte), destination As Span(Of Byte), signatureFormat As DSASignatureFormat, ByRef bytesWritten As Integer) As Boolean" />
@@ -1592,7 +1592,7 @@ Creating the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryCreateSignatureCore">
-      <MemberSignature Language="C#" Value="protected virtual bool TryCreateSignatureCore (ReadOnlySpan&lt;byte&gt; hash, Span&lt;byte&gt; destination, System.Security.Cryptography.DSASignatureFormat signatureFormat, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="protected virtual bool TryCreateSignatureCore ( hash,  destination, System.Security.Cryptography.DSASignatureFormat signatureFormat, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool TryCreateSignatureCore(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; hash, valuetype System.Span`1&lt;unsigned int8&gt; destination, valuetype System.Security.Cryptography.DSASignatureFormat signatureFormat, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.TryCreateSignatureCore(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Security.Cryptography.DSASignatureFormat,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function TryCreateSignatureCore (hash As ReadOnlySpan(Of Byte), destination As Span(Of Byte), signatureFormat As DSASignatureFormat, ByRef bytesWritten As Integer) As Boolean" />
@@ -1631,13 +1631,12 @@ Creating the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryExportEncryptedPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;byte&gt; passwordBytes, System.Security.Cryptography.PbeParameters? pbeParameters, Span&lt;byte&gt; destination, out int bytesWritten);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey ( passwordBytes, System.Security.Cryptography.PbeParameters pbeParameters,  destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool TryExportEncryptedPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; passwordBytes, class System.Security.Cryptography.PbeParameters pbeParameters, valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.TryExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.PbeParameters,System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function TryExportEncryptedPkcs8PrivateKey (passwordBytes As ReadOnlySpan(Of Byte), pbeParameters As PbeParameters, destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool TryExportEncryptedPkcs8PrivateKey(ReadOnlySpan&lt;System::Byte&gt; passwordBytes, System::Security::Cryptography::PbeParameters ^ pbeParameters, Span&lt;System::Byte&gt; destination, [Runtime::InteropServices::Out] int % bytesWritten);" />
       <MemberSignature Language="F#" Value="override this.TryExportEncryptedPkcs8PrivateKey : ReadOnlySpan&lt;byte&gt; * System.Security.Cryptography.PbeParameters * Span&lt;byte&gt; * int -&gt; bool" Usage="dSA.TryExportEncryptedPkcs8PrivateKey (passwordBytes, pbeParameters, destination, bytesWritten)" />
-      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;byte&gt; passwordBytes, System.Security.Cryptography.PbeParameters pbeParameters, Span&lt;byte&gt; destination, out int bytesWritten);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
@@ -1686,13 +1685,12 @@ Creating the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryExportEncryptedPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;char&gt; password, System.Security.Cryptography.PbeParameters? pbeParameters, Span&lt;byte&gt; destination, out int bytesWritten);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey ( password, System.Security.Cryptography.PbeParameters pbeParameters,  destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool TryExportEncryptedPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;char&gt; password, class System.Security.Cryptography.PbeParameters pbeParameters, valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.TryExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Char},System.Security.Cryptography.PbeParameters,System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function TryExportEncryptedPkcs8PrivateKey (password As ReadOnlySpan(Of Char), pbeParameters As PbeParameters, destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool TryExportEncryptedPkcs8PrivateKey(ReadOnlySpan&lt;char&gt; password, System::Security::Cryptography::PbeParameters ^ pbeParameters, Span&lt;System::Byte&gt; destination, [Runtime::InteropServices::Out] int % bytesWritten);" />
       <MemberSignature Language="F#" Value="override this.TryExportEncryptedPkcs8PrivateKey : ReadOnlySpan&lt;char&gt; * System.Security.Cryptography.PbeParameters * Span&lt;byte&gt; * int -&gt; bool" Usage="dSA.TryExportEncryptedPkcs8PrivateKey (password, pbeParameters, destination, bytesWritten)" />
-      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;char&gt; password, System.Security.Cryptography.PbeParameters pbeParameters, Span&lt;byte&gt; destination, out int bytesWritten);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
@@ -1735,7 +1733,7 @@ Creating the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryExportPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override bool TryExportPkcs8PrivateKey (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public override bool TryExportPkcs8PrivateKey ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool TryExportPkcs8PrivateKey(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.TryExportPkcs8PrivateKey(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function TryExportPkcs8PrivateKey (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
@@ -1773,7 +1771,7 @@ Creating the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryExportSubjectPublicKeyInfo">
-      <MemberSignature Language="C#" Value="public override bool TryExportSubjectPublicKeyInfo (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public override bool TryExportSubjectPublicKeyInfo ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool TryExportSubjectPublicKeyInfo(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.TryExportSubjectPublicKeyInfo(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function TryExportSubjectPublicKeyInfo (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
@@ -1811,7 +1809,7 @@ Creating the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryHashData">
-      <MemberSignature Language="C#" Value="protected virtual bool TryHashData (ReadOnlySpan&lt;byte&gt; data, Span&lt;byte&gt; destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="protected virtual bool TryHashData ( data,  destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool TryHashData(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; data, valuetype System.Span`1&lt;unsigned int8&gt; destination, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.TryHashData(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Security.Cryptography.HashAlgorithmName,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function TryHashData (data As ReadOnlySpan(Of Byte), destination As Span(Of Byte), hashAlgorithm As HashAlgorithmName, ByRef bytesWritten As Integer) As Boolean" />
@@ -1860,7 +1858,7 @@ Derived types should override this method to avoid the intermediate array creati
       </Docs>
     </Member>
     <Member MemberName="TrySignData">
-      <MemberSignature Language="C#" Value="public virtual bool TrySignData (ReadOnlySpan&lt;byte&gt; data, Span&lt;byte&gt; destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public virtual bool TrySignData ( data,  destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TrySignData(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; data, valuetype System.Span`1&lt;unsigned int8&gt; destination, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.TrySignData(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Security.Cryptography.HashAlgorithmName,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function TrySignData (data As ReadOnlySpan(Of Byte), destination As Span(Of Byte), hashAlgorithm As HashAlgorithmName, ByRef bytesWritten As Integer) As Boolean" />
@@ -1901,7 +1899,7 @@ Derived types should override this method to avoid the intermediate array creati
       </Docs>
     </Member>
     <Member MemberName="TrySignData">
-      <MemberSignature Language="C#" Value="public bool TrySignData (ReadOnlySpan&lt;byte&gt; data, Span&lt;byte&gt; destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TrySignData ( data,  destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TrySignData(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; data, valuetype System.Span`1&lt;unsigned int8&gt; destination, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, valuetype System.Security.Cryptography.DSASignatureFormat signatureFormat, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.TrySignData(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.DSASignatureFormat,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TrySignData (data As ReadOnlySpan(Of Byte), destination As Span(Of Byte), hashAlgorithm As HashAlgorithmName, signatureFormat As DSASignatureFormat, ByRef bytesWritten As Integer) As Boolean" />
@@ -1946,7 +1944,7 @@ Derived types should override this method to avoid the intermediate array creati
       </Docs>
     </Member>
     <Member MemberName="TrySignDataCore">
-      <MemberSignature Language="C#" Value="protected virtual bool TrySignDataCore (ReadOnlySpan&lt;byte&gt; data, Span&lt;byte&gt; destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="protected virtual bool TrySignDataCore ( data,  destination, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool TrySignDataCore(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; data, valuetype System.Span`1&lt;unsigned int8&gt; destination, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, valuetype System.Security.Cryptography.DSASignatureFormat signatureFormat, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.TrySignDataCore(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.DSASignatureFormat,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function TrySignDataCore (data As ReadOnlySpan(Of Byte), destination As Span(Of Byte), hashAlgorithm As HashAlgorithmName, signatureFormat As DSASignatureFormat, ByRef bytesWritten As Integer) As Boolean" />
@@ -2107,7 +2105,7 @@ Verifying the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="VerifyData">
-      <MemberSignature Language="C#" Value="public virtual bool VerifyData (ReadOnlySpan&lt;byte&gt; data, ReadOnlySpan&lt;byte&gt; signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm);" />
+      <MemberSignature Language="C#" Value="public virtual bool VerifyData ( data,  signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool VerifyData(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; data, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; signature, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.VerifyData(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte},System.Security.Cryptography.HashAlgorithmName)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function VerifyData (data As ReadOnlySpan(Of Byte), signature As ReadOnlySpan(Of Byte), hashAlgorithm As HashAlgorithmName) As Boolean" />
@@ -2243,7 +2241,7 @@ Verifying the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="VerifyData">
-      <MemberSignature Language="C#" Value="public bool VerifyData (ReadOnlySpan&lt;byte&gt; data, ReadOnlySpan&lt;byte&gt; signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
+      <MemberSignature Language="C#" Value="public bool VerifyData ( data,  signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool VerifyData(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; data, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; signature, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, valuetype System.Security.Cryptography.DSASignatureFormat signatureFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.VerifyData(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte},System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.DSASignatureFormat)" />
       <MemberSignature Language="VB.NET" Value="Public Function VerifyData (data As ReadOnlySpan(Of Byte), signature As ReadOnlySpan(Of Byte), hashAlgorithm As HashAlgorithmName, signatureFormat As DSASignatureFormat) As Boolean" />
@@ -2411,7 +2409,7 @@ Verifying the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="VerifyDataCore">
-      <MemberSignature Language="C#" Value="protected virtual bool VerifyDataCore (System.IO.Stream? data, ReadOnlySpan&lt;byte&gt; signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
+      <MemberSignature Language="C#" Value="protected virtual bool VerifyDataCore (System.IO.Stream data,  signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool VerifyDataCore(class System.IO.Stream data, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; signature, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, valuetype System.Security.Cryptography.DSASignatureFormat signatureFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.VerifyDataCore(System.IO.Stream,System.ReadOnlySpan{System.Byte},System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.DSASignatureFormat)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function VerifyDataCore (data As Stream, signature As ReadOnlySpan(Of Byte), hashAlgorithm As HashAlgorithmName, signatureFormat As DSASignatureFormat) As Boolean" />
@@ -2450,7 +2448,7 @@ Verifying the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="VerifyDataCore">
-      <MemberSignature Language="C#" Value="protected virtual bool VerifyDataCore (ReadOnlySpan&lt;byte&gt; data, ReadOnlySpan&lt;byte&gt; signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
+      <MemberSignature Language="C#" Value="protected virtual bool VerifyDataCore ( data,  signature, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool VerifyDataCore(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; data, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; signature, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, valuetype System.Security.Cryptography.DSASignatureFormat signatureFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.VerifyDataCore(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte},System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.DSASignatureFormat)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function VerifyDataCore (data As ReadOnlySpan(Of Byte), signature As ReadOnlySpan(Of Byte), hashAlgorithm As HashAlgorithmName, signatureFormat As DSASignatureFormat) As Boolean" />
@@ -2538,7 +2536,7 @@ Verifying the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="VerifySignature">
-      <MemberSignature Language="C#" Value="public virtual bool VerifySignature (ReadOnlySpan&lt;byte&gt; hash, ReadOnlySpan&lt;byte&gt; signature);" />
+      <MemberSignature Language="C#" Value="public virtual bool VerifySignature ( hash,  signature);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool VerifySignature(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; hash, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; signature) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.VerifySignature(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function VerifySignature (hash As ReadOnlySpan(Of Byte), signature As ReadOnlySpan(Of Byte)) As Boolean" />
@@ -2628,7 +2626,7 @@ Verifying the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="VerifySignature">
-      <MemberSignature Language="C#" Value="public bool VerifySignature (ReadOnlySpan&lt;byte&gt; hash, ReadOnlySpan&lt;byte&gt; signature, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
+      <MemberSignature Language="C#" Value="public bool VerifySignature ( hash,  signature, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool VerifySignature(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; hash, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; signature, valuetype System.Security.Cryptography.DSASignatureFormat signatureFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.VerifySignature(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte},System.Security.Cryptography.DSASignatureFormat)" />
       <MemberSignature Language="VB.NET" Value="Public Function VerifySignature (hash As ReadOnlySpan(Of Byte), signature As ReadOnlySpan(Of Byte), signatureFormat As DSASignatureFormat) As Boolean" />
@@ -2667,7 +2665,7 @@ Verifying the signature otherwise failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="VerifySignatureCore">
-      <MemberSignature Language="C#" Value="protected virtual bool VerifySignatureCore (ReadOnlySpan&lt;byte&gt; hash, ReadOnlySpan&lt;byte&gt; signature, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
+      <MemberSignature Language="C#" Value="protected virtual bool VerifySignatureCore ( hash,  signature, System.Security.Cryptography.DSASignatureFormat signatureFormat);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool VerifySignatureCore(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; hash, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; signature, valuetype System.Security.Cryptography.DSASignatureFormat signatureFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.DSA.VerifySignatureCore(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte},System.Security.Cryptography.DSASignatureFormat)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function VerifySignatureCore (hash As ReadOnlySpan(Of Byte), signature As ReadOnlySpan(Of Byte), signatureFormat As DSASignatureFormat) As Boolean" />

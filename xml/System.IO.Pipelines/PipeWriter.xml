@@ -139,11 +139,12 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
       </Docs>
     </Member>
     <Member MemberName="Complete">
-      <MemberSignature Language="C#" Value="public abstract void Complete (Exception exception = default);" />
+      <MemberSignature Language="C#" Value="public abstract void Complete (Exception exception = default);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Complete(class System.Exception exception) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.Complete(System.Exception)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Sub Complete (Optional exception As Exception = Nothing)" />
       <MemberSignature Language="F#" Value="abstract member Complete : Exception -&gt; unit" Usage="pipeWriter.Complete exception" />
+      <MemberSignature Language="C#" Value="public abstract void Complete (Exception? exception = default);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.Pipelines</AssemblyName>
@@ -166,11 +167,12 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
       </Docs>
     </Member>
     <Member MemberName="CompleteAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.ValueTask CompleteAsync (Exception exception = default);" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.ValueTask CompleteAsync (Exception exception = default);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask CompleteAsync(class System.Exception exception) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.CompleteAsync(System.Exception)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function CompleteAsync (Optional exception As Exception = Nothing) As ValueTask" />
       <MemberSignature Language="F#" Value="abstract member CompleteAsync : Exception -&gt; System.Threading.Tasks.ValueTask&#xA;override this.CompleteAsync : Exception -&gt; System.Threading.Tasks.ValueTask" Usage="pipeWriter.CompleteAsync exception" />
+      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.ValueTask CompleteAsync (Exception? exception = default);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.Pipelines</AssemblyName>
@@ -249,7 +251,7 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
       </Docs>
     </Member>
     <Member MemberName="FlushAsync">
-      <MemberSignature Language="C#" Value="public abstract System.Threading.Tasks.ValueTask&lt;System.IO.Pipelines.FlushResult&gt; FlushAsync (System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public abstract  FlushAsync (System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;valuetype System.IO.Pipelines.FlushResult&gt; FlushAsync(valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function FlushAsync (Optional cancellationToken As CancellationToken = Nothing) As ValueTask(Of FlushResult)" />
@@ -277,7 +279,7 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
       </Docs>
     </Member>
     <Member MemberName="GetMemory">
-      <MemberSignature Language="C#" Value="public abstract Memory&lt;byte&gt; GetMemory (int sizeHint = 0);" />
+      <MemberSignature Language="C#" Value="public abstract  GetMemory (int sizeHint = 0);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Memory`1&lt;unsigned int8&gt; GetMemory(int32 sizeHint) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.GetMemory(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetMemory (Optional sizeHint As Integer = 0) As Memory(Of Byte)" />
@@ -320,7 +322,7 @@ You must request a new buffer after calling <xref:System.IO.Pipelines.PipeWriter
       </Docs>
     </Member>
     <Member MemberName="GetSpan">
-      <MemberSignature Language="C#" Value="public abstract Span&lt;byte&gt; GetSpan (int sizeHint = 0);" />
+      <MemberSignature Language="C#" Value="public abstract  GetSpan (int sizeHint = 0);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Span`1&lt;unsigned int8&gt; GetSpan(int32 sizeHint) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.GetSpan(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function GetSpan (Optional sizeHint As Integer = 0) As Span(Of Byte)" />
@@ -413,7 +415,7 @@ You must request a new buffer after calling <xref:System.IO.Pipelines.PipeWriter
       </Docs>
     </Member>
     <Member MemberName="WriteAsync">
-      <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.ValueTask&lt;System.IO.Pipelines.FlushResult&gt; WriteAsync (ReadOnlyMemory&lt;byte&gt; source, System.Threading.CancellationToken cancellationToken = default);" />
+      <MemberSignature Language="C#" Value="public virtual  WriteAsync ( source, System.Threading.CancellationToken cancellationToken = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask`1&lt;valuetype System.IO.Pipelines.FlushResult&gt; WriteAsync(valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; source, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.WriteAsync(System.ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function WriteAsync (source As ReadOnlyMemory(Of Byte), Optional cancellationToken As CancellationToken = Nothing) As ValueTask(Of FlushResult)" />

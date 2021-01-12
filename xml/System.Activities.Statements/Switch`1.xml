@@ -181,7 +181,7 @@
       </Docs>
     </Member>
     <Member MemberName="Cases">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;T,System.Activities.Activity&gt; Cases { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;T, System.Activities.Activity&gt; Cases { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;!T, class System.Activities.Activity&gt; Cases" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Statements.Switch`1.Cases" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Cases As IDictionary(Of T, Activity)" />
@@ -193,7 +193,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;T,System.Activities.Activity&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;T, System.Activities.Activity&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Represents the dictionary of potential execution paths. Each entry contains a key and an activity that is executed when the result of the expression matches the key.</summary>

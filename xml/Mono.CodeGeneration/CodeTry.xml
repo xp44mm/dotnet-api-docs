@@ -38,7 +38,7 @@
       </Docs>
     </Member>
     <Member MemberName="CatchBlocks">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;Mono.CodeGeneration.CodeVariableDeclaration,Mono.CodeGeneration.CodeBlock&gt;&gt; CatchBlocks { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;&gt; CatchBlocks { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;class Mono.CodeGeneration.CodeVariableDeclaration, class Mono.CodeGeneration.CodeBlock&gt;&gt; CatchBlocks" />
       <MemberSignature Language="DocId" Value="P:Mono.CodeGeneration.CodeTry.CatchBlocks" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property CatchBlocks As List(Of KeyValuePair(Of CodeVariableDeclaration, CodeBlock))" />
@@ -51,7 +51,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;Mono.CodeGeneration.CodeVariableDeclaration,Mono.CodeGeneration.CodeBlock&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.List&lt;System.Collections.Generic.KeyValuePair&lt;Mono.CodeGeneration.CodeVariableDeclaration, Mono.CodeGeneration.CodeBlock&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>

@@ -19,7 +19,7 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CborReader (ReadOnlyMemory&lt;byte&gt; data, System.Formats.Cbor.CborConformanceMode conformanceMode = System.Formats.Cbor.CborConformanceMode.Strict, bool allowMultipleRootLevelValues = false);" />
+      <MemberSignature Language="C#" Value="public CborReader ( data, System.Formats.Cbor.CborConformanceMode conformanceMode = System.Formats.Cbor.CborConformanceMode.Strict, bool allowMultipleRootLevelValues = false);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; data, valuetype System.Formats.Cbor.CborConformanceMode conformanceMode, bool allowMultipleRootLevelValues) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborReader.#ctor(System.ReadOnlyMemory{System.Byte},System.Formats.Cbor.CborConformanceMode,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (data As ReadOnlyMemory(Of Byte), Optional conformanceMode As CborConformanceMode = System.Formats.Cbor.CborConformanceMode.Strict, Optional allowMultipleRootLevelValues As Boolean = false)" />
@@ -446,7 +446,7 @@ The next value uses a CBOR encoding that is not valid under the current conforma
       </Docs>
     </Member>
     <Member MemberName="ReadDefiniteLengthByteString">
-      <MemberSignature Language="C#" Value="public ReadOnlyMemory&lt;byte&gt; ReadDefiniteLengthByteString ();" />
+      <MemberSignature Language="C#" Value="public  ReadDefiniteLengthByteString ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; ReadDefiniteLengthByteString() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborReader.ReadDefiniteLengthByteString" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadDefiniteLengthByteString () As ReadOnlyMemory(Of Byte)" />
@@ -482,7 +482,7 @@ The next value uses a CBOR encoding that is not valid under the current conforma
       </Docs>
     </Member>
     <Member MemberName="ReadDefiniteLengthTextStringBytes">
-      <MemberSignature Language="C#" Value="public ReadOnlyMemory&lt;byte&gt; ReadDefiniteLengthTextStringBytes ();" />
+      <MemberSignature Language="C#" Value="public  ReadDefiniteLengthTextStringBytes ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; ReadDefiniteLengthTextStringBytes() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborReader.ReadDefiniteLengthTextStringBytes" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadDefiniteLengthTextStringBytes () As ReadOnlyMemory(Of Byte)" />
@@ -554,7 +554,7 @@ The next value uses a CBOR encoding that is not valid under the current conforma
       </Docs>
     </Member>
     <Member MemberName="ReadEncodedValue">
-      <MemberSignature Language="C#" Value="public ReadOnlyMemory&lt;byte&gt; ReadEncodedValue (bool disableConformanceModeChecks = false);" />
+      <MemberSignature Language="C#" Value="public  ReadEncodedValue (bool disableConformanceModeChecks = false);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; ReadEncodedValue(bool disableConformanceModeChecks) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborReader.ReadEncodedValue(System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadEncodedValue (Optional disableConformanceModeChecks As Boolean = false) As ReadOnlyMemory(Of Byte)" />
@@ -1330,7 +1330,7 @@ The next value uses a CBOR encoding that is not valid under the current conforma
       </Docs>
     </Member>
     <Member MemberName="TryReadByteString">
-      <MemberSignature Language="C#" Value="public bool TryReadByteString (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryReadByteString ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadByteString(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborReader.TryReadByteString(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadByteString (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
@@ -1376,7 +1376,7 @@ The next value uses a CBOR encoding that is not valid under the current conforma
       </Docs>
     </Member>
     <Member MemberName="TryReadTextString">
-      <MemberSignature Language="C#" Value="public bool TryReadTextString (Span&lt;char&gt; destination, out int charsWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryReadTextString ( destination, out int charsWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryReadTextString(valuetype System.Span`1&lt;char&gt; destination, [out] int32&amp; charsWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Cbor.CborReader.TryReadTextString(System.Span{System.Char},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryReadTextString (destination As Span(Of Char), ByRef charsWritten As Integer) As Boolean" />

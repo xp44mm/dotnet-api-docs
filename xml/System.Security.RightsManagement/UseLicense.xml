@@ -69,7 +69,7 @@
       </Docs>
     </Member>
     <Member MemberName="ApplicationData">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; ApplicationData { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, string&gt; ApplicationData { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; ApplicationData" />
       <MemberSignature Language="DocId" Value="P:System.Security.RightsManagement.UseLicense.ApplicationData" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ApplicationData As IDictionary(Of String, String)" />
@@ -83,7 +83,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the application data dictionary that contains key/value pairs passed from the publishing application to the consuming application.</summary>

@@ -66,7 +66,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public EntityRef (System.Data.Linq.EntityRef&lt;TEntity&gt; entityRef);" />
+      <MemberSignature Language="C#" Value="public EntityRef ( entityRef);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Data.Linq.EntityRef`1&lt;!TEntity&gt; entityRef) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Linq.EntityRef`1.#ctor(System.Data.Linq.EntityRef{`0})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (entityRef As EntityRef(Of TEntity))" />

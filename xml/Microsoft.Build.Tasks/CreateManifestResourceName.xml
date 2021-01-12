@@ -191,7 +191,7 @@
       </Docs>
     </Member>
     <Member MemberName="itemSpecToTaskitem">
-      <MemberSignature Language="C#" Value="protected System.Collections.Generic.Dictionary&lt;string,Microsoft.Build.Framework.ITaskItem&gt; itemSpecToTaskitem;" />
+      <MemberSignature Language="C#" Value="protected System.Collections.Generic.Dictionary&lt;string, Microsoft.Build.Framework.ITaskItem&gt; itemSpecToTaskitem;" />
       <MemberSignature Language="ILAsm" Value=".field family class System.Collections.Generic.Dictionary`2&lt;string, class Microsoft.Build.Framework.ITaskItem&gt; itemSpecToTaskitem" />
       <MemberSignature Language="DocId" Value="F:Microsoft.Build.Tasks.CreateManifestResourceName.itemSpecToTaskitem" />
       <MemberSignature Language="VB.NET" Value="Protected itemSpecToTaskitem As Dictionary(Of String, ITaskItem) " />
@@ -207,7 +207,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.Build.Framework.ITaskItem&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, Microsoft.Build.Framework.ITaskItem&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Contains the task item in a dictionary to provide quick access from a derived class.</summary>

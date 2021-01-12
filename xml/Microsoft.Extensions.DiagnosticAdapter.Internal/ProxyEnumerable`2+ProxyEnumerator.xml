@@ -1,5 +1,5 @@
-<Type Name="ProxyEnumerable&lt;TSourceElement,TTargetElement&gt;+ProxyEnumerator" FullName="Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable&lt;TSourceElement,TTargetElement&gt;+ProxyEnumerator">
-  <TypeSignature Language="C#" Value="public class ProxyEnumerable&lt;TSourceElement,TTargetElement&gt;.ProxyEnumerator : System.Collections.Generic.IEnumerator&lt;TTargetElement&gt;" />
+<Type Name="ProxyEnumerable&lt;TSourceElement, TTargetElement&gt;+ProxyEnumerator" FullName="Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable&lt;TSourceElement, TTargetElement&gt;+ProxyEnumerator">
+  <TypeSignature Language="C#" Value="public class ProxyEnumerable&lt;TSourceElement, TTargetElement&gt;.ProxyEnumerator : System.Collections.Generic.IEnumerator&lt;TTargetElement&gt;" />
   <TypeSignature Language="ILAsm" Value=".class nested public auto ansi beforefieldinit ProxyEnumerable`2/ProxyEnumerator&lt;TSourceElement, TTargetElement&gt; extends System.Object implements class System.Collections.Generic.IEnumerator`1&lt;!TTargetElement&gt;, class System.Collections.IEnumerator, class System.IDisposable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Extensions.DiagnosticAdapter.Internal.ProxyEnumerable`2.ProxyEnumerator" />
   <TypeSignature Language="VB.NET" Value="Public Class ProxyEnumerable(Of TSourceElement, TTargetElement).ProxyEnumerator&#xA;Implements IEnumerator(Of TTargetElement)" />

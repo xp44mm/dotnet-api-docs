@@ -81,7 +81,7 @@
       </Docs>
     </Member>
     <Member MemberName="Namespaces">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; Namespaces { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string, string&gt; Namespaces { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; Namespaces" />
       <MemberSignature Language="DocId" Value="P:System.ServiceModel.XamlIntegration.XPathMessageContextMarkupExtension.Namespaces" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Namespaces As Dictionary(Of String, String)" />
@@ -99,7 +99,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the namespaces contained in this instance.</summary>

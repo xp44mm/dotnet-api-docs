@@ -148,7 +148,7 @@
       </Docs>
     </Member>
     <Member MemberName="Initialize">
-      <MemberSignature Language="C#" Value="public bool Initialize (string taskName, System.Collections.Generic.IDictionary&lt;string,Microsoft.Build.Framework.TaskPropertyInfo&gt; parameterGroup, string taskBody, Microsoft.Build.Framework.IBuildEngine taskFactoryLoggingHost);" />
+      <MemberSignature Language="C#" Value="public bool Initialize (string taskName, System.Collections.Generic.IDictionary&lt;string, Microsoft.Build.Framework.TaskPropertyInfo&gt; parameterGroup, string taskBody, Microsoft.Build.Framework.IBuildEngine taskFactoryLoggingHost);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Initialize(string taskName, class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Build.Framework.TaskPropertyInfo&gt; parameterGroup, string taskBody, class Microsoft.Build.Framework.IBuildEngine taskFactoryLoggingHost) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Build.Tasks.RoslynCodeTaskFactory.Initialize(System.String,System.Collections.Generic.IDictionary{System.String,Microsoft.Build.Framework.TaskPropertyInfo},System.String,Microsoft.Build.Framework.IBuildEngine)" />
       <MemberSignature Language="VB.NET" Value="Public Function Initialize (taskName As String, parameterGroup As IDictionary(Of String, TaskPropertyInfo), taskBody As String, taskFactoryLoggingHost As IBuildEngine) As Boolean" />
@@ -156,7 +156,7 @@
       <MemberSignature Language="F#" Value="abstract member Initialize : string * System.Collections.Generic.IDictionary&lt;string, Microsoft.Build.Framework.TaskPropertyInfo&gt; * string * Microsoft.Build.Framework.IBuildEngine -&gt; bool&#xA;override this.Initialize : string * System.Collections.Generic.IDictionary&lt;string, Microsoft.Build.Framework.TaskPropertyInfo&gt; * string * Microsoft.Build.Framework.IBuildEngine -&gt; bool" Usage="roslynCodeTaskFactory.Initialize (taskName, parameterGroup, taskBody, taskFactoryLoggingHost)" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:Microsoft.Build.Framework.ITaskFactory.Initialize(System.String,System.Collections.Generic.IDictionary{System.String,Microsoft.Build.Framework.TaskPropertyInfo},System.String,Microsoft.Build.Framework.IBuildEngine)</InterfaceMember>
+        <InterfaceMember>M:Microsoft.Build.Framework.ITaskFactory.Initialize(System.String,System.Collections.Generic.IDictionary{System.String, Microsoft.Build.Framework.TaskPropertyInfo},System.String,Microsoft.Build.Framework.IBuildEngine)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Build.Tasks.Core</AssemblyName>
@@ -167,7 +167,7 @@
       </ReturnValue>
       <Parameters>
         <Parameter Name="taskName" Type="System.String" />
-        <Parameter Name="parameterGroup" Type="System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Build.Framework.TaskPropertyInfo&gt;" />
+        <Parameter Name="parameterGroup" Type="System.Collections.Generic.IDictionary&lt;System.String, Microsoft.Build.Framework.TaskPropertyInfo&gt;" />
         <Parameter Name="taskBody" Type="System.String" />
         <Parameter Name="taskFactoryLoggingHost" Type="Microsoft.Build.Framework.IBuildEngine" />
       </Parameters>
@@ -179,7 +179,6 @@
         <summary>To be added.</summary>
         <returns>To be added.</returns>
         <remarks>To be added.</remarks>
-        <inheritdoc cref="M:Microsoft.Build.Framework.ITaskFactory.Initialize(System.String,System.Collections.Generic.IDictionary{System.String,Microsoft.Build.Framework.TaskPropertyInfo},System.String,Microsoft.Build.Framework.IBuildEngine)" />
       </Docs>
     </Member>
     <Member MemberName="TaskType">

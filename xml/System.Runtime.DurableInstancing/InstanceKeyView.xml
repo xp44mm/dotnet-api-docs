@@ -46,7 +46,7 @@
       </Docs>
     </Member>
     <Member MemberName="InstanceKeyMetadata">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue&gt; InstanceKeyMetadata { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, System.Runtime.DurableInstancing.InstanceValue&gt; InstanceKeyMetadata { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class System.Xml.Linq.XName, class System.Runtime.DurableInstancing.InstanceValue&gt; InstanceKeyMetadata" />
       <MemberSignature Language="DocId" Value="P:System.Runtime.DurableInstancing.InstanceKeyView.InstanceKeyMetadata" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceKeyMetadata As IDictionary(Of XName, InstanceValue)" />
@@ -58,7 +58,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, System.Runtime.DurableInstancing.InstanceValue&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the metadata for the instance key as a dictionary of **XNames** and corresponding **InstanceValue** objects.</summary>

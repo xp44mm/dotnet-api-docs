@@ -348,7 +348,7 @@
       </Docs>
     </Member>
     <Member MemberName="ContractBehaviors">
-      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.KeyedCollection&lt;Type,System.ServiceModel.Description.IContractBehavior&gt; ContractBehaviors { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.KeyedCollection&lt;Type, System.ServiceModel.Description.IContractBehavior&gt; ContractBehaviors { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.KeyedCollection`2&lt;class System.Type, class System.ServiceModel.Description.IContractBehavior&gt; ContractBehaviors" />
       <MemberSignature Language="DocId" Value="P:System.ServiceModel.Description.ContractDescription.ContractBehaviors" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ContractBehaviors As KeyedCollection(Of Type, IContractBehavior)" />
@@ -373,7 +373,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.ObjectModel.KeyedCollection&lt;System.Type,System.ServiceModel.Description.IContractBehavior&gt;</ReturnType>
+        <ReturnType>System.Collections.ObjectModel.KeyedCollection&lt;System.Type, System.ServiceModel.Description.IContractBehavior&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the collection of behavior for the contract.</summary>

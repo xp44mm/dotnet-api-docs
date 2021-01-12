@@ -21,7 +21,7 @@
   </Docs>
   <Members>
     <Member MemberName="As&lt;T,U&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;U&gt; As&lt;T,U&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct where U : struct;" />
+      <MemberSignature Language="C#" Value="public static  As&lt;T,U&gt; (this  vector) where T : struct where U : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!U&gt; As&lt;struct .ctor (class System.ValueType) T, struct .ctor (class System.ValueType) U&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.As``2(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function As(Of T As Structure, U As Structure) (vector As Vector64(Of T)) As Vector64(Of U)" />
@@ -68,7 +68,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsByte&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;byte&gt; AsByte&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsByte&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int8&gt; AsByte&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.AsByte``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsByte(Of T As Structure) (vector As Vector64(Of T)) As Vector64(Of Byte)" />
@@ -107,7 +107,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsDouble&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;double&gt; AsDouble&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsDouble&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;float64&gt; AsDouble&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.AsDouble``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsDouble(Of T As Structure) (vector As Vector64(Of T)) As Vector64(Of Double)" />
@@ -146,7 +146,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsInt16&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;short&gt; AsInt16&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsInt16&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int16&gt; AsInt16&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.AsInt16``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsInt16(Of T As Structure) (vector As Vector64(Of T)) As Vector64(Of Short)" />
@@ -185,7 +185,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsInt32&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;int&gt; AsInt32&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsInt32&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int32&gt; AsInt32&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.AsInt32``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsInt32(Of T As Structure) (vector As Vector64(Of T)) As Vector64(Of Integer)" />
@@ -224,7 +224,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsInt64&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;long&gt; AsInt64&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsInt64&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int64&gt; AsInt64&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.AsInt64``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsInt64(Of T As Structure) (vector As Vector64(Of T)) As Vector64(Of Long)" />
@@ -263,7 +263,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsSByte&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;sbyte&gt; AsSByte&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsSByte&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int8&gt; AsSByte&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.AsSByte``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSByte(Of T As Structure) (vector As Vector64(Of T)) As Vector64(Of SByte)" />
@@ -308,7 +308,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsSingle&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;float&gt; AsSingle&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsSingle&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;float32&gt; AsSingle&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.AsSingle``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsSingle(Of T As Structure) (vector As Vector64(Of T)) As Vector64(Of Single)" />
@@ -347,7 +347,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsUInt16&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;ushort&gt; AsUInt16&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsUInt16&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int16&gt; AsUInt16&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.AsUInt16``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsUInt16(Of T As Structure) (vector As Vector64(Of T)) As Vector64(Of UShort)" />
@@ -392,7 +392,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsUInt32&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;uint&gt; AsUInt32&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsUInt32&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int32&gt; AsUInt32&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.AsUInt32``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsUInt32(Of T As Structure) (vector As Vector64(Of T)) As Vector64(Of UInteger)" />
@@ -437,7 +437,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsUInt64&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;ulong&gt; AsUInt64&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsUInt64&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int64&gt; AsUInt64&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.AsUInt64``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function AsUInt64(Of T As Structure) (vector As Vector64(Of T)) As Vector64(Of ULong)" />
@@ -482,7 +482,7 @@
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;byte&gt; Create (byte value);" />
+      <MemberSignature Language="C#" Value="public static  Create (byte value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int8&gt; Create(unsigned int8 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (value As Byte) As Vector64(Of Byte)" />
@@ -517,7 +517,7 @@ On x86, this method corresponds to __m64 _mm_set1_pi8
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;double&gt; Create (double value);" />
+      <MemberSignature Language="C#" Value="public static  Create (double value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;float64&gt; Create(float64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (value As Double) As Vector64(Of Double)" />
@@ -544,7 +544,7 @@ On x86, this method corresponds to __m64 _mm_set1_pi8
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;short&gt; Create (short value);" />
+      <MemberSignature Language="C#" Value="public static  Create (short value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int16&gt; Create(int16 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.Int16)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (value As Short) As Vector64(Of Short)" />
@@ -579,7 +579,7 @@ On x86, this method corresponds to __m64 _mm_set1_pi16
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;int&gt; Create (int value);" />
+      <MemberSignature Language="C#" Value="public static  Create (int value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int32&gt; Create(int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (value As Integer) As Vector64(Of Integer)" />
@@ -614,7 +614,7 @@ On x86, this method corresponds to __m64 _mm_set1_pi32
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;long&gt; Create (long value);" />
+      <MemberSignature Language="C#" Value="public static  Create (long value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int64&gt; Create(int64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.Int64)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (value As Long) As Vector64(Of Long)" />
@@ -641,7 +641,7 @@ On x86, this method corresponds to __m64 _mm_set1_pi32
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;sbyte&gt; Create (sbyte value);" />
+      <MemberSignature Language="C#" Value="public static  Create (sbyte value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int8&gt; Create(int8 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.SByte)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (value As SByte) As Vector64(Of SByte)" />
@@ -682,7 +682,7 @@ On x86, this method corresponds to __m64 _mm_set1_pi8
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;float&gt; Create (float value);" />
+      <MemberSignature Language="C#" Value="public static  Create (float value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;float32&gt; Create(float32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (value As Single) As Vector64(Of Single)" />
@@ -709,7 +709,7 @@ On x86, this method corresponds to __m64 _mm_set1_pi8
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;ushort&gt; Create (ushort value);" />
+      <MemberSignature Language="C#" Value="public static  Create (ushort value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int16&gt; Create(unsigned int16 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.UInt16)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (value As UShort) As Vector64(Of UShort)" />
@@ -750,7 +750,7 @@ On x86, this method corresponds to __m64 _mm_set1_pi16
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;uint&gt; Create (uint value);" />
+      <MemberSignature Language="C#" Value="public static  Create (uint value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int32&gt; Create(unsigned int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.UInt32)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (value As UInteger) As Vector64(Of UInteger)" />
@@ -791,7 +791,7 @@ On x86, this method corresponds to __m64 _mm_set1_pi32
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;ulong&gt; Create (ulong value);" />
+      <MemberSignature Language="C#" Value="public static  Create (ulong value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int64&gt; Create(unsigned int64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.UInt64)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (value As ULong) As Vector64(Of ULong)" />
@@ -824,7 +824,7 @@ On x86, this method corresponds to __m64 _mm_set1_pi32
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;int&gt; Create (int e0, int e1);" />
+      <MemberSignature Language="C#" Value="public static  Create (int e0, int e1);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int32&gt; Create(int32 e0, int32 e1) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (e0 As Integer, e1 As Integer) As Vector64(Of Integer)" />
@@ -861,7 +861,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi32
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;float&gt; Create (float e0, float e1);" />
+      <MemberSignature Language="C#" Value="public static  Create (float e0, float e1);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;float32&gt; Create(float32 e0, float32 e1) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.Single,System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (e0 As Single, e1 As Single) As Vector64(Of Single)" />
@@ -890,7 +890,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi32
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;uint&gt; Create (uint e0, uint e1);" />
+      <MemberSignature Language="C#" Value="public static  Create (uint e0, uint e1);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int32&gt; Create(unsigned int32 e0, unsigned int32 e1) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.UInt32,System.UInt32)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (e0 As UInteger, e1 As UInteger) As Vector64(Of UInteger)" />
@@ -933,7 +933,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi32
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;short&gt; Create (short e0, short e1, short e2, short e3);" />
+      <MemberSignature Language="C#" Value="public static  Create (short e0, short e1, short e2, short e3);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int16&gt; Create(int16 e0, int16 e1, int16 e2, int16 e3) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.Int16,System.Int16,System.Int16,System.Int16)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (e0 As Short, e1 As Short, e2 As Short, e3 As Short) As Vector64(Of Short)" />
@@ -974,7 +974,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi16
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;ushort&gt; Create (ushort e0, ushort e1, ushort e2, ushort e3);" />
+      <MemberSignature Language="C#" Value="public static  Create (ushort e0, ushort e1, ushort e2, ushort e3);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int16&gt; Create(unsigned int16 e0, unsigned int16 e1, unsigned int16 e2, unsigned int16 e3) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.UInt16,System.UInt16,System.UInt16,System.UInt16)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (e0 As UShort, e1 As UShort, e2 As UShort, e3 As UShort) As Vector64(Of UShort)" />
@@ -1021,7 +1021,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi16
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;byte&gt; Create (byte e0, byte e1, byte e2, byte e3, byte e4, byte e5, byte e6, byte e7);" />
+      <MemberSignature Language="C#" Value="public static  Create (byte e0, byte e1, byte e2, byte e3, byte e4, byte e5, byte e6, byte e7);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int8&gt; Create(unsigned int8 e0, unsigned int8 e1, unsigned int8 e2, unsigned int8 e3, unsigned int8 e4, unsigned int8 e5, unsigned int8 e6, unsigned int8 e7) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte,System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (e0 As Byte, e1 As Byte, e2 As Byte, e3 As Byte, e4 As Byte, e5 As Byte, e6 As Byte, e7 As Byte) As Vector64(Of Byte)" />
@@ -1070,7 +1070,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;sbyte&gt; Create (sbyte e0, sbyte e1, sbyte e2, sbyte e3, sbyte e4, sbyte e5, sbyte e6, sbyte e7);" />
+      <MemberSignature Language="C#" Value="public static  Create (sbyte e0, sbyte e1, sbyte e2, sbyte e3, sbyte e4, sbyte e5, sbyte e6, sbyte e7);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int8&gt; Create(int8 e0, int8 e1, int8 e2, int8 e3, int8 e4, int8 e5, int8 e6, int8 e7) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.Create(System.SByte,System.SByte,System.SByte,System.SByte,System.SByte,System.SByte,System.SByte,System.SByte)" />
       <MemberSignature Language="VB.NET" Value="Public Function Create (e0 As SByte, e1 As SByte, e2 As SByte, e3 As SByte, e4 As SByte, e5 As SByte, e6 As SByte, e7 As SByte) As Vector64(Of SByte)" />
@@ -1125,7 +1125,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;byte&gt; CreateScalar (byte value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalar (byte value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int8&gt; CreateScalar(unsigned int8 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalar(System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalar (value As Byte) As Vector64(Of Byte)" />
@@ -1152,7 +1152,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;double&gt; CreateScalar (double value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalar (double value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;float64&gt; CreateScalar(float64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalar(System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalar (value As Double) As Vector64(Of Double)" />
@@ -1177,7 +1177,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;short&gt; CreateScalar (short value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalar (short value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int16&gt; CreateScalar(int16 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalar(System.Int16)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalar (value As Short) As Vector64(Of Short)" />
@@ -1204,7 +1204,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;int&gt; CreateScalar (int value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalar (int value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int32&gt; CreateScalar(int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalar(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalar (value As Integer) As Vector64(Of Integer)" />
@@ -1231,7 +1231,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;long&gt; CreateScalar (long value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalar (long value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int64&gt; CreateScalar(int64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalar(System.Int64)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalar (value As Long) As Vector64(Of Long)" />
@@ -1256,7 +1256,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;sbyte&gt; CreateScalar (sbyte value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalar (sbyte value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int8&gt; CreateScalar(int8 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalar(System.SByte)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalar (value As SByte) As Vector64(Of SByte)" />
@@ -1289,7 +1289,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;float&gt; CreateScalar (float value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalar (float value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;float32&gt; CreateScalar(float32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalar(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalar (value As Single) As Vector64(Of Single)" />
@@ -1316,7 +1316,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;ushort&gt; CreateScalar (ushort value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalar (ushort value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int16&gt; CreateScalar(unsigned int16 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalar(System.UInt16)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalar (value As UShort) As Vector64(Of UShort)" />
@@ -1349,7 +1349,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;uint&gt; CreateScalar (uint value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalar (uint value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int32&gt; CreateScalar(unsigned int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalar(System.UInt32)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalar (value As UInteger) As Vector64(Of UInteger)" />
@@ -1382,7 +1382,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;ulong&gt; CreateScalar (ulong value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalar (ulong value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int64&gt; CreateScalar(unsigned int64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalar(System.UInt64)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalar (value As ULong) As Vector64(Of ULong)" />
@@ -1413,7 +1413,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalarUnsafe">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;byte&gt; CreateScalarUnsafe (byte value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalarUnsafe (byte value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int8&gt; CreateScalarUnsafe(unsigned int8 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalarUnsafe(System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalarUnsafe (value As Byte) As Vector64(Of Byte)" />
@@ -1440,7 +1440,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalarUnsafe">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;short&gt; CreateScalarUnsafe (short value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalarUnsafe (short value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int16&gt; CreateScalarUnsafe(int16 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalarUnsafe(System.Int16)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalarUnsafe (value As Short) As Vector64(Of Short)" />
@@ -1467,7 +1467,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalarUnsafe">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;int&gt; CreateScalarUnsafe (int value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalarUnsafe (int value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int32&gt; CreateScalarUnsafe(int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalarUnsafe(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalarUnsafe (value As Integer) As Vector64(Of Integer)" />
@@ -1494,7 +1494,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalarUnsafe">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;sbyte&gt; CreateScalarUnsafe (sbyte value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalarUnsafe (sbyte value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int8&gt; CreateScalarUnsafe(int8 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalarUnsafe(System.SByte)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalarUnsafe (value As SByte) As Vector64(Of SByte)" />
@@ -1527,7 +1527,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalarUnsafe">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;float&gt; CreateScalarUnsafe (float value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalarUnsafe (float value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;float32&gt; CreateScalarUnsafe(float32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalarUnsafe(System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalarUnsafe (value As Single) As Vector64(Of Single)" />
@@ -1554,7 +1554,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalarUnsafe">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;ushort&gt; CreateScalarUnsafe (ushort value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalarUnsafe (ushort value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int16&gt; CreateScalarUnsafe(unsigned int16 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalarUnsafe(System.UInt16)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalarUnsafe (value As UShort) As Vector64(Of UShort)" />
@@ -1587,7 +1587,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="CreateScalarUnsafe">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;uint&gt; CreateScalarUnsafe (uint value);" />
+      <MemberSignature Language="C#" Value="public static  CreateScalarUnsafe (uint value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int32&gt; CreateScalarUnsafe(unsigned int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.CreateScalarUnsafe(System.UInt32)" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateScalarUnsafe (value As UInteger) As Vector64(Of UInteger)" />
@@ -1620,7 +1620,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="GetElement&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T GetElement&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector, int index) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static T GetElement&lt;T&gt; (this  vector, int index) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T GetElement&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.GetElement``1(System.Runtime.Intrinsics.Vector64{``0},System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetElement(Of T As Structure) (vector As Vector64(Of T), index As Integer) As T" />
@@ -1662,7 +1662,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="ToScalar&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T ToScalar&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static T ToScalar&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T ToScalar&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.ToScalar``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToScalar(Of T As Structure) (vector As Vector64(Of T)) As T" />
@@ -1700,7 +1700,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="ToVector128&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;T&gt; ToVector128&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  ToVector128&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;!!T&gt; ToVector128&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.ToVector128``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToVector128(Of T As Structure) (vector As Vector64(Of T)) As Vector128(Of T)" />
@@ -1738,7 +1738,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="ToVector128Unsafe&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;T&gt; ToVector128Unsafe&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  ToVector128Unsafe&lt;T&gt; (this  vector) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;!!T&gt; ToVector128Unsafe&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.ToVector128Unsafe``1(System.Runtime.Intrinsics.Vector64{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToVector128Unsafe(Of T As Structure) (vector As Vector64(Of T)) As Vector128(Of T)" />
@@ -1776,7 +1776,7 @@ On x86, this method corresponds to __m64 _mm_setr_pi8
       </Docs>
     </Member>
     <Member MemberName="WithElement&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;T&gt; WithElement&lt;T&gt; (this System.Runtime.Intrinsics.Vector64&lt;T&gt; vector, int index, T value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  WithElement&lt;T&gt; (this  vector, int index, T value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; WithElement&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Runtime.Intrinsics.Vector64`1&lt;!!T&gt; vector, int32 index, !!T value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector64.WithElement``1(System.Runtime.Intrinsics.Vector64{``0},System.Int32,``0)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function WithElement(Of T As Structure) (vector As Vector64(Of T), index As Integer, value As T) As Vector64(Of T)" />

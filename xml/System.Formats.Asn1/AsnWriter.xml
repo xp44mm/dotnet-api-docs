@@ -98,7 +98,7 @@
       </Docs>
     </Member>
     <Member MemberName="Encode">
-      <MemberSignature Language="C#" Value="public int Encode (Span&lt;byte&gt; destination);" />
+      <MemberSignature Language="C#" Value="public int Encode ( destination);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 Encode(valuetype System.Span`1&lt;unsigned int8&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnWriter.Encode(System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Function Encode (destination As Span(Of Byte)) As Integer" />
@@ -153,7 +153,7 @@
       </Docs>
     </Member>
     <Member MemberName="EncodedValueEquals">
-      <MemberSignature Language="C#" Value="public bool EncodedValueEquals (ReadOnlySpan&lt;byte&gt; other);" />
+      <MemberSignature Language="C#" Value="public bool EncodedValueEquals ( other);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool EncodedValueEquals(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; other) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnWriter.EncodedValueEquals(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Function EncodedValueEquals (other As ReadOnlySpan(Of Byte)) As Boolean" />
@@ -435,7 +435,7 @@ In <xref:System.Formats.Asn1.AsnEncodingRules.CER> and <xref:System.Formats.Asn1
       </Docs>
     </Member>
     <Member MemberName="TryEncode">
-      <MemberSignature Language="C#" Value="public bool TryEncode (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryEncode ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryEncode(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnWriter.TryEncode(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryEncode (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
@@ -464,7 +464,7 @@ In <xref:System.Formats.Asn1.AsnEncodingRules.CER> and <xref:System.Formats.Asn1
       </Docs>
     </Member>
     <Member MemberName="WriteBitString">
-      <MemberSignature Language="C#" Value="public void WriteBitString (ReadOnlySpan&lt;byte&gt; value, int unusedBitCount = 0, System.Formats.Asn1.Asn1Tag? tag = default);" />
+      <MemberSignature Language="C#" Value="public void WriteBitString ( value, int unusedBitCount = 0, System.Formats.Asn1.Asn1Tag? tag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteBitString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value, int32 unusedBitCount, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; tag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnWriter.WriteBitString(System.ReadOnlySpan{System.Byte},System.Int32,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteBitString (value As ReadOnlySpan(Of Byte), Optional unusedBitCount As Integer = 0, Optional tag As Nullable(Of Asn1Tag) = Nothing)" />
@@ -526,7 +526,7 @@ In <xref:System.Formats.Asn1.AsnEncodingRules.CER> and <xref:System.Formats.Asn1
       </Docs>
     </Member>
     <Member MemberName="WriteCharacterString">
-      <MemberSignature Language="C#" Value="public void WriteCharacterString (System.Formats.Asn1.UniversalTagNumber encodingType, ReadOnlySpan&lt;char&gt; str, System.Formats.Asn1.Asn1Tag? tag = default);" />
+      <MemberSignature Language="C#" Value="public void WriteCharacterString (System.Formats.Asn1.UniversalTagNumber encodingType,  str, System.Formats.Asn1.Asn1Tag? tag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteCharacterString(valuetype System.Formats.Asn1.UniversalTagNumber encodingType, valuetype System.ReadOnlySpan`1&lt;char&gt; str, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; tag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnWriter.WriteCharacterString(System.Formats.Asn1.UniversalTagNumber,System.ReadOnlySpan{System.Char},System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteCharacterString (encodingType As UniversalTagNumber, str As ReadOnlySpan(Of Char), Optional tag As Nullable(Of Asn1Tag) = Nothing)" />
@@ -594,7 +594,7 @@ In <xref:System.Formats.Asn1.AsnEncodingRules.CER> and <xref:System.Formats.Asn1
       </Docs>
     </Member>
     <Member MemberName="WriteEncodedValue">
-      <MemberSignature Language="C#" Value="public void WriteEncodedValue (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public void WriteEncodedValue ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteEncodedValue(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnWriter.WriteEncodedValue(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteEncodedValue (value As ReadOnlySpan(Of Byte))" />
@@ -788,7 +788,7 @@ This method only checks that the tag and length are encoded according to the cur
       </Docs>
     </Member>
     <Member MemberName="WriteInteger">
-      <MemberSignature Language="C#" Value="public void WriteInteger (ReadOnlySpan&lt;byte&gt; value, System.Formats.Asn1.Asn1Tag? tag = default);" />
+      <MemberSignature Language="C#" Value="public void WriteInteger ( value, System.Formats.Asn1.Asn1Tag? tag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteInteger(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; tag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnWriter.WriteInteger(System.ReadOnlySpan{System.Byte},System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteInteger (value As ReadOnlySpan(Of Byte), Optional tag As Nullable(Of Asn1Tag) = Nothing)" />
@@ -851,7 +851,7 @@ This method only checks that the tag and length are encoded according to the cur
       </Docs>
     </Member>
     <Member MemberName="WriteIntegerUnsigned">
-      <MemberSignature Language="C#" Value="public void WriteIntegerUnsigned (ReadOnlySpan&lt;byte&gt; value, System.Formats.Asn1.Asn1Tag? tag = default);" />
+      <MemberSignature Language="C#" Value="public void WriteIntegerUnsigned ( value, System.Formats.Asn1.Asn1Tag? tag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteIntegerUnsigned(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; tag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnWriter.WriteIntegerUnsigned(System.ReadOnlySpan{System.Byte},System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteIntegerUnsigned (value As ReadOnlySpan(Of Byte), Optional tag As Nullable(Of Asn1Tag) = Nothing)" />
@@ -1014,7 +1014,7 @@ The index of the bit array corresponds to the bit number in the encoded format, 
       </Docs>
     </Member>
     <Member MemberName="WriteObjectIdentifier">
-      <MemberSignature Language="C#" Value="public void WriteObjectIdentifier (ReadOnlySpan&lt;char&gt; oidValue, System.Formats.Asn1.Asn1Tag? tag = default);" />
+      <MemberSignature Language="C#" Value="public void WriteObjectIdentifier ( oidValue, System.Formats.Asn1.Asn1Tag? tag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteObjectIdentifier(valuetype System.ReadOnlySpan`1&lt;char&gt; oidValue, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; tag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnWriter.WriteObjectIdentifier(System.ReadOnlySpan{System.Char},System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteObjectIdentifier (oidValue As ReadOnlySpan(Of Char), Optional tag As Nullable(Of Asn1Tag) = Nothing)" />
@@ -1074,7 +1074,7 @@ The index of the bit array corresponds to the bit number in the encoded format, 
       </Docs>
     </Member>
     <Member MemberName="WriteOctetString">
-      <MemberSignature Language="C#" Value="public void WriteOctetString (ReadOnlySpan&lt;byte&gt; value, System.Formats.Asn1.Asn1Tag? tag = default);" />
+      <MemberSignature Language="C#" Value="public void WriteOctetString ( value, System.Formats.Asn1.Asn1Tag? tag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteOctetString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; tag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnWriter.WriteOctetString(System.ReadOnlySpan{System.Byte},System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteOctetString (value As ReadOnlySpan(Of Byte), Optional tag As Nullable(Of Asn1Tag) = Nothing)" />

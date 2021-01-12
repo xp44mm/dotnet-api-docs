@@ -160,7 +160,7 @@
       </Docs>
     </Member>
     <Member MemberName="LookupImplementationMap">
-      <MemberSignature Language="C#" Value="public Func&lt;System.Activities.Activity,System.Activities.DynamicUpdate.DynamicUpdateMap&gt; LookupImplementationMap { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;System.Activities.Activity, System.Activities.DynamicUpdate.DynamicUpdateMap&gt; LookupImplementationMap { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Activities.Activity, class System.Activities.DynamicUpdate.DynamicUpdateMap&gt; LookupImplementationMap" />
       <MemberSignature Language="DocId" Value="P:System.Activities.DynamicUpdate.DynamicUpdateMapBuilder.LookupImplementationMap" />
       <MemberSignature Language="VB.NET" Value="Public Property LookupImplementationMap As Func(Of Activity, DynamicUpdateMap)" />
@@ -172,7 +172,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Activities.Activity,System.Activities.DynamicUpdate.DynamicUpdateMap&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Activities.Activity, System.Activities.DynamicUpdate.DynamicUpdateMap&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the lookup implementation map for the <see cref="T:System.Activities.DynamicUpdate.DynamicUpdateMapBuilder" />.</summary>
@@ -181,7 +181,7 @@
       </Docs>
     </Member>
     <Member MemberName="LookupMapItem">
-      <MemberSignature Language="C#" Value="public Func&lt;object,System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; LookupMapItem { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;object, System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; LookupMapItem { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;object, class System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; LookupMapItem" />
       <MemberSignature Language="DocId" Value="P:System.Activities.DynamicUpdate.DynamicUpdateMapBuilder.LookupMapItem" />
       <MemberSignature Language="VB.NET" Value="Public Property LookupMapItem As Func(Of Object, DynamicUpdateMapItem)" />
@@ -193,7 +193,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Object,System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Object, System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the lookup map item for the <see cref="T:System.Activities.DynamicUpdate.DynamicUpdateMapBuilder" />.</summary>

@@ -53,7 +53,7 @@
       </Docs>
     </Member>
     <Member MemberName="MetadataProviderFactory">
-      <MemberSignature Language="C#" Value="public Func&lt;Type,System.ComponentModel.TypeDescriptionProvider&gt; MetadataProviderFactory { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;Type, System.ComponentModel.TypeDescriptionProvider&gt; MetadataProviderFactory { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Type, class System.ComponentModel.TypeDescriptionProvider&gt; MetadataProviderFactory" />
       <MemberSignature Language="DocId" Value="P:System.Web.DynamicData.ContextConfiguration.MetadataProviderFactory" />
       <MemberSignature Language="VB.NET" Value="Public Property MetadataProviderFactory As Func(Of Type, TypeDescriptionProvider)" />
@@ -76,7 +76,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Type,System.ComponentModel.TypeDescriptionProvider&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Type, System.ComponentModel.TypeDescriptionProvider&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the metadata provider.</summary>

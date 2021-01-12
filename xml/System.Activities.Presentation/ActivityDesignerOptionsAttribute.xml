@@ -120,7 +120,7 @@
       </Docs>
     </Member>
     <Member MemberName="OutlineViewIconProvider">
-      <MemberSignature Language="C#" Value="public Func&lt;System.Activities.Presentation.Model.ModelItem,System.Windows.Media.DrawingBrush&gt; OutlineViewIconProvider { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;System.Activities.Presentation.Model.ModelItem, System.Windows.Media.DrawingBrush&gt; OutlineViewIconProvider { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Activities.Presentation.Model.ModelItem, class System.Windows.Media.DrawingBrush&gt; OutlineViewIconProvider" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Presentation.ActivityDesignerOptionsAttribute.OutlineViewIconProvider" />
       <MemberSignature Language="VB.NET" Value="Public Property OutlineViewIconProvider As Func(Of ModelItem, DrawingBrush)" />
@@ -132,7 +132,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Activities.Presentation.Model.ModelItem,System.Windows.Media.DrawingBrush&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Activities.Presentation.Model.ModelItem, System.Windows.Media.DrawingBrush&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the function of outline view icon provider.</summary>

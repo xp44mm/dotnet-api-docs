@@ -70,7 +70,7 @@
       </Docs>
     </Member>
     <Member MemberName="Read">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;string,string&gt; Read (System.IO.Stream stream);" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;string, string&gt; Read (System.IO.Stream stream);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Read(class System.IO.Stream stream) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Configuration.Ini.IniStreamConfigurationProvider.Read(System.IO.Stream)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Read (stream As Stream) As IDictionary(Of String, String)" />
@@ -84,7 +84,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="stream" Type="System.IO.Stream" />

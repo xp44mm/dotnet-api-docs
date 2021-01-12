@@ -88,7 +88,7 @@
       </Docs>
     </Member>
     <Member MemberName="Directory">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; Directory { get; }" />
+      <MemberSignature Language="C#" Value="public  Directory { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;char&gt; Directory" />
       <MemberSignature Language="DocId" Value="P:System.IO.Enumeration.FileSystemEntry.Directory" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Directory As ReadOnlySpan(Of Char)" />
@@ -115,7 +115,7 @@
       </Docs>
     </Member>
     <Member MemberName="FileName">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; FileName { get; }" />
+      <MemberSignature Language="C#" Value="public  FileName { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;char&gt; FileName" />
       <MemberSignature Language="DocId" Value="P:System.IO.Enumeration.FileSystemEntry.FileName" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FileName As ReadOnlySpan(Of Char)" />
@@ -279,7 +279,7 @@
       </Docs>
     </Member>
     <Member MemberName="OriginalRootDirectory">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; OriginalRootDirectory { get; }" />
+      <MemberSignature Language="C#" Value="public  OriginalRootDirectory { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;char&gt; OriginalRootDirectory" />
       <MemberSignature Language="DocId" Value="P:System.IO.Enumeration.FileSystemEntry.OriginalRootDirectory" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OriginalRootDirectory As ReadOnlySpan(Of Char)" />
@@ -306,7 +306,7 @@
       </Docs>
     </Member>
     <Member MemberName="RootDirectory">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; RootDirectory { get; }" />
+      <MemberSignature Language="C#" Value="public  RootDirectory { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;char&gt; RootDirectory" />
       <MemberSignature Language="DocId" Value="P:System.IO.Enumeration.FileSystemEntry.RootDirectory" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RootDirectory As ReadOnlySpan(Of Char)" />

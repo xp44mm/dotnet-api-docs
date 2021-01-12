@@ -33,7 +33,7 @@
   </Docs>
   <Members>
     <Member MemberName="GetAllNamesAndValuesInScope">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt; GetAllNamesAndValuesInScope ();" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;&gt; GetAllNamesAndValuesInScope ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt; GetAllNamesAndValuesInScope() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xaml.IXamlNameResolver.GetAllNamesAndValuesInScope" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAllNamesAndValuesInScope () As IEnumerable(Of KeyValuePair(Of String, Object))" />
@@ -46,7 +46,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

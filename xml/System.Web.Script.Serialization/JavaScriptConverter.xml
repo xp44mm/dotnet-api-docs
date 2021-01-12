@@ -113,7 +113,7 @@
       </Docs>
     </Member>
     <Member MemberName="Serialize">
-      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string,object&gt; Serialize (object obj, System.Web.Script.Serialization.JavaScriptSerializer serializer);" />
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string, object&gt; Serialize (object obj, System.Web.Script.Serialization.JavaScriptSerializer serializer);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Serialize(object obj, class System.Web.Script.Serialization.JavaScriptSerializer serializer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Web.Script.Serialization.JavaScriptConverter.Serialize(System.Object,System.Web.Script.Serialization.JavaScriptSerializer)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function Serialize (obj As Object, serializer As JavaScriptSerializer) As IDictionary(Of String, Object)" />
@@ -126,7 +126,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="obj" Type="System.Object" />

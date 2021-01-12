@@ -1,5 +1,5 @@
 <Type Name="Vector128&lt;T&gt;" FullName="System.Runtime.Intrinsics.Vector128&lt;T&gt;">
-  <TypeSignature Language="C#" Value="public struct Vector128&lt;T&gt; : IEquatable&lt;System.Runtime.Intrinsics.Vector128&lt;T&gt;&gt; where T : struct" />
+  <TypeSignature Language="C#" Value="public struct Vector128&lt;T&gt; : IEquatable&lt;&gt; where T : struct" />
   <TypeSignature Language="ILAsm" Value=".class public sequential ansi sealed beforefieldinit Vector128`1&lt;struct .ctor (class System.ValueType) T&gt; extends System.ValueType implements class System.IEquatable`1&lt;valuetype System.Runtime.Intrinsics.Vector128`1&lt;!T&gt;&gt;" />
   <TypeSignature Language="DocId" Value="T:System.Runtime.Intrinsics.Vector128`1" />
   <TypeSignature Language="VB.NET" Value="Public Structure Vector128(Of T)&#xA;Implements IEquatable(Of Vector128(Of T))" />
@@ -45,7 +45,7 @@
   </Docs>
   <Members>
     <Member MemberName="AllBitsSet">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;T&gt; AllBitsSet { get; }" />
+      <MemberSignature Language="C#" Value="public static  AllBitsSet { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype System.Runtime.Intrinsics.Vector128`1&lt;!T&gt; AllBitsSet" />
       <MemberSignature Language="DocId" Value="P:System.Runtime.Intrinsics.Vector128`1.AllBitsSet" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property AllBitsSet As Vector128(Of T)" />
@@ -91,7 +91,7 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector128`1.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
@@ -120,7 +120,7 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public bool Equals (System.Runtime.Intrinsics.Vector128&lt;T&gt; other);" />
+      <MemberSignature Language="C#" Value="public bool Equals ( other);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(valuetype System.Runtime.Intrinsics.Vector128`1&lt;!T&gt; other) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Vector128`1.Equals(System.Runtime.Intrinsics.Vector128{`0})" />
       <MemberSignature Language="VB.NET" Value="Public Function Equals (other As Vector128(Of T)) As Boolean" />
@@ -202,7 +202,7 @@
       </Docs>
     </Member>
     <Member MemberName="Zero">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;T&gt; Zero { get; }" />
+      <MemberSignature Language="C#" Value="public static  Zero { get; }" />
       <MemberSignature Language="ILAsm" Value=".property valuetype System.Runtime.Intrinsics.Vector128`1&lt;!T&gt; Zero" />
       <MemberSignature Language="DocId" Value="P:System.Runtime.Intrinsics.Vector128`1.Zero" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Zero As Vector128(Of T)" />

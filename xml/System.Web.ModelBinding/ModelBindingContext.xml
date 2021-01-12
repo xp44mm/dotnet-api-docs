@@ -194,7 +194,7 @@
       </Docs>
     </Member>
     <Member MemberName="PropertyMetadata">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,System.Web.ModelBinding.ModelMetadata&gt; PropertyMetadata { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, System.Web.ModelBinding.ModelMetadata&gt; PropertyMetadata { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class System.Web.ModelBinding.ModelMetadata&gt; PropertyMetadata" />
       <MemberSignature Language="DocId" Value="P:System.Web.ModelBinding.ModelBindingContext.PropertyMetadata" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PropertyMetadata As IDictionary(Of String, ModelMetadata)" />
@@ -206,7 +206,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Web.ModelBinding.ModelMetadata&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Web.ModelBinding.ModelMetadata&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets metadata for properties of the model.</summary>

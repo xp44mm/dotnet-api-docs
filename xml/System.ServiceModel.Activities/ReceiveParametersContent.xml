@@ -90,7 +90,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parameters">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,System.Activities.OutArgument&gt; Parameters { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, System.Activities.OutArgument&gt; Parameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class System.Activities.OutArgument&gt; Parameters" />
       <MemberSignature Language="DocId" Value="P:System.ServiceModel.Activities.ReceiveParametersContent.Parameters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parameters As IDictionary(Of String, OutArgument)" />
@@ -108,7 +108,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Activities.OutArgument&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Activities.OutArgument&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Modifies the parameters collection.</summary>

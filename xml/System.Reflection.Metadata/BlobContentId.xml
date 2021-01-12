@@ -60,7 +60,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public BlobContentId (System.Collections.Immutable.ImmutableArray&lt;byte&gt; id);" />
+      <MemberSignature Language="C#" Value="public BlobContentId ( id);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Collections.Immutable.ImmutableArray`1&lt;unsigned int8&gt; id) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobContentId.#ctor(System.Collections.Immutable.ImmutableArray{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (id As ImmutableArray(Of Byte))" />
@@ -114,12 +114,13 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobContentId.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="blobContentId.Equals obj" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -208,7 +209,7 @@
       </Docs>
     </Member>
     <Member MemberName="FromHash">
-      <MemberSignature Language="C#" Value="public static System.Reflection.Metadata.BlobContentId FromHash (System.Collections.Immutable.ImmutableArray&lt;byte&gt; hashCode);" />
+      <MemberSignature Language="C#" Value="public static System.Reflection.Metadata.BlobContentId FromHash ( hashCode);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Reflection.Metadata.BlobContentId FromHash(valuetype System.Collections.Immutable.ImmutableArray`1&lt;unsigned int8&gt; hashCode) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobContentId.FromHash(System.Collections.Immutable.ImmutableArray{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function FromHash (hashCode As ImmutableArray(Of Byte)) As BlobContentId" />
@@ -265,7 +266,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetTimeBasedProvider">
-      <MemberSignature Language="C#" Value="public static Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;,System.Reflection.Metadata.BlobContentId&gt; GetTimeBasedProvider ();" />
+      <MemberSignature Language="C#" Value="public static Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;, System.Reflection.Metadata.BlobContentId&gt; GetTimeBasedProvider ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Func`2&lt;class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Reflection.Metadata.Blob&gt;, valuetype System.Reflection.Metadata.BlobContentId&gt; GetTimeBasedProvider() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobContentId.GetTimeBasedProvider" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetTimeBasedProvider () As Func(Of IEnumerable(Of Blob), BlobContentId)" />
@@ -282,7 +283,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;,System.Reflection.Metadata.BlobContentId&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;, System.Reflection.Metadata.BlobContentId&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

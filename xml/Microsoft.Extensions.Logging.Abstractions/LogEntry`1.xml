@@ -117,7 +117,7 @@
       </Docs>
     </Member>
     <Member MemberName="Formatter">
-      <MemberSignature Language="C#" Value="public Func&lt;TState,Exception,string&gt; Formatter { get; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;TState, Exception, string&gt; Formatter { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`3&lt;!TState, class System.Exception, string&gt; Formatter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Logging.Abstractions.LogEntry`1.Formatter" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Formatter As Func(Of TState, Exception, String)" />
@@ -129,7 +129,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;TState,System.Exception,System.String&gt;</ReturnType>
+        <ReturnType>System.Func&lt;TState, System.Exception, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the formatter.</summary>

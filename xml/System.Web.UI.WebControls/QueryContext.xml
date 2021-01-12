@@ -77,7 +77,7 @@
       </Docs>
     </Member>
     <Member MemberName="GroupByParameters">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; GroupByParameters { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, object&gt; GroupByParameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; GroupByParameters" />
       <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.QueryContext.GroupByParameters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property GroupByParameters As IDictionary(Of String, Object)" />
@@ -95,7 +95,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a collection of parameters that specify which properties are used to group the retrieved data.</summary>
@@ -131,7 +131,7 @@
       </Docs>
     </Member>
     <Member MemberName="OrderGroupsByParameters">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; OrderGroupsByParameters { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, object&gt; OrderGroupsByParameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; OrderGroupsByParameters" />
       <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.QueryContext.OrderGroupsByParameters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OrderGroupsByParameters As IDictionary(Of String, Object)" />
@@ -149,7 +149,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or set a collection of parameters that specify fields that are used to order grouped data.</summary>
@@ -158,7 +158,7 @@
       </Docs>
     </Member>
     <Member MemberName="SelectParameters">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; SelectParameters { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, object&gt; SelectParameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; SelectParameters" />
       <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.QueryContext.SelectParameters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property SelectParameters As IDictionary(Of String, Object)" />
@@ -176,7 +176,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a collection of parameters that specify the properties and calculated values that are included in the retrieved data.</summary>
@@ -185,7 +185,7 @@
       </Docs>
     </Member>
     <Member MemberName="WhereParameters">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; WhereParameters { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, object&gt; WhereParameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; WhereParameters" />
       <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.QueryContext.WhereParameters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property WhereParameters As IDictionary(Of String, Object)" />
@@ -203,7 +203,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a collection of parameters that specify the conditions that must be true for a record to be included in the retrieved data.</summary>

@@ -45,7 +45,7 @@
       </Docs>
     </Member>
     <Member MemberName="AddBindingTemplates">
-      <MemberSignature Language="C#" Value="protected override void AddBindingTemplates (System.Collections.Generic.Dictionary&lt;System.ServiceModel.Configuration.AuthenticationMode,System.ServiceModel.Channels.SecurityBindingElement&gt; bindingTemplates);" />
+      <MemberSignature Language="C#" Value="protected override void AddBindingTemplates (System.Collections.Generic.Dictionary&lt;System.ServiceModel.Configuration.AuthenticationMode, System.ServiceModel.Channels.SecurityBindingElement&gt; bindingTemplates);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void AddBindingTemplates(class System.Collections.Generic.Dictionary`2&lt;valuetype System.ServiceModel.Configuration.AuthenticationMode, class System.ServiceModel.Channels.SecurityBindingElement&gt; bindingTemplates) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.ServiceModel.Configuration.SecurityElement.AddBindingTemplates(System.Collections.Generic.Dictionary{System.ServiceModel.Configuration.AuthenticationMode,System.ServiceModel.Channels.SecurityBindingElement})" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub AddBindingTemplates (bindingTemplates As Dictionary(Of AuthenticationMode, SecurityBindingElement))" />
@@ -61,7 +61,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="bindingTemplates" Type="System.Collections.Generic.Dictionary&lt;System.ServiceModel.Configuration.AuthenticationMode,System.ServiceModel.Channels.SecurityBindingElement&gt;" />
+        <Parameter Name="bindingTemplates" Type="System.Collections.Generic.Dictionary&lt;System.ServiceModel.Configuration.AuthenticationMode, System.ServiceModel.Channels.SecurityBindingElement&gt;" />
       </Parameters>
       <Docs>
         <param name="bindingTemplates">To be added.</param>

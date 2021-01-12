@@ -82,8 +82,7 @@
       <Docs>
         <summary>Gets the activator used to retrieve instances of the export.</summary>
         <value>The activator.</value>
-        <remarks>
-        </remarks>
+        <remarks></remarks>
       </Docs>
     </Member>
     <Member MemberName="Create">
@@ -115,12 +114,11 @@
         <param name="metadata">The metadata associated with the export.</param>
         <summary>Creates an export descriptor that has the specified activator and metadata.</summary>
         <returns>The created descriptor.</returns>
-        <remarks>
-        </remarks>
+        <remarks></remarks>
       </Docs>
     </Member>
     <Member MemberName="Metadata">
-      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string,object&gt; Metadata { get; }" />
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string, object&gt; Metadata { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Metadata" />
       <MemberSignature Language="DocId" Value="P:System.Composition.Hosting.Core.ExportDescriptor.Metadata" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property Metadata As IDictionary(Of String, Object)" />
@@ -137,13 +135,12 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the metadata for the export.</summary>
         <value>A collection of metadata.</value>
-        <remarks>
-        </remarks>
+        <remarks></remarks>
       </Docs>
     </Member>
   </Members>

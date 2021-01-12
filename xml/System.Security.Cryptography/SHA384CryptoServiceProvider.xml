@@ -122,7 +122,7 @@
       </Docs>
     </Member>
     <Member MemberName="HashCore">
-      <MemberSignature Language="C#" Value="protected override void HashCore (ReadOnlySpan&lt;byte&gt; source);" />
+      <MemberSignature Language="C#" Value="protected override void HashCore ( source);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void HashCore(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.SHA384CryptoServiceProvider.HashCore(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub HashCore (source As ReadOnlySpan(Of Byte))" />
@@ -287,7 +287,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryHashFinal">
-      <MemberSignature Language="C#" Value="protected override bool TryHashFinal (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="protected override bool TryHashFinal ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool TryHashFinal(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.SHA384CryptoServiceProvider.TryHashFinal(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function TryHashFinal (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />

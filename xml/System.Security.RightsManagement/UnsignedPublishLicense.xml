@@ -173,7 +173,7 @@
       </Docs>
     </Member>
     <Member MemberName="LocalizedNameDescriptionDictionary">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;int,System.Security.RightsManagement.LocalizedNameDescriptionPair&gt; LocalizedNameDescriptionDictionary { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;int, System.Security.RightsManagement.LocalizedNameDescriptionPair&gt; LocalizedNameDescriptionDictionary { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;int32, class System.Security.RightsManagement.LocalizedNameDescriptionPair&gt; LocalizedNameDescriptionDictionary" />
       <MemberSignature Language="DocId" Value="P:System.Security.RightsManagement.UnsignedPublishLicense.LocalizedNameDescriptionDictionary" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LocalizedNameDescriptionDictionary As IDictionary(Of Integer, LocalizedNameDescriptionPair)" />
@@ -187,7 +187,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Int32,System.Security.RightsManagement.LocalizedNameDescriptionPair&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Int32, System.Security.RightsManagement.LocalizedNameDescriptionPair&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a collection of name and description pairs.</summary>

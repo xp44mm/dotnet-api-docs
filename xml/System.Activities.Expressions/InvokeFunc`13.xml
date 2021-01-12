@@ -1,5 +1,5 @@
-<Type Name="InvokeFunc&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TResult&gt;" FullName="System.Activities.Expressions.InvokeFunc&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TResult&gt;">
-  <TypeSignature Language="C#" Value="public sealed class InvokeFunc&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TResult&gt; : System.Activities.NativeActivity&lt;TResult&gt;" />
+<Type Name="InvokeFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult&gt;" FullName="System.Activities.Expressions.InvokeFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult&gt;">
+  <TypeSignature Language="C#" Value="public sealed class InvokeFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult&gt; : System.Activities.NativeActivity&lt;TResult&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit InvokeFunc`13&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult&gt; extends System.Activities.NativeActivity`1&lt;!TResult&gt;" />
   <TypeSignature Language="DocId" Value="T:System.Activities.Expressions.InvokeFunc`13" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class InvokeFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult)&#xA;Inherits NativeActivity(Of TResult)" />
@@ -523,7 +523,7 @@
       </Docs>
     </Member>
     <Member MemberName="Func">
-      <MemberSignature Language="C#" Value="public System.Activities.ActivityFunc&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TResult&gt; Func { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Activities.ActivityFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult&gt; Func { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Activities.ActivityFunc`13&lt;!T1, !T2, !T3, !T4, !T5, !T6, !T7, !T8, !T9, !T10, !T11, !T12, !TResult&gt; Func" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Expressions.InvokeFunc`13.Func" />
       <MemberSignature Language="VB.NET" Value="Public Property Func As ActivityFunc(Of T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult)" />
@@ -549,7 +549,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Activities.ActivityFunc&lt;T1,T2,T3,T4,T5,T6,T7,T8,T9,T10,T11,T12,TResult&gt;</ReturnType>
+        <ReturnType>System.Activities.ActivityFunc&lt;T1, T2, T3, T4, T5, T6, T7, T8, T9, T10, T11, T12, TResult&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the <see cref="T:System.Activities.ActivityFunc`13" /> to be invoked.</summary>

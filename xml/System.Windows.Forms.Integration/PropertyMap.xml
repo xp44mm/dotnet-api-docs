@@ -313,7 +313,7 @@
       </Docs>
     </Member>
     <Member MemberName="DefaultTranslators">
-      <MemberSignature Language="C#" Value="protected System.Collections.Generic.Dictionary&lt;string,System.Windows.Forms.Integration.PropertyTranslator&gt; DefaultTranslators { get; }" />
+      <MemberSignature Language="C#" Value="protected System.Collections.Generic.Dictionary&lt;string, System.Windows.Forms.Integration.PropertyTranslator&gt; DefaultTranslators { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, class System.Windows.Forms.Integration.PropertyTranslator&gt; DefaultTranslators" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.Integration.PropertyMap.DefaultTranslators" />
       <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property DefaultTranslators As Dictionary(Of String, PropertyTranslator)" />
@@ -327,7 +327,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Windows.Forms.Integration.PropertyTranslator&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.Windows.Forms.Integration.PropertyTranslator&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a collection of property mappings which are defined by default.</summary>

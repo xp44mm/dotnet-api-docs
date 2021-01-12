@@ -15,7 +15,7 @@
   <Interfaces />
   <Docs>
     <summary>
-            The value of an item and any associated metadata to be added by an SDK resolver. Also see <see cref="P:Microsoft.Build.Framework.SdkResult.ItemsToAdd" />.</summary>
+            The value of an item and any associated metadata to be added by an SDK resolver.  See <see cref="P:Microsoft.Build.Framework.SdkResult.ItemsToAdd" /></summary>
     <remarks>To be added.</remarks>
   </Docs>
   <Members>
@@ -129,7 +129,7 @@
       </Docs>
     </Member>
     <Member MemberName="Metadata">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; Metadata { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string, string&gt; Metadata { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; Metadata" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Framework.SdkResultItem.Metadata" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Metadata As Dictionary(Of String, String)" />
@@ -141,7 +141,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>

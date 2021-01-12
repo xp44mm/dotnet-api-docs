@@ -25,7 +25,7 @@
   </Docs>
   <Members>
     <Member MemberName="DotProduct">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;int&gt; DotProduct (System.Runtime.Intrinsics.Vector128&lt;int&gt; addend, System.Runtime.Intrinsics.Vector128&lt;sbyte&gt; left, System.Runtime.Intrinsics.Vector128&lt;sbyte&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  DotProduct ( addend,  left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;int32&gt; DotProduct(valuetype System.Runtime.Intrinsics.Vector128`1&lt;int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector128`1&lt;int8&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;int8&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProduct(System.Runtime.Intrinsics.Vector128{System.Int32},System.Runtime.Intrinsics.Vector128{System.SByte},System.Runtime.Intrinsics.Vector128{System.SByte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProduct (addend As Vector128(Of Integer), left As Vector128(Of SByte), right As Vector128(Of SByte)) As Vector128(Of Integer)" />
@@ -54,7 +54,7 @@
       </Docs>
     </Member>
     <Member MemberName="DotProduct">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;uint&gt; DotProduct (System.Runtime.Intrinsics.Vector128&lt;uint&gt; addend, System.Runtime.Intrinsics.Vector128&lt;byte&gt; left, System.Runtime.Intrinsics.Vector128&lt;byte&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  DotProduct ( addend,  left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int32&gt; DotProduct(valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProduct(System.Runtime.Intrinsics.Vector128{System.UInt32},System.Runtime.Intrinsics.Vector128{System.Byte},System.Runtime.Intrinsics.Vector128{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProduct (addend As Vector128(Of UInteger), left As Vector128(Of Byte), right As Vector128(Of Byte)) As Vector128(Of UInteger)" />
@@ -83,7 +83,7 @@
       </Docs>
     </Member>
     <Member MemberName="DotProduct">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;int&gt; DotProduct (System.Runtime.Intrinsics.Vector64&lt;int&gt; addend, System.Runtime.Intrinsics.Vector64&lt;sbyte&gt; left, System.Runtime.Intrinsics.Vector64&lt;sbyte&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  DotProduct ( addend,  left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int32&gt; DotProduct(valuetype System.Runtime.Intrinsics.Vector64`1&lt;int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector64`1&lt;int8&gt; left, valuetype System.Runtime.Intrinsics.Vector64`1&lt;int8&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProduct(System.Runtime.Intrinsics.Vector64{System.Int32},System.Runtime.Intrinsics.Vector64{System.SByte},System.Runtime.Intrinsics.Vector64{System.SByte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProduct (addend As Vector64(Of Integer), left As Vector64(Of SByte), right As Vector64(Of SByte)) As Vector64(Of Integer)" />
@@ -112,7 +112,7 @@
       </Docs>
     </Member>
     <Member MemberName="DotProduct">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;uint&gt; DotProduct (System.Runtime.Intrinsics.Vector64&lt;uint&gt; addend, System.Runtime.Intrinsics.Vector64&lt;byte&gt; left, System.Runtime.Intrinsics.Vector64&lt;byte&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  DotProduct ( addend,  left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int32&gt; DotProduct(valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int8&gt; left, valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int8&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProduct(System.Runtime.Intrinsics.Vector64{System.UInt32},System.Runtime.Intrinsics.Vector64{System.Byte},System.Runtime.Intrinsics.Vector64{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProduct (addend As Vector64(Of UInteger), left As Vector64(Of Byte), right As Vector64(Of Byte)) As Vector64(Of UInteger)" />
@@ -141,7 +141,7 @@
       </Docs>
     </Member>
     <Member MemberName="DotProductBySelectedQuadruplet">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;int&gt; DotProductBySelectedQuadruplet (System.Runtime.Intrinsics.Vector128&lt;int&gt; addend, System.Runtime.Intrinsics.Vector128&lt;sbyte&gt; left, System.Runtime.Intrinsics.Vector128&lt;sbyte&gt; right, byte rightScaledIndex);" />
+      <MemberSignature Language="C#" Value="public static  DotProductBySelectedQuadruplet ( addend,  left,  right, byte rightScaledIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;int32&gt; DotProductBySelectedQuadruplet(valuetype System.Runtime.Intrinsics.Vector128`1&lt;int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector128`1&lt;int8&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;int8&gt; right, unsigned int8 rightScaledIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProductBySelectedQuadruplet(System.Runtime.Intrinsics.Vector128{System.Int32},System.Runtime.Intrinsics.Vector128{System.SByte},System.Runtime.Intrinsics.Vector128{System.SByte},System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProductBySelectedQuadruplet (addend As Vector128(Of Integer), left As Vector128(Of SByte), right As Vector128(Of SByte), rightScaledIndex As Byte) As Vector128(Of Integer)" />
@@ -172,7 +172,7 @@
       </Docs>
     </Member>
     <Member MemberName="DotProductBySelectedQuadruplet">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;int&gt; DotProductBySelectedQuadruplet (System.Runtime.Intrinsics.Vector128&lt;int&gt; addend, System.Runtime.Intrinsics.Vector128&lt;sbyte&gt; left, System.Runtime.Intrinsics.Vector64&lt;sbyte&gt; right, byte rightScaledIndex);" />
+      <MemberSignature Language="C#" Value="public static  DotProductBySelectedQuadruplet ( addend,  left,  right, byte rightScaledIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;int32&gt; DotProductBySelectedQuadruplet(valuetype System.Runtime.Intrinsics.Vector128`1&lt;int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector128`1&lt;int8&gt; left, valuetype System.Runtime.Intrinsics.Vector64`1&lt;int8&gt; right, unsigned int8 rightScaledIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProductBySelectedQuadruplet(System.Runtime.Intrinsics.Vector128{System.Int32},System.Runtime.Intrinsics.Vector128{System.SByte},System.Runtime.Intrinsics.Vector64{System.SByte},System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProductBySelectedQuadruplet (addend As Vector128(Of Integer), left As Vector128(Of SByte), right As Vector64(Of SByte), rightScaledIndex As Byte) As Vector128(Of Integer)" />
@@ -203,7 +203,7 @@
       </Docs>
     </Member>
     <Member MemberName="DotProductBySelectedQuadruplet">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;uint&gt; DotProductBySelectedQuadruplet (System.Runtime.Intrinsics.Vector128&lt;uint&gt; addend, System.Runtime.Intrinsics.Vector128&lt;byte&gt; left, System.Runtime.Intrinsics.Vector128&lt;byte&gt; right, byte rightScaledIndex);" />
+      <MemberSignature Language="C#" Value="public static  DotProductBySelectedQuadruplet ( addend,  left,  right, byte rightScaledIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int32&gt; DotProductBySelectedQuadruplet(valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; right, unsigned int8 rightScaledIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProductBySelectedQuadruplet(System.Runtime.Intrinsics.Vector128{System.UInt32},System.Runtime.Intrinsics.Vector128{System.Byte},System.Runtime.Intrinsics.Vector128{System.Byte},System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProductBySelectedQuadruplet (addend As Vector128(Of UInteger), left As Vector128(Of Byte), right As Vector128(Of Byte), rightScaledIndex As Byte) As Vector128(Of UInteger)" />
@@ -234,7 +234,7 @@
       </Docs>
     </Member>
     <Member MemberName="DotProductBySelectedQuadruplet">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;uint&gt; DotProductBySelectedQuadruplet (System.Runtime.Intrinsics.Vector128&lt;uint&gt; addend, System.Runtime.Intrinsics.Vector128&lt;byte&gt; left, System.Runtime.Intrinsics.Vector64&lt;byte&gt; right, byte rightScaledIndex);" />
+      <MemberSignature Language="C#" Value="public static  DotProductBySelectedQuadruplet ( addend,  left,  right, byte rightScaledIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int32&gt; DotProductBySelectedQuadruplet(valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; left, valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int8&gt; right, unsigned int8 rightScaledIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProductBySelectedQuadruplet(System.Runtime.Intrinsics.Vector128{System.UInt32},System.Runtime.Intrinsics.Vector128{System.Byte},System.Runtime.Intrinsics.Vector64{System.Byte},System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProductBySelectedQuadruplet (addend As Vector128(Of UInteger), left As Vector128(Of Byte), right As Vector64(Of Byte), rightScaledIndex As Byte) As Vector128(Of UInteger)" />
@@ -265,7 +265,7 @@
       </Docs>
     </Member>
     <Member MemberName="DotProductBySelectedQuadruplet">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;int&gt; DotProductBySelectedQuadruplet (System.Runtime.Intrinsics.Vector64&lt;int&gt; addend, System.Runtime.Intrinsics.Vector64&lt;sbyte&gt; left, System.Runtime.Intrinsics.Vector128&lt;sbyte&gt; right, byte rightScaledIndex);" />
+      <MemberSignature Language="C#" Value="public static  DotProductBySelectedQuadruplet ( addend,  left,  right, byte rightScaledIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int32&gt; DotProductBySelectedQuadruplet(valuetype System.Runtime.Intrinsics.Vector64`1&lt;int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector64`1&lt;int8&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;int8&gt; right, unsigned int8 rightScaledIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProductBySelectedQuadruplet(System.Runtime.Intrinsics.Vector64{System.Int32},System.Runtime.Intrinsics.Vector64{System.SByte},System.Runtime.Intrinsics.Vector128{System.SByte},System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProductBySelectedQuadruplet (addend As Vector64(Of Integer), left As Vector64(Of SByte), right As Vector128(Of SByte), rightScaledIndex As Byte) As Vector64(Of Integer)" />
@@ -296,7 +296,7 @@
       </Docs>
     </Member>
     <Member MemberName="DotProductBySelectedQuadruplet">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;int&gt; DotProductBySelectedQuadruplet (System.Runtime.Intrinsics.Vector64&lt;int&gt; addend, System.Runtime.Intrinsics.Vector64&lt;sbyte&gt; left, System.Runtime.Intrinsics.Vector64&lt;sbyte&gt; right, byte rightScaledIndex);" />
+      <MemberSignature Language="C#" Value="public static  DotProductBySelectedQuadruplet ( addend,  left,  right, byte rightScaledIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;int32&gt; DotProductBySelectedQuadruplet(valuetype System.Runtime.Intrinsics.Vector64`1&lt;int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector64`1&lt;int8&gt; left, valuetype System.Runtime.Intrinsics.Vector64`1&lt;int8&gt; right, unsigned int8 rightScaledIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProductBySelectedQuadruplet(System.Runtime.Intrinsics.Vector64{System.Int32},System.Runtime.Intrinsics.Vector64{System.SByte},System.Runtime.Intrinsics.Vector64{System.SByte},System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProductBySelectedQuadruplet (addend As Vector64(Of Integer), left As Vector64(Of SByte), right As Vector64(Of SByte), rightScaledIndex As Byte) As Vector64(Of Integer)" />
@@ -327,7 +327,7 @@
       </Docs>
     </Member>
     <Member MemberName="DotProductBySelectedQuadruplet">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;uint&gt; DotProductBySelectedQuadruplet (System.Runtime.Intrinsics.Vector64&lt;uint&gt; addend, System.Runtime.Intrinsics.Vector64&lt;byte&gt; left, System.Runtime.Intrinsics.Vector128&lt;byte&gt; right, byte rightScaledIndex);" />
+      <MemberSignature Language="C#" Value="public static  DotProductBySelectedQuadruplet ( addend,  left,  right, byte rightScaledIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int32&gt; DotProductBySelectedQuadruplet(valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int8&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; right, unsigned int8 rightScaledIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProductBySelectedQuadruplet(System.Runtime.Intrinsics.Vector64{System.UInt32},System.Runtime.Intrinsics.Vector64{System.Byte},System.Runtime.Intrinsics.Vector128{System.Byte},System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProductBySelectedQuadruplet (addend As Vector64(Of UInteger), left As Vector64(Of Byte), right As Vector128(Of Byte), rightScaledIndex As Byte) As Vector64(Of UInteger)" />
@@ -358,7 +358,7 @@
       </Docs>
     </Member>
     <Member MemberName="DotProductBySelectedQuadruplet">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector64&lt;uint&gt; DotProductBySelectedQuadruplet (System.Runtime.Intrinsics.Vector64&lt;uint&gt; addend, System.Runtime.Intrinsics.Vector64&lt;byte&gt; left, System.Runtime.Intrinsics.Vector64&lt;byte&gt; right, byte rightScaledIndex);" />
+      <MemberSignature Language="C#" Value="public static  DotProductBySelectedQuadruplet ( addend,  left,  right, byte rightScaledIndex);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int32&gt; DotProductBySelectedQuadruplet(valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int32&gt; addend, valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int8&gt; left, valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int8&gt; right, unsigned int8 rightScaledIndex) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Dp.DotProductBySelectedQuadruplet(System.Runtime.Intrinsics.Vector64{System.UInt32},System.Runtime.Intrinsics.Vector64{System.Byte},System.Runtime.Intrinsics.Vector64{System.Byte},System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DotProductBySelectedQuadruplet (addend As Vector64(Of UInteger), left As Vector64(Of Byte), right As Vector64(Of Byte), rightScaledIndex As Byte) As Vector64(Of UInteger)" />

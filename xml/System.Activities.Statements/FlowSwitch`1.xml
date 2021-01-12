@@ -64,7 +64,7 @@
       </Docs>
     </Member>
     <Member MemberName="Cases">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;T,System.Activities.Statements.FlowNode&gt; Cases { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;T, System.Activities.Statements.FlowNode&gt; Cases { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;!T, class System.Activities.Statements.FlowNode&gt; Cases" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Statements.FlowSwitch`1.Cases" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Cases As IDictionary(Of T, FlowNode)" />
@@ -82,7 +82,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;T,System.Activities.Statements.FlowNode&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;T, System.Activities.Statements.FlowNode&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a dictionary of cases to be processed by the <see cref="T:System.Activities.Statements.FlowSwitch`1" /> element.</summary>

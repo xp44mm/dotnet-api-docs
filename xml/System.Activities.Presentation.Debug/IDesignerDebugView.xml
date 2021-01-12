@@ -106,7 +106,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetBreakpointLocations">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Activities.Debugger.SourceLocation,System.Activities.Presentation.Debug.BreakpointTypes&gt; GetBreakpointLocations ();" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Activities.Debugger.SourceLocation, System.Activities.Presentation.Debug.BreakpointTypes&gt; GetBreakpointLocations ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IDictionary`2&lt;class System.Activities.Debugger.SourceLocation, valuetype System.Activities.Presentation.Debug.BreakpointTypes&gt; GetBreakpointLocations() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.Presentation.Debug.IDesignerDebugView.GetBreakpointLocations" />
       <MemberSignature Language="VB.NET" Value="Public Function GetBreakpointLocations () As IDictionary(Of SourceLocation, BreakpointTypes)" />
@@ -118,7 +118,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Activities.Debugger.SourceLocation,System.Activities.Presentation.Debug.BreakpointTypes&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Activities.Debugger.SourceLocation, System.Activities.Presentation.Debug.BreakpointTypes&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

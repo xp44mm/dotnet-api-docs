@@ -31,7 +31,7 @@
   </Docs>
   <Members>
     <Member MemberName="CompareGreaterThan">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;long&gt; CompareGreaterThan (System.Runtime.Intrinsics.Vector128&lt;long&gt; left, System.Runtime.Intrinsics.Vector128&lt;long&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareGreaterThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; CompareGreaterThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse42.CompareGreaterThan(System.Runtime.Intrinsics.Vector128{System.Int64},System.Runtime.Intrinsics.Vector128{System.Int64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareGreaterThan (left As Vector128(Of Long), right As Vector128(Of Long)) As Vector128(Of Long)" />

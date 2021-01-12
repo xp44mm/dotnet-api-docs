@@ -28,7 +28,7 @@
   </Docs>
   <Members>
     <Member MemberName="MatchesSimpleExpression">
-      <MemberSignature Language="C#" Value="public static bool MatchesSimpleExpression (ReadOnlySpan&lt;char&gt; expression, ReadOnlySpan&lt;char&gt; name, bool ignoreCase = true);" />
+      <MemberSignature Language="C#" Value="public static bool MatchesSimpleExpression ( expression,  name, bool ignoreCase = true);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool MatchesSimpleExpression(valuetype System.ReadOnlySpan`1&lt;char&gt; expression, valuetype System.ReadOnlySpan`1&lt;char&gt; name, bool ignoreCase) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Enumeration.FileSystemName.MatchesSimpleExpression(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MatchesSimpleExpression (expression As ReadOnlySpan(Of Char), name As ReadOnlySpan(Of Char), Optional ignoreCase As Boolean = true) As Boolean" />
@@ -64,7 +64,7 @@
       </Docs>
     </Member>
     <Member MemberName="MatchesWin32Expression">
-      <MemberSignature Language="C#" Value="public static bool MatchesWin32Expression (ReadOnlySpan&lt;char&gt; expression, ReadOnlySpan&lt;char&gt; name, bool ignoreCase = true);" />
+      <MemberSignature Language="C#" Value="public static bool MatchesWin32Expression ( expression,  name, bool ignoreCase = true);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool MatchesWin32Expression(valuetype System.ReadOnlySpan`1&lt;char&gt; expression, valuetype System.ReadOnlySpan`1&lt;char&gt; name, bool ignoreCase) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Enumeration.FileSystemName.MatchesWin32Expression(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MatchesWin32Expression (expression As ReadOnlySpan(Of Char), name As ReadOnlySpan(Of Char), Optional ignoreCase As Boolean = true) As Boolean" />

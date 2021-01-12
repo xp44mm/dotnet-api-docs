@@ -89,7 +89,7 @@
       </Docs>
     </Member>
     <Member MemberName="InstanceData">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue&gt; InstanceData { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, System.Runtime.DurableInstancing.InstanceValue&gt; InstanceData { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class System.Xml.Linq.XName, class System.Runtime.DurableInstancing.InstanceValue&gt; InstanceData" />
       <MemberSignature Language="DocId" Value="P:System.Activities.DurableInstancing.SaveWorkflowCommand.InstanceData" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceData As IDictionary(Of XName, InstanceValue)" />
@@ -101,7 +101,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, System.Runtime.DurableInstancing.InstanceValue&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the instance data to be saved into the persistence store. A dictionary that contains names of properties and their values.</summary>
@@ -110,7 +110,7 @@
       </Docs>
     </Member>
     <Member MemberName="InstanceKeyMetadataChanges">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Guid,System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue&gt;&gt; InstanceKeyMetadataChanges { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Guid, System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, System.Runtime.DurableInstancing.InstanceValue&gt;&gt; InstanceKeyMetadataChanges { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype System.Guid, class System.Collections.Generic.IDictionary`2&lt;class System.Xml.Linq.XName, class System.Runtime.DurableInstancing.InstanceValue&gt;&gt; InstanceKeyMetadataChanges" />
       <MemberSignature Language="DocId" Value="P:System.Activities.DurableInstancing.SaveWorkflowCommand.InstanceKeyMetadataChanges" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceKeyMetadataChanges As IDictionary(Of Guid, IDictionary(Of XName, InstanceValue))" />
@@ -122,7 +122,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Guid,System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Guid, System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, System.Runtime.DurableInstancing.InstanceValue&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a dictionary with an instance key as the key and a dictionary of XName and <see cref="T:System.Runtime.DurableInstancing.InstanceValue" /> pairs as the value.</summary>
@@ -131,7 +131,7 @@
       </Docs>
     </Member>
     <Member MemberName="InstanceKeysToAssociate">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Guid,System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue&gt;&gt; InstanceKeysToAssociate { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Guid, System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, System.Runtime.DurableInstancing.InstanceValue&gt;&gt; InstanceKeysToAssociate { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;valuetype System.Guid, class System.Collections.Generic.IDictionary`2&lt;class System.Xml.Linq.XName, class System.Runtime.DurableInstancing.InstanceValue&gt;&gt; InstanceKeysToAssociate" />
       <MemberSignature Language="DocId" Value="P:System.Activities.DurableInstancing.SaveWorkflowCommand.InstanceKeysToAssociate" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceKeysToAssociate As IDictionary(Of Guid, IDictionary(Of XName, InstanceValue))" />
@@ -143,7 +143,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Guid,System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Guid, System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, System.Runtime.DurableInstancing.InstanceValue&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Contains instance keys that must be associated with an instance. A dictionary that contains a GUID associated with an instance key and metadata associated with the instance key.</summary>
@@ -194,7 +194,7 @@
       </Docs>
     </Member>
     <Member MemberName="InstanceMetadataChanges">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue&gt; InstanceMetadataChanges { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, System.Runtime.DurableInstancing.InstanceValue&gt; InstanceMetadataChanges { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class System.Xml.Linq.XName, class System.Runtime.DurableInstancing.InstanceValue&gt; InstanceMetadataChanges" />
       <MemberSignature Language="DocId" Value="P:System.Activities.DurableInstancing.SaveWorkflowCommand.InstanceMetadataChanges" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InstanceMetadataChanges As IDictionary(Of XName, InstanceValue)" />
@@ -206,7 +206,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName,System.Runtime.DurableInstancing.InstanceValue&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Xml.Linq.XName, System.Runtime.DurableInstancing.InstanceValue&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a dictionary that contains changes to instance metadata.</summary>

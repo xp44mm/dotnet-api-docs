@@ -59,7 +59,7 @@
       </Docs>
     </Member>
     <Member MemberName="AdditionalValues">
-      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.Dictionary&lt;string,object&gt; AdditionalValues { get; }" />
+      <MemberSignature Language="C#" Value="public virtual System.Collections.Generic.Dictionary&lt;string, object&gt; AdditionalValues { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, object&gt; AdditionalValues" />
       <MemberSignature Language="DocId" Value="P:System.Web.ModelBinding.ModelMetadata.AdditionalValues" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property AdditionalValues As Dictionary(Of String, Object)" />
@@ -71,7 +71,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a collection that contains additional metadata about the model.</summary>

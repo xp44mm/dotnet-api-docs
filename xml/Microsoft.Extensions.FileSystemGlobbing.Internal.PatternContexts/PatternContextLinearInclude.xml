@@ -54,7 +54,7 @@
       </Docs>
     </Member>
     <Member MemberName="Declare">
-      <MemberSignature Language="C#" Value="public override void Declare (Action&lt;Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment,bool&gt; onDeclare);" />
+      <MemberSignature Language="C#" Value="public override void Declare (Action&lt;Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment, bool&gt; onDeclare);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void Declare(class System.Action`2&lt;class Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment, bool&gt; onDeclare) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.FileSystemGlobbing.Internal.PatternContexts.PatternContextLinearInclude.Declare(System.Action{Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment,System.Boolean})" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub Declare (onDeclare As Action(Of IPathSegment, Boolean))" />
@@ -76,7 +76,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="onDeclare" Type="System.Action&lt;Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment,System.Boolean&gt;" />
+        <Parameter Name="onDeclare" Type="System.Action&lt;Microsoft.Extensions.FileSystemGlobbing.Internal.IPathSegment, System.Boolean&gt;" />
       </Parameters>
       <Docs>
         <param name="onDeclare">To be added.</param>

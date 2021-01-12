@@ -1,5 +1,5 @@
 <Type Name="WSDualHttpBindingCollectionElement" FullName="System.ServiceModel.Configuration.WSDualHttpBindingCollectionElement">
-  <TypeSignature Language="C#" Value="public class WSDualHttpBindingCollectionElement : System.ServiceModel.Configuration.StandardBindingCollectionElement&lt;System.ServiceModel.WSDualHttpBinding,System.ServiceModel.Configuration.WSDualHttpBindingElement&gt;" />
+  <TypeSignature Language="C#" Value="public class WSDualHttpBindingCollectionElement : System.ServiceModel.Configuration.StandardBindingCollectionElement&lt;System.ServiceModel.WSDualHttpBinding, System.ServiceModel.Configuration.WSDualHttpBindingElement&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit WSDualHttpBindingCollectionElement extends System.ServiceModel.Configuration.StandardBindingCollectionElement`2&lt;class System.ServiceModel.WSDualHttpBinding, class System.ServiceModel.Configuration.WSDualHttpBindingElement&gt;" />
   <TypeSignature Language="DocId" Value="T:System.ServiceModel.Configuration.WSDualHttpBindingCollectionElement" />
   <TypeSignature Language="VB.NET" Value="Public Class WSDualHttpBindingCollectionElement&#xA;Inherits StandardBindingCollectionElement(Of WSDualHttpBinding, WSDualHttpBindingElement)" />
@@ -11,7 +11,7 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.ServiceModel.Configuration.StandardBindingCollectionElement&lt;System.ServiceModel.WSDualHttpBinding,System.ServiceModel.Configuration.WSDualHttpBindingElement&gt;</BaseTypeName>
+    <BaseTypeName>System.ServiceModel.Configuration.StandardBindingCollectionElement&lt;System.ServiceModel.WSDualHttpBinding, System.ServiceModel.Configuration.WSDualHttpBindingElement&gt;</BaseTypeName>
     <BaseTypeArguments>
       <BaseTypeArgument TypeParamName="TStandardBinding">System.ServiceModel.WSDualHttpBinding</BaseTypeArgument>
       <BaseTypeArgument TypeParamName="TBindingConfiguration">System.ServiceModel.Configuration.WSDualHttpBindingElement</BaseTypeArgument>

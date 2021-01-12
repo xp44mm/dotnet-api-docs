@@ -43,7 +43,7 @@ For more information, see [How to serialize and deserialize JSON](/dotnet/standa
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Utf8JsonReader (System.Buffers.ReadOnlySequence&lt;byte&gt; jsonData, System.Text.Json.JsonReaderOptions options = default);" />
+      <MemberSignature Language="C#" Value="public Utf8JsonReader ( jsonData, System.Text.Json.JsonReaderOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Buffers.ReadOnlySequence`1&lt;unsigned int8&gt; jsonData, valuetype System.Text.Json.JsonReaderOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonReader.#ctor(System.Buffers.ReadOnlySequence{System.Byte},System.Text.Json.JsonReaderOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (jsonData As ReadOnlySequence(Of Byte), Optional options As JsonReaderOptions = Nothing)" />
@@ -77,7 +77,7 @@ This constructor assumes that the entire JSON payload is contained in `jsonData`
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Utf8JsonReader (ReadOnlySpan&lt;byte&gt; jsonData, System.Text.Json.JsonReaderOptions options = default);" />
+      <MemberSignature Language="C#" Value="public Utf8JsonReader ( jsonData, System.Text.Json.JsonReaderOptions options = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; jsonData, valuetype System.Text.Json.JsonReaderOptions options) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonReader.#ctor(System.ReadOnlySpan{System.Byte},System.Text.Json.JsonReaderOptions)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (jsonData As ReadOnlySpan(Of Byte), Optional options As JsonReaderOptions = Nothing)" />
@@ -111,7 +111,7 @@ This constructor assumes that the entire JSON payload is contained in `jsonData`
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Utf8JsonReader (System.Buffers.ReadOnlySequence&lt;byte&gt; jsonData, bool isFinalBlock, System.Text.Json.JsonReaderState state);" />
+      <MemberSignature Language="C#" Value="public Utf8JsonReader ( jsonData, bool isFinalBlock, System.Text.Json.JsonReaderState state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Buffers.ReadOnlySequence`1&lt;unsigned int8&gt; jsonData, bool isFinalBlock, valuetype System.Text.Json.JsonReaderState state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonReader.#ctor(System.Buffers.ReadOnlySequence{System.Byte},System.Boolean,System.Text.Json.JsonReaderState)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (jsonData As ReadOnlySequence(Of Byte), isFinalBlock As Boolean, state As JsonReaderState)" />
@@ -148,7 +148,7 @@ This is the reason why the constructor accepts a <xref:System.Text.Json.JsonRead
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Utf8JsonReader (ReadOnlySpan&lt;byte&gt; jsonData, bool isFinalBlock, System.Text.Json.JsonReaderState state);" />
+      <MemberSignature Language="C#" Value="public Utf8JsonReader ( jsonData, bool isFinalBlock, System.Text.Json.JsonReaderState state);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; jsonData, bool isFinalBlock, valuetype System.Text.Json.JsonReaderState state) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonReader.#ctor(System.ReadOnlySpan{System.Byte},System.Boolean,System.Text.Json.JsonReaderState)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (jsonData As ReadOnlySpan(Of Byte), isFinalBlock As Boolean, state As JsonReaderState)" />
@@ -717,12 +717,13 @@ The JSON token value represents a number less than <see cref="F:System.SByte.Min
       </Docs>
     </Member>
     <Member MemberName="GetString">
-      <MemberSignature Language="C#" Value="public string GetString ();" />
+      <MemberSignature Language="C#" Value="public string? GetString ();" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string GetString() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonReader.GetString" />
       <MemberSignature Language="VB.NET" Value="Public Function GetString () As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::String ^ GetString();" />
       <MemberSignature Language="F#" Value="member this.GetString : unit -&gt; string" Usage="utf8JsonReader.GetString " />
+      <MemberSignature Language="C#" Value="public string GetString ();" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -1116,12 +1117,13 @@ For comments, this value points to before the first comment delimiter (that is, 
       </Docs>
     </Member>
     <Member MemberName="TryGetBytesFromBase64">
-      <MemberSignature Language="C#" Value="public bool TryGetBytesFromBase64 (out byte[] value);" />
+      <MemberSignature Language="C#" Value="public bool TryGetBytesFromBase64 (out byte[]? value);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetBytesFromBase64([out] unsigned int8[]&amp; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonReader.TryGetBytesFromBase64(System.Byte[]@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryGetBytesFromBase64 (ByRef value As Byte()) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryGetBytesFromBase64([Runtime::InteropServices::Out] cli::array &lt;System::Byte&gt; ^ % value);" />
       <MemberSignature Language="F#" Value="member this.TryGetBytesFromBase64 : Byte[] -&gt; bool" Usage="utf8JsonReader.TryGetBytesFromBase64 value" />
+      <MemberSignature Language="C#" Value="public bool TryGetBytesFromBase64 (out byte[] value);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -1635,7 +1637,7 @@ The current depth exceeds the recursive limit set by the maximum depth.</excepti
       </Docs>
     </Member>
     <Member MemberName="ValueSequence">
-      <MemberSignature Language="C#" Value="public System.Buffers.ReadOnlySequence&lt;byte&gt; ValueSequence { get; }" />
+      <MemberSignature Language="C#" Value="public  ValueSequence { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Buffers.ReadOnlySequence`1&lt;unsigned int8&gt; ValueSequence" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.ValueSequence" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValueSequence As ReadOnlySequence(Of Byte)" />
@@ -1681,7 +1683,7 @@ Since this property returns the raw bytes, avoid using it for text comparison. I
       </Docs>
     </Member>
     <Member MemberName="ValueSpan">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;byte&gt; ValueSpan { get; }" />
+      <MemberSignature Language="C#" Value="public  ValueSpan { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; ValueSpan" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.Utf8JsonReader.ValueSpan" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValueSpan As ReadOnlySpan(Of Byte)" />
@@ -1727,7 +1729,7 @@ Since this property returns the raw bytes, avoid using it for text comparison. I
       </Docs>
     </Member>
     <Member MemberName="ValueTextEquals">
-      <MemberSignature Language="C#" Value="public bool ValueTextEquals (ReadOnlySpan&lt;byte&gt; utf8Text);" />
+      <MemberSignature Language="C#" Value="public bool ValueTextEquals ( utf8Text);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool ValueTextEquals(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; utf8Text) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonReader.ValueTextEquals(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Function ValueTextEquals (utf8Text As ReadOnlySpan(Of Byte)) As Boolean" />
@@ -1766,7 +1768,7 @@ The comparison of the JSON token value in the source and the lookup text is done
       </Docs>
     </Member>
     <Member MemberName="ValueTextEquals">
-      <MemberSignature Language="C#" Value="public bool ValueTextEquals (ReadOnlySpan&lt;char&gt; text);" />
+      <MemberSignature Language="C#" Value="public bool ValueTextEquals ( text);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool ValueTextEquals(valuetype System.ReadOnlySpan`1&lt;char&gt; text) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonReader.ValueTextEquals(System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Function ValueTextEquals (text As ReadOnlySpan(Of Char)) As Boolean" />
@@ -1805,12 +1807,13 @@ The comparison of the JSON token value in the source and the lookup text is done
       </Docs>
     </Member>
     <Member MemberName="ValueTextEquals">
-      <MemberSignature Language="C#" Value="public bool ValueTextEquals (string text);" />
+      <MemberSignature Language="C#" Value="public bool ValueTextEquals (string? text);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool ValueTextEquals(string text) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Json.Utf8JsonReader.ValueTextEquals(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function ValueTextEquals (text As String) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; bool ValueTextEquals(System::String ^ text);" />
       <MemberSignature Language="F#" Value="member this.ValueTextEquals : string -&gt; bool" Usage="utf8JsonReader.ValueTextEquals text" />
+      <MemberSignature Language="C#" Value="public bool ValueTextEquals (string text);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>

@@ -145,7 +145,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Guid (ReadOnlySpan&lt;byte&gt; b);" />
+      <MemberSignature Language="C#" Value="public Guid ( b);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; b) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.#ctor(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (b As ReadOnlySpan(Of Byte))" />
@@ -582,12 +582,13 @@
       </Docs>
     </Member>
     <Member MemberName="CompareTo">
-      <MemberSignature Language="C#" Value="public int CompareTo (object value);" />
+      <MemberSignature Language="C#" Value="public int CompareTo (object? value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 CompareTo(object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.CompareTo(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function CompareTo (value As Object) As Integer" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int CompareTo(System::Object ^ value);" />
       <MemberSignature Language="F#" Value="abstract member CompareTo : obj -&gt; int&#xA;override this.CompareTo : obj -&gt; int" Usage="guid.CompareTo value" />
+      <MemberSignature Language="C#" Value="public int CompareTo (object value);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <Implements>
         <InterfaceMember>M:System.IComparable.CompareTo(System.Object)</InterfaceMember>
@@ -794,12 +795,13 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object o);" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object o);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object o) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (o As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ o);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="guid.Equals o" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? o);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -1055,7 +1057,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static Guid Parse (ReadOnlySpan&lt;char&gt; input);" />
+      <MemberSignature Language="C#" Value="public static Guid Parse ( input);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Guid Parse(valuetype System.ReadOnlySpan`1&lt;char&gt; input) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.Parse(System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (input As ReadOnlySpan(Of Char)) As Guid" />
@@ -1204,7 +1206,7 @@ After trimming, the length of the read-only character span is 0.</exception>
       </Docs>
     </Member>
     <Member MemberName="ParseExact">
-      <MemberSignature Language="C#" Value="public static Guid ParseExact (ReadOnlySpan&lt;char&gt; input, ReadOnlySpan&lt;char&gt; format);" />
+      <MemberSignature Language="C#" Value="public static Guid ParseExact ( input,  format);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Guid ParseExact(valuetype System.ReadOnlySpan`1&lt;char&gt; input, valuetype System.ReadOnlySpan`1&lt;char&gt; format) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.ParseExact(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ParseExact (input As ReadOnlySpan(Of Char), format As ReadOnlySpan(Of Char)) As Guid" />
@@ -1633,7 +1635,7 @@ Because the `provider` parameter is ignored, you cannot use it to provide a cust
       </Docs>
     </Member>
     <Member MemberName="ToString">
-      <MemberSignature Language="C#" Value="public string? ToString (string format, IFormatProvider provider);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string ToString (string? format, IFormatProvider? provider);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance string ToString(string format, class System.IFormatProvider provider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.ToString(System.String,System.IFormatProvider)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToString (format As String, provider As IFormatProvider) As String" />
@@ -1707,7 +1709,7 @@ Because the `provider` parameter is ignored, you cannot use it to provide a cust
       </Docs>
     </Member>
     <Member MemberName="TryFormat">
-      <MemberSignature Language="C#" Value="public bool TryFormat (Span&lt;char&gt; destination, out int charsWritten, ReadOnlySpan&lt;char&gt; format = default);" />
+      <MemberSignature Language="C#" Value="public bool TryFormat ( destination, out int charsWritten,  format = default);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryFormat(valuetype System.Span`1&lt;char&gt; destination, [out] int32&amp; charsWritten, valuetype System.ReadOnlySpan`1&lt;char&gt; format) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.TryFormat(System.Span{System.Char},System.Int32@,System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Function TryFormat (destination As Span(Of Char), ByRef charsWritten As Integer, Optional format As ReadOnlySpan(Of Char) = Nothing) As Boolean" />
@@ -1745,7 +1747,7 @@ Because the `provider` parameter is ignored, you cannot use it to provide a cust
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; input, out Guid result);" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( input, out Guid result);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;char&gt; input, [out] valuetype System.Guid&amp; result) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.TryParse(System.ReadOnlySpan{System.Char},System.Guid@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (input As ReadOnlySpan(Of Char), ByRef result As Guid) As Boolean" />
@@ -1782,12 +1784,13 @@ Because the `provider` parameter is ignored, you cannot use it to provide a cust
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (string input, out Guid result);" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (string input, out Guid result);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(string input, [out] valuetype System.Guid&amp; result) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.TryParse(System.String,System.Guid@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (input As String, ByRef result As Guid) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParse(System::String ^ input, [Runtime::InteropServices::Out] Guid % result);" />
       <MemberSignature Language="F#" Value="static member TryParse : string * Guid -&gt; bool" Usage="System.Guid.TryParse (input, result)" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (string? input, out Guid? result);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -1851,7 +1854,7 @@ Because the `provider` parameter is ignored, you cannot use it to provide a cust
       </Docs>
     </Member>
     <Member MemberName="TryParseExact">
-      <MemberSignature Language="C#" Value="public static bool TryParseExact (ReadOnlySpan&lt;char&gt; input, ReadOnlySpan&lt;char&gt; format, out Guid result);" />
+      <MemberSignature Language="C#" Value="public static bool TryParseExact ( input,  format, out Guid result);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParseExact(valuetype System.ReadOnlySpan`1&lt;char&gt; input, valuetype System.ReadOnlySpan`1&lt;char&gt; format, [out] valuetype System.Guid&amp; result) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.TryParseExact(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char},System.Guid@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParseExact (input As ReadOnlySpan(Of Char), format As ReadOnlySpan(Of Char), ByRef result As Guid) As Boolean" />
@@ -1890,12 +1893,13 @@ Because the `provider` parameter is ignored, you cannot use it to provide a cust
       </Docs>
     </Member>
     <Member MemberName="TryParseExact">
-      <MemberSignature Language="C#" Value="public static bool TryParseExact (string input, string format, out Guid result);" />
+      <MemberSignature Language="C#" Value="public static bool TryParseExact (string input, string format, out Guid result);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParseExact(string input, string format, [out] valuetype System.Guid&amp; result) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.TryParseExact(System.String,System.String,System.Guid@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParseExact (input As String, format As String, ByRef result As Guid) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParseExact(System::String ^ input, System::String ^ format, [Runtime::InteropServices::Out] Guid % result);" />
       <MemberSignature Language="F#" Value="static member TryParseExact : string * string * Guid -&gt; bool" Usage="System.Guid.TryParseExact (input, format, result)" />
+      <MemberSignature Language="C#" Value="public static bool TryParseExact (string? input, string? format, out Guid? result);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -1963,7 +1967,7 @@ Because the `provider` parameter is ignored, you cannot use it to provide a cust
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public bool TryWriteBytes (Span&lt;byte&gt; destination);" />
+      <MemberSignature Language="C#" Value="public bool TryWriteBytes ( destination);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Guid.TryWriteBytes(System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Function TryWriteBytes (destination As Span(Of Byte)) As Boolean" />

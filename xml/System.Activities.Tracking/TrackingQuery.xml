@@ -42,7 +42,7 @@
       </Docs>
     </Member>
     <Member MemberName="QueryAnnotations">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; QueryAnnotations { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, string&gt; QueryAnnotations { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; QueryAnnotations" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Tracking.TrackingQuery.QueryAnnotations" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property QueryAnnotations As IDictionary(Of String, String)" />
@@ -54,7 +54,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>A collection of data in the form of name/value pairs that is included with data that is returned by this query.</summary>

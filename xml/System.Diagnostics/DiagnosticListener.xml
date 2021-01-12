@@ -1,5 +1,5 @@
 <Type Name="DiagnosticListener" FullName="System.Diagnostics.DiagnosticListener">
-  <TypeSignature Language="C#" Value="public class DiagnosticListener : System.Diagnostics.DiagnosticSource, IDisposable, IObservable&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt;" />
+  <TypeSignature Language="C#" Value="public class DiagnosticListener : System.Diagnostics.DiagnosticSource, IDisposable, IObservable&lt;&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DiagnosticListener extends System.Diagnostics.DiagnosticSource implements class System.IDisposable, class System.IObservable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt;" />
   <TypeSignature Language="DocId" Value="T:System.Diagnostics.DiagnosticListener" />
   <TypeSignature Language="VB.NET" Value="Public Class DiagnosticListener&#xA;Inherits DiagnosticSource&#xA;Implements IDisposable, IObservable(Of KeyValuePair(Of String, Object))" />
@@ -25,7 +25,7 @@
       <InterfaceName>System.IDisposable</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.IObservable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</InterfaceName>
+      <InterfaceName>System.IObservable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;&gt;</InterfaceName>
     </Interface>
   </Interfaces>
   <Docs>
@@ -204,7 +204,7 @@ If setup for the notification is expensive, you can call `IsEnabled()` before pe
       </Docs>
     </Member>
     <Member MemberName="IsEnabled">
-      <MemberSignature Language="C#" Value="public override bool IsEnabled (string? name, object arg1, object arg2 = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override bool IsEnabled (string name, object? arg1, object? arg2 = default);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool IsEnabled(string name, object arg1, object arg2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.DiagnosticListener.IsEnabled(System.String,System.Object,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function IsEnabled (name As String, arg1 As Object, Optional arg2 As Object = Nothing) As Boolean" />

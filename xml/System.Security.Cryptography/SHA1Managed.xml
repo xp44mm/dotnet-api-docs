@@ -174,13 +174,13 @@ This method is called by the public <xref:System.Security.Cryptography.HashAlgor
       </Docs>
     </Member>
     <Member MemberName="HashCore">
-      <MemberSignature Language="C#" Value="protected override sealed void HashCore (ReadOnlySpan&lt;byte&gt; source);" FrameworkAlternate="net-5.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected override sealed void HashCore ( source);" FrameworkAlternate="net-5.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance void HashCore(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.SHA1Managed.HashCore(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Sub HashCore (source As ReadOnlySpan(Of Byte))" FrameworkAlternate="net-5.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override void HashCore(ReadOnlySpan&lt;System::Byte&gt; source);" />
       <MemberSignature Language="F#" Value="override this.HashCore : ReadOnlySpan&lt;byte&gt; -&gt; unit" Usage="sHA1Managed.HashCore source" />
-      <MemberSignature Language="C#" Value="protected override void HashCore (ReadOnlySpan&lt;byte&gt; source);" FrameworkAlternate="netstandard-2.1" />
+      <MemberSignature Language="C#" Value="protected override void HashCore ( source);" FrameworkAlternate="netstandard-2.1" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Sub HashCore (source As ReadOnlySpan(Of Byte))" FrameworkAlternate="netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -351,13 +351,13 @@ This method is called by the public <xref:System.Security.Cryptography.HashAlgor
       </Docs>
     </Member>
     <Member MemberName="TryHashFinal">
-      <MemberSignature Language="C#" Value="protected override sealed bool TryHashFinal (Span&lt;byte&gt; destination, out int bytesWritten);" FrameworkAlternate="net-5.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected override sealed bool TryHashFinal ( destination, out int bytesWritten);" FrameworkAlternate="net-5.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig virtual instance bool TryHashFinal(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.SHA1Managed.TryHashFinal(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides NotOverridable Function TryHashFinal (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" FrameworkAlternate="net-5.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; override bool TryHashFinal(Span&lt;System::Byte&gt; destination, [Runtime::InteropServices::Out] int % bytesWritten);" />
       <MemberSignature Language="F#" Value="override this.TryHashFinal : Span&lt;byte&gt; * int -&gt; bool" Usage="sHA1Managed.TryHashFinal (destination, bytesWritten)" />
-      <MemberSignature Language="C#" Value="protected override bool TryHashFinal (Span&lt;byte&gt; destination, out int bytesWritten);" FrameworkAlternate="netstandard-2.1" />
+      <MemberSignature Language="C#" Value="protected override bool TryHashFinal ( destination, out int bytesWritten);" FrameworkAlternate="netstandard-2.1" />
       <MemberSignature Language="VB.NET" Value="Protected Overrides Function TryHashFinal (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" FrameworkAlternate="netstandard-2.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>

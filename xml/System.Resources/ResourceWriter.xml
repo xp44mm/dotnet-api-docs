@@ -840,13 +840,13 @@
       </Docs>
     </Member>
     <Member MemberName="TypeNameConverter">
-      <MemberSignature Language="C#" Value="public Func&lt;Type,string&gt;? TypeNameConverter { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public Func&lt;Type, string&gt;? TypeNameConverter { get; set; }" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Type, string&gt; TypeNameConverter" />
       <MemberSignature Language="DocId" Value="P:System.Resources.ResourceWriter.TypeNameConverter" />
       <MemberSignature Language="VB.NET" Value="Public Property TypeNameConverter As Func(Of Type, String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Func&lt;Type ^, System::String ^&gt; ^ TypeNameConverter { Func&lt;Type ^, System::String ^&gt; ^ get(); void set(Func&lt;Type ^, System::String ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TypeNameConverter : Func&lt;Type, string&gt; with get, set" Usage="System.Resources.ResourceWriter.TypeNameConverter" />
-      <MemberSignature Language="C#" Value="public Func&lt;Type,string&gt; TypeNameConverter { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public Func&lt;Type, string&gt; TypeNameConverter { get; set; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -866,7 +866,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Type,System.String&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Type, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a delegate that enables resource assemblies to be written that target versions of .NET Framework prior to .NET Framework 4 by using qualified assembly names.</summary>

@@ -1675,7 +1675,7 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="Write">
-      <MemberSignature Language="C#" Value="public virtual void Write (ReadOnlySpan&lt;byte&gt; buffer);" />
+      <MemberSignature Language="C#" Value="public virtual void Write ( buffer);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Write(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; buffer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.BinaryWriter.Write(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Write (buffer As ReadOnlySpan(Of Byte))" />
@@ -1714,7 +1714,7 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="Write">
-      <MemberSignature Language="C#" Value="public virtual void Write (ReadOnlySpan&lt;char&gt; chars);" />
+      <MemberSignature Language="C#" Value="public virtual void Write ( chars);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Write(valuetype System.ReadOnlySpan`1&lt;char&gt; chars) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.BinaryWriter.Write(System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub Write (chars As ReadOnlySpan(Of Char))" />

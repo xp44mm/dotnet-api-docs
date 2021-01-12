@@ -32,7 +32,7 @@
   </Docs>
   <Members>
     <Member MemberName="GetContent">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;byte&gt; GetContent ();" />
+      <MemberSignature Language="C#" Value="public  GetContent ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;unsigned int8&gt; GetContent() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.PortableExecutable.PEMemoryBlock.GetContent" />
       <MemberSignature Language="VB.NET" Value="Public Function GetContent () As ImmutableArray(Of Byte)" />
@@ -61,7 +61,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetContent">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;byte&gt; GetContent (int start, int length);" />
+      <MemberSignature Language="C#" Value="public  GetContent (int start, int length);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;unsigned int8&gt; GetContent(int32 start, int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.PortableExecutable.PEMemoryBlock.GetContent(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetContent (start As Integer, length As Integer) As ImmutableArray(Of Byte)" />

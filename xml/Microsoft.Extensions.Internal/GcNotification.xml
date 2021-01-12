@@ -44,7 +44,7 @@
       </Docs>
     </Member>
     <Member MemberName="Register">
-      <MemberSignature Language="C#" Value="public static void Register (Func&lt;object,bool&gt; callback, object state);" />
+      <MemberSignature Language="C#" Value="public static void Register (Func&lt;object, bool&gt; callback, object state);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Register(class System.Func`2&lt;object, bool&gt; callback, object state) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Internal.GcNotification.Register(System.Func{System.Object,System.Boolean},System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Register (callback As Func(Of Object, Boolean), state As Object)" />
@@ -60,7 +60,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="callback" Type="System.Func&lt;System.Object,System.Boolean&gt;" />
+        <Parameter Name="callback" Type="System.Func&lt;System.Object, System.Boolean&gt;" />
         <Parameter Name="state" Type="System.Object" />
       </Parameters>
       <Docs>

@@ -89,7 +89,7 @@
       </Docs>
     </Member>
     <Member MemberName="InitialData">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; InitialData { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;&gt; InitialData { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; InitialData" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Configuration.Memory.MemoryConfigurationSource.InitialData" />
       <MemberSignature Language="VB.NET" Value="Public Property InitialData As IEnumerable(Of KeyValuePair(Of String, String))" />
@@ -108,7 +108,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.String&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>The initial key value configuration pairs.</summary>

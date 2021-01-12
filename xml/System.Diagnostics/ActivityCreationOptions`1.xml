@@ -151,7 +151,7 @@ The possible generic type parameters are <see cref="T:System.Diagnostics.Activit
       </Docs>
     </Member>
     <Member MemberName="Tags">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt;? Tags { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;&gt;? Tags { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt; Tags" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.ActivityCreationOptions`1.Tags" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tags As IEnumerable(Of KeyValuePair(Of String, Object))" />
@@ -163,7 +163,7 @@ The possible generic type parameters are <see cref="T:System.Diagnostics.Activit
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the tags that the activity will be created with.</summary>

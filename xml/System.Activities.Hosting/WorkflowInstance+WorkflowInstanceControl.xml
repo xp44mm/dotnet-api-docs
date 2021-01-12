@@ -380,7 +380,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetMappedVariables">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,System.Activities.Hosting.LocationInfo&gt; GetMappedVariables ();" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, System.Activities.Hosting.LocationInfo&gt; GetMappedVariables ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IDictionary`2&lt;string, class System.Activities.Hosting.LocationInfo&gt; GetMappedVariables() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.Hosting.WorkflowInstance.WorkflowInstanceControl.GetMappedVariables" />
       <MemberSignature Language="VB.NET" Value="Public Function GetMappedVariables () As IDictionary(Of String, LocationInfo)" />
@@ -392,7 +392,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Activities.Hosting.LocationInfo&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Activities.Hosting.LocationInfo&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

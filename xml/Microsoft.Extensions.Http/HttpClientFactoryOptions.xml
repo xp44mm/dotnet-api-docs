@@ -139,7 +139,7 @@
       </Docs>
     </Member>
     <Member MemberName="ShouldRedactHeaderValue">
-      <MemberSignature Language="C#" Value="public Func&lt;string,bool&gt; ShouldRedactHeaderValue { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;string, bool&gt; ShouldRedactHeaderValue { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;string, bool&gt; ShouldRedactHeaderValue" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Http.HttpClientFactoryOptions.ShouldRedactHeaderValue" />
       <MemberSignature Language="VB.NET" Value="Public Property ShouldRedactHeaderValue As Func(Of String, Boolean)" />
@@ -151,7 +151,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.String,System.Boolean&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.String, System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>The delegate which determines whether to redact the HTTP header value before logging.</summary>

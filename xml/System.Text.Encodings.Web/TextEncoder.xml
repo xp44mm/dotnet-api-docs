@@ -212,7 +212,7 @@
       </Docs>
     </Member>
     <Member MemberName="Encode">
-      <MemberSignature Language="C#" Value="public virtual System.Buffers.OperationStatus Encode (ReadOnlySpan&lt;char&gt; source, Span&lt;char&gt; destination, out int charsConsumed, out int charsWritten, bool isFinalBlock = true);" />
+      <MemberSignature Language="C#" Value="public virtual System.Buffers.OperationStatus Encode ( source,  destination, out int charsConsumed, out int charsWritten, bool isFinalBlock = true);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Buffers.OperationStatus Encode(valuetype System.ReadOnlySpan`1&lt;char&gt; source, valuetype System.Span`1&lt;char&gt; destination, [out] int32&amp; charsConsumed, [out] int32&amp; charsWritten, bool isFinalBlock) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Encodings.Web.TextEncoder.Encode(System.ReadOnlySpan{System.Char},System.Span{System.Char},System.Int32@,System.Int32@,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Encode (source As ReadOnlySpan(Of Char), destination As Span(Of Char), ByRef charsConsumed As Integer, ByRef charsWritten As Integer, Optional isFinalBlock As Boolean = true) As OperationStatus" />
@@ -255,7 +255,7 @@ The buffers `source` and `destination` must not overlap.
       </Docs>
     </Member>
     <Member MemberName="EncodeUtf8">
-      <MemberSignature Language="C#" Value="public virtual System.Buffers.OperationStatus EncodeUtf8 (ReadOnlySpan&lt;byte&gt; utf8Source, Span&lt;byte&gt; utf8Destination, out int bytesConsumed, out int bytesWritten, bool isFinalBlock = true);" />
+      <MemberSignature Language="C#" Value="public virtual System.Buffers.OperationStatus EncodeUtf8 ( utf8Source,  utf8Destination, out int bytesConsumed, out int bytesWritten, bool isFinalBlock = true);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Buffers.OperationStatus EncodeUtf8(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; utf8Source, valuetype System.Span`1&lt;unsigned int8&gt; utf8Destination, [out] int32&amp; bytesConsumed, [out] int32&amp; bytesWritten, bool isFinalBlock) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Encodings.Web.TextEncoder.EncodeUtf8(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@,System.Int32@,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function EncodeUtf8 (utf8Source As ReadOnlySpan(Of Byte), utf8Destination As Span(Of Byte), ByRef bytesConsumed As Integer, ByRef bytesWritten As Integer, Optional isFinalBlock As Boolean = true) As OperationStatus" />
@@ -346,7 +346,7 @@ The `utf8Source` and `utf8Destination` buffers must not overlap.
       </Docs>
     </Member>
     <Member MemberName="FindFirstCharacterToEncodeUtf8">
-      <MemberSignature Language="C#" Value="public virtual int FindFirstCharacterToEncodeUtf8 (ReadOnlySpan&lt;byte&gt; utf8Text);" />
+      <MemberSignature Language="C#" Value="public virtual int FindFirstCharacterToEncodeUtf8 ( utf8Text);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 FindFirstCharacterToEncodeUtf8(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; utf8Text) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.Encodings.Web.TextEncoder.FindFirstCharacterToEncodeUtf8(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function FindFirstCharacterToEncodeUtf8 (utf8Text As ReadOnlySpan(Of Byte)) As Integer" />

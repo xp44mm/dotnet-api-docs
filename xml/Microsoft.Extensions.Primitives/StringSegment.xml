@@ -108,7 +108,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsMemory">
-      <MemberSignature Language="C#" Value="public ReadOnlyMemory&lt;char&gt; AsMemory ();" />
+      <MemberSignature Language="C#" Value="public  AsMemory ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlyMemory`1&lt;char&gt; AsMemory() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Primitives.StringSegment.AsMemory" />
       <MemberSignature Language="VB.NET" Value="Public Function AsMemory () As ReadOnlyMemory(Of Char)" />
@@ -134,7 +134,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsSpan">
-      <MemberSignature Language="C#" Value="public ReadOnlySpan&lt;char&gt; AsSpan ();" />
+      <MemberSignature Language="C#" Value="public  AsSpan ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ReadOnlySpan`1&lt;char&gt; AsSpan() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Primitives.StringSegment.AsSpan" />
       <MemberSignature Language="VB.NET" Value="Public Function AsSpan () As ReadOnlySpan(Of Char)" />
@@ -973,7 +973,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator ReadOnlyMemory&lt;char&gt; (Microsoft.Extensions.Primitives.StringSegment segment);" />
+      <MemberSignature Language="C#" Value="public static implicit operator  (Microsoft.Extensions.Primitives.StringSegment segment);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.ReadOnlyMemory`1&lt;char&gt; op_Implicit(valuetype Microsoft.Extensions.Primitives.StringSegment segment) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Primitives.StringSegment.op_Implicit(Microsoft.Extensions.Primitives.StringSegment)~System.ReadOnlyMemory{System.Char}" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (segment As StringSegment) As ReadOnlyMemory(Of Char)" />
@@ -1002,7 +1002,7 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator ReadOnlySpan&lt;char&gt; (Microsoft.Extensions.Primitives.StringSegment segment);" />
+      <MemberSignature Language="C#" Value="public static implicit operator  (Microsoft.Extensions.Primitives.StringSegment segment);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.ReadOnlySpan`1&lt;char&gt; op_Implicit(valuetype Microsoft.Extensions.Primitives.StringSegment segment) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Primitives.StringSegment.op_Implicit(Microsoft.Extensions.Primitives.StringSegment)~System.ReadOnlySpan{System.Char}" />
       <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (segment As StringSegment) As ReadOnlySpan(Of Char)" />

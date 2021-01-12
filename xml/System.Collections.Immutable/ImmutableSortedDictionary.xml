@@ -29,7 +29,7 @@
   </Docs>
   <Members>
     <Member MemberName="Create&lt;TKey,TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt; Create&lt;TKey,TValue&gt; ();" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt; Create&lt;TKey,TValue&gt; ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedDictionary`2&lt;!!TKey, !!TValue&gt; Create&lt;TKey, TValue&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedDictionary.Create``2" />
       <MemberSignature Language="VB.NET" Value="Public Function Create(Of TKey, TValue) () As ImmutableSortedDictionary(Of TKey, TValue)" />
@@ -48,7 +48,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;</ReturnType>
+        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TKey" />
@@ -64,13 +64,13 @@
       </Docs>
     </Member>
     <Member MemberName="Create&lt;TKey,TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt; Create&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt; keyComparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt; Create&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt; keyComparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedDictionary`2&lt;!!TKey, !!TValue&gt; Create&lt;TKey, TValue&gt;(class System.Collections.Generic.IComparer`1&lt;!!TKey&gt; keyComparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedDictionary.Create``2(System.Collections.Generic.IComparer{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Function Create(Of TKey, TValue) (keyComparer As IComparer(Of TKey)) As ImmutableSortedDictionary(Of TKey, TValue)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA; static System::Collections::Immutable::ImmutableSortedDictionary&lt;TKey, TValue&gt; ^ Create(System::Collections::Generic::IComparer&lt;TKey&gt; ^ keyComparer);" />
       <MemberSignature Language="F#" Value="static member Create : System.Collections.Generic.IComparer&lt;'Key&gt; -&gt; System.Collections.Immutable.ImmutableSortedDictionary&lt;'Key, 'Value&gt;" Usage="System.Collections.Immutable.ImmutableSortedDictionary.Create keyComparer" />
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt; Create&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt;? keyComparer);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt; Create&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt;? keyComparer);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -84,7 +84,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;</ReturnType>
+        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TKey" />
@@ -103,13 +103,13 @@
       </Docs>
     </Member>
     <Member MemberName="Create&lt;TKey,TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt; Create&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt; keyComparer, System.Collections.Generic.IEqualityComparer&lt;TValue&gt; valueComparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt; Create&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt; keyComparer, System.Collections.Generic.IEqualityComparer&lt;TValue&gt; valueComparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedDictionary`2&lt;!!TKey, !!TValue&gt; Create&lt;TKey, TValue&gt;(class System.Collections.Generic.IComparer`1&lt;!!TKey&gt; keyComparer, class System.Collections.Generic.IEqualityComparer`1&lt;!!TValue&gt; valueComparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedDictionary.Create``2(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEqualityComparer{``1})" />
       <MemberSignature Language="VB.NET" Value="Public Function Create(Of TKey, TValue) (keyComparer As IComparer(Of TKey), valueComparer As IEqualityComparer(Of TValue)) As ImmutableSortedDictionary(Of TKey, TValue)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA; static System::Collections::Immutable::ImmutableSortedDictionary&lt;TKey, TValue&gt; ^ Create(System::Collections::Generic::IComparer&lt;TKey&gt; ^ keyComparer, System::Collections::Generic::IEqualityComparer&lt;TValue&gt; ^ valueComparer);" />
       <MemberSignature Language="F#" Value="static member Create : System.Collections.Generic.IComparer&lt;'Key&gt; * System.Collections.Generic.IEqualityComparer&lt;'Value&gt; -&gt; System.Collections.Immutable.ImmutableSortedDictionary&lt;'Key, 'Value&gt;" Usage="System.Collections.Immutable.ImmutableSortedDictionary.Create (keyComparer, valueComparer)" />
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt; Create&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt;? keyComparer, System.Collections.Generic.IEqualityComparer&lt;TValue&gt;? valueComparer);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt; Create&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt;? keyComparer, System.Collections.Generic.IEqualityComparer&lt;TValue&gt;? valueComparer);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -123,7 +123,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;</ReturnType>
+        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TKey" />
@@ -144,7 +144,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateBuilder&lt;TKey,TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;.Builder CreateBuilder&lt;TKey,TValue&gt; ();" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt;.Builder CreateBuilder&lt;TKey,TValue&gt; ();" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedDictionary`2/Builder&lt;!!TKey, !!TValue&gt; CreateBuilder&lt;TKey, TValue&gt;() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateBuilder``2" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateBuilder(Of TKey, TValue) () As ImmutableSortedDictionary(Of TKey, TValue).Builder" />
@@ -163,7 +163,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;+Builder</ReturnType>
+        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt;+Builder</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TKey" />
@@ -179,13 +179,13 @@
       </Docs>
     </Member>
     <Member MemberName="CreateBuilder&lt;TKey,TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;.Builder CreateBuilder&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt; keyComparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt;.Builder CreateBuilder&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt; keyComparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedDictionary`2/Builder&lt;!!TKey, !!TValue&gt; CreateBuilder&lt;TKey, TValue&gt;(class System.Collections.Generic.IComparer`1&lt;!!TKey&gt; keyComparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateBuilder``2(System.Collections.Generic.IComparer{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateBuilder(Of TKey, TValue) (keyComparer As IComparer(Of TKey)) As ImmutableSortedDictionary(Of TKey, TValue).Builder" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA; static System::Collections::Immutable::ImmutableSortedDictionary&lt;TKey, TValue&gt;::Builder ^ CreateBuilder(System::Collections::Generic::IComparer&lt;TKey&gt; ^ keyComparer);" />
       <MemberSignature Language="F#" Value="static member CreateBuilder : System.Collections.Generic.IComparer&lt;'Key&gt; -&gt; System.Collections.Immutable.ImmutableSortedDictionary&lt;'Key, 'Value&gt;.Builder" Usage="System.Collections.Immutable.ImmutableSortedDictionary.CreateBuilder keyComparer" />
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;.Builder CreateBuilder&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt;? keyComparer);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt;.Builder CreateBuilder&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt;? keyComparer);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -199,7 +199,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;+Builder</ReturnType>
+        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt;+Builder</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TKey" />
@@ -218,13 +218,13 @@
       </Docs>
     </Member>
     <Member MemberName="CreateBuilder&lt;TKey,TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;.Builder CreateBuilder&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt; keyComparer, System.Collections.Generic.IEqualityComparer&lt;TValue&gt; valueComparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt;.Builder CreateBuilder&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt; keyComparer, System.Collections.Generic.IEqualityComparer&lt;TValue&gt; valueComparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedDictionary`2/Builder&lt;!!TKey, !!TValue&gt; CreateBuilder&lt;TKey, TValue&gt;(class System.Collections.Generic.IComparer`1&lt;!!TKey&gt; keyComparer, class System.Collections.Generic.IEqualityComparer`1&lt;!!TValue&gt; valueComparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedDictionary.CreateBuilder``2(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEqualityComparer{``1})" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateBuilder(Of TKey, TValue) (keyComparer As IComparer(Of TKey), valueComparer As IEqualityComparer(Of TValue)) As ImmutableSortedDictionary(Of TKey, TValue).Builder" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TKey, typename TValue&gt;&#xA; static System::Collections::Immutable::ImmutableSortedDictionary&lt;TKey, TValue&gt;::Builder ^ CreateBuilder(System::Collections::Generic::IComparer&lt;TKey&gt; ^ keyComparer, System::Collections::Generic::IEqualityComparer&lt;TValue&gt; ^ valueComparer);" />
       <MemberSignature Language="F#" Value="static member CreateBuilder : System.Collections.Generic.IComparer&lt;'Key&gt; * System.Collections.Generic.IEqualityComparer&lt;'Value&gt; -&gt; System.Collections.Immutable.ImmutableSortedDictionary&lt;'Key, 'Value&gt;.Builder" Usage="System.Collections.Immutable.ImmutableSortedDictionary.CreateBuilder (keyComparer, valueComparer)" />
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;.Builder CreateBuilder&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt;? keyComparer, System.Collections.Generic.IEqualityComparer&lt;TValue&gt;? valueComparer);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt;.Builder CreateBuilder&lt;TKey,TValue&gt; (System.Collections.Generic.IComparer&lt;TKey&gt;? keyComparer, System.Collections.Generic.IEqualityComparer&lt;TValue&gt;? valueComparer);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -238,7 +238,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey,TValue&gt;+Builder</ReturnType>
+        <ReturnType>System.Collections.Immutable.ImmutableSortedDictionary&lt;TKey, TValue&gt;+Builder</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TKey" />

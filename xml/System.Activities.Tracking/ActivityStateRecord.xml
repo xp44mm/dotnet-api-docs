@@ -83,7 +83,7 @@
       </Docs>
     </Member>
     <Member MemberName="Arguments">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; Arguments { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, object&gt; Arguments { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Arguments" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Tracking.ActivityStateRecord.Arguments" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Arguments As IDictionary(Of String, Object)" />
@@ -101,7 +101,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the current values of the tracked arguments associated with the activity when the record is generated.</summary>
@@ -185,7 +185,7 @@
       </Docs>
     </Member>
     <Member MemberName="Variables">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; Variables { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, object&gt; Variables { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Variables" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Tracking.ActivityStateRecord.Variables" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Variables As IDictionary(Of String, Object)" />
@@ -203,7 +203,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the current values of the tracked variables associated with the activity when the record is generated.</summary>

@@ -211,7 +211,7 @@ This constructor allows for the creation undefined UNIVERSAL class tags.
       </Docs>
     </Member>
     <Member MemberName="Decode">
-      <MemberSignature Language="C#" Value="public static System.Formats.Asn1.Asn1Tag Decode (ReadOnlySpan&lt;byte&gt; source, out int bytesConsumed);" />
+      <MemberSignature Language="C#" Value="public static System.Formats.Asn1.Asn1Tag Decode ( source, out int bytesConsumed);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Formats.Asn1.Asn1Tag Decode(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesConsumed) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.Asn1Tag.Decode(System.ReadOnlySpan{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Decode (source As ReadOnlySpan(Of Byte), ByRef bytesConsumed As Integer) As Asn1Tag" />
@@ -239,7 +239,7 @@ This constructor allows for the creation undefined UNIVERSAL class tags.
       </Docs>
     </Member>
     <Member MemberName="Encode">
-      <MemberSignature Language="C#" Value="public int Encode (Span&lt;byte&gt; destination);" />
+      <MemberSignature Language="C#" Value="public int Encode ( destination);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 Encode(valuetype System.Span`1&lt;unsigned int8&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.Asn1Tag.Encode(System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Function Encode (destination As Span(Of Byte)) As Integer" />
@@ -315,7 +315,7 @@ This constructor allows for the creation undefined UNIVERSAL class tags.
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.Asn1Tag.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
@@ -698,7 +698,7 @@ If <xref:System.Formats.Asn1.Asn1Tag.TagClass> is <xref:System.Formats.Asn1.TagC
       </Docs>
     </Member>
     <Member MemberName="TryDecode">
-      <MemberSignature Language="C#" Value="public static bool TryDecode (ReadOnlySpan&lt;byte&gt; source, out System.Formats.Asn1.Asn1Tag tag, out int bytesConsumed);" />
+      <MemberSignature Language="C#" Value="public static bool TryDecode ( source, out System.Formats.Asn1.Asn1Tag tag, out int bytesConsumed);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryDecode(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] valuetype System.Formats.Asn1.Asn1Tag&amp; tag, [out] int32&amp; bytesConsumed) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.Asn1Tag.TryDecode(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.Asn1Tag@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryDecode (source As ReadOnlySpan(Of Byte), ByRef tag As Asn1Tag, ByRef bytesConsumed As Integer) As Boolean" />
@@ -728,7 +728,7 @@ If <xref:System.Formats.Asn1.Asn1Tag.TagClass> is <xref:System.Formats.Asn1.TagC
       </Docs>
     </Member>
     <Member MemberName="TryEncode">
-      <MemberSignature Language="C#" Value="public bool TryEncode (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryEncode ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryEncode(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.Asn1Tag.TryEncode(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryEncode (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />

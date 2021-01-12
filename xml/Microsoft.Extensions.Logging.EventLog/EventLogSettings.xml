@@ -75,7 +75,7 @@
       </Docs>
     </Member>
     <Member MemberName="Filter">
-      <MemberSignature Language="C#" Value="public Func&lt;string,Microsoft.Extensions.Logging.LogLevel,bool&gt; Filter { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;string, Microsoft.Extensions.Logging.LogLevel, bool&gt; Filter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`3&lt;string, valuetype Microsoft.Extensions.Logging.LogLevel, bool&gt; Filter" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Logging.EventLog.EventLogSettings.Filter" />
       <MemberSignature Language="VB.NET" Value="Public Property Filter As Func(Of String, LogLevel, Boolean)" />
@@ -94,7 +94,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.String,Microsoft.Extensions.Logging.LogLevel,System.Boolean&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.String, Microsoft.Extensions.Logging.LogLevel, System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>The function used to filter events based on the log level.</summary>

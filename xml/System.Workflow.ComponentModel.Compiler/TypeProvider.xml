@@ -175,7 +175,7 @@
       </Docs>
     </Member>
     <Member MemberName="AssemblyNameResolver">
-      <MemberSignature Language="C#" Value="public Func&lt;Type,string&gt; AssemblyNameResolver { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;Type, string&gt; AssemblyNameResolver { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Type, string&gt; AssemblyNameResolver" />
       <MemberSignature Language="DocId" Value="P:System.Workflow.ComponentModel.Compiler.TypeProvider.AssemblyNameResolver" />
       <MemberSignature Language="VB.NET" Value="Public Property AssemblyNameResolver As Func(Of Type, String)" />
@@ -187,7 +187,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Type,System.String&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Type, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the delegate that references a method with one parameter and one return value that returns the assembly display name in which a specified type belongs to.</summary>
@@ -571,7 +571,7 @@
       </Docs>
     </Member>
     <Member MemberName="IsSupportedPropertyResolver">
-      <MemberSignature Language="C#" Value="public Func&lt;System.Reflection.PropertyInfo,object,bool&gt; IsSupportedPropertyResolver { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;System.Reflection.PropertyInfo, object, bool&gt; IsSupportedPropertyResolver { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`3&lt;class System.Reflection.PropertyInfo, object, bool&gt; IsSupportedPropertyResolver" />
       <MemberSignature Language="DocId" Value="P:System.Workflow.ComponentModel.Compiler.TypeProvider.IsSupportedPropertyResolver" />
       <MemberSignature Language="VB.NET" Value="Public Property IsSupportedPropertyResolver As Func(Of PropertyInfo, Object, Boolean)" />
@@ -583,7 +583,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Reflection.PropertyInfo,System.Object,System.Boolean&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Reflection.PropertyInfo, System.Object, System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the delegate that references a method with two parameters and one return value that determines whether a specified property is supported in the target [!INCLUDE[dnprdnshort](~/includes/dnprdnshort-md.md)].</summary>
@@ -813,7 +813,7 @@
       </Docs>
     </Member>
     <Member MemberName="TypeLoadErrors">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;object,Exception&gt; TypeLoadErrors { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;object, Exception&gt; TypeLoadErrors { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;object, class System.Exception&gt; TypeLoadErrors" />
       <MemberSignature Language="DocId" Value="P:System.Workflow.ComponentModel.Compiler.TypeProvider.TypeLoadErrors" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TypeLoadErrors As IDictionary(Of Object, Exception)" />
@@ -829,7 +829,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object,System.Exception&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object, System.Exception&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets an <see cref="T:System.Collections.IDictionary" /> of load error exceptions keyed by the <see cref="T:System.Object" /> that causes the <see cref="T:System.Exception" />.</summary>

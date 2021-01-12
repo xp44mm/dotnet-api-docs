@@ -183,7 +183,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public IPAddress (ReadOnlySpan&lt;byte&gt; address);" />
+      <MemberSignature Language="C#" Value="public IPAddress ( address);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; address) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.IPAddress.#ctor(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (address As ReadOnlySpan(Of Byte))" />
@@ -286,7 +286,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public IPAddress (ReadOnlySpan&lt;byte&gt; address, long scopeid);" />
+      <MemberSignature Language="C#" Value="public IPAddress ( address, long scopeid);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; address, int64 scopeid) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.IPAddress.#ctor(System.ReadOnlySpan{System.Byte},System.Int64)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (address As ReadOnlySpan(Of Byte), scopeid As Long)" />
@@ -561,12 +561,13 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object comparand);" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object comparand);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object comparand) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.IPAddress.Equals(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (comparand As Object) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ comparand);" />
       <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="iPAddress.Equals comparand" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? comparand);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Primitives</AssemblyName>
@@ -1843,13 +1844,13 @@
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static System.Net.IPAddress? Parse (ReadOnlySpan&lt;char&gt; ipSpan);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Net.IPAddress Parse ( ipSpan);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.IPAddress Parse(valuetype System.ReadOnlySpan`1&lt;char&gt; ipSpan) cil managed" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="DocId" Value="M:System.Net.IPAddress.Parse(System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (ipSpan As ReadOnlySpan(Of Char)) As IPAddress" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Net::IPAddress ^ Parse(ReadOnlySpan&lt;char&gt; ipSpan);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="F#" Value="static member Parse : ReadOnlySpan&lt;char&gt; -&gt; System.Net.IPAddress" Usage="System.Net.IPAddress.Parse ipSpan" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="C#" Value="public static System.Net.IPAddress Parse (ReadOnlySpan&lt;char&gt; ipString);" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public static System.Net.IPAddress Parse ( ipString);" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.IPAddress Parse(valuetype System.ReadOnlySpan`1&lt;char&gt; ipString) cil managed" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (ipString As ReadOnlySpan(Of Char)) As IPAddress" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Net::IPAddress ^ Parse(ReadOnlySpan&lt;char&gt; ipString);" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -2012,7 +2013,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryFormat">
-      <MemberSignature Language="C#" Value="public bool TryFormat (Span&lt;char&gt; destination, out int charsWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryFormat ( destination, out int charsWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryFormat(valuetype System.Span`1&lt;char&gt; destination, [out] int32&amp; charsWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.IPAddress.TryFormat(System.Span{System.Char},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryFormat (destination As Span(Of Char), ByRef charsWritten As Integer) As Boolean" />
@@ -2052,12 +2053,13 @@
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (string ipString, out System.Net.IPAddress address);" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (string ipString, out System.Net.IPAddress address);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(string ipString, [out] class System.Net.IPAddress&amp; address) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.IPAddress.TryParse(System.String,System.Net.IPAddress@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (ipString As String, ByRef address As IPAddress) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParse(System::String ^ ipString, [Runtime::InteropServices::Out] System::Net::IPAddress ^ % address);" />
       <MemberSignature Language="F#" Value="static member TryParse : string * IPAddress -&gt; bool" Usage="System.Net.IPAddress.TryParse (ipString, address)" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (string? ipString, out System.Net.IPAddress? address);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Primitives</AssemblyName>
@@ -2107,13 +2109,13 @@
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; ipSpan, out System.Net.IPAddress? address);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( ipSpan, out System.Net.IPAddress? address);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;char&gt; ipSpan, [out] class System.Net.IPAddress&amp; address) cil managed" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="DocId" Value="M:System.Net.IPAddress.TryParse(System.ReadOnlySpan{System.Char},System.Net.IPAddress@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (ipSpan As ReadOnlySpan(Of Char), ByRef address As IPAddress) As Boolean" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParse(ReadOnlySpan&lt;char&gt; ipSpan, [Runtime::InteropServices::Out] System::Net::IPAddress ^ % address);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="F#" Value="static member TryParse : ReadOnlySpan&lt;char&gt; * IPAddress -&gt; bool" Usage="System.Net.IPAddress.TryParse (ipSpan, address)" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;char&gt; ipString, out System.Net.IPAddress address);" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( ipString, out System.Net.IPAddress address);" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;char&gt; ipString, [out] class System.Net.IPAddress&amp; address) cil managed" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (ipString As ReadOnlySpan(Of Char), ByRef address As IPAddress) As Boolean" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParse(ReadOnlySpan&lt;char&gt; ipString, [Runtime::InteropServices::Out] System::Net::IPAddress ^ % address);" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
@@ -2154,7 +2156,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public bool TryWriteBytes (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryWriteBytes ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Net.IPAddress.TryWriteBytes(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryWriteBytes (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />

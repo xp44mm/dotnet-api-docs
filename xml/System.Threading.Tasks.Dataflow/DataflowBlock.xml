@@ -380,7 +380,7 @@
       </Docs>
     </Member>
     <Member MemberName="Encapsulate&lt;TInput,TOutput&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Dataflow.IPropagatorBlock&lt;TInput,TOutput&gt; Encapsulate&lt;TInput,TOutput&gt; (System.Threading.Tasks.Dataflow.ITargetBlock&lt;TInput&gt; target, System.Threading.Tasks.Dataflow.ISourceBlock&lt;TOutput&gt; source);" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Dataflow.IPropagatorBlock&lt;TInput, TOutput&gt; Encapsulate&lt;TInput,TOutput&gt; (System.Threading.Tasks.Dataflow.ITargetBlock&lt;TInput&gt; target, System.Threading.Tasks.Dataflow.ISourceBlock&lt;TOutput&gt; source);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Dataflow.IPropagatorBlock`2&lt;!!TInput, !!TOutput&gt; Encapsulate&lt;TInput, TOutput&gt;(class System.Threading.Tasks.Dataflow.ITargetBlock`1&lt;!!TInput&gt; target, class System.Threading.Tasks.Dataflow.ISourceBlock`1&lt;!!TOutput&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Threading.Tasks.Dataflow.DataflowBlock.Encapsulate``2(System.Threading.Tasks.Dataflow.ITargetBlock{``0},System.Threading.Tasks.Dataflow.ISourceBlock{``1})" />
       <MemberSignature Language="VB.NET" Value="Public Function Encapsulate(Of TInput, TOutput) (target As ITargetBlock(Of TInput), source As ISourceBlock(Of TOutput)) As IPropagatorBlock(Of TInput, TOutput)" />
@@ -399,7 +399,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Dataflow.IPropagatorBlock&lt;TInput,TOutput&gt;</ReturnType>
+        <ReturnType>System.Threading.Tasks.Dataflow.IPropagatorBlock&lt;TInput, TOutput&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TInput" />

@@ -165,7 +165,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub New (catalog As ComposablePartCatalog, ParamArray providers As ExportProvider())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; CompositionContainer(System::ComponentModel::Composition::Primitives::ComposablePartCatalog ^ catalog, ... cli::array &lt;System::ComponentModel::Composition::Hosting::ExportProvider ^&gt; ^ providers);" />
       <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.Hosting.CompositionContainer : System.ComponentModel.Composition.Primitives.ComposablePartCatalog * System.ComponentModel.Composition.Hosting.ExportProvider[] -&gt; System.ComponentModel.Composition.Hosting.CompositionContainer" Usage="new System.ComponentModel.Composition.Hosting.CompositionContainer (catalog, providers)" />
-      <MemberSignature Language="C#" Value="public CompositionContainer (System.ComponentModel.Composition.Primitives.ComposablePartCatalog catalog, params System.ComponentModel.Composition.Hosting.ExportProvider[]? providers);" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public CompositionContainer (System.ComponentModel.Composition.Primitives.ComposablePartCatalog? catalog, params System.ComponentModel.Composition.Hosting.ExportProvider[]? providers);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.Composition</AssemblyName>
@@ -205,7 +205,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub New (catalog As ComposablePartCatalog, isThreadSafe As Boolean, ParamArray providers As ExportProvider())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; CompositionContainer(System::ComponentModel::Composition::Primitives::ComposablePartCatalog ^ catalog, bool isThreadSafe, ... cli::array &lt;System::ComponentModel::Composition::Hosting::ExportProvider ^&gt; ^ providers);" />
       <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.Hosting.CompositionContainer : System.ComponentModel.Composition.Primitives.ComposablePartCatalog * bool * System.ComponentModel.Composition.Hosting.ExportProvider[] -&gt; System.ComponentModel.Composition.Hosting.CompositionContainer" Usage="new System.ComponentModel.Composition.Hosting.CompositionContainer (catalog, isThreadSafe, providers)" />
-      <MemberSignature Language="C#" Value="public CompositionContainer (System.ComponentModel.Composition.Primitives.ComposablePartCatalog catalog, bool isThreadSafe, params System.ComponentModel.Composition.Hosting.ExportProvider[]? providers);" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public CompositionContainer (System.ComponentModel.Composition.Primitives.ComposablePartCatalog? catalog, bool isThreadSafe, params System.ComponentModel.Composition.Hosting.ExportProvider[]? providers);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.Composition</AssemblyName>
@@ -248,7 +248,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub New (catalog As ComposablePartCatalog, compositionOptions As CompositionOptions, ParamArray providers As ExportProvider())" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; CompositionContainer(System::ComponentModel::Composition::Primitives::ComposablePartCatalog ^ catalog, System::ComponentModel::Composition::Hosting::CompositionOptions compositionOptions, ... cli::array &lt;System::ComponentModel::Composition::Hosting::ExportProvider ^&gt; ^ providers);" />
       <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.Hosting.CompositionContainer : System.ComponentModel.Composition.Primitives.ComposablePartCatalog * System.ComponentModel.Composition.Hosting.CompositionOptions * System.ComponentModel.Composition.Hosting.ExportProvider[] -&gt; System.ComponentModel.Composition.Hosting.CompositionContainer" Usage="new System.ComponentModel.Composition.Hosting.CompositionContainer (catalog, compositionOptions, providers)" />
-      <MemberSignature Language="C#" Value="public CompositionContainer (System.ComponentModel.Composition.Primitives.ComposablePartCatalog catalog, System.ComponentModel.Composition.Hosting.CompositionOptions compositionOptions, params System.ComponentModel.Composition.Hosting.ExportProvider[]? providers);" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public CompositionContainer (System.ComponentModel.Composition.Primitives.ComposablePartCatalog? catalog, System.ComponentModel.Composition.Hosting.CompositionOptions compositionOptions, params System.ComponentModel.Composition.Hosting.ExportProvider[]? providers);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.Composition</AssemblyName>

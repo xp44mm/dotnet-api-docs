@@ -137,7 +137,7 @@
       </Docs>
     </Member>
     <Member MemberName="AppendData">
-      <MemberSignature Language="C#" Value="public void AppendData (ReadOnlySpan&lt;byte&gt; data);" />
+      <MemberSignature Language="C#" Value="public void AppendData ( data);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AppendData(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; data) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.IncrementalHash.AppendData(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub AppendData (data As ReadOnlySpan(Of Byte))" />
@@ -325,7 +325,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateHMAC">
-      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.IncrementalHash? CreateHMAC (System.Security.Cryptography.HashAlgorithmName hashAlgorithm, ReadOnlySpan&lt;byte&gt; key);" />
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.IncrementalHash CreateHMAC (System.Security.Cryptography.HashAlgorithmName hashAlgorithm,  key);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.IncrementalHash CreateHMAC(valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; key) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.IncrementalHash.CreateHMAC(System.Security.Cryptography.HashAlgorithmName,System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateHMAC (hashAlgorithm As HashAlgorithmName, key As ReadOnlySpan(Of Byte)) As IncrementalHash" />
@@ -428,7 +428,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetCurrentHash">
-      <MemberSignature Language="C#" Value="public int GetCurrentHash (Span&lt;byte&gt; destination);" />
+      <MemberSignature Language="C#" Value="public int GetCurrentHash ( destination);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 GetCurrentHash(valuetype System.Span`1&lt;unsigned int8&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.IncrementalHash.GetCurrentHash(System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Function GetCurrentHash (destination As Span(Of Byte)) As Integer" />
@@ -501,7 +501,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetHashAndReset">
-      <MemberSignature Language="C#" Value="public int GetHashAndReset (Span&lt;byte&gt; destination);" />
+      <MemberSignature Language="C#" Value="public int GetHashAndReset ( destination);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 GetHashAndReset(valuetype System.Span`1&lt;unsigned int8&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.IncrementalHash.GetHashAndReset(System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Function GetHashAndReset (destination As Span(Of Byte)) As Integer" />
@@ -556,7 +556,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryGetCurrentHash">
-      <MemberSignature Language="C#" Value="public bool TryGetCurrentHash (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryGetCurrentHash ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetCurrentHash(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.IncrementalHash.TryGetCurrentHash(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryGetCurrentHash (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
@@ -589,7 +589,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryGetHashAndReset">
-      <MemberSignature Language="C#" Value="public bool TryGetHashAndReset (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryGetHashAndReset ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryGetHashAndReset(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.IncrementalHash.TryGetHashAndReset(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryGetHashAndReset (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />

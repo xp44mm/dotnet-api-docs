@@ -316,7 +316,7 @@
       </Docs>
     </Member>
     <Member MemberName="NamespaceMappings">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; NamespaceMappings { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string, string&gt; NamespaceMappings { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; NamespaceMappings" />
       <MemberSignature Language="DocId" Value="P:System.ServiceModel.Description.ServiceContractGenerator.NamespaceMappings" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NamespaceMappings As Dictionary(Of String, String)" />
@@ -329,7 +329,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a mapping from contract description namespaces to managed namespaces that is used when generating code.</summary>
@@ -378,7 +378,7 @@
       </Docs>
     </Member>
     <Member MemberName="ReferencedTypes">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;System.ServiceModel.Description.ContractDescription,Type&gt; ReferencedTypes { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;System.ServiceModel.Description.ContractDescription, Type&gt; ReferencedTypes { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;class System.ServiceModel.Description.ContractDescription, class System.Type&gt; ReferencedTypes" />
       <MemberSignature Language="DocId" Value="P:System.ServiceModel.Description.ServiceContractGenerator.ReferencedTypes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ReferencedTypes As Dictionary(Of ContractDescription, Type)" />
@@ -397,7 +397,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.ServiceModel.Description.ContractDescription,System.Type&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.ServiceModel.Description.ContractDescription, System.Type&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a mapping from contract descriptions to referenced contract types.</summary>

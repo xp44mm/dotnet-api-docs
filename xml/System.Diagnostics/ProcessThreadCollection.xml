@@ -482,7 +482,7 @@
       </Docs>
     </Member>
     <Member MemberName="ConvertAll&lt;TOutput&gt;">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;TOutput&gt; ConvertAll&lt;TOutput&gt; (Converter&lt;System.Diagnostics.ProcessThread,TOutput&gt; converter);" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;TOutput&gt; ConvertAll&lt;TOutput&gt; (Converter&lt;System.Diagnostics.ProcessThread, TOutput&gt; converter);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.List`1&lt;!!TOutput&gt; ConvertAll&lt;TOutput&gt;(class System.Converter`2&lt;class System.Diagnostics.ProcessThread, !!TOutput&gt; converter) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Diagnostics.ProcessThreadCollection.ConvertAll``1(System.Converter{System.Diagnostics.ProcessThread,``0})" />
       <MemberSignature Language="VB.NET" Value="Public Function ConvertAll(Of TOutput) (converter As Converter(Of ProcessThread, TOutput)) As List(Of TOutput)" />
@@ -512,7 +512,7 @@
         <TypeParameter Name="TOutput" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="converter" Type="System.Converter&lt;System.Diagnostics.ProcessThread,TOutput&gt;" Index="0" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8" />
+        <Parameter Name="converter" Type="System.Converter&lt;System.Diagnostics.ProcessThread, TOutput&gt;" Index="0" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8" />
       </Parameters>
       <Docs>
         <typeparam name="TOutput">To be added.</typeparam>

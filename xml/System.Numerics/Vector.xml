@@ -36,7 +36,7 @@
   </Docs>
   <Members>
     <Member MemberName="Abs&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Abs&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Abs&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Abs&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Abs``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Abs(Of T As Structure) (value As Vector(Of T)) As Vector(Of T)" />
@@ -85,7 +85,7 @@
       </Docs>
     </Member>
     <Member MemberName="Add&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Add&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Add&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Add&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Add``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Add(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -136,7 +136,7 @@
       </Docs>
     </Member>
     <Member MemberName="AndNot&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; AndNot&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AndNot&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; AndNot&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.AndNot``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AndNot(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -187,7 +187,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsVectorByte&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;byte&gt; AsVectorByte&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsVectorByte&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;unsigned int8&gt; AsVectorByte&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.AsVectorByte``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsVectorByte(Of T As Structure) (value As Vector(Of T)) As Vector(Of Byte)" />
@@ -236,7 +236,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsVectorDouble&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;double&gt; AsVectorDouble&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsVectorDouble&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float64&gt; AsVectorDouble&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.AsVectorDouble``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsVectorDouble(Of T As Structure) (value As Vector(Of T)) As Vector(Of Double)" />
@@ -285,7 +285,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsVectorInt16&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;short&gt; AsVectorInt16&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsVectorInt16&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int16&gt; AsVectorInt16&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.AsVectorInt16``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsVectorInt16(Of T As Structure) (value As Vector(Of T)) As Vector(Of Short)" />
@@ -334,7 +334,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsVectorInt32&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; AsVectorInt32&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsVectorInt32&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; AsVectorInt32&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.AsVectorInt32``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsVectorInt32(Of T As Structure) (value As Vector(Of T)) As Vector(Of Integer)" />
@@ -383,7 +383,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsVectorInt64&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; AsVectorInt64&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsVectorInt64&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; AsVectorInt64&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.AsVectorInt64``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsVectorInt64(Of T As Structure) (value As Vector(Of T)) As Vector(Of Long)" />
@@ -432,7 +432,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsVectorSByte&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;sbyte&gt; AsVectorSByte&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsVectorSByte&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int8&gt; AsVectorSByte&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.AsVectorSByte``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsVectorSByte(Of T As Structure) (value As Vector(Of T)) As Vector(Of SByte)" />
@@ -487,7 +487,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsVectorSingle&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;float&gt; AsVectorSingle&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsVectorSingle&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float32&gt; AsVectorSingle&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.AsVectorSingle``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsVectorSingle(Of T As Structure) (value As Vector(Of T)) As Vector(Of Single)" />
@@ -536,7 +536,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsVectorUInt16&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;ushort&gt; AsVectorUInt16&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsVectorUInt16&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;unsigned int16&gt; AsVectorUInt16&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.AsVectorUInt16``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsVectorUInt16(Of T As Structure) (value As Vector(Of T)) As Vector(Of UShort)" />
@@ -591,7 +591,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsVectorUInt32&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;uint&gt; AsVectorUInt32&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsVectorUInt32&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;unsigned int32&gt; AsVectorUInt32&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.AsVectorUInt32``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsVectorUInt32(Of T As Structure) (value As Vector(Of T)) As Vector(Of UInteger)" />
@@ -646,7 +646,7 @@
       </Docs>
     </Member>
     <Member MemberName="AsVectorUInt64&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;ulong&gt; AsVectorUInt64&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  AsVectorUInt64&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;unsigned int64&gt; AsVectorUInt64&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.AsVectorUInt64``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AsVectorUInt64(Of T As Structure) (value As Vector(Of T)) As Vector(Of ULong)" />
@@ -701,7 +701,7 @@
       </Docs>
     </Member>
     <Member MemberName="BitwiseAnd&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; BitwiseAnd&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  BitwiseAnd&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; BitwiseAnd&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.BitwiseAnd``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BitwiseAnd(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -752,7 +752,7 @@
       </Docs>
     </Member>
     <Member MemberName="BitwiseOr&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; BitwiseOr&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  BitwiseOr&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; BitwiseOr&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.BitwiseOr``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function BitwiseOr(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -803,7 +803,7 @@
       </Docs>
     </Member>
     <Member MemberName="Ceiling">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;double&gt; Ceiling (System.Numerics.Vector&lt;double&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  Ceiling ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float64&gt; Ceiling(valuetype System.Numerics.Vector`1&lt;float64&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Ceiling(System.Numerics.Vector{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Ceiling (value As Vector(Of Double)) As Vector(Of Double)" />
@@ -840,7 +840,7 @@ Note that this method returns a <xref:System.Double> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Ceiling">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;float&gt; Ceiling (System.Numerics.Vector&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  Ceiling ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float32&gt; Ceiling(valuetype System.Numerics.Vector`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Ceiling(System.Numerics.Vector{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Ceiling (value As Vector(Of Single)) As Vector(Of Single)" />
@@ -877,7 +877,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="ConditionalSelect">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;float&gt; ConditionalSelect (System.Numerics.Vector&lt;int&gt; condition, System.Numerics.Vector&lt;float&gt; left, System.Numerics.Vector&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  ConditionalSelect ( condition,  left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float32&gt; ConditionalSelect(valuetype System.Numerics.Vector`1&lt;int32&gt; condition, valuetype System.Numerics.Vector`1&lt;float32&gt; left, valuetype System.Numerics.Vector`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.ConditionalSelect(System.Numerics.Vector{System.Int32},System.Numerics.Vector{System.Single},System.Numerics.Vector{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConditionalSelect (condition As Vector(Of Integer), left As Vector(Of Single), right As Vector(Of Single)) As Vector(Of Single)" />
@@ -920,7 +920,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="ConditionalSelect">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;double&gt; ConditionalSelect (System.Numerics.Vector&lt;long&gt; condition, System.Numerics.Vector&lt;double&gt; left, System.Numerics.Vector&lt;double&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  ConditionalSelect ( condition,  left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float64&gt; ConditionalSelect(valuetype System.Numerics.Vector`1&lt;int64&gt; condition, valuetype System.Numerics.Vector`1&lt;float64&gt; left, valuetype System.Numerics.Vector`1&lt;float64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.ConditionalSelect(System.Numerics.Vector{System.Int64},System.Numerics.Vector{System.Double},System.Numerics.Vector{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConditionalSelect (condition As Vector(Of Long), left As Vector(Of Double), right As Vector(Of Double)) As Vector(Of Double)" />
@@ -963,7 +963,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="ConditionalSelect&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; ConditionalSelect&lt;T&gt; (System.Numerics.Vector&lt;T&gt; condition, System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  ConditionalSelect&lt;T&gt; ( condition,  left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; ConditionalSelect&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; condition, valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.ConditionalSelect``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConditionalSelect(Of T As Structure) (condition As Vector(Of T), left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -1016,7 +1016,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="ConvertToDouble">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;double&gt; ConvertToDouble (System.Numerics.Vector&lt;long&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertToDouble ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float64&gt; ConvertToDouble(valuetype System.Numerics.Vector`1&lt;int64&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.ConvertToDouble(System.Numerics.Vector{System.Int64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToDouble (value As Vector(Of Long)) As Vector(Of Double)" />
@@ -1049,7 +1049,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="ConvertToDouble">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;double&gt; ConvertToDouble (System.Numerics.Vector&lt;ulong&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertToDouble ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float64&gt; ConvertToDouble(valuetype System.Numerics.Vector`1&lt;unsigned int64&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.ConvertToDouble(System.Numerics.Vector{System.UInt64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToDouble (value As Vector(Of ULong)) As Vector(Of Double)" />
@@ -1088,7 +1088,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="ConvertToInt32">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; ConvertToInt32 (System.Numerics.Vector&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertToInt32 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; ConvertToInt32(valuetype System.Numerics.Vector`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.ConvertToInt32(System.Numerics.Vector{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt32 (value As Vector(Of Single)) As Vector(Of Integer)" />
@@ -1121,7 +1121,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="ConvertToInt64">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; ConvertToInt64 (System.Numerics.Vector&lt;double&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertToInt64 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; ConvertToInt64(valuetype System.Numerics.Vector`1&lt;float64&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.ConvertToInt64(System.Numerics.Vector{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt64 (value As Vector(Of Double)) As Vector(Of Long)" />
@@ -1154,7 +1154,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="ConvertToSingle">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;float&gt; ConvertToSingle (System.Numerics.Vector&lt;int&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertToSingle ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float32&gt; ConvertToSingle(valuetype System.Numerics.Vector`1&lt;int32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.ConvertToSingle(System.Numerics.Vector{System.Int32})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToSingle (value As Vector(Of Integer)) As Vector(Of Single)" />
@@ -1187,7 +1187,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="ConvertToSingle">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;float&gt; ConvertToSingle (System.Numerics.Vector&lt;uint&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertToSingle ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float32&gt; ConvertToSingle(valuetype System.Numerics.Vector`1&lt;unsigned int32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.ConvertToSingle(System.Numerics.Vector{System.UInt32})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToSingle (value As Vector(Of UInteger)) As Vector(Of Single)" />
@@ -1226,7 +1226,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="ConvertToUInt32">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;uint&gt; ConvertToUInt32 (System.Numerics.Vector&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertToUInt32 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;unsigned int32&gt; ConvertToUInt32(valuetype System.Numerics.Vector`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.ConvertToUInt32(System.Numerics.Vector{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToUInt32 (value As Vector(Of Single)) As Vector(Of UInteger)" />
@@ -1265,7 +1265,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="ConvertToUInt64">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;ulong&gt; ConvertToUInt64 (System.Numerics.Vector&lt;double&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertToUInt64 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;unsigned int64&gt; ConvertToUInt64(valuetype System.Numerics.Vector`1&lt;float64&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.ConvertToUInt64(System.Numerics.Vector{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToUInt64 (value As Vector(Of Double)) As Vector(Of ULong)" />
@@ -1304,7 +1304,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Divide&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Divide&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Divide&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Divide&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Divide``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Divide(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -1355,7 +1355,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Dot&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T Dot&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static T Dot&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T Dot&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Dot``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Dot(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As T" />
@@ -1406,7 +1406,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; Equals (System.Numerics.Vector&lt;double&gt; left, System.Numerics.Vector&lt;double&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Equals ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; Equals(valuetype System.Numerics.Vector`1&lt;float64&gt; left, valuetype System.Numerics.Vector`1&lt;float64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Equals(System.Numerics.Vector{System.Double},System.Numerics.Vector{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Equals (left As Vector(Of Double), right As Vector(Of Double)) As Vector(Of Long)" />
@@ -1447,7 +1447,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; Equals (System.Numerics.Vector&lt;int&gt; left, System.Numerics.Vector&lt;int&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Equals ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; Equals(valuetype System.Numerics.Vector`1&lt;int32&gt; left, valuetype System.Numerics.Vector`1&lt;int32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Equals(System.Numerics.Vector{System.Int32},System.Numerics.Vector{System.Int32})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Equals (left As Vector(Of Integer), right As Vector(Of Integer)) As Vector(Of Integer)" />
@@ -1488,7 +1488,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; Equals (System.Numerics.Vector&lt;long&gt; left, System.Numerics.Vector&lt;long&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Equals ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; Equals(valuetype System.Numerics.Vector`1&lt;int64&gt; left, valuetype System.Numerics.Vector`1&lt;int64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Equals(System.Numerics.Vector{System.Int64},System.Numerics.Vector{System.Int64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Equals (left As Vector(Of Long), right As Vector(Of Long)) As Vector(Of Long)" />
@@ -1529,7 +1529,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; Equals (System.Numerics.Vector&lt;float&gt; left, System.Numerics.Vector&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Equals ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; Equals(valuetype System.Numerics.Vector`1&lt;float32&gt; left, valuetype System.Numerics.Vector`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Equals(System.Numerics.Vector{System.Single},System.Numerics.Vector{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Equals (left As Vector(Of Single), right As Vector(Of Single)) As Vector(Of Integer)" />
@@ -1570,7 +1570,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Equals&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Equals&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Equals&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Equals&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Equals``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Equals(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -1621,7 +1621,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="EqualsAll&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool EqualsAll&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool EqualsAll&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool EqualsAll&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.EqualsAll``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function EqualsAll(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Boolean" />
@@ -1673,7 +1673,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="EqualsAny&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool EqualsAny&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool EqualsAny&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool EqualsAny&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.EqualsAny``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function EqualsAny(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Boolean" />
@@ -1725,7 +1725,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Floor">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;double&gt; Floor (System.Numerics.Vector&lt;double&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  Floor ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float64&gt; Floor(valuetype System.Numerics.Vector`1&lt;float64&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Floor(System.Numerics.Vector{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Floor (value As Vector(Of Double)) As Vector(Of Double)" />
@@ -1762,7 +1762,7 @@ Note that this method returns a <xref:System.Double> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Floor">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;float&gt; Floor (System.Numerics.Vector&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  Floor ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float32&gt; Floor(valuetype System.Numerics.Vector`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Floor(System.Numerics.Vector{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Floor (value As Vector(Of Single)) As Vector(Of Single)" />
@@ -1799,7 +1799,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThan">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; GreaterThan (System.Numerics.Vector&lt;double&gt; left, System.Numerics.Vector&lt;double&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  GreaterThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; GreaterThan(valuetype System.Numerics.Vector`1&lt;float64&gt; left, valuetype System.Numerics.Vector`1&lt;float64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThan(System.Numerics.Vector{System.Double},System.Numerics.Vector{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThan (left As Vector(Of Double), right As Vector(Of Double)) As Vector(Of Long)" />
@@ -1840,7 +1840,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThan">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; GreaterThan (System.Numerics.Vector&lt;int&gt; left, System.Numerics.Vector&lt;int&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  GreaterThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; GreaterThan(valuetype System.Numerics.Vector`1&lt;int32&gt; left, valuetype System.Numerics.Vector`1&lt;int32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThan(System.Numerics.Vector{System.Int32},System.Numerics.Vector{System.Int32})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThan (left As Vector(Of Integer), right As Vector(Of Integer)) As Vector(Of Integer)" />
@@ -1881,7 +1881,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThan">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; GreaterThan (System.Numerics.Vector&lt;long&gt; left, System.Numerics.Vector&lt;long&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  GreaterThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; GreaterThan(valuetype System.Numerics.Vector`1&lt;int64&gt; left, valuetype System.Numerics.Vector`1&lt;int64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThan(System.Numerics.Vector{System.Int64},System.Numerics.Vector{System.Int64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThan (left As Vector(Of Long), right As Vector(Of Long)) As Vector(Of Long)" />
@@ -1922,7 +1922,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThan">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; GreaterThan (System.Numerics.Vector&lt;float&gt; left, System.Numerics.Vector&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  GreaterThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; GreaterThan(valuetype System.Numerics.Vector`1&lt;float32&gt; left, valuetype System.Numerics.Vector`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThan(System.Numerics.Vector{System.Single},System.Numerics.Vector{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThan (left As Vector(Of Single), right As Vector(Of Single)) As Vector(Of Integer)" />
@@ -1963,7 +1963,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThan&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; GreaterThan&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  GreaterThan&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; GreaterThan&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThan``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThan(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -2014,7 +2014,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThanAll&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool GreaterThanAll&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool GreaterThanAll&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GreaterThanAll&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThanAll``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThanAll(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Boolean" />
@@ -2066,7 +2066,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThanAny&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool GreaterThanAny&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool GreaterThanAny&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GreaterThanAny&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThanAny``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThanAny(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Boolean" />
@@ -2118,7 +2118,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; GreaterThanOrEqual (System.Numerics.Vector&lt;double&gt; left, System.Numerics.Vector&lt;double&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  GreaterThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; GreaterThanOrEqual(valuetype System.Numerics.Vector`1&lt;float64&gt; left, valuetype System.Numerics.Vector`1&lt;float64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThanOrEqual(System.Numerics.Vector{System.Double},System.Numerics.Vector{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThanOrEqual (left As Vector(Of Double), right As Vector(Of Double)) As Vector(Of Long)" />
@@ -2159,7 +2159,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; GreaterThanOrEqual (System.Numerics.Vector&lt;int&gt; left, System.Numerics.Vector&lt;int&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  GreaterThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; GreaterThanOrEqual(valuetype System.Numerics.Vector`1&lt;int32&gt; left, valuetype System.Numerics.Vector`1&lt;int32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThanOrEqual(System.Numerics.Vector{System.Int32},System.Numerics.Vector{System.Int32})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThanOrEqual (left As Vector(Of Integer), right As Vector(Of Integer)) As Vector(Of Integer)" />
@@ -2200,7 +2200,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; GreaterThanOrEqual (System.Numerics.Vector&lt;long&gt; left, System.Numerics.Vector&lt;long&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  GreaterThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; GreaterThanOrEqual(valuetype System.Numerics.Vector`1&lt;int64&gt; left, valuetype System.Numerics.Vector`1&lt;int64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThanOrEqual(System.Numerics.Vector{System.Int64},System.Numerics.Vector{System.Int64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThanOrEqual (left As Vector(Of Long), right As Vector(Of Long)) As Vector(Of Long)" />
@@ -2241,7 +2241,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; GreaterThanOrEqual (System.Numerics.Vector&lt;float&gt; left, System.Numerics.Vector&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  GreaterThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; GreaterThanOrEqual(valuetype System.Numerics.Vector`1&lt;float32&gt; left, valuetype System.Numerics.Vector`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThanOrEqual(System.Numerics.Vector{System.Single},System.Numerics.Vector{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThanOrEqual (left As Vector(Of Single), right As Vector(Of Single)) As Vector(Of Integer)" />
@@ -2282,7 +2282,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThanOrEqual&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; GreaterThanOrEqual&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  GreaterThanOrEqual&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; GreaterThanOrEqual&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThanOrEqual``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThanOrEqual(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -2333,7 +2333,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThanOrEqualAll&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool GreaterThanOrEqualAll&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool GreaterThanOrEqualAll&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GreaterThanOrEqualAll&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThanOrEqualAll``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThanOrEqualAll(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Boolean" />
@@ -2385,7 +2385,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="GreaterThanOrEqualAny&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool GreaterThanOrEqualAny&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool GreaterThanOrEqualAny&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool GreaterThanOrEqualAny&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.GreaterThanOrEqualAny``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GreaterThanOrEqualAny(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Boolean" />
@@ -2480,7 +2480,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThan">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; LessThan (System.Numerics.Vector&lt;double&gt; left, System.Numerics.Vector&lt;double&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  LessThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; LessThan(valuetype System.Numerics.Vector`1&lt;float64&gt; left, valuetype System.Numerics.Vector`1&lt;float64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThan(System.Numerics.Vector{System.Double},System.Numerics.Vector{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThan (left As Vector(Of Double), right As Vector(Of Double)) As Vector(Of Long)" />
@@ -2521,7 +2521,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThan">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; LessThan (System.Numerics.Vector&lt;int&gt; left, System.Numerics.Vector&lt;int&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  LessThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; LessThan(valuetype System.Numerics.Vector`1&lt;int32&gt; left, valuetype System.Numerics.Vector`1&lt;int32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThan(System.Numerics.Vector{System.Int32},System.Numerics.Vector{System.Int32})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThan (left As Vector(Of Integer), right As Vector(Of Integer)) As Vector(Of Integer)" />
@@ -2562,7 +2562,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThan">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; LessThan (System.Numerics.Vector&lt;long&gt; left, System.Numerics.Vector&lt;long&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  LessThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; LessThan(valuetype System.Numerics.Vector`1&lt;int64&gt; left, valuetype System.Numerics.Vector`1&lt;int64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThan(System.Numerics.Vector{System.Int64},System.Numerics.Vector{System.Int64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThan (left As Vector(Of Long), right As Vector(Of Long)) As Vector(Of Long)" />
@@ -2603,7 +2603,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThan">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; LessThan (System.Numerics.Vector&lt;float&gt; left, System.Numerics.Vector&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  LessThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; LessThan(valuetype System.Numerics.Vector`1&lt;float32&gt; left, valuetype System.Numerics.Vector`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThan(System.Numerics.Vector{System.Single},System.Numerics.Vector{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThan (left As Vector(Of Single), right As Vector(Of Single)) As Vector(Of Integer)" />
@@ -2644,7 +2644,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThan&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; LessThan&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  LessThan&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; LessThan&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThan``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThan(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -2695,7 +2695,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThanAll&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool LessThanAll&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool LessThanAll&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool LessThanAll&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThanAll``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThanAll(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Boolean" />
@@ -2747,7 +2747,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThanAny&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool LessThanAny&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool LessThanAny&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool LessThanAny&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThanAny``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThanAny(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Boolean" />
@@ -2799,7 +2799,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; LessThanOrEqual (System.Numerics.Vector&lt;double&gt; left, System.Numerics.Vector&lt;double&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  LessThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; LessThanOrEqual(valuetype System.Numerics.Vector`1&lt;float64&gt; left, valuetype System.Numerics.Vector`1&lt;float64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThanOrEqual(System.Numerics.Vector{System.Double},System.Numerics.Vector{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThanOrEqual (left As Vector(Of Double), right As Vector(Of Double)) As Vector(Of Long)" />
@@ -2840,7 +2840,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; LessThanOrEqual (System.Numerics.Vector&lt;int&gt; left, System.Numerics.Vector&lt;int&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  LessThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; LessThanOrEqual(valuetype System.Numerics.Vector`1&lt;int32&gt; left, valuetype System.Numerics.Vector`1&lt;int32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThanOrEqual(System.Numerics.Vector{System.Int32},System.Numerics.Vector{System.Int32})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThanOrEqual (left As Vector(Of Integer), right As Vector(Of Integer)) As Vector(Of Integer)" />
@@ -2881,7 +2881,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;long&gt; LessThanOrEqual (System.Numerics.Vector&lt;long&gt; left, System.Numerics.Vector&lt;long&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  LessThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int64&gt; LessThanOrEqual(valuetype System.Numerics.Vector`1&lt;int64&gt; left, valuetype System.Numerics.Vector`1&lt;int64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThanOrEqual(System.Numerics.Vector{System.Int64},System.Numerics.Vector{System.Int64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThanOrEqual (left As Vector(Of Long), right As Vector(Of Long)) As Vector(Of Long)" />
@@ -2922,7 +2922,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; LessThanOrEqual (System.Numerics.Vector&lt;float&gt; left, System.Numerics.Vector&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  LessThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; LessThanOrEqual(valuetype System.Numerics.Vector`1&lt;float32&gt; left, valuetype System.Numerics.Vector`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThanOrEqual(System.Numerics.Vector{System.Single},System.Numerics.Vector{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThanOrEqual (left As Vector(Of Single), right As Vector(Of Single)) As Vector(Of Integer)" />
@@ -2963,7 +2963,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThanOrEqual&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; LessThanOrEqual&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  LessThanOrEqual&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; LessThanOrEqual&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThanOrEqual``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThanOrEqual(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -3014,7 +3014,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThanOrEqualAll&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool LessThanOrEqualAll&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool LessThanOrEqualAll&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool LessThanOrEqualAll&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThanOrEqualAll``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThanOrEqualAll(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Boolean" />
@@ -3066,7 +3066,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="LessThanOrEqualAny&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool LessThanOrEqualAny&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static bool LessThanOrEqualAny&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool LessThanOrEqualAny&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.LessThanOrEqualAny``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function LessThanOrEqualAny(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Boolean" />
@@ -3118,7 +3118,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Max&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Max&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Max&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Max&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Max``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Max(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -3169,7 +3169,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Min&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Min&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Min&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Min&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Min``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Min(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -3220,7 +3220,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Multiply&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Multiply&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Multiply&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Multiply&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Multiply``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Multiply(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -3271,7 +3271,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Multiply&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Multiply&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, T right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Multiply&lt;T&gt; ( left, T right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Multiply&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, !!T right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Multiply``1(System.Numerics.Vector{``0},``0)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Multiply(Of T As Structure) (left As Vector(Of T), right As T) As Vector(Of T)" />
@@ -3322,7 +3322,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Multiply&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Multiply&lt;T&gt; (T left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Multiply&lt;T&gt; (T left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Multiply&lt;struct .ctor (class System.ValueType) T&gt;(!!T left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Multiply``1(``0,System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Multiply(Of T As Structure) (left As T, right As Vector(Of T)) As Vector(Of T)" />
@@ -3373,7 +3373,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Narrow">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;float&gt; Narrow (System.Numerics.Vector&lt;double&gt; source1, System.Numerics.Vector&lt;double&gt; source2);" />
+      <MemberSignature Language="C#" Value="public static  Narrow ( source1,  source2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;float32&gt; Narrow(valuetype System.Numerics.Vector`1&lt;float64&gt; source1, valuetype System.Numerics.Vector`1&lt;float64&gt; source2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Narrow(System.Numerics.Vector{System.Double},System.Numerics.Vector{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Narrow (source1 As Vector(Of Double), source2 As Vector(Of Double)) As Vector(Of Single)" />
@@ -3408,7 +3408,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Narrow">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;sbyte&gt; Narrow (System.Numerics.Vector&lt;short&gt; source1, System.Numerics.Vector&lt;short&gt; source2);" />
+      <MemberSignature Language="C#" Value="public static  Narrow ( source1,  source2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int8&gt; Narrow(valuetype System.Numerics.Vector`1&lt;int16&gt; source1, valuetype System.Numerics.Vector`1&lt;int16&gt; source2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Narrow(System.Numerics.Vector{System.Int16},System.Numerics.Vector{System.Int16})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Narrow (source1 As Vector(Of Short), source2 As Vector(Of Short)) As Vector(Of SByte)" />
@@ -3449,7 +3449,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Narrow">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;short&gt; Narrow (System.Numerics.Vector&lt;int&gt; source1, System.Numerics.Vector&lt;int&gt; source2);" />
+      <MemberSignature Language="C#" Value="public static  Narrow ( source1,  source2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int16&gt; Narrow(valuetype System.Numerics.Vector`1&lt;int32&gt; source1, valuetype System.Numerics.Vector`1&lt;int32&gt; source2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Narrow(System.Numerics.Vector{System.Int32},System.Numerics.Vector{System.Int32})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Narrow (source1 As Vector(Of Integer), source2 As Vector(Of Integer)) As Vector(Of Short)" />
@@ -3484,7 +3484,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Narrow">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;int&gt; Narrow (System.Numerics.Vector&lt;long&gt; source1, System.Numerics.Vector&lt;long&gt; source2);" />
+      <MemberSignature Language="C#" Value="public static  Narrow ( source1,  source2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;int32&gt; Narrow(valuetype System.Numerics.Vector`1&lt;int64&gt; source1, valuetype System.Numerics.Vector`1&lt;int64&gt; source2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Narrow(System.Numerics.Vector{System.Int64},System.Numerics.Vector{System.Int64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Narrow (source1 As Vector(Of Long), source2 As Vector(Of Long)) As Vector(Of Integer)" />
@@ -3519,7 +3519,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Narrow">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;byte&gt; Narrow (System.Numerics.Vector&lt;ushort&gt; source1, System.Numerics.Vector&lt;ushort&gt; source2);" />
+      <MemberSignature Language="C#" Value="public static  Narrow ( source1,  source2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;unsigned int8&gt; Narrow(valuetype System.Numerics.Vector`1&lt;unsigned int16&gt; source1, valuetype System.Numerics.Vector`1&lt;unsigned int16&gt; source2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Narrow(System.Numerics.Vector{System.UInt16},System.Numerics.Vector{System.UInt16})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Narrow (source1 As Vector(Of UShort), source2 As Vector(Of UShort)) As Vector(Of Byte)" />
@@ -3560,7 +3560,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Narrow">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;ushort&gt; Narrow (System.Numerics.Vector&lt;uint&gt; source1, System.Numerics.Vector&lt;uint&gt; source2);" />
+      <MemberSignature Language="C#" Value="public static  Narrow ( source1,  source2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;unsigned int16&gt; Narrow(valuetype System.Numerics.Vector`1&lt;unsigned int32&gt; source1, valuetype System.Numerics.Vector`1&lt;unsigned int32&gt; source2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Narrow(System.Numerics.Vector{System.UInt32},System.Numerics.Vector{System.UInt32})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Narrow (source1 As Vector(Of UInteger), source2 As Vector(Of UInteger)) As Vector(Of UShort)" />
@@ -3601,7 +3601,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Narrow">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;uint&gt; Narrow (System.Numerics.Vector&lt;ulong&gt; source1, System.Numerics.Vector&lt;ulong&gt; source2);" />
+      <MemberSignature Language="C#" Value="public static  Narrow ( source1,  source2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;unsigned int32&gt; Narrow(valuetype System.Numerics.Vector`1&lt;unsigned int64&gt; source1, valuetype System.Numerics.Vector`1&lt;unsigned int64&gt; source2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Narrow(System.Numerics.Vector{System.UInt64},System.Numerics.Vector{System.UInt64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Narrow (source1 As Vector(Of ULong), source2 As Vector(Of ULong)) As Vector(Of UInteger)" />
@@ -3642,7 +3642,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Negate&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Negate&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Negate&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Negate&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Negate``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Negate(Of T As Structure) (value As Vector(Of T)) As Vector(Of T)" />
@@ -3691,7 +3691,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="OnesComplement&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; OnesComplement&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  OnesComplement&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; OnesComplement&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.OnesComplement``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function OnesComplement(Of T As Structure) (value As Vector(Of T)) As Vector(Of T)" />
@@ -3740,7 +3740,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="SquareRoot&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; SquareRoot&lt;T&gt; (System.Numerics.Vector&lt;T&gt; value) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  SquareRoot&lt;T&gt; ( value) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; SquareRoot&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.SquareRoot``1(System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function SquareRoot(Of T As Structure) (value As Vector(Of T)) As Vector(Of T)" />
@@ -3789,7 +3789,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Subtract&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Subtract&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Subtract&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Subtract&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Subtract``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Subtract(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />
@@ -3840,7 +3840,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Widen">
-      <MemberSignature Language="C#" Value="public static void Widen (System.Numerics.Vector&lt;byte&gt; source, out System.Numerics.Vector&lt;ushort&gt; dest1, out System.Numerics.Vector&lt;ushort&gt; dest2);" />
+      <MemberSignature Language="C#" Value="public static void Widen ( source, out System.Numerics. dest1, out System.Numerics. dest2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Widen(valuetype System.Numerics.Vector`1&lt;unsigned int8&gt; source, [out] valuetype System.Numerics.Vector`1&lt;unsigned int16&gt;&amp; dest1, [out] valuetype System.Numerics.Vector`1&lt;unsigned int16&gt;&amp; dest2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Widen(System.Numerics.Vector{System.Byte},System.Numerics.Vector{System.UInt16}@,System.Numerics.Vector{System.UInt16}@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Widen (source As Vector(Of Byte), ByRef dest1 As Vector(Of UShort), ByRef dest2 As Vector(Of UShort))" />
@@ -3882,7 +3882,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Widen">
-      <MemberSignature Language="C#" Value="public static void Widen (System.Numerics.Vector&lt;short&gt; source, out System.Numerics.Vector&lt;int&gt; dest1, out System.Numerics.Vector&lt;int&gt; dest2);" />
+      <MemberSignature Language="C#" Value="public static void Widen ( source, out System.Numerics. dest1, out System.Numerics. dest2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Widen(valuetype System.Numerics.Vector`1&lt;int16&gt; source, [out] valuetype System.Numerics.Vector`1&lt;int32&gt;&amp; dest1, [out] valuetype System.Numerics.Vector`1&lt;int32&gt;&amp; dest2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Widen(System.Numerics.Vector{System.Int16},System.Numerics.Vector{System.Int32}@,System.Numerics.Vector{System.Int32}@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Widen (source As Vector(Of Short), ByRef dest1 As Vector(Of Integer), ByRef dest2 As Vector(Of Integer))" />
@@ -3918,7 +3918,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Widen">
-      <MemberSignature Language="C#" Value="public static void Widen (System.Numerics.Vector&lt;int&gt; source, out System.Numerics.Vector&lt;long&gt; dest1, out System.Numerics.Vector&lt;long&gt; dest2);" />
+      <MemberSignature Language="C#" Value="public static void Widen ( source, out System.Numerics. dest1, out System.Numerics. dest2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Widen(valuetype System.Numerics.Vector`1&lt;int32&gt; source, [out] valuetype System.Numerics.Vector`1&lt;int64&gt;&amp; dest1, [out] valuetype System.Numerics.Vector`1&lt;int64&gt;&amp; dest2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Widen(System.Numerics.Vector{System.Int32},System.Numerics.Vector{System.Int64}@,System.Numerics.Vector{System.Int64}@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Widen (source As Vector(Of Integer), ByRef dest1 As Vector(Of Long), ByRef dest2 As Vector(Of Long))" />
@@ -3954,7 +3954,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Widen">
-      <MemberSignature Language="C#" Value="public static void Widen (System.Numerics.Vector&lt;sbyte&gt; source, out System.Numerics.Vector&lt;short&gt; dest1, out System.Numerics.Vector&lt;short&gt; dest2);" />
+      <MemberSignature Language="C#" Value="public static void Widen ( source, out System.Numerics. dest1, out System.Numerics. dest2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Widen(valuetype System.Numerics.Vector`1&lt;int8&gt; source, [out] valuetype System.Numerics.Vector`1&lt;int16&gt;&amp; dest1, [out] valuetype System.Numerics.Vector`1&lt;int16&gt;&amp; dest2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Widen(System.Numerics.Vector{System.SByte},System.Numerics.Vector{System.Int16}@,System.Numerics.Vector{System.Int16}@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Widen (source As Vector(Of SByte), ByRef dest1 As Vector(Of Short), ByRef dest2 As Vector(Of Short))" />
@@ -3996,7 +3996,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Widen">
-      <MemberSignature Language="C#" Value="public static void Widen (System.Numerics.Vector&lt;float&gt; source, out System.Numerics.Vector&lt;double&gt; dest1, out System.Numerics.Vector&lt;double&gt; dest2);" />
+      <MemberSignature Language="C#" Value="public static void Widen ( source, out System.Numerics. dest1, out System.Numerics. dest2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Widen(valuetype System.Numerics.Vector`1&lt;float32&gt; source, [out] valuetype System.Numerics.Vector`1&lt;float64&gt;&amp; dest1, [out] valuetype System.Numerics.Vector`1&lt;float64&gt;&amp; dest2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Widen(System.Numerics.Vector{System.Single},System.Numerics.Vector{System.Double}@,System.Numerics.Vector{System.Double}@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Widen (source As Vector(Of Single), ByRef dest1 As Vector(Of Double), ByRef dest2 As Vector(Of Double))" />
@@ -4032,7 +4032,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Widen">
-      <MemberSignature Language="C#" Value="public static void Widen (System.Numerics.Vector&lt;ushort&gt; source, out System.Numerics.Vector&lt;uint&gt; dest1, out System.Numerics.Vector&lt;uint&gt; dest2);" />
+      <MemberSignature Language="C#" Value="public static void Widen ( source, out System.Numerics. dest1, out System.Numerics. dest2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Widen(valuetype System.Numerics.Vector`1&lt;unsigned int16&gt; source, [out] valuetype System.Numerics.Vector`1&lt;unsigned int32&gt;&amp; dest1, [out] valuetype System.Numerics.Vector`1&lt;unsigned int32&gt;&amp; dest2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Widen(System.Numerics.Vector{System.UInt16},System.Numerics.Vector{System.UInt32}@,System.Numerics.Vector{System.UInt32}@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Widen (source As Vector(Of UShort), ByRef dest1 As Vector(Of UInteger), ByRef dest2 As Vector(Of UInteger))" />
@@ -4074,7 +4074,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Widen">
-      <MemberSignature Language="C#" Value="public static void Widen (System.Numerics.Vector&lt;uint&gt; source, out System.Numerics.Vector&lt;ulong&gt; dest1, out System.Numerics.Vector&lt;ulong&gt; dest2);" />
+      <MemberSignature Language="C#" Value="public static void Widen ( source, out System.Numerics. dest1, out System.Numerics. dest2);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Widen(valuetype System.Numerics.Vector`1&lt;unsigned int32&gt; source, [out] valuetype System.Numerics.Vector`1&lt;unsigned int64&gt;&amp; dest1, [out] valuetype System.Numerics.Vector`1&lt;unsigned int64&gt;&amp; dest2) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Widen(System.Numerics.Vector{System.UInt32},System.Numerics.Vector{System.UInt64}@,System.Numerics.Vector{System.UInt64}@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub Widen (source As Vector(Of UInteger), ByRef dest1 As Vector(Of ULong), ByRef dest2 As Vector(Of ULong))" />
@@ -4116,7 +4116,7 @@ Note that this method returns a <xref:System.Single> instead of an integral type
       </Docs>
     </Member>
     <Member MemberName="Xor&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Numerics.Vector&lt;T&gt; Xor&lt;T&gt; (System.Numerics.Vector&lt;T&gt; left, System.Numerics.Vector&lt;T&gt; right) where T : struct;" />
+      <MemberSignature Language="C#" Value="public static  Xor&lt;T&gt; ( left,  right) where T : struct;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.Vector`1&lt;!!T&gt; Xor&lt;struct .ctor (class System.ValueType) T&gt;(valuetype System.Numerics.Vector`1&lt;!!T&gt; left, valuetype System.Numerics.Vector`1&lt;!!T&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Numerics.Vector.Xor``1(System.Numerics.Vector{``0},System.Numerics.Vector{``0})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Xor(Of T As Structure) (left As Vector(Of T), right As Vector(Of T)) As Vector(Of T)" />

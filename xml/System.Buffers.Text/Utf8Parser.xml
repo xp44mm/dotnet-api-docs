@@ -30,7 +30,7 @@
   </Docs>
   <Members>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out bool value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out bool value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] bool&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.Boolean@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As Boolean, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -80,7 +80,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out byte value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out byte value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] unsigned int8&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.Byte@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As Byte, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -132,7 +132,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out DateTime value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out DateTime value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] valuetype System.DateTime&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.DateTime@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As DateTime, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -184,7 +184,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out DateTimeOffset value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out DateTimeOffset value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] valuetype System.DateTimeOffset&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.DateTimeOffset@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As DateTimeOffset, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -236,7 +236,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out decimal value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out decimal value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] valuetype System.Decimal&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.Decimal@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As Decimal, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -287,7 +287,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out double value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out double value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] float64&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.Double@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As Double, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -338,7 +338,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out Guid value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out Guid value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] valuetype System.Guid&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.Guid@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As Guid, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -390,7 +390,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out short value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out short value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int16&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.Int16@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As Short, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -442,7 +442,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out int value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out int value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.Int32@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As Integer, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -494,7 +494,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out long value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out long value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int64&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.Int64@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As Long, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -546,7 +546,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out sbyte value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out sbyte value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int8&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.SByte@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As SByte, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -604,7 +604,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out float value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out float value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] float32&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.Single@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As Single, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -655,7 +655,7 @@ Format string|Example expected fornmat|Comments|
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out TimeSpan value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out TimeSpan value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] valuetype System.TimeSpan&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.TimeSpan@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As TimeSpan, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -706,7 +706,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out ushort value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out ushort value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] unsigned int16&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.UInt16@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As UShort, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -764,7 +764,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out uint value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out uint value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] unsigned int32&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.UInt32@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As UInteger, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />
@@ -822,7 +822,7 @@ Formats supported:
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (ReadOnlySpan&lt;byte&gt; source, out ulong value, out int bytesConsumed, char standardFormat = '\0');" />
+      <MemberSignature Language="C#" Value="public static bool TryParse ( source, out ulong value, out int bytesConsumed, char standardFormat = '\0');" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] unsigned int64&amp; value, [out] int32&amp; bytesConsumed, char standardFormat) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Buffers.Text.Utf8Parser.TryParse(System.ReadOnlySpan{System.Byte},System.UInt64@,System.Int32@,System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (source As ReadOnlySpan(Of Byte), ByRef value As ULong, ByRef bytesConsumed As Integer, Optional standardFormat As Char = '\0') As Boolean" />

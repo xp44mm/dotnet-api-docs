@@ -19,7 +19,7 @@
   </Docs>
   <Members>
     <Member MemberName="ReadBitString">
-      <MemberSignature Language="C#" Value="public static byte[]? ReadBitString (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int unusedBitCount, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static byte[] ReadBitString ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int unusedBitCount, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] ReadBitString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; unusedBitCount, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadBitString(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadBitString (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef unusedBitCount As Integer, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Byte()" />
@@ -70,7 +70,7 @@ The least significant bits in the last byte which are reported as "unused" by th
       </Docs>
     </Member>
     <Member MemberName="ReadBoolean">
-      <MemberSignature Language="C#" Value="public static bool ReadBoolean (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static bool ReadBoolean ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ReadBoolean(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadBoolean(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadBoolean (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -110,7 +110,7 @@ The least significant bits in the last byte which are reported as "unused" by th
       </Docs>
     </Member>
     <Member MemberName="ReadCharacterString">
-      <MemberSignature Language="C#" Value="public static string? ReadCharacterString (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, System.Formats.Asn1.UniversalTagNumber encodingType, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static string ReadCharacterString ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, System.Formats.Asn1.UniversalTagNumber encodingType, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ReadCharacterString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, valuetype System.Formats.Asn1.UniversalTagNumber encodingType, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadCharacterString(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.UniversalTagNumber,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadCharacterString (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, encodingType As UniversalTagNumber, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As String" />
@@ -156,7 +156,7 @@ The least significant bits in the last byte which are reported as "unused" by th
       </Docs>
     </Member>
     <Member MemberName="ReadEncodedValue">
-      <MemberSignature Language="C#" Value="public static System.Formats.Asn1.Asn1Tag ReadEncodedValue (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int contentOffset, out int contentLength, out int bytesConsumed);" />
+      <MemberSignature Language="C#" Value="public static System.Formats.Asn1.Asn1Tag ReadEncodedValue ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int contentOffset, out int contentLength, out int bytesConsumed);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Formats.Asn1.Asn1Tag ReadEncodedValue(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; contentOffset, [out] int32&amp; contentLength, [out] int32&amp; bytesConsumed) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadEncodedValue(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadEncodedValue (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef contentOffset As Integer, ByRef contentLength As Integer, ByRef bytesConsumed As Integer) As Asn1Tag" />
@@ -212,7 +212,7 @@ The least significant bits in the last byte which are reported as "unused" by th
       </Docs>
     </Member>
     <Member MemberName="ReadEnumeratedBytes">
-      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;byte&gt; ReadEnumeratedBytes (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static  ReadEnumeratedBytes ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; ReadEnumeratedBytes(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadEnumeratedBytes(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadEnumeratedBytes (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As ReadOnlySpan(Of Byte)" />
@@ -252,7 +252,7 @@ The least significant bits in the last byte which are reported as "unused" by th
       </Docs>
     </Member>
     <Member MemberName="ReadEnumeratedValue">
-      <MemberSignature Language="C#" Value="public static Enum ReadEnumeratedValue (ReadOnlySpan&lt;byte&gt;? source, System.Formats.Asn1.AsnEncodingRules ruleSet, Type enumType, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static Enum ReadEnumeratedValue ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, Type enumType, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Enum ReadEnumeratedValue(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, class System.Type enumType, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadEnumeratedValue(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Type,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadEnumeratedValue (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, enumType As Type, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Enum" />
@@ -308,7 +308,7 @@ This method does not validate that the return value is defined within `enumType`
       </Docs>
     </Member>
     <Member MemberName="ReadEnumeratedValue&lt;TEnum&gt;">
-      <MemberSignature Language="C#" Value="public static TEnum? ReadEnumeratedValue&lt;TEnum&gt; (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default) where TEnum : Enum;" />
+      <MemberSignature Language="C#" Value="public static TEnum ReadEnumeratedValue&lt;TEnum&gt; ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default) where TEnum : Enum;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TEnum ReadEnumeratedValue&lt;(class System.Enum) TEnum&gt;(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadEnumeratedValue``1(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadEnumeratedValue(Of TEnum As Enum) (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As TEnum" />
@@ -370,7 +370,7 @@ This method does not validate that the return value is defined within <typeparam
       </Docs>
     </Member>
     <Member MemberName="ReadGeneralizedTime">
-      <MemberSignature Language="C#" Value="public static DateTimeOffset ReadGeneralizedTime (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static DateTimeOffset ReadGeneralizedTime ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.DateTimeOffset ReadGeneralizedTime(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadGeneralizedTime(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadGeneralizedTime (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As DateTimeOffset" />
@@ -410,7 +410,7 @@ This method does not validate that the return value is defined within <typeparam
       </Docs>
     </Member>
     <Member MemberName="ReadInteger">
-      <MemberSignature Language="C#" Value="public static System.Numerics.BigInteger ReadInteger (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static System.Numerics.BigInteger ReadInteger ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Numerics.BigInteger ReadInteger(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadInteger(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadInteger (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As BigInteger" />
@@ -450,7 +450,7 @@ This method does not validate that the return value is defined within <typeparam
       </Docs>
     </Member>
     <Member MemberName="ReadIntegerBytes">
-      <MemberSignature Language="C#" Value="public static ReadOnlySpan&lt;byte&gt; ReadIntegerBytes (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static  ReadIntegerBytes ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; ReadIntegerBytes(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadIntegerBytes(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadIntegerBytes (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As ReadOnlySpan(Of Byte)" />
@@ -490,7 +490,7 @@ This method does not validate that the return value is defined within <typeparam
       </Docs>
     </Member>
     <Member MemberName="ReadNamedBitList">
-      <MemberSignature Language="C#" Value="public static System.Collections.BitArray? ReadNamedBitList (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static System.Collections.BitArray ReadNamedBitList ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.BitArray ReadNamedBitList(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadNamedBitList(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadNamedBitList (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As BitArray" />
@@ -539,7 +539,7 @@ The bit alignment performed by this method is to interpret the most significant 
       </Docs>
     </Member>
     <Member MemberName="ReadNamedBitListValue">
-      <MemberSignature Language="C#" Value="public static Enum ReadNamedBitListValue (ReadOnlySpan&lt;byte&gt;? source, System.Formats.Asn1.AsnEncodingRules ruleSet, Type flagsEnumType, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static Enum ReadNamedBitListValue ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, Type flagsEnumType, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Enum ReadNamedBitListValue(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, class System.Type flagsEnumType, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadNamedBitListValue(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Type,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadNamedBitListValue (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, flagsEnumType As Type, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Enum" />
@@ -588,7 +588,7 @@ The bit alignment performed by this method is to interpret the most significant 
       </Docs>
     </Member>
     <Member MemberName="ReadNamedBitListValue&lt;TFlagsEnum&gt;">
-      <MemberSignature Language="C#" Value="public static TFlagsEnum? ReadNamedBitListValue&lt;TFlagsEnum&gt; (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default) where TFlagsEnum : Enum;" />
+      <MemberSignature Language="C#" Value="public static TFlagsEnum ReadNamedBitListValue&lt;TFlagsEnum&gt; ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default) where TFlagsEnum : Enum;" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!TFlagsEnum ReadNamedBitListValue&lt;(class System.Enum) TFlagsEnum&gt;(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadNamedBitListValue``1(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadNamedBitListValue(Of TFlagsEnum As Enum) (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As TFlagsEnum" />
@@ -652,7 +652,7 @@ The bit alignment performed by this method is to interpret the most significant 
       </Docs>
     </Member>
     <Member MemberName="ReadNull">
-      <MemberSignature Language="C#" Value="public static void ReadNull (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static void ReadNull ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ReadNull(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadNull(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub ReadNull (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing)" />
@@ -691,7 +691,7 @@ The bit alignment performed by this method is to interpret the most significant 
       </Docs>
     </Member>
     <Member MemberName="ReadObjectIdentifier">
-      <MemberSignature Language="C#" Value="public static string? ReadObjectIdentifier (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static string ReadObjectIdentifier ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig string ReadObjectIdentifier(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadObjectIdentifier(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadObjectIdentifier (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As String" />
@@ -731,7 +731,7 @@ The bit alignment performed by this method is to interpret the most significant 
       </Docs>
     </Member>
     <Member MemberName="ReadOctetString">
-      <MemberSignature Language="C#" Value="public static byte[]? ReadOctetString (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static byte[] ReadOctetString ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] ReadOctetString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadOctetString(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadOctetString (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Byte()" />
@@ -771,7 +771,7 @@ The bit alignment performed by this method is to interpret the most significant 
       </Docs>
     </Member>
     <Member MemberName="ReadSequence">
-      <MemberSignature Language="C#" Value="public static void ReadSequence (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int contentOffset, out int contentLength, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static void ReadSequence ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int contentOffset, out int contentLength, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ReadSequence(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; contentOffset, [out] int32&amp; contentLength, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadSequence(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Int32@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub ReadSequence (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef contentOffset As Integer, ByRef contentLength As Integer, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing)" />
@@ -825,7 +825,7 @@ The nested content is not evaluated by this method, except for minimal processin
       </Docs>
     </Member>
     <Member MemberName="ReadSetOf">
-      <MemberSignature Language="C#" Value="public static void ReadSetOf (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int contentOffset, out int contentLength, out int bytesConsumed, bool skipSortOrderValidation = false, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static void ReadSetOf ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int contentOffset, out int contentLength, out int bytesConsumed, bool skipSortOrderValidation = false, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ReadSetOf(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; contentOffset, [out] int32&amp; contentLength, [out] int32&amp; bytesConsumed, bool skipSortOrderValidation, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadSetOf(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Int32@,System.Int32@,System.Boolean,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Sub ReadSetOf (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef contentOffset As Integer, ByRef contentLength As Integer, ByRef bytesConsumed As Integer, Optional skipSortOrderValidation As Boolean = false, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing)" />
@@ -882,7 +882,7 @@ The nested content is not evaluated by this method, except for minimal processin
       </Docs>
     </Member>
     <Member MemberName="ReadUtcTime">
-      <MemberSignature Language="C#" Value="public static DateTimeOffset ReadUtcTime (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, int twoDigitYearMax = 2049, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static DateTimeOffset ReadUtcTime ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, int twoDigitYearMax = 2049, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.DateTimeOffset ReadUtcTime(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, int32 twoDigitYearMax, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.ReadUtcTime(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Int32,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReadUtcTime (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, Optional twoDigitYearMax As Integer = 2049, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As DateTimeOffset" />
@@ -927,7 +927,7 @@ The nested content is not evaluated by this method, except for minimal processin
       </Docs>
     </Member>
     <Member MemberName="TryReadBitString">
-      <MemberSignature Language="C#" Value="public static bool TryReadBitString (ReadOnlySpan&lt;byte&gt; source, Span&lt;byte&gt; destination, System.Formats.Asn1.AsnEncodingRules ruleSet, out int unusedBitCount, out int bytesConsumed, out int bytesWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadBitString ( source,  destination, System.Formats.Asn1.AsnEncodingRules ruleSet, out int unusedBitCount, out int bytesConsumed, out int bytesWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadBitString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Span`1&lt;unsigned int8&gt; destination, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; unusedBitCount, [out] int32&amp; bytesConsumed, [out] int32&amp; bytesWritten, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadBitString(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Int32@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadBitString (source As ReadOnlySpan(Of Byte), destination As Span(Of Byte), ruleSet As AsnEncodingRules, ByRef unusedBitCount As Integer, ByRef bytesConsumed As Integer, ByRef bytesWritten As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -986,7 +986,7 @@ The least significant bits in the last byte which are reported as "unused" by th
       </Docs>
     </Member>
     <Member MemberName="TryReadCharacterString">
-      <MemberSignature Language="C#" Value="public static bool TryReadCharacterString (ReadOnlySpan&lt;byte&gt; source, Span&lt;char&gt; destination, System.Formats.Asn1.AsnEncodingRules ruleSet, System.Formats.Asn1.UniversalTagNumber encodingType, out int bytesConsumed, out int charsWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadCharacterString ( source,  destination, System.Formats.Asn1.AsnEncodingRules ruleSet, System.Formats.Asn1.UniversalTagNumber encodingType, out int bytesConsumed, out int charsWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadCharacterString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Span`1&lt;char&gt; destination, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, valuetype System.Formats.Asn1.UniversalTagNumber encodingType, [out] int32&amp; bytesConsumed, [out] int32&amp; charsWritten, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadCharacterString(System.ReadOnlySpan{System.Byte},System.Span{System.Char},System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.UniversalTagNumber,System.Int32@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadCharacterString (source As ReadOnlySpan(Of Byte), destination As Span(Of Char), ruleSet As AsnEncodingRules, encodingType As UniversalTagNumber, ByRef bytesConsumed As Integer, ByRef charsWritten As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -1038,7 +1038,7 @@ The least significant bits in the last byte which are reported as "unused" by th
       </Docs>
     </Member>
     <Member MemberName="TryReadCharacterStringBytes">
-      <MemberSignature Language="C#" Value="public static bool TryReadCharacterStringBytes (ReadOnlySpan&lt;byte&gt; source, Span&lt;byte&gt; destination, System.Formats.Asn1.AsnEncodingRules ruleSet, System.Formats.Asn1.Asn1Tag expectedTag, out int bytesConsumed, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadCharacterStringBytes ( source,  destination, System.Formats.Asn1.AsnEncodingRules ruleSet, System.Formats.Asn1.Asn1Tag expectedTag, out int bytesConsumed, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadCharacterStringBytes(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Span`1&lt;unsigned int8&gt; destination, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, valuetype System.Formats.Asn1.Asn1Tag expectedTag, [out] int32&amp; bytesConsumed, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadCharacterStringBytes(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.Asn1Tag,System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadCharacterStringBytes (source As ReadOnlySpan(Of Byte), destination As Span(Of Byte), ruleSet As AsnEncodingRules, expectedTag As Asn1Tag, ByRef bytesConsumed As Integer, ByRef bytesWritten As Integer) As Boolean" />
@@ -1094,7 +1094,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadEncodedValue">
-      <MemberSignature Language="C#" Value="public static bool TryReadEncodedValue (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out System.Formats.Asn1.Asn1Tag tag, out int contentOffset, out int contentLength, out int bytesConsumed);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadEncodedValue ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out System.Formats.Asn1.Asn1Tag tag, out int contentOffset, out int contentLength, out int bytesConsumed);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadEncodedValue(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] valuetype System.Formats.Asn1.Asn1Tag&amp; tag, [out] int32&amp; contentOffset, [out] int32&amp; contentLength, [out] int32&amp; bytesConsumed) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadEncodedValue(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.Asn1Tag@,System.Int32@,System.Int32@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadEncodedValue (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef tag As Asn1Tag, ByRef contentOffset As Integer, ByRef contentLength As Integer, ByRef bytesConsumed As Integer) As Boolean" />
@@ -1152,7 +1152,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadInt32">
-      <MemberSignature Language="C#" Value="public static bool TryReadInt32 (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadInt32 ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadInt32(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; value, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadInt32(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadInt32 (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef value As Integer, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -1196,7 +1196,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadInt64">
-      <MemberSignature Language="C#" Value="public static bool TryReadInt64 (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out long value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadInt64 ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out long value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadInt64(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int64&amp; value, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadInt64(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int64@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadInt64 (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef value As Long, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -1240,7 +1240,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadOctetString">
-      <MemberSignature Language="C#" Value="public static bool TryReadOctetString (ReadOnlySpan&lt;byte&gt; source, Span&lt;byte&gt; destination, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, out int bytesWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadOctetString ( source,  destination, System.Formats.Asn1.AsnEncodingRules ruleSet, out int bytesConsumed, out int bytesWritten, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadOctetString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Span`1&lt;unsigned int8&gt; destination, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; bytesConsumed, [out] int32&amp; bytesWritten, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadOctetString(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadOctetString (source As ReadOnlySpan(Of Byte), destination As Span(Of Byte), ruleSet As AsnEncodingRules, ByRef bytesConsumed As Integer, ByRef bytesWritten As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -1288,7 +1288,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadPrimitiveBitString">
-      <MemberSignature Language="C#" Value="public static bool TryReadPrimitiveBitString (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int unusedBitCount, out ReadOnlySpan&lt;byte&gt; value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadPrimitiveBitString ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out int unusedBitCount, out  value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadPrimitiveBitString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] int32&amp; unusedBitCount, [out] valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; value, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadPrimitiveBitString(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Int32@,System.ReadOnlySpan{System.Byte}@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadPrimitiveBitString (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef unusedBitCount As Integer, ByRef value As ReadOnlySpan(Of Byte), ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -1335,7 +1335,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadPrimitiveCharacterStringBytes">
-      <MemberSignature Language="C#" Value="public static bool TryReadPrimitiveCharacterStringBytes (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, System.Formats.Asn1.Asn1Tag expectedTag, out ReadOnlySpan&lt;byte&gt; value, out int bytesConsumed);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadPrimitiveCharacterStringBytes ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, System.Formats.Asn1.Asn1Tag expectedTag, out  value, out int bytesConsumed);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadPrimitiveCharacterStringBytes(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, valuetype System.Formats.Asn1.Asn1Tag expectedTag, [out] valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; value, [out] int32&amp; bytesConsumed) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadPrimitiveCharacterStringBytes(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.Formats.Asn1.Asn1Tag,System.ReadOnlySpan{System.Byte}@,System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadPrimitiveCharacterStringBytes (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, expectedTag As Asn1Tag, ByRef value As ReadOnlySpan(Of Byte), ByRef bytesConsumed As Integer) As Boolean" />
@@ -1388,7 +1388,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadPrimitiveOctetString">
-      <MemberSignature Language="C#" Value="public static bool TryReadPrimitiveOctetString (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out ReadOnlySpan&lt;byte&gt; value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadPrimitiveOctetString ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out  value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadPrimitiveOctetString(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt;&amp; value, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadPrimitiveOctetString(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.ReadOnlySpan{System.Byte}@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadPrimitiveOctetString (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef value As ReadOnlySpan(Of Byte), ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -1432,7 +1432,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadUInt32">
-      <MemberSignature Language="C#" Value="public static bool TryReadUInt32 (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out uint value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadUInt32 ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out uint value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadUInt32(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] unsigned int32&amp; value, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadUInt32(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.UInt32@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadUInt32 (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef value As UInteger, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />
@@ -1482,7 +1482,7 @@ This method does not determine if the string used only characters defined by the
       </Docs>
     </Member>
     <Member MemberName="TryReadUInt64">
-      <MemberSignature Language="C#" Value="public static bool TryReadUInt64 (ReadOnlySpan&lt;byte&gt; source, System.Formats.Asn1.AsnEncodingRules ruleSet, out ulong value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
+      <MemberSignature Language="C#" Value="public static bool TryReadUInt64 ( source, System.Formats.Asn1.AsnEncodingRules ruleSet, out ulong value, out int bytesConsumed, System.Formats.Asn1.Asn1Tag? expectedTag = default);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryReadUInt64(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Formats.Asn1.AsnEncodingRules ruleSet, [out] unsigned int64&amp; value, [out] int32&amp; bytesConsumed, valuetype System.Nullable`1&lt;valuetype System.Formats.Asn1.Asn1Tag&gt; expectedTag) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnDecoder.TryReadUInt64(System.ReadOnlySpan{System.Byte},System.Formats.Asn1.AsnEncodingRules,System.UInt64@,System.Int32@,System.Nullable{System.Formats.Asn1.Asn1Tag})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryReadUInt64 (source As ReadOnlySpan(Of Byte), ruleSet As AsnEncodingRules, ByRef value As ULong, ByRef bytesConsumed As Integer, Optional expectedTag As Nullable(Of Asn1Tag) = Nothing) As Boolean" />

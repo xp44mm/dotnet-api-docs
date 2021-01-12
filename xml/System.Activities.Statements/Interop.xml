@@ -58,7 +58,7 @@
       </Docs>
     </Member>
     <Member MemberName="ActivityMetaProperties">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; ActivityMetaProperties { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, object&gt; ActivityMetaProperties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; ActivityMetaProperties" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Statements.Interop.ActivityMetaProperties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActivityMetaProperties As IDictionary(Of String, Object)" />
@@ -76,7 +76,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>The collection of name-value pairs that corresponds to the metadata of the <see cref="T:System.Workflow.ComponentModel.Activity" />, such as an activity's <see cref="P:System.Workflow.ComponentModel.Activity.Name" /> property, or a <see cref="T:System.Workflow.Activities.WhileActivity" /> activity's <see cref="P:System.Workflow.Activities.WhileActivity.Condition" /> property.</summary>
@@ -85,7 +85,7 @@
       </Docs>
     </Member>
     <Member MemberName="ActivityProperties">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,System.Activities.Argument&gt; ActivityProperties { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, System.Activities.Argument&gt; ActivityProperties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class System.Activities.Argument&gt; ActivityProperties" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Statements.Interop.ActivityProperties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ActivityProperties As IDictionary(Of String, Argument)" />
@@ -103,7 +103,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Activities.Argument&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Activities.Argument&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the collection of name-value pairs that corresponds to the input and output properties of the <see cref="T:System.Workflow.ComponentModel.Activity" />.</summary>

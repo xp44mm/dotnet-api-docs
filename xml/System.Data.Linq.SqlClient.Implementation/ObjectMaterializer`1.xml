@@ -158,7 +158,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateGroup&lt;TKey,TElement&gt;">
-      <MemberSignature Language="C#" Value="public static System.Linq.IGrouping&lt;TKey,TElement&gt; CreateGroup&lt;TKey,TElement&gt; (TKey key, System.Collections.Generic.IEnumerable&lt;TElement&gt; items);" />
+      <MemberSignature Language="C#" Value="public static System.Linq.IGrouping&lt;TKey, TElement&gt; CreateGroup&lt;TKey,TElement&gt; (TKey key, System.Collections.Generic.IEnumerable&lt;TElement&gt; items);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Linq.IGrouping`2&lt;!!TKey, !!TElement&gt; CreateGroup&lt;TKey, TElement&gt;(!!TKey key, class System.Collections.Generic.IEnumerable`1&lt;!!TElement&gt; items) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Linq.SqlClient.Implementation.ObjectMaterializer`1.CreateGroup``2(``0,System.Collections.Generic.IEnumerable{``1})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CreateGroup(Of TKey, TElement) (key As TKey, items As IEnumerable(Of TElement)) As IGrouping(Of TKey, TElement)" />
@@ -171,7 +171,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Linq.IGrouping&lt;TKey,TElement&gt;</ReturnType>
+        <ReturnType>System.Linq.IGrouping&lt;TKey, TElement&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TKey" />

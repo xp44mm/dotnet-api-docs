@@ -3198,7 +3198,7 @@ BookmarkName: EnterGuess - OwnerDisplayName: ReadInt
       </Docs>
     </Member>
     <Member MemberName="OnUnhandledException">
-      <MemberSignature Language="C#" Value="public Func&lt;System.Activities.WorkflowApplicationUnhandledExceptionEventArgs,System.Activities.UnhandledExceptionAction&gt; OnUnhandledException { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;System.Activities.WorkflowApplicationUnhandledExceptionEventArgs, System.Activities.UnhandledExceptionAction&gt; OnUnhandledException { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Activities.WorkflowApplicationUnhandledExceptionEventArgs, valuetype System.Activities.UnhandledExceptionAction&gt; OnUnhandledException" />
       <MemberSignature Language="DocId" Value="P:System.Activities.WorkflowApplication.OnUnhandledException" />
       <MemberSignature Language="VB.NET" Value="Public Property OnUnhandledException As Func(Of WorkflowApplicationUnhandledExceptionEventArgs, UnhandledExceptionAction)" />
@@ -3216,7 +3216,7 @@ BookmarkName: EnterGuess - OwnerDisplayName: ReadInt
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Activities.WorkflowApplicationUnhandledExceptionEventArgs,System.Activities.UnhandledExceptionAction&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Activities.WorkflowApplicationUnhandledExceptionEventArgs, System.Activities.UnhandledExceptionAction&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the <see cref="T:System.Func`2" /> that is invoked when the current workflow instance encounters an unhandled exception.</summary>
@@ -3331,7 +3331,7 @@ BookmarkName: EnterGuess - OwnerDisplayName: ReadInt
       </Docs>
     </Member>
     <Member MemberName="PersistableIdle">
-      <MemberSignature Language="C#" Value="public Func&lt;System.Activities.WorkflowApplicationIdleEventArgs,System.Activities.PersistableIdleAction&gt; PersistableIdle { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;System.Activities.WorkflowApplicationIdleEventArgs, System.Activities.PersistableIdleAction&gt; PersistableIdle { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Activities.WorkflowApplicationIdleEventArgs, valuetype System.Activities.PersistableIdleAction&gt; PersistableIdle" />
       <MemberSignature Language="DocId" Value="P:System.Activities.WorkflowApplication.PersistableIdle" />
       <MemberSignature Language="VB.NET" Value="Public Property PersistableIdle As Func(Of WorkflowApplicationIdleEventArgs, PersistableIdleAction)" />
@@ -3349,7 +3349,7 @@ BookmarkName: EnterGuess - OwnerDisplayName: ReadInt
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Activities.WorkflowApplicationIdleEventArgs,System.Activities.PersistableIdleAction&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Activities.WorkflowApplicationIdleEventArgs, System.Activities.PersistableIdleAction&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the delegate that is invoked when the current workflow instance is idle and can be persisted.</summary>

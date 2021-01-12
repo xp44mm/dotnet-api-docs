@@ -1,5 +1,5 @@
 <Type Name="UriSchemeKeyedCollection" FullName="System.ServiceModel.UriSchemeKeyedCollection">
-  <TypeSignature Language="C#" Value="public class UriSchemeKeyedCollection : System.Collections.Generic.SynchronizedKeyedCollection&lt;string,Uri&gt;" />
+  <TypeSignature Language="C#" Value="public class UriSchemeKeyedCollection : System.Collections.Generic.SynchronizedKeyedCollection&lt;string, Uri&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit UriSchemeKeyedCollection extends System.Collections.Generic.SynchronizedKeyedCollection`2&lt;string, class System.Uri&gt;" />
   <TypeSignature Language="DocId" Value="T:System.ServiceModel.UriSchemeKeyedCollection" />
   <TypeSignature Language="VB.NET" Value="Public Class UriSchemeKeyedCollection&#xA;Inherits SynchronizedKeyedCollection(Of String, Uri)" />
@@ -12,7 +12,7 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
-    <BaseTypeName>System.Collections.Generic.SynchronizedKeyedCollection&lt;System.String,System.Uri&gt;</BaseTypeName>
+    <BaseTypeName>System.Collections.Generic.SynchronizedKeyedCollection&lt;System.String, System.Uri&gt;</BaseTypeName>
     <BaseTypeArguments>
       <BaseTypeArgument TypeParamName="K">System.String</BaseTypeArgument>
       <BaseTypeArgument TypeParamName="T">System.Uri</BaseTypeArgument>

@@ -59,7 +59,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="Deconstruct&lt;T1&gt;">
-      <MemberSignature Language="C#" Value="public static void Deconstruct&lt;T1&gt; (this (T1) value, out T1 item1);" />
+      <MemberSignature Language="C#" Value="public static void Deconstruct&lt;T1&gt; (this Tuple&lt;T1&gt; value, out T1 item1);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Deconstruct&lt;T1&gt;(class System.Tuple`1&lt;!!T1&gt; value, [out] !!T1&amp; item1) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.TupleExtensions.Deconstruct``1(System.Tuple{``0},``0@)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub Deconstruct(Of T1) (value As Tuple(Of T1), ByRef item1 As T1)" />
@@ -2199,7 +2199,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="ToTuple&lt;T1&gt;">
-      <MemberSignature Language="C#" Value="public static (T1) ToTuple&lt;T1&gt; (this (T1) value);" />
+      <MemberSignature Language="C#" Value="public static Tuple&lt;T1&gt; ToTuple&lt;T1&gt; (this (T1) value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Tuple`1&lt;!!T1&gt; ToTuple&lt;T1&gt;(valuetype System.ValueTuple`1&lt;!!T1&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.TupleExtensions.ToTuple``1(System.ValueTuple{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToTuple(Of T1) (value As ValueTuple(Of T1)) As Tuple(Of T1)" />
@@ -3594,7 +3594,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="ToValueTuple&lt;T1&gt;">
-      <MemberSignature Language="C#" Value="public static (T1) ToValueTuple&lt;T1&gt; (this (T1) value);" />
+      <MemberSignature Language="C#" Value="public static (T1) ToValueTuple&lt;T1&gt; (this Tuple&lt;T1&gt; value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.ValueTuple`1&lt;!!T1&gt; ToValueTuple&lt;T1&gt;(class System.Tuple`1&lt;!!T1&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.TupleExtensions.ToValueTuple``1(System.Tuple{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToValueTuple(Of T1) (value As Tuple(Of T1)) As ValueTuple(Of T1)" />

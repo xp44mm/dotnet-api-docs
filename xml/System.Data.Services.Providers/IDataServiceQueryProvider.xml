@@ -67,7 +67,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetOpenPropertyValues">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt; GetOpenPropertyValues (object target);" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;&gt; GetOpenPropertyValues (object target);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt; GetOpenPropertyValues(object target) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Services.Providers.IDataServiceQueryProvider.GetOpenPropertyValues(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetOpenPropertyValues (target As Object) As IEnumerable(Of KeyValuePair(Of String, Object))" />
@@ -80,7 +80,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="target" Type="System.Object" />

@@ -1,5 +1,5 @@
 <Type Name="FormattedLogValues" FullName="Microsoft.Extensions.Logging.Internal.FormattedLogValues">
-  <TypeSignature Language="C#" Value="public class FormattedLogValues : System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt;, System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt;, System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt;" />
+  <TypeSignature Language="C#" Value="public class FormattedLogValues : System.Collections.Generic.IEnumerable&lt;&gt;, System.Collections.Generic.IReadOnlyCollection&lt;&gt;, System.Collections.Generic.IReadOnlyList&lt;&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit FormattedLogValues extends System.Object implements class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt;, class System.Collections.Generic.IReadOnlyCollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt;, class System.Collections.Generic.IReadOnlyList`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:Microsoft.Extensions.Logging.Internal.FormattedLogValues" />
   <TypeSignature Language="VB.NET" Value="Public Class FormattedLogValues&#xA;Implements IEnumerable(Of KeyValuePair(Of String, Object)), IReadOnlyCollection(Of KeyValuePair(Of String, Object)), IReadOnlyList(Of KeyValuePair(Of String, Object))" />
@@ -19,19 +19,19 @@
   </Base>
   <Interfaces>
     <Interface>
-      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>System.Collections.Generic.IEnumerable&lt;T&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>System.Collections.Generic.IReadOnlyCollection&lt;T&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.IReadOnlyList&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>System.Collections.IEnumerable</InterfaceName>
@@ -106,7 +106,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt; GetEnumerator ();" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;&gt; GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt; GetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.Internal.FormattedLogValues.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Iterator Overridable NotOverridable Function GetEnumerator () As IEnumerator(Of KeyValuePair(Of String, Object))" />
@@ -139,7 +139,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -149,7 +149,7 @@
       </Docs>
     </Member>
     <Member MemberName="Item">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.KeyValuePair&lt;string,object&gt; this[int index] { get; }" />
+      <MemberSignature Language="C#" Value="public  this[int index] { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt; Item(int32)" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Logging.Internal.FormattedLogValues.Item(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(index As Integer) As KeyValuePair(Of String, Object)" />
@@ -168,7 +168,7 @@
         <AssemblyVersion>2.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="index" Type="System.Int32" />

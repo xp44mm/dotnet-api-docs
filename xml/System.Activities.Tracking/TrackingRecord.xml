@@ -99,7 +99,7 @@
       </Docs>
     </Member>
     <Member MemberName="Annotations">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; Annotations { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, string&gt; Annotations { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Annotations" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Tracking.TrackingRecord.Annotations" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Annotations As IDictionary(Of String, String)" />
@@ -117,7 +117,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>When implemented in a derived class, represents a collection of name/value pairs that are added to this tracking record.</summary>

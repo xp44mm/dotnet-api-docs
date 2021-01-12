@@ -101,7 +101,7 @@
       </Docs>
     </Member>
     <Member MemberName="ProjectsByGuid">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,Microsoft.Build.Construction.ProjectInSolution&gt; ProjectsByGuid { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string, Microsoft.Build.Construction.ProjectInSolution&gt; ProjectsByGuid { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, class Microsoft.Build.Construction.ProjectInSolution&gt; ProjectsByGuid" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Construction.SolutionFile.ProjectsByGuid" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProjectsByGuid As IReadOnlyDictionary(Of String, ProjectInSolution)" />
@@ -113,7 +113,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Microsoft.Build.Construction.ProjectInSolution&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String, Microsoft.Build.Construction.ProjectInSolution&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

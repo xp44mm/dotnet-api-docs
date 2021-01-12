@@ -265,13 +265,12 @@ This key/value pair is included in the collection returned by the <xref:System.D
       </Docs>
     </Member>
     <Member MemberName="Baggage">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt;? Baggage { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;&gt; Baggage { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; Baggage" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.Activity.Baggage" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Baggage As IEnumerable(Of KeyValuePair(Of String, String))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;System::String ^, System::String ^&gt;&gt; ^ Baggage { System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;System::String ^, System::String ^&gt;&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Baggage : seq&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="System.Diagnostics.Activity.Baggage" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; Baggage { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
@@ -283,7 +282,7 @@ This key/value pair is included in the collection returned by the <xref:System.D
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.String&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a collection of key/value pairs that represents information that is passed to children of this <see cref="T:System.Diagnostics.Activity" />.</summary>
@@ -1324,7 +1323,7 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
       </Docs>
     </Member>
     <Member MemberName="TagObjects">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt;? TagObjects { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;&gt; TagObjects { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt; TagObjects" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.Activity.TagObjects" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TagObjects As IEnumerable(Of KeyValuePair(Of String, Object))" />
@@ -1336,7 +1335,7 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the list of tags that represent information to log along with the activity. This information is not passed on to the children of this activity.</summary>
@@ -1345,13 +1344,12 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
       </Docs>
     </Member>
     <Member MemberName="Tags">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt;? Tags { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;&gt; Tags { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; Tags" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.Activity.Tags" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tags As IEnumerable(Of KeyValuePair(Of String, String))" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;System::String ^, System::String ^&gt;&gt; ^ Tags { System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;System::String ^, System::String ^&gt;&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Tags : seq&lt;System.Collections.Generic.KeyValuePair&lt;string, string&gt;&gt;" Usage="System.Diagnostics.Activity.Tags" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; Tags { get; }" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
@@ -1363,7 +1361,7 @@ Call <xref:System.Diagnostics.DiagnosticSource.StopActivity%2A?displayProperty=n
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.String&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a collection of key/value pairs that represent information that will be logged along with the <see cref="T:System.Diagnostics.Activity" /> to the logging system.</summary>

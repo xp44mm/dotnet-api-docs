@@ -77,7 +77,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetValue">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.KeyValuePair&lt;string,object&gt; GetValue (object[] values, int index);" />
+      <MemberSignature Language="C#" Value="public  GetValue (object[] values, int index);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt; GetValue(object[] values, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.Internal.LogValuesFormatter.GetValue(System.Object[],System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetValue (values As Object(), index As Integer) As KeyValuePair(Of String, Object)" />
@@ -93,7 +93,7 @@
         <AssemblyVersion>2.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="values" Type="System.Object[]" />
@@ -108,7 +108,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetValues">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,object&gt;&gt; GetValues (object[] values);" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;&gt; GetValues (object[] values);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, object&gt;&gt; GetValues(object[] values) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.Internal.LogValuesFormatter.GetValues(System.Object[])" />
       <MemberSignature Language="VB.NET" Value="Public Function GetValues (values As Object()) As IEnumerable(Of KeyValuePair(Of String, Object))" />
@@ -124,7 +124,7 @@
         <AssemblyVersion>2.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.Object&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="values" Type="System.Object[]" />

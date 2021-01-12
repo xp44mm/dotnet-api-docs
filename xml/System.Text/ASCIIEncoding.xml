@@ -150,7 +150,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="GetByteCount">
-      <MemberSignature Language="C#" Value="public override int GetByteCount (ReadOnlySpan&lt;char&gt; chars);" />
+      <MemberSignature Language="C#" Value="public override int GetByteCount ( chars);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetByteCount(valuetype System.ReadOnlySpan`1&lt;char&gt; chars) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.ASCIIEncoding.GetByteCount(System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetByteCount (chars As ReadOnlySpan(Of Char)) As Integer" />
@@ -441,7 +441,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="GetBytes">
-      <MemberSignature Language="C#" Value="public override int GetBytes (ReadOnlySpan&lt;char&gt; chars, Span&lt;byte&gt; bytes);" />
+      <MemberSignature Language="C#" Value="public override int GetBytes ( chars,  bytes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetBytes(valuetype System.ReadOnlySpan`1&lt;char&gt; chars, valuetype System.Span`1&lt;unsigned int8&gt; bytes) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.ASCIIEncoding.GetBytes(System.ReadOnlySpan{System.Char},System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetBytes (chars As ReadOnlySpan(Of Char), bytes As Span(Of Byte)) As Integer" />
@@ -800,7 +800,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="GetCharCount">
-      <MemberSignature Language="C#" Value="public override int GetCharCount (ReadOnlySpan&lt;byte&gt; bytes);" />
+      <MemberSignature Language="C#" Value="public override int GetCharCount ( bytes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetCharCount(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; bytes) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.ASCIIEncoding.GetCharCount(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetCharCount (bytes As ReadOnlySpan(Of Byte)) As Integer" />
@@ -1016,7 +1016,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="GetChars">
-      <MemberSignature Language="C#" Value="public override int GetChars (ReadOnlySpan&lt;byte&gt; bytes, Span&lt;char&gt; chars);" />
+      <MemberSignature Language="C#" Value="public override int GetChars ( bytes,  chars);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance int32 GetChars(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; bytes, valuetype System.Span`1&lt;char&gt; chars) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Text.ASCIIEncoding.GetChars(System.ReadOnlySpan{System.Byte},System.Span{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function GetChars (bytes As ReadOnlySpan(Of Byte), chars As Span(Of Char)) As Integer" />

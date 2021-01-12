@@ -785,7 +785,7 @@ The following example uses the parameterless constructor to instantiate three <x
       </Docs>
     </Member>
     <Member MemberName="NextBytes">
-      <MemberSignature Language="C#" Value="public virtual void NextBytes (Span&lt;byte&gt; buffer);" />
+      <MemberSignature Language="C#" Value="public virtual void NextBytes ( buffer);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void NextBytes(valuetype System.Span`1&lt;unsigned int8&gt; buffer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Random.NextBytes(System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub NextBytes (buffer As Span(Of Byte))" />

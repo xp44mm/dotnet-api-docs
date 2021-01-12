@@ -1,5 +1,5 @@
 <Type Name="ModelBinderDictionary" FullName="System.Web.ModelBinding.ModelBinderDictionary">
-  <TypeSignature Language="C#" Value="public class ModelBinderDictionary : System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;Type,System.Web.ModelBinding.IModelBinder&gt;&gt;, System.Collections.Generic.IDictionary&lt;Type,System.Web.ModelBinding.IModelBinder&gt;, System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;Type,System.Web.ModelBinding.IModelBinder&gt;&gt;" />
+  <TypeSignature Language="C#" Value="public class ModelBinderDictionary : System.Collections.Generic.ICollection&lt;&gt;, System.Collections.Generic.IDictionary&lt;Type, System.Web.ModelBinding.IModelBinder&gt;, System.Collections.Generic.IEnumerable&lt;&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ModelBinderDictionary extends System.Object implements class System.Collections.Generic.ICollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;class System.Type, class System.Web.ModelBinding.IModelBinder&gt;&gt;, class System.Collections.Generic.IDictionary`2&lt;class System.Type, class System.Web.ModelBinding.IModelBinder&gt;, class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;class System.Type, class System.Web.ModelBinding.IModelBinder&gt;&gt;, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:System.Web.ModelBinding.ModelBinderDictionary" />
   <TypeSignature Language="VB.NET" Value="Public Class ModelBinderDictionary&#xA;Implements ICollection(Of KeyValuePair(Of Type, IModelBinder)), IDictionary(Of Type, IModelBinder), IEnumerable(Of KeyValuePair(Of Type, IModelBinder))" />
@@ -14,19 +14,19 @@
   </Base>
   <Interfaces>
     <Interface>
-      <InterfaceName>System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.Type,System.Web.ModelBinding.IModelBinder&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.Type, System.Web.ModelBinding.IModelBinder&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Collections.Generic.IDictionary&lt;System.Type,System.Web.ModelBinding.IModelBinder&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.IDictionary&lt;System.Type, System.Web.ModelBinding.IModelBinder&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.Type,System.Web.ModelBinding.IModelBinder&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.Type, System.Web.ModelBinding.IModelBinder&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>System.Collections.Generic.IEnumerable&lt;T&gt;</InterfaceName>
@@ -279,7 +279,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;Type,System.Web.ModelBinding.IModelBinder&gt;&gt; GetEnumerator ();" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;&gt; GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;class System.Type, class System.Web.ModelBinding.IModelBinder&gt;&gt; GetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Web.ModelBinding.ModelBinderDictionary.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of KeyValuePair(Of Type, IModelBinder))" />
@@ -294,7 +294,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;System.Type,System.Web.ModelBinding.IModelBinder&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;System.Type, System.Web.ModelBinding.IModelBinder&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

@@ -1,5 +1,5 @@
 <Type Name="KeyedByTypeCollection&lt;TItem&gt;" FullName="System.Collections.Generic.KeyedByTypeCollection&lt;TItem&gt;">
-  <TypeSignature Language="C#" Value="public class KeyedByTypeCollection&lt;TItem&gt; : System.Collections.ObjectModel.KeyedCollection&lt;Type,TItem&gt;" />
+  <TypeSignature Language="C#" Value="public class KeyedByTypeCollection&lt;TItem&gt; : System.Collections.ObjectModel.KeyedCollection&lt;Type, TItem&gt;" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit KeyedByTypeCollection`1&lt;TItem&gt; extends System.Collections.ObjectModel.KeyedCollection`2&lt;class System.Type, !TItem&gt;" />
   <TypeSignature Language="DocId" Value="T:System.Collections.Generic.KeyedByTypeCollection`1" />
   <TypeSignature Language="VB.NET" Value="Public Class KeyedByTypeCollection(Of TItem)&#xA;Inherits KeyedCollection(Of Type, TItem)" />
@@ -29,7 +29,7 @@
     <TypeParameter Name="TItem" />
   </TypeParameters>
   <Base>
-    <BaseTypeName>System.Collections.ObjectModel.KeyedCollection&lt;System.Type,TItem&gt;</BaseTypeName>
+    <BaseTypeName>System.Collections.ObjectModel.KeyedCollection&lt;System.Type, TItem&gt;</BaseTypeName>
     <BaseTypeArguments>
       <BaseTypeArgument TypeParamName="!0">System.Type</BaseTypeArgument>
       <BaseTypeArgument TypeParamName="!1">TItem</BaseTypeArgument>

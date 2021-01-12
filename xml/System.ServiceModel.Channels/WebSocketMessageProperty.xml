@@ -77,7 +77,7 @@
       </Docs>
     </Member>
     <Member MemberName="OpeningHandshakeProperties">
-      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyDictionary&lt;string,object&gt; OpeningHandshakeProperties { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyDictionary&lt;string, object&gt; OpeningHandshakeProperties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.ReadOnlyDictionary`2&lt;string, object&gt; OpeningHandshakeProperties" />
       <MemberSignature Language="DocId" Value="P:System.ServiceModel.Channels.WebSocketMessageProperty.OpeningHandshakeProperties" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property OpeningHandshakeProperties As ReadOnlyDictionary(Of String, Object)" />
@@ -89,7 +89,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.ObjectModel.ReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.ObjectModel.ReadOnlyDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a collection of opening handshake properties.</summary>

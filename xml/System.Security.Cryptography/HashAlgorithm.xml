@@ -770,7 +770,7 @@ This method is obsolete in .NET 5.0 and later versions.
       </Docs>
     </Member>
     <Member MemberName="HashCore">
-      <MemberSignature Language="C#" Value="protected virtual void HashCore (ReadOnlySpan&lt;byte&gt; source);" />
+      <MemberSignature Language="C#" Value="protected virtual void HashCore ( source);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance void HashCore(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HashAlgorithm.HashCore(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Sub HashCore (source As ReadOnlySpan(Of Byte))" />
@@ -1425,7 +1425,7 @@ For more information about Dispose and Finalize, see [Cleaning Up Unmanaged Reso
       </Docs>
     </Member>
     <Member MemberName="TryComputeHash">
-      <MemberSignature Language="C#" Value="public bool TryComputeHash (ReadOnlySpan&lt;byte&gt; source, Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public bool TryComputeHash ( source,  destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool TryComputeHash(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HashAlgorithm.TryComputeHash(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function TryComputeHash (source As ReadOnlySpan(Of Byte), destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
@@ -1464,7 +1464,7 @@ For more information about Dispose and Finalize, see [Cleaning Up Unmanaged Reso
       </Docs>
     </Member>
     <Member MemberName="TryHashFinal">
-      <MemberSignature Language="C#" Value="protected virtual bool TryHashFinal (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="protected virtual bool TryHashFinal ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance bool TryHashFinal(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HashAlgorithm.TryHashFinal(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Protected Overridable Function TryHashFinal (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />

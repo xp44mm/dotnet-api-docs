@@ -33,7 +33,7 @@
   </Docs>
   <Members>
     <Member MemberName="GetFunctionPointerType">
-      <MemberSignature Language="C#" Value="public TType GetFunctionPointerType (System.Reflection.Metadata.MethodSignature&lt;TType&gt; signature);" />
+      <MemberSignature Language="C#" Value="public TType GetFunctionPointerType ( signature);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance !TType GetFunctionPointerType(valuetype System.Reflection.Metadata.MethodSignature`1&lt;!TType&gt; signature) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.ISignatureTypeProvider`1.GetFunctionPointerType(System.Reflection.Metadata.MethodSignature{`0})" />
       <MemberSignature Language="VB.NET" Value="Public Function GetFunctionPointerType (signature As MethodSignature(Of TType)) As TType" />

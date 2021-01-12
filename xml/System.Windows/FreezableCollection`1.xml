@@ -627,7 +627,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
-      <MemberSignature Language="C#" Value="public System.Windows.FreezableCollection&lt;T&gt;.Enumerator GetEnumerator ();" />
+      <MemberSignature Language="C#" Value="public  GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Windows.FreezableCollection`1/Enumerator&lt;!T&gt; GetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.FreezableCollection`1.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As FreezableCollection(Of T).Enumerator" />

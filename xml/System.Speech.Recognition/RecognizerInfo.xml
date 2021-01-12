@@ -69,7 +69,7 @@ private SpeechRecognitionEngine SelectRecognizer(CultureInfo requiredCulture, st
   </Docs>
   <Members>
     <Member MemberName="AdditionalInfo">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; AdditionalInfo { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, string&gt; AdditionalInfo { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; AdditionalInfo" />
       <MemberSignature Language="DocId" Value="P:System.Speech.Recognition.RecognizerInfo.AdditionalInfo" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdditionalInfo As IDictionary(Of String, String)" />
@@ -88,7 +88,7 @@ private SpeechRecognitionEngine SelectRecognizer(CultureInfo requiredCulture, st
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets additional information about a <see cref="T:System.Speech.Recognition.SpeechRecognizer" /> or <see cref="T:System.Speech.Recognition.SpeechRecognitionEngine" /> instance.</summary>

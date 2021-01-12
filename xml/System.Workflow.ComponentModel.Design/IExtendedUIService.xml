@@ -187,7 +187,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetXsdProjectItemsInfo">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,Type&gt; GetXsdProjectItemsInfo ();" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string, Type&gt; GetXsdProjectItemsInfo ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, class System.Type&gt; GetXsdProjectItemsInfo() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Workflow.ComponentModel.Design.IExtendedUIService.GetXsdProjectItemsInfo" />
       <MemberSignature Language="VB.NET" Value="Public Function GetXsdProjectItemsInfo () As Dictionary(Of String, Type)" />
@@ -200,7 +200,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Type&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.Type&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

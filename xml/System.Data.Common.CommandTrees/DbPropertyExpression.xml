@@ -169,7 +169,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToKeyValuePair">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.KeyValuePair&lt;string,System.Data.Common.CommandTrees.DbExpression&gt; ToKeyValuePair ();" />
+      <MemberSignature Language="C#" Value="public  ToKeyValuePair ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class System.Data.Common.CommandTrees.DbExpression&gt; ToKeyValuePair() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.CommandTrees.DbPropertyExpression.ToKeyValuePair" />
       <MemberSignature Language="VB.NET" Value="Public Function ToKeyValuePair () As KeyValuePair(Of String, DbExpression)" />
@@ -181,7 +181,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String,System.Data.Common.CommandTrees.DbExpression&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String, System.Data.Common.CommandTrees.DbExpression&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

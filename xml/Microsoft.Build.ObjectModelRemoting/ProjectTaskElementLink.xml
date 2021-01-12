@@ -65,7 +65,7 @@
       </Docs>
     </Member>
     <Member MemberName="ParameterLocations">
-      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,Microsoft.Build.Construction.ElementLocation&gt;&gt; ParameterLocations { get; }" />
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IEnumerable&lt;&gt; ParameterLocations { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class Microsoft.Build.Construction.ElementLocation&gt;&gt; ParameterLocations" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.ObjectModelRemoting.ProjectTaskElementLink.ParameterLocations" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property ParameterLocations As IEnumerable(Of KeyValuePair(Of String, ElementLocation))" />
@@ -77,7 +77,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,Microsoft.Build.Construction.ElementLocation&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, Microsoft.Build.Construction.ElementLocation&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -88,7 +88,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parameters">
-      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string,string&gt; Parameters { get; }" />
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string, string&gt; Parameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Parameters" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.ObjectModelRemoting.ProjectTaskElementLink.Parameters" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property Parameters As IDictionary(Of String, String)" />
@@ -100,7 +100,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

@@ -153,7 +153,7 @@ A provider is only queried once for each unique export key. The descriptor acces
       </Docs>
     </Member>
     <Member MemberName="NoMetadata">
-      <MemberSignature Language="C#" Value="protected static readonly System.Collections.Generic.IDictionary&lt;string,object&gt; NoMetadata;" />
+      <MemberSignature Language="C#" Value="protected static readonly System.Collections.Generic.IDictionary&lt;string, object&gt; NoMetadata;" />
       <MemberSignature Language="ILAsm" Value=".field family static initonly class System.Collections.Generic.IDictionary`2&lt;string, object&gt; NoMetadata" />
       <MemberSignature Language="DocId" Value="F:System.Composition.Hosting.Core.ExportDescriptorProvider.NoMetadata" />
       <MemberSignature Language="VB.NET" Value="Protected Shared ReadOnly NoMetadata As IDictionary(Of String, Object) " />
@@ -170,7 +170,7 @@ A provider is only queried once for each unique export key. The descriptor acces
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Indicates a lack of metadata.</summary>

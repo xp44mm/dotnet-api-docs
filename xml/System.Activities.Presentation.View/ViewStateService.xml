@@ -77,7 +77,7 @@
       </Docs>
     </Member>
     <Member MemberName="RetrieveAllViewState">
-      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.Dictionary&lt;string,object&gt; RetrieveAllViewState (System.Activities.Presentation.Model.ModelItem modelItem);" />
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.Dictionary&lt;string, object&gt; RetrieveAllViewState (System.Activities.Presentation.Model.ModelItem modelItem);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.Dictionary`2&lt;string, object&gt; RetrieveAllViewState(class System.Activities.Presentation.Model.ModelItem modelItem) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.Presentation.View.ViewStateService.RetrieveAllViewState(System.Activities.Presentation.Model.ModelItem)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function RetrieveAllViewState (modelItem As ModelItem) As Dictionary(Of String, Object)" />
@@ -89,7 +89,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="modelItem" Type="System.Activities.Presentation.Model.ModelItem" />

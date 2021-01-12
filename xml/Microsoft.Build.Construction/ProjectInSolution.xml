@@ -92,7 +92,7 @@
       </Docs>
     </Member>
     <Member MemberName="ProjectConfigurations">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,Microsoft.Build.Construction.ProjectConfigurationInSolution&gt; ProjectConfigurations { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string, Microsoft.Build.Construction.ProjectConfigurationInSolution&gt; ProjectConfigurations { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, class Microsoft.Build.Construction.ProjectConfigurationInSolution&gt; ProjectConfigurations" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Construction.ProjectInSolution.ProjectConfigurations" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ProjectConfigurations As IReadOnlyDictionary(Of String, ProjectConfigurationInSolution)" />
@@ -104,7 +104,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,Microsoft.Build.Construction.ProjectConfigurationInSolution&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String, Microsoft.Build.Construction.ProjectConfigurationInSolution&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

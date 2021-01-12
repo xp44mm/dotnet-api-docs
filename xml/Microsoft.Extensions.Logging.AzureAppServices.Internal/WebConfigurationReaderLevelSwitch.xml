@@ -36,10 +36,8 @@
         <Parameter Name="convert" Type="System.Func&lt;Microsoft.Extensions.Logging.AzureAppServices.Internal.WebAppLogConfiguration,Microsoft.Extensions.Logging.LogLevel&gt;" />
       </Parameters>
       <Docs>
-        <param name="reader">
-        </param>
-        <param name="convert">
-        </param>
+        <param name="reader"></param>
+        <param name="convert"></param>
         <summary>Creates a new instance of the <see cref="T:Microsoft.Extensions.Logging.AzureAppServices.Internal.WebConfigurationReaderLevelSwitch" /> class.</summary>
         <remarks>To be added.</remarks>
       </Docs>

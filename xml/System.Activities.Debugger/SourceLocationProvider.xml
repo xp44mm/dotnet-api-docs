@@ -55,7 +55,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetSourceLocations">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;object,System.Activities.Debugger.SourceLocation&gt; GetSourceLocations (System.Activities.Activity rootActivity, System.Activities.Debugger.Symbol.WorkflowSymbol symbol);" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;object, System.Activities.Debugger.SourceLocation&gt; GetSourceLocations (System.Activities.Activity rootActivity, System.Activities.Debugger.Symbol.WorkflowSymbol symbol);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.Dictionary`2&lt;object, class System.Activities.Debugger.SourceLocation&gt; GetSourceLocations(class System.Activities.Activity rootActivity, class System.Activities.Debugger.Symbol.WorkflowSymbol symbol) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.Debugger.SourceLocationProvider.GetSourceLocations(System.Activities.Activity,System.Activities.Debugger.Symbol.WorkflowSymbol)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function GetSourceLocations (rootActivity As Activity, symbol As WorkflowSymbol) As Dictionary(Of Object, SourceLocation)" />
@@ -67,7 +67,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.Object,System.Activities.Debugger.SourceLocation&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.Object, System.Activities.Debugger.SourceLocation&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="rootActivity" Type="System.Activities.Activity" Index="0" FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />

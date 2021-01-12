@@ -24,7 +24,7 @@
   </Docs>
   <Members>
     <Member MemberName="GetAwaiter">
-      <MemberSignature Language="C#" Value="public System.Runtime.CompilerServices.TaskAwaiter&lt;TResult&gt; GetAwaiter ();" />
+      <MemberSignature Language="C#" Value="public  GetAwaiter ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Runtime.CompilerServices.TaskAwaiter`1&lt;!TResult&gt; GetAwaiter() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Threading.DispatcherOperation`1.GetAwaiter" />
       <MemberSignature Language="VB.NET" Value="Public Function GetAwaiter () As TaskAwaiter(Of TResult)" />

@@ -149,7 +149,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public X509SubjectKeyIdentifierExtension (ReadOnlySpan&lt;byte&gt; subjectKeyIdentifier, bool critical);" />
+      <MemberSignature Language="C#" Value="public X509SubjectKeyIdentifierExtension ( subjectKeyIdentifier, bool critical);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; subjectKeyIdentifier, bool critical) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.X509Certificates.X509SubjectKeyIdentifierExtension.#ctor(System.ReadOnlySpan{System.Byte},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (subjectKeyIdentifier As ReadOnlySpan(Of Byte), critical As Boolean)" />

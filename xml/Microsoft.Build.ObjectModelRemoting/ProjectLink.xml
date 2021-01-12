@@ -202,7 +202,7 @@
       </Docs>
     </Member>
     <Member MemberName="ConditionedProperties">
-      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string,System.Collections.Generic.List&lt;string&gt;&gt; ConditionedProperties { get; }" />
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string, System.Collections.Generic.List&lt;string&gt;&gt; ConditionedProperties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class System.Collections.Generic.List`1&lt;string&gt;&gt; ConditionedProperties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.ObjectModelRemoting.ProjectLink.ConditionedProperties" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property ConditionedProperties As IDictionary(Of String, List(Of String))" />
@@ -214,7 +214,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Collections.Generic.List&lt;System.String&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -608,7 +608,7 @@
       </Docs>
     </Member>
     <Member MemberName="GlobalProperties">
-      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string,string&gt; GlobalProperties { get; }" />
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string, string&gt; GlobalProperties { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; GlobalProperties" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.ObjectModelRemoting.ProjectLink.GlobalProperties" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property GlobalProperties As IDictionary(Of String, String)" />
@@ -620,7 +620,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -723,7 +723,7 @@
       </Docs>
     </Member>
     <Member MemberName="ItemDefinitions">
-      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string,Microsoft.Build.Evaluation.ProjectItemDefinition&gt; ItemDefinitions { get; }" />
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string, Microsoft.Build.Evaluation.ProjectItemDefinition&gt; ItemDefinitions { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Build.Evaluation.ProjectItemDefinition&gt; ItemDefinitions" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.ObjectModelRemoting.ProjectLink.ItemDefinitions" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property ItemDefinitions As IDictionary(Of String, ProjectItemDefinition)" />
@@ -735,7 +735,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Build.Evaluation.ProjectItemDefinition&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, Microsoft.Build.Evaluation.ProjectItemDefinition&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -1147,7 +1147,7 @@
       </Docs>
     </Member>
     <Member MemberName="Targets">
-      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string,Microsoft.Build.Execution.ProjectTargetInstance&gt; Targets { get; }" />
+      <MemberSignature Language="C#" Value="public abstract System.Collections.Generic.IDictionary&lt;string, Microsoft.Build.Execution.ProjectTargetInstance&gt; Targets { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class Microsoft.Build.Execution.ProjectTargetInstance&gt; Targets" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.ObjectModelRemoting.ProjectLink.Targets" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride ReadOnly Property Targets As IDictionary(Of String, ProjectTargetInstance)" />
@@ -1159,7 +1159,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,Microsoft.Build.Execution.ProjectTargetInstance&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, Microsoft.Build.Execution.ProjectTargetInstance&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

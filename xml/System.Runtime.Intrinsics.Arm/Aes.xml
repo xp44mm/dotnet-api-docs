@@ -25,7 +25,7 @@
   </Docs>
   <Members>
     <Member MemberName="Decrypt">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;byte&gt; Decrypt (System.Runtime.Intrinsics.Vector128&lt;byte&gt; value, System.Runtime.Intrinsics.Vector128&lt;byte&gt; roundKey);" />
+      <MemberSignature Language="C#" Value="public static  Decrypt ( value,  roundKey);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; Decrypt(valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; value, valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; roundKey) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Aes.Decrypt(System.Runtime.Intrinsics.Vector128{System.Byte},System.Runtime.Intrinsics.Vector128{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Decrypt (value As Vector128(Of Byte), roundKey As Vector128(Of Byte)) As Vector128(Of Byte)" />
@@ -56,7 +56,7 @@
       </Docs>
     </Member>
     <Member MemberName="Encrypt">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;byte&gt; Encrypt (System.Runtime.Intrinsics.Vector128&lt;byte&gt; value, System.Runtime.Intrinsics.Vector128&lt;byte&gt; roundKey);" />
+      <MemberSignature Language="C#" Value="public static  Encrypt ( value,  roundKey);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; Encrypt(valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; value, valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; roundKey) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Aes.Encrypt(System.Runtime.Intrinsics.Vector128{System.Byte},System.Runtime.Intrinsics.Vector128{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Encrypt (value As Vector128(Of Byte), roundKey As Vector128(Of Byte)) As Vector128(Of Byte)" />
@@ -87,7 +87,7 @@
       </Docs>
     </Member>
     <Member MemberName="InverseMixColumns">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;byte&gt; InverseMixColumns (System.Runtime.Intrinsics.Vector128&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  InverseMixColumns ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; InverseMixColumns(valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Aes.InverseMixColumns(System.Runtime.Intrinsics.Vector128{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function InverseMixColumns (value As Vector128(Of Byte)) As Vector128(Of Byte)" />
@@ -137,7 +137,7 @@
       </Docs>
     </Member>
     <Member MemberName="MixColumns">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;byte&gt; MixColumns (System.Runtime.Intrinsics.Vector128&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  MixColumns ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; MixColumns(valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Aes.MixColumns(System.Runtime.Intrinsics.Vector128{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MixColumns (value As Vector128(Of Byte)) As Vector128(Of Byte)" />
@@ -166,7 +166,7 @@
       </Docs>
     </Member>
     <Member MemberName="PolynomialMultiplyWideningLower">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;long&gt; PolynomialMultiplyWideningLower (System.Runtime.Intrinsics.Vector64&lt;long&gt; left, System.Runtime.Intrinsics.Vector64&lt;long&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  PolynomialMultiplyWideningLower ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; PolynomialMultiplyWideningLower(valuetype System.Runtime.Intrinsics.Vector64`1&lt;int64&gt; left, valuetype System.Runtime.Intrinsics.Vector64`1&lt;int64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Aes.PolynomialMultiplyWideningLower(System.Runtime.Intrinsics.Vector64{System.Int64},System.Runtime.Intrinsics.Vector64{System.Int64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function PolynomialMultiplyWideningLower (left As Vector64(Of Long), right As Vector64(Of Long)) As Vector128(Of Long)" />
@@ -197,7 +197,7 @@
       </Docs>
     </Member>
     <Member MemberName="PolynomialMultiplyWideningLower">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;ulong&gt; PolynomialMultiplyWideningLower (System.Runtime.Intrinsics.Vector64&lt;ulong&gt; left, System.Runtime.Intrinsics.Vector64&lt;ulong&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  PolynomialMultiplyWideningLower ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int64&gt; PolynomialMultiplyWideningLower(valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int64&gt; left, valuetype System.Runtime.Intrinsics.Vector64`1&lt;unsigned int64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Aes.PolynomialMultiplyWideningLower(System.Runtime.Intrinsics.Vector64{System.UInt64},System.Runtime.Intrinsics.Vector64{System.UInt64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function PolynomialMultiplyWideningLower (left As Vector64(Of ULong), right As Vector64(Of ULong)) As Vector128(Of ULong)" />
@@ -228,7 +228,7 @@
       </Docs>
     </Member>
     <Member MemberName="PolynomialMultiplyWideningUpper">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;long&gt; PolynomialMultiplyWideningUpper (System.Runtime.Intrinsics.Vector128&lt;long&gt; left, System.Runtime.Intrinsics.Vector128&lt;long&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  PolynomialMultiplyWideningUpper ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; PolynomialMultiplyWideningUpper(valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Aes.PolynomialMultiplyWideningUpper(System.Runtime.Intrinsics.Vector128{System.Int64},System.Runtime.Intrinsics.Vector128{System.Int64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function PolynomialMultiplyWideningUpper (left As Vector128(Of Long), right As Vector128(Of Long)) As Vector128(Of Long)" />
@@ -259,7 +259,7 @@
       </Docs>
     </Member>
     <Member MemberName="PolynomialMultiplyWideningUpper">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;ulong&gt; PolynomialMultiplyWideningUpper (System.Runtime.Intrinsics.Vector128&lt;ulong&gt; left, System.Runtime.Intrinsics.Vector128&lt;ulong&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  PolynomialMultiplyWideningUpper ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int64&gt; PolynomialMultiplyWideningUpper(valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int64&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int64&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.Arm.Aes.PolynomialMultiplyWideningUpper(System.Runtime.Intrinsics.Vector128{System.UInt64},System.Runtime.Intrinsics.Vector128{System.UInt64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function PolynomialMultiplyWideningUpper (left As Vector128(Of ULong), right As Vector128(Of ULong)) As Vector128(Of ULong)" />

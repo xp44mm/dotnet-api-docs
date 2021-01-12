@@ -21,7 +21,7 @@
   </Docs>
   <Members>
     <Member MemberName="ConvertScalarToVector128Double">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;double&gt; ConvertScalarToVector128Double (System.Runtime.Intrinsics.Vector128&lt;double&gt; upper, long value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertScalarToVector128Double ( upper, long value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float64&gt; ConvertScalarToVector128Double(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float64&gt; upper, int64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse2.X64.ConvertScalarToVector128Double(System.Runtime.Intrinsics.Vector128{System.Double},System.Int64)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertScalarToVector128Double (upper As Vector128(Of Double), value As Long) As Vector128(Of Double)" />
@@ -61,7 +61,7 @@ This intrinsic is only available on 64-bit processes.
       </Docs>
     </Member>
     <Member MemberName="ConvertScalarToVector128Int64">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;long&gt; ConvertScalarToVector128Int64 (long value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertScalarToVector128Int64 (long value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; ConvertScalarToVector128Int64(int64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse2.X64.ConvertScalarToVector128Int64(System.Int64)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertScalarToVector128Int64 (value As Long) As Vector128(Of Long)" />
@@ -99,7 +99,7 @@ This intrinsic is only available on 64-bit processes.
       </Docs>
     </Member>
     <Member MemberName="ConvertScalarToVector128UInt64">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;ulong&gt; ConvertScalarToVector128UInt64 (ulong value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertScalarToVector128UInt64 (ulong value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int64&gt; ConvertScalarToVector128UInt64(unsigned int64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse2.X64.ConvertScalarToVector128UInt64(System.UInt64)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertScalarToVector128UInt64 (value As ULong) As Vector128(Of ULong)" />
@@ -137,7 +137,7 @@ This intrinsic is only available on 64-bit processes.
       </Docs>
     </Member>
     <Member MemberName="ConvertToInt64">
-      <MemberSignature Language="C#" Value="public static long ConvertToInt64 (System.Runtime.Intrinsics.Vector128&lt;double&gt; value);" />
+      <MemberSignature Language="C#" Value="public static long ConvertToInt64 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int64 ConvertToInt64(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float64&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse2.X64.ConvertToInt64(System.Runtime.Intrinsics.Vector128{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt64 (value As Vector128(Of Double)) As Long" />
@@ -175,7 +175,7 @@ This intrinsic is only available on 64-bit processes.
       </Docs>
     </Member>
     <Member MemberName="ConvertToInt64">
-      <MemberSignature Language="C#" Value="public static long ConvertToInt64 (System.Runtime.Intrinsics.Vector128&lt;long&gt; value);" />
+      <MemberSignature Language="C#" Value="public static long ConvertToInt64 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int64 ConvertToInt64(valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse2.X64.ConvertToInt64(System.Runtime.Intrinsics.Vector128{System.Int64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt64 (value As Vector128(Of Long)) As Long" />
@@ -213,7 +213,7 @@ This intrinsic is only available on 64-bit processes.
       </Docs>
     </Member>
     <Member MemberName="ConvertToInt64WithTruncation">
-      <MemberSignature Language="C#" Value="public static long ConvertToInt64WithTruncation (System.Runtime.Intrinsics.Vector128&lt;double&gt; value);" />
+      <MemberSignature Language="C#" Value="public static long ConvertToInt64WithTruncation ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int64 ConvertToInt64WithTruncation(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float64&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse2.X64.ConvertToInt64WithTruncation(System.Runtime.Intrinsics.Vector128{System.Double})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt64WithTruncation (value As Vector128(Of Double)) As Long" />
@@ -251,7 +251,7 @@ This intrinsic is only available on 64-bit processes.
       </Docs>
     </Member>
     <Member MemberName="ConvertToUInt64">
-      <MemberSignature Language="C#" Value="public static ulong ConvertToUInt64 (System.Runtime.Intrinsics.Vector128&lt;ulong&gt; value);" />
+      <MemberSignature Language="C#" Value="public static ulong ConvertToUInt64 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int64 ConvertToUInt64(valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int64&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse2.X64.ConvertToUInt64(System.Runtime.Intrinsics.Vector128{System.UInt64})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToUInt64 (value As Vector128(Of ULong)) As ULong" />

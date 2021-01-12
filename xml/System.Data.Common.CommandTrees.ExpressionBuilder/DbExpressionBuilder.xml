@@ -307,7 +307,7 @@ The expression produced by <paramref name="predicate" /> does not have a Boolean
       </Docs>
     </MemberGroup>
     <Member MemberName="As">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.KeyValuePair&lt;string,System.Data.Common.CommandTrees.DbAggregate&gt; As (this System.Data.Common.CommandTrees.DbAggregate value, string alias);" />
+      <MemberSignature Language="C#" Value="public static  As (this System.Data.Common.CommandTrees.DbAggregate value, string alias);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class System.Data.Common.CommandTrees.DbAggregate&gt; As(class System.Data.Common.CommandTrees.DbAggregate value, string alias) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.CommandTrees.ExpressionBuilder.DbExpressionBuilder.As(System.Data.Common.CommandTrees.DbAggregate,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function As (value As DbAggregate, alias As String) As KeyValuePair(Of String, DbAggregate)" />
@@ -319,7 +319,7 @@ The expression produced by <paramref name="predicate" /> does not have a Boolean
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String,System.Data.Common.CommandTrees.DbAggregate&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String, System.Data.Common.CommandTrees.DbAggregate&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="value" Type="System.Data.Common.CommandTrees.DbAggregate" RefType="this" />
@@ -334,7 +334,7 @@ The expression produced by <paramref name="predicate" /> does not have a Boolean
       </Docs>
     </Member>
     <Member MemberName="As">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.KeyValuePair&lt;string,System.Data.Common.CommandTrees.DbExpression&gt; As (this System.Data.Common.CommandTrees.DbExpression value, string alias);" />
+      <MemberSignature Language="C#" Value="public static  As (this System.Data.Common.CommandTrees.DbExpression value, string alias);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class System.Data.Common.CommandTrees.DbExpression&gt; As(class System.Data.Common.CommandTrees.DbExpression value, string alias) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Common.CommandTrees.ExpressionBuilder.DbExpressionBuilder.As(System.Data.Common.CommandTrees.DbExpression,System.String)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function As (value As DbExpression, alias As String) As KeyValuePair(Of String, DbExpression)" />
@@ -346,7 +346,7 @@ The expression produced by <paramref name="predicate" /> does not have a Boolean
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String,System.Data.Common.CommandTrees.DbExpression&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String, System.Data.Common.CommandTrees.DbExpression&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="value" Type="System.Data.Common.CommandTrees.DbExpression" RefType="this" />

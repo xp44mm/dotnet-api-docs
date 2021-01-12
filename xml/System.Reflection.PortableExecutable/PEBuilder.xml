@@ -24,13 +24,13 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="protected PEBuilder (System.Reflection.PortableExecutable.PEHeaderBuilder header, Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;,System.Reflection.Metadata.BlobContentId&gt;? deterministicIdProvider);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="protected PEBuilder (System.Reflection.PortableExecutable.PEHeaderBuilder header, Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;, System.Reflection.Metadata.BlobContentId&gt;? deterministicIdProvider);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig specialname rtspecialname instance void .ctor(class System.Reflection.PortableExecutable.PEHeaderBuilder header, class System.Func`2&lt;class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Reflection.Metadata.Blob&gt;, valuetype System.Reflection.Metadata.BlobContentId&gt; deterministicIdProvider) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.PortableExecutable.PEBuilder.#ctor(System.Reflection.PortableExecutable.PEHeaderBuilder,System.Func{System.Collections.Generic.IEnumerable{System.Reflection.Metadata.Blob},System.Reflection.Metadata.BlobContentId})" />
       <MemberSignature Language="VB.NET" Value="Protected Sub New (header As PEHeaderBuilder, deterministicIdProvider As Func(Of IEnumerable(Of Blob), BlobContentId))" />
       <MemberSignature Language="C++ CLI" Value="protected:&#xA; PEBuilder(System::Reflection::PortableExecutable::PEHeaderBuilder ^ header, Func&lt;System::Collections::Generic::IEnumerable&lt;System::Reflection::Metadata::Blob&gt; ^, System::Reflection::Metadata::BlobContentId&gt; ^ deterministicIdProvider);" />
       <MemberSignature Language="F#" Value="new System.Reflection.PortableExecutable.PEBuilder : System.Reflection.PortableExecutable.PEHeaderBuilder * Func&lt;seq&lt;System.Reflection.Metadata.Blob&gt;, System.Reflection.Metadata.BlobContentId&gt; -&gt; System.Reflection.PortableExecutable.PEBuilder" Usage="new System.Reflection.PortableExecutable.PEBuilder (header, deterministicIdProvider)" />
-      <MemberSignature Language="C#" Value="protected PEBuilder (System.Reflection.PortableExecutable.PEHeaderBuilder header, Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;,System.Reflection.Metadata.BlobContentId&gt; deterministicIdProvider);" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="protected PEBuilder (System.Reflection.PortableExecutable.PEHeaderBuilder header, Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;, System.Reflection.Metadata.BlobContentId&gt; deterministicIdProvider);" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -43,7 +43,7 @@
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="header" Type="System.Reflection.PortableExecutable.PEHeaderBuilder" />
-        <Parameter Name="deterministicIdProvider" Type="System.Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;,System.Reflection.Metadata.BlobContentId&gt;" />
+        <Parameter Name="deterministicIdProvider" Type="System.Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;, System.Reflection.Metadata.BlobContentId&gt;" />
       </Parameters>
       <Docs>
         <param name="header">To be added.</param>
@@ -53,7 +53,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateSections">
-      <MemberSignature Language="C#" Value="protected abstract System.Collections.Immutable.ImmutableArray&lt;System.Reflection.PortableExecutable.PEBuilder.Section&gt; CreateSections ();" />
+      <MemberSignature Language="C#" Value="protected abstract  CreateSections ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;valuetype System.Reflection.PortableExecutable.PEBuilder/Section&gt; CreateSections() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.PortableExecutable.PEBuilder.CreateSections" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function CreateSections () As ImmutableArray(Of PEBuilder.Section)" />
@@ -107,7 +107,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetSections">
-      <MemberSignature Language="C#" Value="protected System.Collections.Immutable.ImmutableArray&lt;System.Reflection.PortableExecutable.PEBuilder.Section&gt; GetSections ();" />
+      <MemberSignature Language="C#" Value="protected  GetSections ();" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;valuetype System.Reflection.PortableExecutable.PEBuilder/Section&gt; GetSections() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.PortableExecutable.PEBuilder.GetSections" />
       <MemberSignature Language="VB.NET" Value="Protected Function GetSections () As ImmutableArray(Of PEBuilder.Section)" />
@@ -160,7 +160,7 @@
       </Docs>
     </Member>
     <Member MemberName="IdProvider">
-      <MemberSignature Language="C#" Value="public Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;,System.Reflection.Metadata.BlobContentId&gt; IdProvider { get; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;, System.Reflection.Metadata.BlobContentId&gt; IdProvider { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Reflection.Metadata.Blob&gt;, valuetype System.Reflection.Metadata.BlobContentId&gt; IdProvider" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.PortableExecutable.PEBuilder.IdProvider" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property IdProvider As Func(Of IEnumerable(Of Blob), BlobContentId)" />
@@ -177,7 +177,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;,System.Reflection.Metadata.BlobContentId&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Collections.Generic.IEnumerable&lt;System.Reflection.Metadata.Blob&gt;, System.Reflection.Metadata.BlobContentId&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>To be added.</summary>

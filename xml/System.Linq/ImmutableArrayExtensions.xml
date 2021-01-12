@@ -218,13 +218,12 @@
       </Docs>
     </Member>
     <Member MemberName="Any&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static bool Any&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; immutableArray);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool Any&lt;T&gt; (this  immutableArray);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool Any&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; immutableArray) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.Any``1(System.Collections.Immutable.ImmutableArray{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Any(Of T) (immutableArray As ImmutableArray(Of T)) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static bool Any(System::Collections::Immutable::ImmutableArray&lt;T&gt; immutableArray);" />
       <MemberSignature Language="F#" Value="static member Any : System.Collections.Immutable.ImmutableArray&lt;'T&gt; -&gt; bool" Usage="System.Linq.ImmutableArrayExtensions.Any immutableArray" />
-      <MemberSignature Language="C#" Value="public static bool Any&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;? immutableArray);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -333,13 +332,12 @@
       </Docs>
     </Member>
     <Member MemberName="ElementAt&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T ElementAt&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; immutableArray, int index);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static T ElementAt&lt;T&gt; (this  immutableArray, int index);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T ElementAt&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; immutableArray, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.ElementAt``1(System.Collections.Immutable.ImmutableArray{``0},System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ElementAt(Of T) (immutableArray As ImmutableArray(Of T), index As Integer) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T ElementAt(System::Collections::Immutable::ImmutableArray&lt;T&gt; immutableArray, int index);" />
       <MemberSignature Language="F#" Value="static member ElementAt : System.Collections.Immutable.ImmutableArray&lt;'T&gt; * int -&gt; 'T" Usage="System.Linq.ImmutableArrayExtensions.ElementAt (immutableArray, index)" />
-      <MemberSignature Language="C#" Value="public static T ElementAt&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;? immutableArray, int index);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -372,13 +370,13 @@
       </Docs>
     </Member>
     <Member MemberName="ElementAtOrDefault&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T ElementAtOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; immutableArray, int index);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static T ElementAtOrDefault&lt;T&gt; (this  immutableArray, int index);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T ElementAtOrDefault&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; immutableArray, int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.ElementAtOrDefault``1(System.Collections.Immutable.ImmutableArray{``0},System.Int32)" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ElementAtOrDefault(Of T) (immutableArray As ImmutableArray(Of T), index As Integer) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T ElementAtOrDefault(System::Collections::Immutable::ImmutableArray&lt;T&gt; immutableArray, int index);" />
       <MemberSignature Language="F#" Value="static member ElementAtOrDefault : System.Collections.Immutable.ImmutableArray&lt;'T&gt; * int -&gt; 'T" Usage="System.Linq.ImmutableArrayExtensions.ElementAtOrDefault (immutableArray, index)" />
-      <MemberSignature Language="C#" Value="public static T ElementAtOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;? immutableArray, int index);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? ElementAtOrDefault&lt;T&gt; (this  immutableArray, int index);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -411,13 +409,12 @@
       </Docs>
     </Member>
     <Member MemberName="First&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T First&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; immutableArray);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static T First&lt;T&gt; (this  immutableArray);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T First&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; immutableArray) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.First``1(System.Collections.Immutable.ImmutableArray{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function First(Of T) (immutableArray As ImmutableArray(Of T)) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T First(System::Collections::Immutable::ImmutableArray&lt;T&gt; immutableArray);" />
       <MemberSignature Language="F#" Value="static member First : System.Collections.Immutable.ImmutableArray&lt;'T&gt; -&gt; 'T" Usage="System.Linq.ImmutableArrayExtensions.First immutableArray" />
-      <MemberSignature Language="C#" Value="public static T First&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;? immutableArray);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -526,13 +523,13 @@
       </Docs>
     </Member>
     <Member MemberName="FirstOrDefault&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T FirstOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; immutableArray);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static T FirstOrDefault&lt;T&gt; (this  immutableArray);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T FirstOrDefault&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; immutableArray) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.FirstOrDefault``1(System.Collections.Immutable.ImmutableArray{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function FirstOrDefault(Of T) (immutableArray As ImmutableArray(Of T)) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T FirstOrDefault(System::Collections::Immutable::ImmutableArray&lt;T&gt; immutableArray);" />
       <MemberSignature Language="F#" Value="static member FirstOrDefault : System.Collections.Immutable.ImmutableArray&lt;'T&gt; -&gt; 'T" Usage="System.Linq.ImmutableArrayExtensions.FirstOrDefault immutableArray" />
-      <MemberSignature Language="C#" Value="public static T FirstOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;? immutableArray);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? FirstOrDefault&lt;T&gt; (this  immutableArray);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -569,7 +566,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function FirstOrDefault(Of T) (builder As ImmutableArray(Of T).Builder) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T FirstOrDefault(System::Collections::Immutable::ImmutableArray&lt;T&gt;::Builder ^ builder);" />
       <MemberSignature Language="F#" Value="static member FirstOrDefault : System.Collections.Immutable.ImmutableArray&lt;'T&gt;.Builder -&gt; 'T" Usage="System.Linq.ImmutableArrayExtensions.FirstOrDefault builder" />
-      <MemberSignature Language="C#" Value="public static T FirstOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;.Builder? builder);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? FirstOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;.Builder builder);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -639,13 +636,12 @@
       </Docs>
     </Member>
     <Member MemberName="Last&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T Last&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; immutableArray);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static T Last&lt;T&gt; (this  immutableArray);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T Last&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; immutableArray) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.Last``1(System.Collections.Immutable.ImmutableArray{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Last(Of T) (immutableArray As ImmutableArray(Of T)) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T Last(System::Collections::Immutable::ImmutableArray&lt;T&gt; immutableArray);" />
       <MemberSignature Language="F#" Value="static member Last : System.Collections.Immutable.ImmutableArray&lt;'T&gt; -&gt; 'T" Usage="System.Linq.ImmutableArrayExtensions.Last immutableArray" />
-      <MemberSignature Language="C#" Value="public static T Last&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;? immutableArray);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -754,13 +750,13 @@
       </Docs>
     </Member>
     <Member MemberName="LastOrDefault&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T LastOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; immutableArray);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static T LastOrDefault&lt;T&gt; (this  immutableArray);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T LastOrDefault&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; immutableArray) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.LastOrDefault``1(System.Collections.Immutable.ImmutableArray{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LastOrDefault(Of T) (immutableArray As ImmutableArray(Of T)) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T LastOrDefault(System::Collections::Immutable::ImmutableArray&lt;T&gt; immutableArray);" />
       <MemberSignature Language="F#" Value="static member LastOrDefault : System.Collections.Immutable.ImmutableArray&lt;'T&gt; -&gt; 'T" Usage="System.Linq.ImmutableArrayExtensions.LastOrDefault immutableArray" />
-      <MemberSignature Language="C#" Value="public static T LastOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;? immutableArray);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? LastOrDefault&lt;T&gt; (this  immutableArray);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -797,7 +793,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function LastOrDefault(Of T) (builder As ImmutableArray(Of T).Builder) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T LastOrDefault(System::Collections::Immutable::ImmutableArray&lt;T&gt;::Builder ^ builder);" />
       <MemberSignature Language="F#" Value="static member LastOrDefault : System.Collections.Immutable.ImmutableArray&lt;'T&gt;.Builder -&gt; 'T" Usage="System.Linq.ImmutableArrayExtensions.LastOrDefault builder" />
-      <MemberSignature Language="C#" Value="public static T LastOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;.Builder? builder);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? LastOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;.Builder builder);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -953,12 +949,12 @@
       </Docs>
     </Member>
     <Member MemberName="SequenceEqual&lt;TDerived,TBase&gt;">
-      <MemberSignature Language="C#" Value="public static bool SequenceEqual&lt;TDerived,TBase&gt; (this System.Collections.Immutable.ImmutableArray&lt;TBase&gt; immutableArray, System.Collections.Generic.IEnumerable&lt;TDerived&gt; items, System.Collections.Generic.IEqualityComparer&lt;TBase&gt; comparer = default) where TDerived : TBase;" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool SequenceEqual&lt;TDerived,TBase&gt; (this  immutableArray, System.Collections.Generic.IEnumerable&lt;TDerived&gt; items, System.Collections.Generic.IEqualityComparer&lt;TBase&gt; comparer = default) where TDerived : TBase;" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool SequenceEqual&lt;(!!TBase) TDerived, TBase&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!TBase&gt; immutableArray, class System.Collections.Generic.IEnumerable`1&lt;!!TDerived&gt; items, class System.Collections.Generic.IEqualityComparer`1&lt;!!TBase&gt; comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.SequenceEqual``2(System.Collections.Immutable.ImmutableArray{``1},System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IEqualityComparer{``1})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SequenceEqual(Of TDerived As TBase, TBase As TBase) (immutableArray As ImmutableArray(Of TBase), items As IEnumerable(Of TDerived), Optional comparer As IEqualityComparer(Of TBase) = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="static member SequenceEqual : System.Collections.Immutable.ImmutableArray&lt;'Base&gt; * seq&lt;#'Base&gt; * System.Collections.Generic.IEqualityComparer&lt;'Base&gt; -&gt; bool" Usage="System.Linq.ImmutableArrayExtensions.SequenceEqual (immutableArray, items, comparer)" />
-      <MemberSignature Language="C#" Value="public static bool SequenceEqual&lt;TDerived,TBase&gt; (this System.Collections.Immutable.ImmutableArray&lt;TBase&gt;? immutableArray, System.Collections.Generic.IEnumerable&lt;TDerived&gt; items, System.Collections.Generic.IEqualityComparer&lt;TBase&gt;? comparer = default) where TDerived : TBase;" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static bool SequenceEqual&lt;TDerived,TBase&gt; (this  immutableArray, System.Collections.Generic.IEnumerable&lt;TDerived&gt; items, System.Collections.Generic.IEqualityComparer&lt;TBase&gt;? comparer = default) where TDerived : TBase;" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -1000,12 +996,12 @@
       </Docs>
     </Member>
     <Member MemberName="SequenceEqual&lt;TDerived,TBase&gt;">
-      <MemberSignature Language="C#" Value="public static bool SequenceEqual&lt;TDerived,TBase&gt; (this System.Collections.Immutable.ImmutableArray&lt;TBase&gt; immutableArray, System.Collections.Immutable.ImmutableArray&lt;TDerived&gt; items, System.Collections.Generic.IEqualityComparer&lt;TBase&gt; comparer = default) where TDerived : TBase;" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static bool SequenceEqual&lt;TDerived,TBase&gt; (this  immutableArray,  items, System.Collections.Generic.IEqualityComparer&lt;TBase&gt; comparer = default) where TDerived : TBase;" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool SequenceEqual&lt;(!!TBase) TDerived, TBase&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!TBase&gt; immutableArray, valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!TDerived&gt; items, class System.Collections.Generic.IEqualityComparer`1&lt;!!TBase&gt; comparer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.SequenceEqual``2(System.Collections.Immutable.ImmutableArray{``1},System.Collections.Immutable.ImmutableArray{``0},System.Collections.Generic.IEqualityComparer{``1})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SequenceEqual(Of TDerived As TBase, TBase As TBase) (immutableArray As ImmutableArray(Of TBase), items As ImmutableArray(Of TDerived), Optional comparer As IEqualityComparer(Of TBase) = Nothing) As Boolean" />
       <MemberSignature Language="F#" Value="static member SequenceEqual : System.Collections.Immutable.ImmutableArray&lt;'Base&gt; * System.Collections.Immutable.ImmutableArray&lt;#'Base&gt; * System.Collections.Generic.IEqualityComparer&lt;'Base&gt; -&gt; bool" Usage="System.Linq.ImmutableArrayExtensions.SequenceEqual (immutableArray, items, comparer)" />
-      <MemberSignature Language="C#" Value="public static bool SequenceEqual&lt;TDerived,TBase&gt; (this System.Collections.Immutable.ImmutableArray&lt;TBase&gt;? immutableArray, System.Collections.Immutable.ImmutableArray&lt;TDerived&gt;? items, System.Collections.Generic.IEqualityComparer&lt;TBase&gt;? comparer = default) where TDerived : TBase;" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static bool SequenceEqual&lt;TDerived,TBase&gt; (this  immutableArray,  items, System.Collections.Generic.IEqualityComparer&lt;TBase&gt;? comparer = default) where TDerived : TBase;" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -1095,13 +1091,12 @@
       </Docs>
     </Member>
     <Member MemberName="Single&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T Single&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; immutableArray);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static T Single&lt;T&gt; (this  immutableArray);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T Single&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; immutableArray) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.Single``1(System.Collections.Immutable.ImmutableArray{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Single(Of T) (immutableArray As ImmutableArray(Of T)) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T Single(System::Collections::Immutable::ImmutableArray&lt;T&gt; immutableArray);" />
       <MemberSignature Language="F#" Value="static member Single : System.Collections.Immutable.ImmutableArray&lt;'T&gt; -&gt; 'T" Usage="System.Linq.ImmutableArrayExtensions.Single immutableArray" />
-      <MemberSignature Language="C#" Value="public static T Single&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;? immutableArray);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -1171,13 +1166,13 @@
       </Docs>
     </Member>
     <Member MemberName="SingleOrDefault&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T SingleOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; immutableArray);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static T SingleOrDefault&lt;T&gt; (this  immutableArray);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T SingleOrDefault&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; immutableArray) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.SingleOrDefault``1(System.Collections.Immutable.ImmutableArray{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function SingleOrDefault(Of T) (immutableArray As ImmutableArray(Of T)) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T SingleOrDefault(System::Collections::Immutable::ImmutableArray&lt;T&gt; immutableArray);" />
       <MemberSignature Language="F#" Value="static member SingleOrDefault : System.Collections.Immutable.ImmutableArray&lt;'T&gt; -&gt; 'T" Usage="System.Linq.ImmutableArrayExtensions.SingleOrDefault immutableArray" />
-      <MemberSignature Language="C#" Value="public static T SingleOrDefault&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;? immutableArray);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? SingleOrDefault&lt;T&gt; (this  immutableArray);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>
@@ -1250,13 +1245,12 @@
       </Docs>
     </Member>
     <Member MemberName="ToArray&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static T[] ToArray&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; immutableArray);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static T[] ToArray&lt;T&gt; (this  immutableArray);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig !!T[] ToArray&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; immutableArray) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Linq.ImmutableArrayExtensions.ToArray``1(System.Collections.Immutable.ImmutableArray{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToArray(Of T) (immutableArray As ImmutableArray(Of T)) As T()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static cli::array &lt;T&gt; ^ ToArray(System::Collections::Immutable::ImmutableArray&lt;T&gt; immutableArray);" />
       <MemberSignature Language="F#" Value="static member ToArray : System.Collections.Immutable.ImmutableArray&lt;'T&gt; -&gt; 'T[]" Usage="System.Linq.ImmutableArrayExtensions.ToArray immutableArray" />
-      <MemberSignature Language="C#" Value="public static T[] ToArray&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt;? immutableArray);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Collections.Immutable</AssemblyName>

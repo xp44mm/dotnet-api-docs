@@ -397,7 +397,7 @@
       </Docs>
     </Member>
     <Member MemberName="EndpointBehaviors">
-      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.KeyedCollection&lt;Type,System.ServiceModel.Description.IEndpointBehavior&gt; EndpointBehaviors { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.KeyedCollection&lt;Type, System.ServiceModel.Description.IEndpointBehavior&gt; EndpointBehaviors { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.ObjectModel.KeyedCollection`2&lt;class System.Type, class System.ServiceModel.Description.IEndpointBehavior&gt; EndpointBehaviors" />
       <MemberSignature Language="DocId" Value="P:System.ServiceModel.Description.ServiceEndpoint.EndpointBehaviors" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EndpointBehaviors As KeyedCollection(Of Type, IEndpointBehavior)" />
@@ -422,7 +422,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.ObjectModel.KeyedCollection&lt;System.Type,System.ServiceModel.Description.IEndpointBehavior&gt;</ReturnType>
+        <ReturnType>System.Collections.ObjectModel.KeyedCollection&lt;System.Type, System.ServiceModel.Description.IEndpointBehavior&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the endpoint behaviors for the service.</summary>

@@ -37,7 +37,7 @@
   </Docs>
   <Members>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Add (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Add ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Add(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Add(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Add (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -73,7 +73,7 @@
       </Docs>
     </Member>
     <Member MemberName="AddScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; AddScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  AddScalar ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; AddScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.AddScalar(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AddScalar (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -109,7 +109,7 @@
       </Docs>
     </Member>
     <Member MemberName="And">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; And (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  And ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; And(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.And(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function And (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -145,7 +145,7 @@
       </Docs>
     </Member>
     <Member MemberName="AndNot">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; AndNot (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  AndNot ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; AndNot(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.AndNot(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function AndNot (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -181,7 +181,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -217,7 +217,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareGreaterThan">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareGreaterThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareGreaterThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareGreaterThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareGreaterThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareGreaterThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -253,7 +253,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareGreaterThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareGreaterThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareGreaterThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareGreaterThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareGreaterThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareGreaterThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -289,7 +289,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareLessThan">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareLessThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareLessThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareLessThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareLessThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareLessThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -325,7 +325,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareLessThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareLessThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareLessThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareLessThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareLessThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareLessThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -361,7 +361,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareNotEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareNotEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareNotEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareNotEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareNotEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -397,7 +397,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareNotGreaterThan">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareNotGreaterThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareNotGreaterThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareNotGreaterThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareNotGreaterThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotGreaterThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -433,7 +433,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareNotGreaterThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareNotGreaterThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareNotGreaterThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareNotGreaterThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareNotGreaterThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotGreaterThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -469,7 +469,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareNotLessThan">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareNotLessThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareNotLessThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareNotLessThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareNotLessThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotLessThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -505,7 +505,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareNotLessThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareNotLessThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareNotLessThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareNotLessThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareNotLessThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareNotLessThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -541,7 +541,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareOrdered">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareOrdered (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareOrdered ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareOrdered(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareOrdered(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareOrdered (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -577,7 +577,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -609,7 +609,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarGreaterThan">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarGreaterThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarGreaterThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarGreaterThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarGreaterThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarGreaterThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -641,7 +641,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarGreaterThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarGreaterThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarGreaterThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarGreaterThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarGreaterThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarGreaterThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -673,7 +673,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarLessThan">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarLessThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarLessThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarLessThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarLessThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarLessThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -705,7 +705,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarLessThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarLessThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarLessThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarLessThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarLessThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarLessThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -737,7 +737,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarNotEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarNotEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarNotEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarNotEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarNotEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarNotEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -769,7 +769,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarNotGreaterThan">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarNotGreaterThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarNotGreaterThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarNotGreaterThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarNotGreaterThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarNotGreaterThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -801,7 +801,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarNotGreaterThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarNotGreaterThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarNotGreaterThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarNotGreaterThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarNotGreaterThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarNotGreaterThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -833,7 +833,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarNotLessThan">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarNotLessThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarNotLessThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarNotLessThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarNotLessThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarNotLessThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -865,7 +865,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarNotLessThanOrEqual">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarNotLessThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarNotLessThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarNotLessThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarNotLessThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarNotLessThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -897,7 +897,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarOrdered">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarOrdered (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarOrdered ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarOrdered(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarOrdered(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarOrdered (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -929,7 +929,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarOrderedEqual">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarOrderedEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarOrderedEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarOrderedEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -961,7 +961,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarOrderedGreaterThan">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedGreaterThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedGreaterThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarOrderedGreaterThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarOrderedGreaterThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarOrderedGreaterThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -993,7 +993,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarOrderedGreaterThanOrEqual">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedGreaterThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedGreaterThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarOrderedGreaterThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarOrderedGreaterThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarOrderedGreaterThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -1025,7 +1025,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarOrderedLessThan">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedLessThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedLessThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarOrderedLessThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarOrderedLessThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarOrderedLessThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -1057,7 +1057,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarOrderedLessThanOrEqual">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedLessThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedLessThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarOrderedLessThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarOrderedLessThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarOrderedLessThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -1089,7 +1089,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarOrderedNotEqual">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedNotEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarOrderedNotEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarOrderedNotEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarOrderedNotEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarOrderedNotEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -1121,7 +1121,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarUnordered">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareScalarUnordered (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareScalarUnordered ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareScalarUnordered(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarUnordered(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarUnordered (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -1153,7 +1153,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarUnorderedEqual">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarUnorderedEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarUnorderedEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarUnorderedEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -1185,7 +1185,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarUnorderedGreaterThan">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedGreaterThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedGreaterThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarUnorderedGreaterThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarUnorderedGreaterThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarUnorderedGreaterThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -1217,7 +1217,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarUnorderedGreaterThanOrEqual">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedGreaterThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedGreaterThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarUnorderedGreaterThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarUnorderedGreaterThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarUnorderedGreaterThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -1249,7 +1249,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarUnorderedLessThan">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedLessThan (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedLessThan ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarUnorderedLessThan(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarUnorderedLessThan(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarUnorderedLessThan (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -1281,7 +1281,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarUnorderedLessThanOrEqual">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedLessThanOrEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedLessThanOrEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarUnorderedLessThanOrEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarUnorderedLessThanOrEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarUnorderedLessThanOrEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -1313,7 +1313,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareScalarUnorderedNotEqual">
-      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedNotEqual (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static bool CompareScalarUnorderedNotEqual ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CompareScalarUnorderedNotEqual(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareScalarUnorderedNotEqual(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareScalarUnorderedNotEqual (left As Vector128(Of Single), right As Vector128(Of Single)) As Boolean" />
@@ -1345,7 +1345,7 @@
       </Docs>
     </Member>
     <Member MemberName="CompareUnordered">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; CompareUnordered (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  CompareUnordered ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; CompareUnordered(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.CompareUnordered(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CompareUnordered (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -1381,7 +1381,7 @@
       </Docs>
     </Member>
     <Member MemberName="ConvertScalarToVector128Single">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; ConvertScalarToVector128Single (System.Runtime.Intrinsics.Vector128&lt;float&gt; upper, int value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertScalarToVector128Single ( upper, int value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; ConvertScalarToVector128Single(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; upper, int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ConvertScalarToVector128Single(System.Runtime.Intrinsics.Vector128{System.Single},System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertScalarToVector128Single (upper As Vector128(Of Single), value As Integer) As Vector128(Of Single)" />
@@ -1417,7 +1417,7 @@
       </Docs>
     </Member>
     <Member MemberName="ConvertToInt32">
-      <MemberSignature Language="C#" Value="public static int ConvertToInt32 (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static int ConvertToInt32 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 ConvertToInt32(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ConvertToInt32(System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt32 (value As Vector128(Of Single)) As Integer" />
@@ -1451,7 +1451,7 @@
       </Docs>
     </Member>
     <Member MemberName="ConvertToInt32WithTruncation">
-      <MemberSignature Language="C#" Value="public static int ConvertToInt32WithTruncation (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static int ConvertToInt32WithTruncation ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 ConvertToInt32WithTruncation(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ConvertToInt32WithTruncation(System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt32WithTruncation (value As Vector128(Of Single)) As Integer" />
@@ -1485,7 +1485,7 @@
       </Docs>
     </Member>
     <Member MemberName="Divide">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Divide (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Divide ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Divide(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Divide(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Divide (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -1521,7 +1521,7 @@
       </Docs>
     </Member>
     <Member MemberName="DivideScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; DivideScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  DivideScalar ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; DivideScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.DivideScalar(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function DivideScalar (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -1584,7 +1584,7 @@
       </Docs>
     </Member>
     <Member MemberName="LoadAlignedVector128">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; LoadAlignedVector128 (float* address);" />
+      <MemberSignature Language="C#" Value="public static  LoadAlignedVector128 (float* address);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; LoadAlignedVector128(float32* address) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.LoadAlignedVector128(System.Single*)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; LoadAlignedVector128(float* address);" />
@@ -1617,7 +1617,7 @@
       </Docs>
     </Member>
     <Member MemberName="LoadHigh">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; LoadHigh (System.Runtime.Intrinsics.Vector128&lt;float&gt; lower, float* address);" />
+      <MemberSignature Language="C#" Value="public static  LoadHigh ( lower, float* address);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; LoadHigh(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; lower, float32* address) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.LoadHigh(System.Runtime.Intrinsics.Vector128{System.Single},System.Single*)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; LoadHigh(System::Runtime::Intrinsics::Vector128&lt;float&gt; lower, float* address);" />
@@ -1652,7 +1652,7 @@
       </Docs>
     </Member>
     <Member MemberName="LoadLow">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; LoadLow (System.Runtime.Intrinsics.Vector128&lt;float&gt; upper, float* address);" />
+      <MemberSignature Language="C#" Value="public static  LoadLow ( upper, float* address);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; LoadLow(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; upper, float32* address) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.LoadLow(System.Runtime.Intrinsics.Vector128{System.Single},System.Single*)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; LoadLow(System::Runtime::Intrinsics::Vector128&lt;float&gt; upper, float* address);" />
@@ -1687,7 +1687,7 @@
       </Docs>
     </Member>
     <Member MemberName="LoadScalarVector128">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; LoadScalarVector128 (float* address);" />
+      <MemberSignature Language="C#" Value="public static  LoadScalarVector128 (float* address);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; LoadScalarVector128(float32* address) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.LoadScalarVector128(System.Single*)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; LoadScalarVector128(float* address);" />
@@ -1720,7 +1720,7 @@
       </Docs>
     </Member>
     <Member MemberName="LoadVector128">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; LoadVector128 (float* address);" />
+      <MemberSignature Language="C#" Value="public static  LoadVector128 (float* address);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; LoadVector128(float32* address) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.LoadVector128(System.Single*)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Runtime::Intrinsics::Vector128&lt;float&gt; LoadVector128(float* address);" />
@@ -1753,7 +1753,7 @@
       </Docs>
     </Member>
     <Member MemberName="Max">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Max (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Max ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Max(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Max(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Max (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -1789,7 +1789,7 @@
       </Docs>
     </Member>
     <Member MemberName="MaxScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; MaxScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  MaxScalar ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; MaxScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.MaxScalar(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MaxScalar (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -1825,7 +1825,7 @@
       </Docs>
     </Member>
     <Member MemberName="Min">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Min (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Min ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Min(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Min(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Min (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -1861,7 +1861,7 @@
       </Docs>
     </Member>
     <Member MemberName="MinScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; MinScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  MinScalar ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; MinScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.MinScalar(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MinScalar (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -1897,7 +1897,7 @@
       </Docs>
     </Member>
     <Member MemberName="MoveHighToLow">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; MoveHighToLow (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  MoveHighToLow ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; MoveHighToLow(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.MoveHighToLow(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MoveHighToLow (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -1933,7 +1933,7 @@
       </Docs>
     </Member>
     <Member MemberName="MoveLowToHigh">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; MoveLowToHigh (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  MoveLowToHigh ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; MoveLowToHigh(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.MoveLowToHigh(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MoveLowToHigh (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -1969,7 +1969,7 @@
       </Docs>
     </Member>
     <Member MemberName="MoveMask">
-      <MemberSignature Language="C#" Value="public static int MoveMask (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static int MoveMask ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 MoveMask(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.MoveMask(System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MoveMask (value As Vector128(Of Single)) As Integer" />
@@ -2003,7 +2003,7 @@
       </Docs>
     </Member>
     <Member MemberName="MoveScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; MoveScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; upper, System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  MoveScalar ( upper,  value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; MoveScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; upper, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.MoveScalar(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MoveScalar (upper As Vector128(Of Single), value As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2039,7 +2039,7 @@
       </Docs>
     </Member>
     <Member MemberName="Multiply">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Multiply (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Multiply ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Multiply(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Multiply(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Multiply (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2075,7 +2075,7 @@
       </Docs>
     </Member>
     <Member MemberName="MultiplyScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; MultiplyScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  MultiplyScalar ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; MultiplyScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.MultiplyScalar(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function MultiplyScalar (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2111,7 +2111,7 @@
       </Docs>
     </Member>
     <Member MemberName="Or">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Or (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Or ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Or(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Or(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Or (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2275,7 +2275,7 @@
       </Docs>
     </Member>
     <Member MemberName="Reciprocal">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Reciprocal (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  Reciprocal ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Reciprocal(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Reciprocal(System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Reciprocal (value As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2309,7 +2309,7 @@
       </Docs>
     </Member>
     <Member MemberName="ReciprocalScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; ReciprocalScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ReciprocalScalar ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; ReciprocalScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ReciprocalScalar(System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReciprocalScalar (value As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2343,7 +2343,7 @@
       </Docs>
     </Member>
     <Member MemberName="ReciprocalScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; ReciprocalScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; upper, System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ReciprocalScalar ( upper,  value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; ReciprocalScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; upper, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ReciprocalScalar(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReciprocalScalar (upper As Vector128(Of Single), value As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2387,7 +2387,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="ReciprocalSqrt">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; ReciprocalSqrt (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ReciprocalSqrt ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; ReciprocalSqrt(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ReciprocalSqrt(System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReciprocalSqrt (value As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2421,7 +2421,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="ReciprocalSqrtScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; ReciprocalSqrtScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ReciprocalSqrtScalar ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; ReciprocalSqrtScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ReciprocalSqrtScalar(System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReciprocalSqrtScalar (value As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2455,7 +2455,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="ReciprocalSqrtScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; ReciprocalSqrtScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; upper, System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  ReciprocalSqrtScalar ( upper,  value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; ReciprocalSqrtScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; upper, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.ReciprocalSqrtScalar(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ReciprocalSqrtScalar (upper As Vector128(Of Single), value As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2499,7 +2499,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="Shuffle">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Shuffle (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right, byte control);" />
+      <MemberSignature Language="C#" Value="public static  Shuffle ( left,  right, byte control);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Shuffle(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right, unsigned int8 control) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Shuffle(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single},System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Shuffle (left As Vector128(Of Single), right As Vector128(Of Single), control As Byte) As Vector128(Of Single)" />
@@ -2537,7 +2537,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="Sqrt">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Sqrt (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  Sqrt ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Sqrt(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Sqrt(System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Sqrt (value As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2571,7 +2571,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="SqrtScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; SqrtScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  SqrtScalar ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; SqrtScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.SqrtScalar(System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function SqrtScalar (value As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2605,7 +2605,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="SqrtScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; SqrtScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; upper, System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static  SqrtScalar ( upper,  value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; SqrtScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; upper, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.SqrtScalar(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function SqrtScalar (upper As Vector128(Of Single), value As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2649,7 +2649,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="Store">
-      <MemberSignature Language="C#" Value="public static void Store (float* address, System.Runtime.Intrinsics.Vector128&lt;float&gt; source);" />
+      <MemberSignature Language="C#" Value="public static void Store (float* address,  source);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Store(float32* address, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Store(System.Single*,System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Store(float* address, System::Runtime::Intrinsics::Vector128&lt;float&gt; source);" />
@@ -2683,7 +2683,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="StoreAligned">
-      <MemberSignature Language="C#" Value="public static void StoreAligned (float* address, System.Runtime.Intrinsics.Vector128&lt;float&gt; source);" />
+      <MemberSignature Language="C#" Value="public static void StoreAligned (float* address,  source);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void StoreAligned(float32* address, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.StoreAligned(System.Single*,System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void StoreAligned(float* address, System::Runtime::Intrinsics::Vector128&lt;float&gt; source);" />
@@ -2717,7 +2717,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="StoreAlignedNonTemporal">
-      <MemberSignature Language="C#" Value="public static void StoreAlignedNonTemporal (float* address, System.Runtime.Intrinsics.Vector128&lt;float&gt; source);" />
+      <MemberSignature Language="C#" Value="public static void StoreAlignedNonTemporal (float* address,  source);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void StoreAlignedNonTemporal(float32* address, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.StoreAlignedNonTemporal(System.Single*,System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void StoreAlignedNonTemporal(float* address, System::Runtime::Intrinsics::Vector128&lt;float&gt; source);" />
@@ -2781,7 +2781,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="StoreHigh">
-      <MemberSignature Language="C#" Value="public static void StoreHigh (float* address, System.Runtime.Intrinsics.Vector128&lt;float&gt; source);" />
+      <MemberSignature Language="C#" Value="public static void StoreHigh (float* address,  source);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void StoreHigh(float32* address, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.StoreHigh(System.Single*,System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void StoreHigh(float* address, System::Runtime::Intrinsics::Vector128&lt;float&gt; source);" />
@@ -2815,7 +2815,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="StoreLow">
-      <MemberSignature Language="C#" Value="public static void StoreLow (float* address, System.Runtime.Intrinsics.Vector128&lt;float&gt; source);" />
+      <MemberSignature Language="C#" Value="public static void StoreLow (float* address,  source);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void StoreLow(float32* address, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.StoreLow(System.Single*,System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void StoreLow(float* address, System::Runtime::Intrinsics::Vector128&lt;float&gt; source);" />
@@ -2849,7 +2849,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="StoreScalar">
-      <MemberSignature Language="C#" Value="public static void StoreScalar (float* address, System.Runtime.Intrinsics.Vector128&lt;float&gt; source);" />
+      <MemberSignature Language="C#" Value="public static void StoreScalar (float* address,  source);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig void StoreScalar(float32* address, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.StoreScalar(System.Single*,System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static void StoreScalar(float* address, System::Runtime::Intrinsics::Vector128&lt;float&gt; source);" />
@@ -2883,7 +2883,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="Subtract">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Subtract (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Subtract ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Subtract(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Subtract(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Subtract (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2919,7 +2919,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="SubtractScalar">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; SubtractScalar (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  SubtractScalar ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; SubtractScalar(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.SubtractScalar(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function SubtractScalar (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2955,7 +2955,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="UnpackHigh">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; UnpackHigh (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  UnpackHigh ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; UnpackHigh(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.UnpackHigh(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function UnpackHigh (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -2991,7 +2991,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="UnpackLow">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; UnpackLow (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  UnpackLow ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; UnpackLow(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.UnpackLow(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function UnpackLow (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />
@@ -3027,7 +3027,7 @@ The above native signature does not exist. We provide this additional overload f
       </Docs>
     </Member>
     <Member MemberName="Xor">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; Xor (System.Runtime.Intrinsics.Vector128&lt;float&gt; left, System.Runtime.Intrinsics.Vector128&lt;float&gt; right);" />
+      <MemberSignature Language="C#" Value="public static  Xor ( left,  right);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; Xor(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; right) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.Xor(System.Runtime.Intrinsics.Vector128{System.Single},System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Xor (left As Vector128(Of Single), right As Vector128(Of Single)) As Vector128(Of Single)" />

@@ -1386,7 +1386,7 @@ The main parts of this structure are:
       </Docs>
     </Member>
     <Member MemberName="SignatureFormatValidator">
-      <MemberSignature Language="C#" Value="public Func&lt;System.Security.Cryptography.Xml.SignedXml,bool&gt; SignatureFormatValidator { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;System.Security.Cryptography.Xml.SignedXml, bool&gt; SignatureFormatValidator { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Security.Cryptography.Xml.SignedXml, bool&gt; SignatureFormatValidator" />
       <MemberSignature Language="DocId" Value="P:System.Security.Cryptography.Xml.SignedXml.SignatureFormatValidator" />
       <MemberSignature Language="VB.NET" Value="Public Property SignatureFormatValidator As Func(Of SignedXml, Boolean)" />
@@ -1406,7 +1406,7 @@ The main parts of this structure are:
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Security.Cryptography.Xml.SignedXml,System.Boolean&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Security.Cryptography.Xml.SignedXml, System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a delegate that will be called to validate the format (not the cryptographic security) of an XML signature.</summary>

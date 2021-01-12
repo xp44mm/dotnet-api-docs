@@ -1067,7 +1067,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToBoolean">
-      <MemberSignature Language="C#" Value="public static bool ToBoolean (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static bool ToBoolean ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool ToBoolean(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.ToBoolean(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToBoolean (value As ReadOnlySpan(Of Byte)) As Boolean" />
@@ -1175,7 +1175,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToChar">
-      <MemberSignature Language="C#" Value="public static char ToChar (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static char ToChar ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig char ToChar(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.ToChar(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToChar (value As ReadOnlySpan(Of Byte)) As Char" />
@@ -1284,7 +1284,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToDouble">
-      <MemberSignature Language="C#" Value="public static double ToDouble (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static double ToDouble ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float64 ToDouble(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.ToDouble(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToDouble (value As ReadOnlySpan(Of Byte)) As Double" />
@@ -1399,7 +1399,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToInt16">
-      <MemberSignature Language="C#" Value="public static short ToInt16 (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static short ToInt16 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int16 ToInt16(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.ToInt16(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToInt16 (value As ReadOnlySpan(Of Byte)) As Short" />
@@ -1514,7 +1514,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToInt32">
-      <MemberSignature Language="C#" Value="public static int ToInt32 (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static int ToInt32 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 ToInt32(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.ToInt32(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToInt32 (value As ReadOnlySpan(Of Byte)) As Integer" />
@@ -1628,7 +1628,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToInt64">
-      <MemberSignature Language="C#" Value="public static long ToInt64 (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static long ToInt64 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int64 ToInt64(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.ToInt64(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToInt64 (value As ReadOnlySpan(Of Byte)) As Long" />
@@ -1743,7 +1743,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToSingle">
-      <MemberSignature Language="C#" Value="public static float ToSingle (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static float ToSingle ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig float32 ToSingle(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.ToSingle(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToSingle (value As ReadOnlySpan(Of Byte)) As Single" />
@@ -2079,7 +2079,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToUInt16">
-      <MemberSignature Language="C#" Value="public static ushort ToUInt16 (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static ushort ToUInt16 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int16 ToUInt16(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.ToUInt16(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToUInt16 (value As ReadOnlySpan(Of Byte)) As UShort" />
@@ -2200,7 +2200,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToUInt32">
-      <MemberSignature Language="C#" Value="public static uint ToUInt32 (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static uint ToUInt32 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int32 ToUInt32(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.ToUInt32(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToUInt32 (value As ReadOnlySpan(Of Byte)) As UInteger" />
@@ -2321,7 +2321,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToUInt64">
-      <MemberSignature Language="C#" Value="public static ulong ToUInt64 (ReadOnlySpan&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public static ulong ToUInt64 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int64 ToUInt64(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.ToUInt64(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ToUInt64 (value As ReadOnlySpan(Of Byte)) As ULong" />
@@ -2441,7 +2441,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public static bool TryWriteBytes (Span&lt;byte&gt; destination, bool value);" />
+      <MemberSignature Language="C#" Value="public static bool TryWriteBytes ( destination, bool value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, bool value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.TryWriteBytes(System.Span{System.Byte},System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryWriteBytes (destination As Span(Of Byte), value As Boolean) As Boolean" />
@@ -2481,7 +2481,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public static bool TryWriteBytes (Span&lt;byte&gt; destination, char value);" />
+      <MemberSignature Language="C#" Value="public static bool TryWriteBytes ( destination, char value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, char value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.TryWriteBytes(System.Span{System.Byte},System.Char)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryWriteBytes (destination As Span(Of Byte), value As Char) As Boolean" />
@@ -2521,7 +2521,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public static bool TryWriteBytes (Span&lt;byte&gt; destination, double value);" />
+      <MemberSignature Language="C#" Value="public static bool TryWriteBytes ( destination, double value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, float64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.TryWriteBytes(System.Span{System.Byte},System.Double)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryWriteBytes (destination As Span(Of Byte), value As Double) As Boolean" />
@@ -2561,7 +2561,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public static bool TryWriteBytes (Span&lt;byte&gt; destination, short value);" />
+      <MemberSignature Language="C#" Value="public static bool TryWriteBytes ( destination, short value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, int16 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.TryWriteBytes(System.Span{System.Byte},System.Int16)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryWriteBytes (destination As Span(Of Byte), value As Short) As Boolean" />
@@ -2601,7 +2601,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public static bool TryWriteBytes (Span&lt;byte&gt; destination, int value);" />
+      <MemberSignature Language="C#" Value="public static bool TryWriteBytes ( destination, int value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.TryWriteBytes(System.Span{System.Byte},System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryWriteBytes (destination As Span(Of Byte), value As Integer) As Boolean" />
@@ -2641,7 +2641,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public static bool TryWriteBytes (Span&lt;byte&gt; destination, long value);" />
+      <MemberSignature Language="C#" Value="public static bool TryWriteBytes ( destination, long value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, int64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.TryWriteBytes(System.Span{System.Byte},System.Int64)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryWriteBytes (destination As Span(Of Byte), value As Long) As Boolean" />
@@ -2681,7 +2681,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public static bool TryWriteBytes (Span&lt;byte&gt; destination, float value);" />
+      <MemberSignature Language="C#" Value="public static bool TryWriteBytes ( destination, float value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, float32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.TryWriteBytes(System.Span{System.Byte},System.Single)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryWriteBytes (destination As Span(Of Byte), value As Single) As Boolean" />
@@ -2721,7 +2721,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public static bool TryWriteBytes (Span&lt;byte&gt; destination, ushort value);" />
+      <MemberSignature Language="C#" Value="public static bool TryWriteBytes ( destination, ushort value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, unsigned int16 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.TryWriteBytes(System.Span{System.Byte},System.UInt16)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryWriteBytes (destination As Span(Of Byte), value As UShort) As Boolean" />
@@ -2767,7 +2767,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public static bool TryWriteBytes (Span&lt;byte&gt; destination, uint value);" />
+      <MemberSignature Language="C#" Value="public static bool TryWriteBytes ( destination, uint value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, unsigned int32 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.TryWriteBytes(System.Span{System.Byte},System.UInt32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryWriteBytes (destination As Span(Of Byte), value As UInteger) As Boolean" />
@@ -2813,7 +2813,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryWriteBytes">
-      <MemberSignature Language="C#" Value="public static bool TryWriteBytes (Span&lt;byte&gt; destination, ulong value);" />
+      <MemberSignature Language="C#" Value="public static bool TryWriteBytes ( destination, ulong value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryWriteBytes(valuetype System.Span`1&lt;unsigned int8&gt; destination, unsigned int64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.BitConverter.TryWriteBytes(System.Span{System.Byte},System.UInt64)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryWriteBytes (destination As Span(Of Byte), value As ULong) As Boolean" />

@@ -22,7 +22,7 @@
   </Docs>
   <Members>
     <Member MemberName="ImeModeConversionBits">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;System.Windows.Forms.ImeMode,System.Windows.Forms.ImeModeConversion&gt; ImeModeConversionBits { get; }" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.Dictionary&lt;System.Windows.Forms.ImeMode, System.Windows.Forms.ImeModeConversion&gt; ImeModeConversionBits { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.Dictionary`2&lt;valuetype System.Windows.Forms.ImeMode, valuetype System.Windows.Forms.ImeModeConversion&gt; ImeModeConversionBits" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.ImeModeConversion.ImeModeConversionBits" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ImeModeConversionBits As Dictionary(Of ImeMode, ImeModeConversion)" />
@@ -36,7 +36,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.Windows.Forms.ImeMode,System.Windows.Forms.ImeModeConversion&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.Windows.Forms.ImeMode, System.Windows.Forms.ImeModeConversion&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a dictionary that contains the conversion mode flags corresponding to each <see cref="T:System.Windows.Forms.ImeMode" />.</summary>

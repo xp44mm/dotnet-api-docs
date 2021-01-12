@@ -951,7 +951,7 @@
       </Docs>
     </Member>
     <Member MemberName="TransformMapping">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,string&gt; TransformMapping { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string, string&gt; TransformMapping { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, string&gt; TransformMapping" />
       <MemberSignature Language="DocId" Value="P:System.IO.Packaging.PackageDigitalSignatureManager.TransformMapping" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TransformMapping As Dictionary(Of String, String)" />
@@ -971,7 +971,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a dictionary that contains each defined <see cref="P:System.IO.Packaging.PackagePart.ContentType" /> and its associated [!INCLUDE[TLA#tla_xml](~/includes/tlasharptla-xml-md.md)] <see cref="T:System.Security.Cryptography.Xml.Transform" />.<see cref="P:System.Security.Cryptography.Xml.Transform.Algorithm" /> identifier.</summary>

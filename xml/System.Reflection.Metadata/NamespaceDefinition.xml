@@ -26,7 +26,7 @@
   </Docs>
   <Members>
     <Member MemberName="ExportedTypes">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;System.Reflection.Metadata.ExportedTypeHandle&gt; ExportedTypes { get; }" />
+      <MemberSignature Language="C#" Value="public  ExportedTypes { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;valuetype System.Reflection.Metadata.ExportedTypeHandle&gt; ExportedTypes" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.Metadata.NamespaceDefinition.ExportedTypes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExportedTypes As ImmutableArray(Of ExportedTypeHandle)" />
@@ -82,7 +82,7 @@
       </Docs>
     </Member>
     <Member MemberName="NamespaceDefinitions">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;System.Reflection.Metadata.NamespaceDefinitionHandle&gt; NamespaceDefinitions { get; }" />
+      <MemberSignature Language="C#" Value="public  NamespaceDefinitions { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;valuetype System.Reflection.Metadata.NamespaceDefinitionHandle&gt; NamespaceDefinitions" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.Metadata.NamespaceDefinition.NamespaceDefinitions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property NamespaceDefinitions As ImmutableArray(Of NamespaceDefinitionHandle)" />
@@ -148,7 +148,7 @@ For example:
       </Docs>
     </Member>
     <Member MemberName="TypeDefinitions">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;System.Reflection.Metadata.TypeDefinitionHandle&gt; TypeDefinitions { get; }" />
+      <MemberSignature Language="C#" Value="public  TypeDefinitions { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;valuetype System.Reflection.Metadata.TypeDefinitionHandle&gt; TypeDefinitions" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.Metadata.NamespaceDefinition.TypeDefinitions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TypeDefinitions As ImmutableArray(Of TypeDefinitionHandle)" />

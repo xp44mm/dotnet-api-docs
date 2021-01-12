@@ -51,7 +51,7 @@
       </Docs>
     </Member>
     <Member MemberName="KeyData">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,string&gt; KeyData { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, string&gt; KeyData { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; KeyData" />
       <MemberSignature Language="DocId" Value="P:System.ServiceModel.Channels.CorrelationKey.KeyData" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyData As IDictionary(Of String, String)" />
@@ -69,7 +69,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a dictionary of key data.</summary>

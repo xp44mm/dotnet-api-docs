@@ -91,7 +91,7 @@
       </Docs>
     </Member>
     <Member MemberName="ActiveToolSwitches">
-      <MemberSignature Language="C#" Value="protected internal System.Collections.Generic.Dictionary&lt;string,Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch&gt; ActiveToolSwitches { get; }" />
+      <MemberSignature Language="C#" Value="protected internal System.Collections.Generic.Dictionary&lt;string, Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch&gt; ActiveToolSwitches { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, class Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch&gt; ActiveToolSwitches" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Tasks.Xaml.XamlDataDrivenToolTask.ActiveToolSwitches" />
       <MemberSignature Language="VB.NET" Value="Protected Friend ReadOnly Property ActiveToolSwitches As Dictionary(Of String, CommandLineToolSwitch)" />
@@ -113,7 +113,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -124,7 +124,7 @@
       </Docs>
     </Member>
     <Member MemberName="ActiveToolSwitchesValues">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string,Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch&gt; ActiveToolSwitchesValues { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;string, Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch&gt; ActiveToolSwitchesValues { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, class Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch&gt; ActiveToolSwitchesValues" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Tasks.Xaml.XamlDataDrivenToolTask.ActiveToolSwitchesValues" />
       <MemberSignature Language="VB.NET" Value="Public Property ActiveToolSwitchesValues As Dictionary(Of String, CommandLineToolSwitch)" />
@@ -150,7 +150,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

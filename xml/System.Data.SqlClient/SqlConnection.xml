@@ -1223,7 +1223,7 @@ The connection string contains <see langword="Context Connection=true" />.
       </Docs>
     </Member>
     <Member MemberName="ColumnEncryptionTrustedMasterKeyPaths">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;string,System.Collections.Generic.IList&lt;string&gt;&gt; ColumnEncryptionTrustedMasterKeyPaths { get; }" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;string, System.Collections.Generic.IList&lt;string&gt;&gt; ColumnEncryptionTrustedMasterKeyPaths { get; }" />
       <MemberSignature Language="ILAsm" Value=".property class System.Collections.Generic.IDictionary`2&lt;string, class System.Collections.Generic.IList`1&lt;string&gt;&gt; ColumnEncryptionTrustedMasterKeyPaths" />
       <MemberSignature Language="DocId" Value="P:System.Data.SqlClient.SqlConnection.ColumnEncryptionTrustedMasterKeyPaths" />
       <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property ColumnEncryptionTrustedMasterKeyPaths As IDictionary(Of String, IList(Of String))" />
@@ -1244,7 +1244,7 @@ The connection string contains <see langword="Context Connection=true" />.
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Collections.Generic.IList&lt;System.String&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Collections.Generic.IList&lt;System.String&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Allows you to set a list of trusted key paths for a database server. If while processing an application query the driver receives a key path that is not on the list, the query will fail. This property provides additional protection against security attacks that involve a compromised SQL Server providing fake key paths, which may lead to leaking key store credentials.</summary>

@@ -430,7 +430,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="ReadMessage">
-      <MemberSignature Language="C#" Value="public System.ServiceModel.Channels.Message ReadMessage (ArraySegment&lt;byte&gt; buffer, System.ServiceModel.Channels.BufferManager bufferManager);" />
+      <MemberSignature Language="C#" Value="public System.ServiceModel.Channels.Message ReadMessage ( buffer, System.ServiceModel.Channels.BufferManager bufferManager);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.ServiceModel.Channels.Message ReadMessage(valuetype System.ArraySegment`1&lt;unsigned int8&gt; buffer, class System.ServiceModel.Channels.BufferManager bufferManager) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.ServiceModel.Channels.MessageEncoder.ReadMessage(System.ArraySegment{System.Byte},System.ServiceModel.Channels.BufferManager)" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadMessage (buffer As ArraySegment(Of Byte), bufferManager As BufferManager) As Message" />
@@ -524,7 +524,7 @@
       </Docs>
     </Member>
     <Member MemberName="ReadMessage">
-      <MemberSignature Language="C#" Value="public abstract System.ServiceModel.Channels.Message ReadMessage (ArraySegment&lt;byte&gt; buffer, System.ServiceModel.Channels.BufferManager bufferManager, string contentType);" />
+      <MemberSignature Language="C#" Value="public abstract System.ServiceModel.Channels.Message ReadMessage ( buffer, System.ServiceModel.Channels.BufferManager bufferManager, string contentType);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.ServiceModel.Channels.Message ReadMessage(valuetype System.ArraySegment`1&lt;unsigned int8&gt; buffer, class System.ServiceModel.Channels.BufferManager bufferManager, string contentType) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.ServiceModel.Channels.MessageEncoder.ReadMessage(System.ArraySegment{System.Byte},System.ServiceModel.Channels.BufferManager,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function ReadMessage (buffer As ArraySegment(Of Byte), bufferManager As BufferManager, contentType As String) As Message" />
@@ -729,7 +729,7 @@
       </Docs>
     </Member>
     <Member MemberName="WriteMessage">
-      <MemberSignature Language="C#" Value="public ArraySegment&lt;byte&gt; WriteMessage (System.ServiceModel.Channels.Message message, int maxMessageSize, System.ServiceModel.Channels.BufferManager bufferManager);" />
+      <MemberSignature Language="C#" Value="public  WriteMessage (System.ServiceModel.Channels.Message message, int maxMessageSize, System.ServiceModel.Channels.BufferManager bufferManager);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.ArraySegment`1&lt;unsigned int8&gt; WriteMessage(class System.ServiceModel.Channels.Message message, int32 maxMessageSize, class System.ServiceModel.Channels.BufferManager bufferManager) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.ServiceModel.Channels.MessageEncoder.WriteMessage(System.ServiceModel.Channels.Message,System.Int32,System.ServiceModel.Channels.BufferManager)" />
       <MemberSignature Language="VB.NET" Value="Public Function WriteMessage (message As Message, maxMessageSize As Integer, bufferManager As BufferManager) As ArraySegment(Of Byte)" />
@@ -785,7 +785,7 @@
       </Docs>
     </Member>
     <Member MemberName="WriteMessage">
-      <MemberSignature Language="C#" Value="public abstract ArraySegment&lt;byte&gt; WriteMessage (System.ServiceModel.Channels.Message message, int maxMessageSize, System.ServiceModel.Channels.BufferManager bufferManager, int messageOffset);" />
+      <MemberSignature Language="C#" Value="public abstract  WriteMessage (System.ServiceModel.Channels.Message message, int maxMessageSize, System.ServiceModel.Channels.BufferManager bufferManager, int messageOffset);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.ArraySegment`1&lt;unsigned int8&gt; WriteMessage(class System.ServiceModel.Channels.Message message, int32 maxMessageSize, class System.ServiceModel.Channels.BufferManager bufferManager, int32 messageOffset) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.ServiceModel.Channels.MessageEncoder.WriteMessage(System.ServiceModel.Channels.Message,System.Int32,System.ServiceModel.Channels.BufferManager,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Function WriteMessage (message As Message, maxMessageSize As Integer, bufferManager As BufferManager, messageOffset As Integer) As ArraySegment(Of Byte)" />

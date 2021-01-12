@@ -1,5 +1,5 @@
 <Type Name="CharacterMetricsDictionary" FullName="System.Windows.Media.CharacterMetricsDictionary">
-  <TypeSignature Language="C#" Value="public sealed class CharacterMetricsDictionary : System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;int,System.Windows.Media.CharacterMetrics&gt;&gt;, System.Collections.Generic.IDictionary&lt;int,System.Windows.Media.CharacterMetrics&gt;, System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;int,System.Windows.Media.CharacterMetrics&gt;&gt;, System.Collections.IDictionary" />
+  <TypeSignature Language="C#" Value="public sealed class CharacterMetricsDictionary : System.Collections.Generic.ICollection&lt;&gt;, System.Collections.Generic.IDictionary&lt;int, System.Windows.Media.CharacterMetrics&gt;, System.Collections.Generic.IEnumerable&lt;&gt;, System.Collections.IDictionary" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit CharacterMetricsDictionary extends System.Object implements class System.Collections.Generic.ICollection`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;int32, class System.Windows.Media.CharacterMetrics&gt;&gt;, class System.Collections.Generic.IDictionary`2&lt;int32, class System.Windows.Media.CharacterMetrics&gt;, class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;int32, class System.Windows.Media.CharacterMetrics&gt;&gt;, class System.Collections.ICollection, class System.Collections.IDictionary, class System.Collections.IEnumerable" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Media.CharacterMetricsDictionary" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class CharacterMetricsDictionary&#xA;Implements ICollection(Of KeyValuePair(Of Integer, CharacterMetrics)), IDictionary, IDictionary(Of Integer, CharacterMetrics), IEnumerable(Of KeyValuePair(Of Integer, CharacterMetrics))" />
@@ -18,19 +18,19 @@
   </Base>
   <Interfaces>
     <Interface>
-      <InterfaceName>System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32,System.Windows.Media.CharacterMetrics&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32, System.Windows.Media.CharacterMetrics&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Collections.Generic.IDictionary&lt;System.Int32,System.Windows.Media.CharacterMetrics&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.IDictionary&lt;System.Int32, System.Windows.Media.CharacterMetrics&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32,System.Windows.Media.CharacterMetrics&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32, System.Windows.Media.CharacterMetrics&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
-      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;</InterfaceName>
+      <InterfaceName>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey, TValue&gt;&gt;</InterfaceName>
     </Interface>
     <Interface>
       <InterfaceName>System.Collections.Generic.IEnumerable&lt;T&gt;</InterfaceName>
@@ -291,7 +291,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetEnumerator">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;int,System.Windows.Media.CharacterMetrics&gt;&gt; GetEnumerator ();" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerator&lt;&gt; GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;int32, class System.Windows.Media.CharacterMetrics&gt;&gt; GetEnumerator() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Media.CharacterMetricsDictionary.GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEnumerator () As IEnumerator(Of KeyValuePair(Of Integer, CharacterMetrics))" />
@@ -314,7 +314,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32,System.Windows.Media.CharacterMetrics&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;System.Int32, System.Windows.Media.CharacterMetrics&gt;&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

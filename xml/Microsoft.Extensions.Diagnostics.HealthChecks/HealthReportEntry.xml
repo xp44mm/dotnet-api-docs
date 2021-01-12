@@ -90,13 +90,12 @@
       </Docs>
     </Member>
     <Member MemberName="Data">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt; Data { get; }" FrameworkAlternate="dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string, object&gt; Data { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;string, object&gt; Data" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Data" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Data As IReadOnlyDictionary(Of String, Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IReadOnlyDictionary&lt;System::String ^, System::Object ^&gt; ^ Data { System::Collections::Generic::IReadOnlyDictionary&lt;System::String ^, System::Object ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Data : System.Collections.Generic.IReadOnlyDictionary&lt;string, obj&gt;" Usage="Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Data" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;string,object&gt;? Data { get; }" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions</AssemblyName>
@@ -106,13 +105,13 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets additional key-value pairs describing the health of the component.</summary>
@@ -136,7 +135,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -166,7 +165,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -196,7 +195,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -226,7 +225,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>
@@ -241,13 +240,12 @@
       </Docs>
     </Member>
     <Member MemberName="Tags">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; Tags { get; }" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt; Tags { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;string&gt; Tags" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Tags" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Tags As IEnumerable(Of String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ Tags { System::Collections::Generic::IEnumerable&lt;System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Tags : seq&lt;string&gt;" Usage="Microsoft.Extensions.Diagnostics.HealthChecks.HealthReportEntry.Tags" />
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;string&gt;? Tags { get; }" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Diagnostics.HealthChecks.Abstractions</AssemblyName>
@@ -256,7 +254,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-5.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0">
           <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
           <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
         </Attribute>

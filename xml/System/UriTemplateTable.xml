@@ -317,7 +317,7 @@
       </Docs>
     </Member>
     <Member MemberName="KeyValuePairs">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;System.Collections.Generic.KeyValuePair&lt;UriTemplate,object&gt;&gt; KeyValuePairs { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;&gt; KeyValuePairs { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;class System.UriTemplate, object&gt;&gt; KeyValuePairs" />
       <MemberSignature Language="DocId" Value="P:System.UriTemplateTable.KeyValuePairs" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyValuePairs As IList(Of KeyValuePair(Of UriTemplate, Object))" />
@@ -341,7 +341,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;System.Collections.Generic.KeyValuePair&lt;System.UriTemplate,System.Object&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IList&lt;System.Collections.Generic.KeyValuePair&lt;System.UriTemplate, System.Object&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a collection of key/value pairs that consist of <see cref="T:System.UriTemplate" /> objects and their associated data.</summary>

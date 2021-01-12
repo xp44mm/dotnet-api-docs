@@ -23,7 +23,7 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ReadResult (System.Buffers.ReadOnlySequence&lt;byte&gt; buffer, bool isCanceled, bool isCompleted);" />
+      <MemberSignature Language="C#" Value="public ReadResult ( buffer, bool isCanceled, bool isCompleted);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Buffers.ReadOnlySequence`1&lt;unsigned int8&gt; buffer, bool isCanceled, bool isCompleted) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.ReadResult.#ctor(System.Buffers.ReadOnlySequence{System.Byte},System.Boolean,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (buffer As ReadOnlySequence(Of Byte), isCanceled As Boolean, isCompleted As Boolean)" />
@@ -52,7 +52,7 @@
       </Docs>
     </Member>
     <Member MemberName="Buffer">
-      <MemberSignature Language="C#" Value="public System.Buffers.ReadOnlySequence&lt;byte&gt; Buffer { get; }" />
+      <MemberSignature Language="C#" Value="public  Buffer { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Buffers.ReadOnlySequence`1&lt;unsigned int8&gt; Buffer" />
       <MemberSignature Language="DocId" Value="P:System.IO.Pipelines.ReadResult.Buffer" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Buffer As ReadOnlySequence(Of Byte)" />

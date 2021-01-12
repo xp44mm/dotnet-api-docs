@@ -255,7 +255,7 @@
       </Docs>
     </Member>
     <Member MemberName="HashData">
-      <MemberSignature Language="C#" Value="public static byte[]? HashData (ReadOnlySpan&lt;byte&gt; source);" />
+      <MemberSignature Language="C#" Value="public static byte[] HashData ( source);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] HashData(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.SHA384.HashData(System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function HashData (source As ReadOnlySpan(Of Byte)) As Byte()" />
@@ -286,7 +286,7 @@
       </Docs>
     </Member>
     <Member MemberName="HashData">
-      <MemberSignature Language="C#" Value="public static int HashData (ReadOnlySpan&lt;byte&gt; source, Span&lt;byte&gt; destination);" />
+      <MemberSignature Language="C#" Value="public static int HashData ( source,  destination);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 HashData(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Span`1&lt;unsigned int8&gt; destination) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.SHA384.HashData(System.ReadOnlySpan{System.Byte},System.Span{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function HashData (source As ReadOnlySpan(Of Byte), destination As Span(Of Byte)) As Integer" />
@@ -320,7 +320,7 @@
       </Docs>
     </Member>
     <Member MemberName="TryHashData">
-      <MemberSignature Language="C#" Value="public static bool TryHashData (ReadOnlySpan&lt;byte&gt; source, Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public static bool TryHashData ( source,  destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryHashData(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.SHA384.TryHashData(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryHashData (source As ReadOnlySpan(Of Byte), destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />

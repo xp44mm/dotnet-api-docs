@@ -164,7 +164,7 @@
       </Docs>
     </Member>
     <Member MemberName="TypeLoadErrors">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;object,Exception&gt; TypeLoadErrors { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;object, Exception&gt; TypeLoadErrors { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;object, class System.Exception&gt; TypeLoadErrors" />
       <MemberSignature Language="DocId" Value="P:System.Workflow.ComponentModel.Compiler.ITypeProvider.TypeLoadErrors" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TypeLoadErrors As IDictionary(Of Object, Exception)" />
@@ -177,7 +177,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object,System.Exception&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object, System.Exception&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets an <see cref="T:System.Collections.IDictionary" /> of load error exceptions keyed by the <see cref="T:System.Object" /> causing the <see cref="T:System.Exception" />.</summary>

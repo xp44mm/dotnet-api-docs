@@ -106,7 +106,7 @@
       </Docs>
     </Member>
     <Member MemberName="Sample">
-      <MemberSignature Language="C#" Value="public System.Diagnostics.SampleActivity&lt;System.Diagnostics.ActivityContext&gt; Sample { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Diagnostics.SampleActivity&lt;System.Diagnostics.ActivityContext&gt;? Sample { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Diagnostics.SampleActivity`1&lt;valuetype System.Diagnostics.ActivityContext&gt; Sample" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.ActivityListener.Sample" />
       <MemberSignature Language="VB.NET" Value="Public Property Sample As SampleActivity(Of ActivityContext)" />
@@ -148,7 +148,7 @@
       </Docs>
     </Member>
     <Member MemberName="ShouldListenTo">
-      <MemberSignature Language="C#" Value="public Func&lt;System.Diagnostics.ActivitySource,bool&gt;? ShouldListenTo { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;System.Diagnostics.ActivitySource, bool&gt;? ShouldListenTo { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Diagnostics.ActivitySource, bool&gt; ShouldListenTo" />
       <MemberSignature Language="DocId" Value="P:System.Diagnostics.ActivityListener.ShouldListenTo" />
       <MemberSignature Language="VB.NET" Value="Public Property ShouldListenTo As Func(Of ActivitySource, Boolean)" />
@@ -160,7 +160,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Diagnostics.ActivitySource,System.Boolean&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Diagnostics.ActivitySource, System.Boolean&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the callback that allows deciding if activity object events that were created using the activity source object should be listened or not.</summary>

@@ -520,7 +520,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToImmutableArray">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;byte&gt; ToImmutableArray ();" />
+      <MemberSignature Language="C#" Value="public  ToImmutableArray ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;unsigned int8&gt; ToImmutableArray() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobBuilder.ToImmutableArray" />
       <MemberSignature Language="VB.NET" Value="Public Function ToImmutableArray () As ImmutableArray(Of Byte)" />
@@ -548,7 +548,7 @@
       </Docs>
     </Member>
     <Member MemberName="ToImmutableArray">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;byte&gt; ToImmutableArray (int start, int byteCount);" />
+      <MemberSignature Language="C#" Value="public  ToImmutableArray (int start, int byteCount);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;unsigned int8&gt; ToImmutableArray(int32 start, int32 byteCount) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobBuilder.ToImmutableArray(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function ToImmutableArray (start As Integer, byteCount As Integer) As ImmutableArray(Of Byte)" />
@@ -711,7 +711,7 @@
       </Docs>
     </Member>
     <Member MemberName="WriteBytes">
-      <MemberSignature Language="C#" Value="public void WriteBytes (System.Collections.Immutable.ImmutableArray&lt;byte&gt; buffer);" />
+      <MemberSignature Language="C#" Value="public void WriteBytes ( buffer);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteBytes(valuetype System.Collections.Immutable.ImmutableArray`1&lt;unsigned int8&gt; buffer) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobBuilder.WriteBytes(System.Collections.Immutable.ImmutableArray{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteBytes (buffer As ImmutableArray(Of Byte))" />
@@ -849,7 +849,7 @@
       </Docs>
     </Member>
     <Member MemberName="WriteBytes">
-      <MemberSignature Language="C#" Value="public void WriteBytes (System.Collections.Immutable.ImmutableArray&lt;byte&gt; buffer, int start, int byteCount);" />
+      <MemberSignature Language="C#" Value="public void WriteBytes ( buffer, int start, int byteCount);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteBytes(valuetype System.Collections.Immutable.ImmutableArray`1&lt;unsigned int8&gt; buffer, int32 start, int32 byteCount) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobBuilder.WriteBytes(System.Collections.Immutable.ImmutableArray{System.Byte},System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteBytes (buffer As ImmutableArray(Of Byte), start As Integer, byteCount As Integer)" />
@@ -974,12 +974,13 @@ If the value lies between -268435456 (0xF000000) and 268435455 (0x0FFFFFFF), inc
       </Docs>
     </Member>
     <Member MemberName="WriteConstant">
-      <MemberSignature Language="C#" Value="public void WriteConstant (object value);" />
+      <MemberSignature Language="C#" Value="public void WriteConstant (object? value);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteConstant(object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobBuilder.WriteConstant(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteConstant (value As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WriteConstant(System::Object ^ value);" />
       <MemberSignature Language="F#" Value="member this.WriteConstant : obj -&gt; unit" Usage="blobBuilder.WriteConstant value" />
+      <MemberSignature Language="C#" Value="public void WriteConstant (object value);" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -1435,12 +1436,13 @@ If the value lies between -268435456 (0xF000000) and 268435455 (0x0FFFFFFF), inc
       </Docs>
     </Member>
     <Member MemberName="WriteSerializedString">
-      <MemberSignature Language="C#" Value="public void WriteSerializedString (string value);" />
+      <MemberSignature Language="C#" Value="public void WriteSerializedString (string? value);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void WriteSerializedString(string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.BlobBuilder.WriteSerializedString(System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Sub WriteSerializedString (value As String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void WriteSerializedString(System::String ^ value);" />
       <MemberSignature Language="F#" Value="member this.WriteSerializedString : string -&gt; unit" Usage="blobBuilder.WriteSerializedString value" />
+      <MemberSignature Language="C#" Value="public void WriteSerializedString (string value);" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>

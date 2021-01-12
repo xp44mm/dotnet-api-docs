@@ -771,7 +771,7 @@ Use this method to get a <xref:System.Threading.Tasks.Task%601> object for a Win
       </Docs>
     </Member>
     <Member MemberName="GetAwaiter&lt;TResult&gt;">
-      <MemberSignature Language="C#" Value="public static System.Runtime.CompilerServices.TaskAwaiter&lt;TResult&gt; GetAwaiter&lt;TResult&gt; (this Windows.Foundation.IAsyncOperation&lt;TResult&gt; source);" />
+      <MemberSignature Language="C#" Value="public static  GetAwaiter&lt;TResult&gt; (this Windows.Foundation.IAsyncOperation&lt;TResult&gt; source);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.CompilerServices.TaskAwaiter`1&lt;!!TResult&gt; GetAwaiter&lt;TResult&gt;(class Windows.Foundation.IAsyncOperation`1&lt;!!TResult&gt; source) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.WindowsRuntimeSystemExtensions.GetAwaiter``1(Windows.Foundation.IAsyncOperation{``0})" />
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetAwaiter(Of TResult) (source As IAsyncOperation(Of TResult)) As TaskAwaiter(Of TResult)" />

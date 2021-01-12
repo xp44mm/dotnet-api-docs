@@ -115,7 +115,7 @@
       </Docs>
     </Member>
     <Member MemberName="ResultsByNode">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;Microsoft.Build.Graph.ProjectGraphNode,Microsoft.Build.Execution.BuildResult&gt; ResultsByNode { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyDictionary&lt;Microsoft.Build.Graph.ProjectGraphNode, Microsoft.Build.Execution.BuildResult&gt; ResultsByNode { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IReadOnlyDictionary`2&lt;class Microsoft.Build.Graph.ProjectGraphNode, class Microsoft.Build.Execution.BuildResult&gt; ResultsByNode" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Graph.GraphBuildResult.ResultsByNode" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ResultsByNode As IReadOnlyDictionary(Of ProjectGraphNode, BuildResult)" />
@@ -127,7 +127,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;Microsoft.Build.Graph.ProjectGraphNode,Microsoft.Build.Execution.BuildResult&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IReadOnlyDictionary&lt;Microsoft.Build.Graph.ProjectGraphNode, Microsoft.Build.Execution.BuildResult&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

@@ -83,7 +83,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetViewAt">
-      <MemberSignature Language="C#" Value="protected abstract System.Collections.Generic.KeyValuePair&lt;string,string&gt; GetViewAt (int index);" />
+      <MemberSignature Language="C#" Value="protected abstract  GetViewAt (int index);" />
       <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt; GetViewAt(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Mapping.EntityViewContainer.GetViewAt(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Protected MustOverride Function GetViewAt (index As Integer) As KeyValuePair(Of String, String)" />
@@ -96,7 +96,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.KeyValuePair&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="index" Type="System.Int32" />

@@ -71,7 +71,7 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public Link (System.Data.Linq.Link&lt;T&gt; link);" />
+      <MemberSignature Language="C#" Value="public Link ( link);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Data.Linq.Link`1&lt;!T&gt; link) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Data.Linq.Link`1.#ctor(System.Data.Linq.Link{`0})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (link As Link(Of T))" />

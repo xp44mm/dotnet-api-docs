@@ -69,7 +69,7 @@
       </Docs>
     </Member>
     <Member MemberName="Compress">
-      <MemberSignature Language="C#" Value="public System.Buffers.OperationStatus Compress (ReadOnlySpan&lt;byte&gt; source, Span&lt;byte&gt; destination, out int bytesConsumed, out int bytesWritten, bool isFinalBlock);" />
+      <MemberSignature Language="C#" Value="public System.Buffers.OperationStatus Compress ( source,  destination, out int bytesConsumed, out int bytesWritten, bool isFinalBlock);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Buffers.OperationStatus Compress(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesConsumed, [out] int32&amp; bytesWritten, bool isFinalBlock) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Compression.BrotliEncoder.Compress(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@,System.Int32@,System.Boolean)" />
       <MemberSignature Language="VB.NET" Value="Public Function Compress (source As ReadOnlySpan(Of Byte), destination As Span(Of Byte), ByRef bytesConsumed As Integer, ByRef bytesWritten As Integer, isFinalBlock As Boolean) As OperationStatus" />
@@ -139,7 +139,7 @@
       </Docs>
     </Member>
     <Member MemberName="Flush">
-      <MemberSignature Language="C#" Value="public System.Buffers.OperationStatus Flush (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public System.Buffers.OperationStatus Flush ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Buffers.OperationStatus Flush(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Compression.BrotliEncoder.Flush(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Function Flush (destination As Span(Of Byte), ByRef bytesWritten As Integer) As OperationStatus" />
@@ -213,7 +213,7 @@ Returns 1 if `inputSize` is 0.
       </Docs>
     </Member>
     <Member MemberName="TryCompress">
-      <MemberSignature Language="C#" Value="public static bool TryCompress (ReadOnlySpan&lt;byte&gt; source, Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public static bool TryCompress ( source,  destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryCompress(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Compression.BrotliEncoder.TryCompress(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryCompress (source As ReadOnlySpan(Of Byte), destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
@@ -249,7 +249,7 @@ Returns 1 if `inputSize` is 0.
       </Docs>
     </Member>
     <Member MemberName="TryCompress">
-      <MemberSignature Language="C#" Value="public static bool TryCompress (ReadOnlySpan&lt;byte&gt; source, Span&lt;byte&gt; destination, out int bytesWritten, int quality, int window);" />
+      <MemberSignature Language="C#" Value="public static bool TryCompress ( source,  destination, out int bytesWritten, int quality, int window);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryCompress(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten, int32 quality, int32 window) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Compression.BrotliEncoder.TryCompress(System.ReadOnlySpan{System.Byte},System.Span{System.Byte},System.Int32@,System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryCompress (source As ReadOnlySpan(Of Byte), destination As Span(Of Byte), ByRef bytesWritten As Integer, quality As Integer, window As Integer) As Boolean" />

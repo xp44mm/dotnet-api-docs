@@ -27,7 +27,7 @@
   </Docs>
   <Members>
     <Member MemberName="ConvertScalarToVector128Single">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;float&gt; ConvertScalarToVector128Single (System.Runtime.Intrinsics.Vector128&lt;float&gt; upper, long value);" />
+      <MemberSignature Language="C#" Value="public static  ConvertScalarToVector128Single ( upper, long value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; ConvertScalarToVector128Single(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; upper, int64 value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.X64.ConvertScalarToVector128Single(System.Runtime.Intrinsics.Vector128{System.Single},System.Int64)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertScalarToVector128Single (upper As Vector128(Of Single), value As Long) As Vector128(Of Single)" />
@@ -67,7 +67,7 @@ This intrinsic is only available on 64-bit processes.
       </Docs>
     </Member>
     <Member MemberName="ConvertToInt64">
-      <MemberSignature Language="C#" Value="public static long ConvertToInt64 (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static long ConvertToInt64 ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int64 ConvertToInt64(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.X64.ConvertToInt64(System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt64 (value As Vector128(Of Single)) As Long" />
@@ -105,7 +105,7 @@ This intrinsic is only available on 64-bit processes.
       </Docs>
     </Member>
     <Member MemberName="ConvertToInt64WithTruncation">
-      <MemberSignature Language="C#" Value="public static long ConvertToInt64WithTruncation (System.Runtime.Intrinsics.Vector128&lt;float&gt; value);" />
+      <MemberSignature Language="C#" Value="public static long ConvertToInt64WithTruncation ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig int64 ConvertToInt64WithTruncation(valuetype System.Runtime.Intrinsics.Vector128`1&lt;float32&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Sse.X64.ConvertToInt64WithTruncation(System.Runtime.Intrinsics.Vector128{System.Single})" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function ConvertToInt64WithTruncation (value As Vector128(Of Single)) As Long" />

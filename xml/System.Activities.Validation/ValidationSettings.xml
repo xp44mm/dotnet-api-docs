@@ -42,7 +42,7 @@
       </Docs>
     </Member>
     <Member MemberName="AdditionalConstraints">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Type,System.Collections.Generic.IList&lt;System.Activities.Validation.Constraint&gt;&gt; AdditionalConstraints { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;Type, System.Collections.Generic.IList&lt;System.Activities.Validation.Constraint&gt;&gt; AdditionalConstraints { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;class System.Type, class System.Collections.Generic.IList`1&lt;class System.Activities.Validation.Constraint&gt;&gt; AdditionalConstraints" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Validation.ValidationSettings.AdditionalConstraints" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AdditionalConstraints As IDictionary(Of Type, IList(Of Constraint))" />
@@ -54,7 +54,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Type,System.Collections.Generic.IList&lt;System.Activities.Validation.Constraint&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Type, System.Collections.Generic.IList&lt;System.Activities.Validation.Constraint&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a  dictionary of type-constraint pairs. Each additional constraint added to the dictionary will be applied to every activity of the specify type in the workflow to validate.</summary>

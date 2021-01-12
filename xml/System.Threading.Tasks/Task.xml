@@ -364,7 +364,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub New (action As Action(Of Object), state As Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Task(Action&lt;System::Object ^&gt; ^ action, System::Object ^ state);" />
       <MemberSignature Language="F#" Value="new System.Threading.Tasks.Task : Action&lt;obj&gt; * obj -&gt; System.Threading.Tasks.Task" Usage="new System.Threading.Tasks.Task (action, state)" />
-      <MemberSignature Language="C#" Value="public Task (Action&lt;object&gt;? action, object state);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public Task (Action&lt;object?&gt; action, object? state);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -478,7 +478,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub New (action As Action(Of Object), state As Object, cancellationToken As CancellationToken)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Task(Action&lt;System::Object ^&gt; ^ action, System::Object ^ state, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="new System.Threading.Tasks.Task : Action&lt;obj&gt; * obj * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="new System.Threading.Tasks.Task (action, state, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public Task (Action&lt;object&gt;? action, object state, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public Task (Action&lt;object?&gt; action, object? state, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -531,7 +531,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub New (action As Action(Of Object), state As Object, creationOptions As TaskCreationOptions)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Task(Action&lt;System::Object ^&gt; ^ action, System::Object ^ state, System::Threading::Tasks::TaskCreationOptions creationOptions);" />
       <MemberSignature Language="F#" Value="new System.Threading.Tasks.Task : Action&lt;obj&gt; * obj * System.Threading.Tasks.TaskCreationOptions -&gt; System.Threading.Tasks.Task" Usage="new System.Threading.Tasks.Task (action, state, creationOptions)" />
-      <MemberSignature Language="C#" Value="public Task (Action&lt;object&gt;? action, object state, System.Threading.Tasks.TaskCreationOptions creationOptions);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public Task (Action&lt;object?&gt; action, object? state, System.Threading.Tasks.TaskCreationOptions creationOptions);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -584,7 +584,7 @@
       <MemberSignature Language="VB.NET" Value="Public Sub New (action As Action(Of Object), state As Object, cancellationToken As CancellationToken, creationOptions As TaskCreationOptions)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Task(Action&lt;System::Object ^&gt; ^ action, System::Object ^ state, System::Threading::CancellationToken cancellationToken, System::Threading::Tasks::TaskCreationOptions creationOptions);" />
       <MemberSignature Language="F#" Value="new System.Threading.Tasks.Task : Action&lt;obj&gt; * obj * System.Threading.CancellationToken * System.Threading.Tasks.TaskCreationOptions -&gt; System.Threading.Tasks.Task" Usage="new System.Threading.Tasks.Task (action, state, cancellationToken, creationOptions)" />
-      <MemberSignature Language="C#" Value="public Task (Action&lt;object&gt;? action, object state, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public Task (Action&lt;object?&gt; action, object? state, System.Threading.CancellationToken cancellationToken, System.Threading.Tasks.TaskCreationOptions creationOptions);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -3363,7 +3363,7 @@ Task t Status: RanToCompletion, Result: 42
       <MemberSignature Language="VB.NET" Value="Public Shared Function Run (function As Func(Of Task)) As Task" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ Run(Func&lt;System::Threading::Tasks::Task ^&gt; ^ function);" />
       <MemberSignature Language="F#" Value="static member Run : Func&lt;System.Threading.Tasks.Task&gt; -&gt; System.Threading.Tasks.Task" Usage="System.Threading.Tasks.Task.Run function" />
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task Run (Func&lt;System.Threading.Tasks.Task&gt;? function);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task Run (Func&lt;System.Threading.Tasks.Task?&gt; function);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -3488,7 +3488,7 @@ Task t Status: RanToCompletion, Result: 42
       <MemberSignature Language="VB.NET" Value="Public Shared Function Run (function As Func(Of Task), cancellationToken As CancellationToken) As Task" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Tasks::Task ^ Run(Func&lt;System::Threading::Tasks::Task ^&gt; ^ function, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="static member Run : Func&lt;System.Threading.Tasks.Task&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task" Usage="System.Threading.Tasks.Task.Run (function, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task Run (Func&lt;System.Threading.Tasks.Task&gt;? function, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task Run (Func&lt;System.Threading.Tasks.Task?&gt; function, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -3546,7 +3546,7 @@ Task t Status: RanToCompletion, Result: 42
       <MemberSignature Language="VB.NET" Value="Public Shared Function Run(Of TResult) (function As Func(Of Task(Of TResult))) As Task(Of TResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; static System::Threading::Tasks::Task&lt;TResult&gt; ^ Run(Func&lt;System::Threading::Tasks::Task&lt;TResult&gt; ^&gt; ^ function);" />
       <MemberSignature Language="F#" Value="static member Run : Func&lt;System.Threading.Tasks.Task&lt;'Result&gt;&gt; -&gt; System.Threading.Tasks.Task&lt;'Result&gt;" Usage="System.Threading.Tasks.Task.Run function" />
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TResult&gt; Run&lt;TResult&gt; (Func&lt;System.Threading.Tasks.Task&lt;TResult&gt;&gt;? function);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TResult&gt; Run&lt;TResult&gt; (Func&lt;System.Threading.Tasks.Task&lt;TResult&gt;?&gt; function);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>
@@ -3677,7 +3677,7 @@ Task t Status: RanToCompletion, Result: 42
       <MemberSignature Language="VB.NET" Value="Public Shared Function Run(Of TResult) (function As Func(Of Task(Of TResult)), cancellationToken As CancellationToken) As Task(Of TResult)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TResult&gt;&#xA; static System::Threading::Tasks::Task&lt;TResult&gt; ^ Run(Func&lt;System::Threading::Tasks::Task&lt;TResult&gt; ^&gt; ^ function, System::Threading::CancellationToken cancellationToken);" />
       <MemberSignature Language="F#" Value="static member Run : Func&lt;System.Threading.Tasks.Task&lt;'Result&gt;&gt; * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;'Result&gt;" Usage="System.Threading.Tasks.Task.Run (function, cancellationToken)" />
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TResult&gt; Run&lt;TResult&gt; (Func&lt;System.Threading.Tasks.Task&lt;TResult&gt;&gt;? function, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TResult&gt; Run&lt;TResult&gt; (Func&lt;System.Threading.Tasks.Task&lt;TResult&gt;?&gt; function, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.Tasks</AssemblyName>

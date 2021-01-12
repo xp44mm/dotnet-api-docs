@@ -2238,7 +2238,7 @@
       </Docs>
     </Member>
     <Member MemberName="ResolveName">
-      <MemberSignature Language="C#" Value="public Func&lt;Type,string&gt; ResolveName { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;Type, string&gt; ResolveName { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Type, string&gt; ResolveName" />
       <MemberSignature Language="DocId" Value="P:System.Data.Services.Client.DataServiceContext.ResolveName" />
       <MemberSignature Language="VB.NET" Value="Public Property ResolveName As Func(Of Type, String)" />
@@ -2262,7 +2262,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Type,System.String&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Type, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a function to override the default type resolution strategy used by the client library when you send entities to a data service.</summary>
@@ -2281,7 +2281,7 @@
       </Docs>
     </Member>
     <Member MemberName="ResolveType">
-      <MemberSignature Language="C#" Value="public Func&lt;string,Type&gt; ResolveType { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;string, Type&gt; ResolveType { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;string, class System.Type&gt; ResolveType" />
       <MemberSignature Language="DocId" Value="P:System.Data.Services.Client.DataServiceContext.ResolveType" />
       <MemberSignature Language="VB.NET" Value="Public Property ResolveType As Func(Of String, Type)" />
@@ -2305,7 +2305,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.String,System.Type&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.String, System.Type&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a function that is used to override the default type resolution option that is used by the client library when receiving entities from a data service.</summary>

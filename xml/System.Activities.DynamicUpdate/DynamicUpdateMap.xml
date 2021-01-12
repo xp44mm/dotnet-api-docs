@@ -63,7 +63,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="CalculateImplementationMapItems">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;object,System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateImplementationMapItems (System.Activities.Activity activityDefinitionToBeUpdated);" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;object, System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateImplementationMapItems (System.Activities.Activity activityDefinitionToBeUpdated);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IDictionary`2&lt;object, class System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateImplementationMapItems(class System.Activities.Activity activityDefinitionToBeUpdated) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.DynamicUpdate.DynamicUpdateMap.CalculateImplementationMapItems(System.Activities.Activity)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CalculateImplementationMapItems (activityDefinitionToBeUpdated As Activity) As IDictionary(Of Object, DynamicUpdateMapItem)" />
@@ -75,7 +75,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object,System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object, System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="activityDefinitionToBeUpdated" Type="System.Activities.Activity" />
@@ -88,7 +88,7 @@
       </Docs>
     </Member>
     <Member MemberName="CalculateImplementationMapItems">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;object,System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateImplementationMapItems (System.Activities.Activity activityDefinitionToBeUpdated, System.Activities.LocationReferenceEnvironment environment);" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;object, System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateImplementationMapItems (System.Activities.Activity activityDefinitionToBeUpdated, System.Activities.LocationReferenceEnvironment environment);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IDictionary`2&lt;object, class System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateImplementationMapItems(class System.Activities.Activity activityDefinitionToBeUpdated, class System.Activities.LocationReferenceEnvironment environment) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.DynamicUpdate.DynamicUpdateMap.CalculateImplementationMapItems(System.Activities.Activity,System.Activities.LocationReferenceEnvironment)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CalculateImplementationMapItems (activityDefinitionToBeUpdated As Activity, environment As LocationReferenceEnvironment) As IDictionary(Of Object, DynamicUpdateMapItem)" />
@@ -100,7 +100,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object,System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object, System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="activityDefinitionToBeUpdated" Type="System.Activities.Activity" />
@@ -124,7 +124,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="CalculateMapItems">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;object,System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateMapItems (System.Activities.Activity workflowDefinitionToBeUpdated);" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;object, System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateMapItems (System.Activities.Activity workflowDefinitionToBeUpdated);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IDictionary`2&lt;object, class System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateMapItems(class System.Activities.Activity workflowDefinitionToBeUpdated) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.DynamicUpdate.DynamicUpdateMap.CalculateMapItems(System.Activities.Activity)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CalculateMapItems (workflowDefinitionToBeUpdated As Activity) As IDictionary(Of Object, DynamicUpdateMapItem)" />
@@ -136,7 +136,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object,System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object, System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="workflowDefinitionToBeUpdated" Type="System.Activities.Activity" />
@@ -149,7 +149,7 @@
       </Docs>
     </Member>
     <Member MemberName="CalculateMapItems">
-      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;object,System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateMapItems (System.Activities.Activity workflowDefinitionToBeUpdated, System.Activities.LocationReferenceEnvironment environment);" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Generic.IDictionary&lt;object, System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateMapItems (System.Activities.Activity workflowDefinitionToBeUpdated, System.Activities.LocationReferenceEnvironment environment);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Generic.IDictionary`2&lt;object, class System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt; CalculateMapItems(class System.Activities.Activity workflowDefinitionToBeUpdated, class System.Activities.LocationReferenceEnvironment environment) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Activities.DynamicUpdate.DynamicUpdateMap.CalculateMapItems(System.Activities.Activity,System.Activities.LocationReferenceEnvironment)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CalculateMapItems (workflowDefinitionToBeUpdated As Activity, environment As LocationReferenceEnvironment) As IDictionary(Of Object, DynamicUpdateMapItem)" />
@@ -161,7 +161,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object,System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Object, System.Activities.DynamicUpdate.DynamicUpdateMapItem&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="workflowDefinitionToBeUpdated" Type="System.Activities.Activity" />

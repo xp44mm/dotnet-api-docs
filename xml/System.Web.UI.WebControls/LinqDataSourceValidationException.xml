@@ -307,7 +307,7 @@ protected void LinqDataSource_Updating(object sender,
       </Docs>
     </Member>
     <Member MemberName="InnerExceptions">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,Exception&gt; InnerExceptions { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, Exception&gt; InnerExceptions { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, class System.Exception&gt; InnerExceptions" />
       <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.LinqDataSourceValidationException.InnerExceptions" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property InnerExceptions As IDictionary(Of String, Exception)" />
@@ -323,7 +323,7 @@ protected void LinqDataSource_Updating(object sender,
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Exception&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Exception&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets one or more exceptions that occurred when new or modified data was being validated.</summary>

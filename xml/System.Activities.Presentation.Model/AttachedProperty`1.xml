@@ -46,7 +46,7 @@
       </Docs>
     </Member>
     <Member MemberName="Getter">
-      <MemberSignature Language="C#" Value="public Func&lt;System.Activities.Presentation.Model.ModelItem,T&gt; Getter { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;System.Activities.Presentation.Model.ModelItem, T&gt; Getter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;class System.Activities.Presentation.Model.ModelItem, !T&gt; Getter" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Presentation.Model.AttachedProperty`1.Getter" />
       <MemberSignature Language="VB.NET" Value="Public Property Getter As Func(Of ModelItem, T)" />
@@ -68,7 +68,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Activities.Presentation.Model.ModelItem,T&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Activities.Presentation.Model.ModelItem, T&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the getter.</summary>
@@ -148,7 +148,7 @@
       </Docs>
     </Member>
     <Member MemberName="Setter">
-      <MemberSignature Language="C#" Value="public Action&lt;System.Activities.Presentation.Model.ModelItem,T&gt; Setter { get; set; }" />
+      <MemberSignature Language="C#" Value="public Action&lt;System.Activities.Presentation.Model.ModelItem, T&gt; Setter { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Action`2&lt;class System.Activities.Presentation.Model.ModelItem, !T&gt; Setter" />
       <MemberSignature Language="DocId" Value="P:System.Activities.Presentation.Model.AttachedProperty`1.Setter" />
       <MemberSignature Language="VB.NET" Value="Public Property Setter As Action(Of ModelItem, T)" />
@@ -170,7 +170,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Action&lt;System.Activities.Presentation.Model.ModelItem,T&gt;</ReturnType>
+        <ReturnType>System.Action&lt;System.Activities.Presentation.Model.ModelItem, T&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the setter.</summary>

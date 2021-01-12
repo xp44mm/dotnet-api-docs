@@ -27,7 +27,7 @@
   </Docs>
   <Members>
     <Member MemberName="Parameters">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;string,System.Data.Metadata.Edm.TypeUsage&gt;&gt; Parameters { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;&gt; Parameters { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IEnumerable`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, class System.Data.Metadata.Edm.TypeUsage&gt;&gt; Parameters" />
       <MemberSignature Language="DocId" Value="P:System.Data.Common.CommandTrees.DbCommandTree.Parameters" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Parameters As IEnumerable(Of KeyValuePair(Of String, TypeUsage))" />
@@ -40,7 +40,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Data.Metadata.Edm.TypeUsage&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.Data.Metadata.Edm.TypeUsage&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the name and corresponding type of each parameter that can be referenced within this <see cref="T:System.Data.Common.CommandTrees.DbCommandTree" />.</summary>

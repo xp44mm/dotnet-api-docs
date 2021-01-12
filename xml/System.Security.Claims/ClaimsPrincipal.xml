@@ -1288,13 +1288,13 @@ Each <xref:System.Security.Claims.ClaimsIdentity> is called.
       </Docs>
     </Member>
     <Member MemberName="PrimaryIdentitySelector">
-      <MemberSignature Language="C#" Value="public static Func&lt;System.Collections.Generic.IEnumerable&lt;System.Security.Claims.ClaimsIdentity&gt;,System.Security.Claims.ClaimsIdentity&gt; PrimaryIdentitySelector { get; set; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C#" Value="public static Func&lt;System.Collections.Generic.IEnumerable&lt;System.Security.Claims.ClaimsIdentity&gt;, System.Security.Claims.ClaimsIdentity&gt; PrimaryIdentitySelector { get; set; }" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="ILAsm" Value=".property class System.Func`2&lt;class System.Collections.Generic.IEnumerable`1&lt;class System.Security.Claims.ClaimsIdentity&gt;, class System.Security.Claims.ClaimsIdentity&gt; PrimaryIdentitySelector" />
       <MemberSignature Language="DocId" Value="P:System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector" />
       <MemberSignature Language="VB.NET" Value="Public Shared Property PrimaryIdentitySelector As Func(Of IEnumerable(Of ClaimsIdentity), ClaimsIdentity)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static property Func&lt;System::Collections::Generic::IEnumerable&lt;System::Security::Claims::ClaimsIdentity ^&gt; ^, System::Security::Claims::ClaimsIdentity ^&gt; ^ PrimaryIdentitySelector { Func&lt;System::Collections::Generic::IEnumerable&lt;System::Security::Claims::ClaimsIdentity ^&gt; ^, System::Security::Claims::ClaimsIdentity ^&gt; ^ get(); void set(Func&lt;System::Collections::Generic::IEnumerable&lt;System::Security::Claims::ClaimsIdentity ^&gt; ^, System::Security::Claims::ClaimsIdentity ^&gt; ^ value); };" />
       <MemberSignature Language="F#" Value="member this.PrimaryIdentitySelector : Func&lt;seq&lt;System.Security.Claims.ClaimsIdentity&gt;, System.Security.Claims.ClaimsIdentity&gt; with get, set" Usage="System.Security.Claims.ClaimsPrincipal.PrimaryIdentitySelector" />
-      <MemberSignature Language="C#" Value="public static Func&lt;System.Collections.Generic.IEnumerable&lt;System.Security.Claims.ClaimsIdentity&gt;,System.Security.Claims.ClaimsIdentity&gt;? PrimaryIdentitySelector { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static Func&lt;System.Collections.Generic.IEnumerable&lt;System.Security.Claims.ClaimsIdentity&gt;, System.Security.Claims.ClaimsIdentity?&gt; PrimaryIdentitySelector { get; set; }" FrameworkAlternate="net-5.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Claims</AssemblyName>
@@ -1322,7 +1322,7 @@ Each <xref:System.Security.Claims.ClaimsIdentity> is called.
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Collections.Generic.IEnumerable&lt;System.Security.Claims.ClaimsIdentity&gt;,System.Security.Claims.ClaimsIdentity&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Collections.Generic.IEnumerable&lt;System.Security.Claims.ClaimsIdentity&gt;, System.Security.Claims.ClaimsIdentity&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the delegate used to select the claims identity returned by the <see cref="P:System.Security.Claims.ClaimsPrincipal.Identity" /> property.</summary>

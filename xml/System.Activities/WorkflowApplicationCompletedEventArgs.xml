@@ -64,7 +64,7 @@
       </Docs>
     </Member>
     <Member MemberName="Outputs">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; Outputs { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, object&gt; Outputs { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Outputs" />
       <MemberSignature Language="DocId" Value="P:System.Activities.WorkflowApplicationCompletedEventArgs.Outputs" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Outputs As IDictionary(Of String, Object)" />
@@ -76,7 +76,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a dictionary that contains the values of <see cref="T:System.Activities.OutArgument" />s of the workflow instance's root activity, keyed by argument name.</summary>

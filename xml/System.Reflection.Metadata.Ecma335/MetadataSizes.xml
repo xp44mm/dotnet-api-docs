@@ -24,7 +24,7 @@
   </Docs>
   <Members>
     <Member MemberName="ExternalRowCounts">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;int&gt; ExternalRowCounts { get; }" />
+      <MemberSignature Language="C#" Value="public  ExternalRowCounts { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;int32&gt; ExternalRowCounts" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.Metadata.Ecma335.MetadataSizes.ExternalRowCounts" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ExternalRowCounts As ImmutableArray(Of Integer)" />
@@ -80,7 +80,7 @@
       </Docs>
     </Member>
     <Member MemberName="HeapSizes">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;int&gt; HeapSizes { get; }" />
+      <MemberSignature Language="C#" Value="public  HeapSizes { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;int32&gt; HeapSizes" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.Metadata.Ecma335.MetadataSizes.HeapSizes" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property HeapSizes As ImmutableArray(Of Integer)" />
@@ -114,7 +114,7 @@ Use <xref:System.Reflection.Metadata.Ecma335.MetadataSizes.GetAlignedHeapSize(Sy
       </Docs>
     </Member>
     <Member MemberName="RowCounts">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;int&gt; RowCounts { get; }" />
+      <MemberSignature Language="C#" Value="public  RowCounts { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;int32&gt; RowCounts" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.Metadata.Ecma335.MetadataSizes.RowCounts" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property RowCounts As ImmutableArray(Of Integer)" />

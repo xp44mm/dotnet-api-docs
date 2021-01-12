@@ -54,7 +54,7 @@
       </Docs>
     </Member>
     <Member MemberName="Data">
-      <MemberSignature Language="C#" Value="protected System.Collections.Generic.IDictionary&lt;string,string&gt; Data { get; set; }" />
+      <MemberSignature Language="C#" Value="protected System.Collections.Generic.IDictionary&lt;string, string&gt; Data { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, string&gt; Data" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Configuration.ConfigurationProvider.Data" />
       <MemberSignature Language="VB.NET" Value="Protected Property Data As IDictionary(Of String, String)" />
@@ -73,7 +73,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>The configuration key value pairs for this provider.</summary>

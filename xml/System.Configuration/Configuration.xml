@@ -139,7 +139,7 @@
       </Docs>
     </Member>
     <Member MemberName="AssemblyStringTransformer">
-      <MemberSignature Language="C#" Value="public Func&lt;string,string&gt; AssemblyStringTransformer { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;string, string&gt; AssemblyStringTransformer { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;string, string&gt; AssemblyStringTransformer" />
       <MemberSignature Language="DocId" Value="P:System.Configuration.Configuration.AssemblyStringTransformer" />
       <MemberSignature Language="VB.NET" Value="Public Property AssemblyStringTransformer As Func(Of String, String)" />
@@ -159,7 +159,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Specifies a function delegate that is used to transform assembly strings in configuration files.</summary>
@@ -1073,7 +1073,7 @@
       </Docs>
     </Member>
     <Member MemberName="TypeStringTransformer">
-      <MemberSignature Language="C#" Value="public Func&lt;string,string&gt; TypeStringTransformer { get; set; }" />
+      <MemberSignature Language="C#" Value="public Func&lt;string, string&gt; TypeStringTransformer { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Func`2&lt;string, string&gt; TypeStringTransformer" />
       <MemberSignature Language="DocId" Value="P:System.Configuration.Configuration.TypeStringTransformer" />
       <MemberSignature Language="VB.NET" Value="Public Property TypeStringTransformer As Func(Of String, String)" />
@@ -1093,7 +1093,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.String,System.String&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.String, System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Specifies a function delegate that is used to transform type strings in configuration files.</summary>

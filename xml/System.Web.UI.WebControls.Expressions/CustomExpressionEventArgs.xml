@@ -73,7 +73,7 @@
       </Docs>
     </Member>
     <Member MemberName="Values">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string,object&gt; Values { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;string, object&gt; Values { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IDictionary`2&lt;string, object&gt; Values" />
       <MemberSignature Language="DocId" Value="P:System.Web.UI.WebControls.Expressions.CustomExpressionEventArgs.Values" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Values As IDictionary(Of String, Object)" />
@@ -91,7 +91,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.String, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the evaluated values from the <see cref="T:System.Web.UI.WebControls.ParameterCollection" /> instance of the <see cref="T:System.Web.UI.WebControls.Expressions.CustomExpression" /> object.</summary>

@@ -109,7 +109,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetEmbeddedUseLicenses">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Security.RightsManagement.ContentUser,System.Security.RightsManagement.UseLicense&gt; GetEmbeddedUseLicenses ();" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IDictionary&lt;System.Security.RightsManagement.ContentUser, System.Security.RightsManagement.UseLicense&gt; GetEmbeddedUseLicenses ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IDictionary`2&lt;class System.Security.RightsManagement.ContentUser, class System.Security.RightsManagement.UseLicense&gt; GetEmbeddedUseLicenses() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.IO.Packaging.RightsManagementInformation.GetEmbeddedUseLicenses" />
       <MemberSignature Language="VB.NET" Value="Public Function GetEmbeddedUseLicenses () As IDictionary(Of ContentUser, UseLicense)" />
@@ -123,7 +123,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Security.RightsManagement.ContentUser,System.Security.RightsManagement.UseLicense&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IDictionary&lt;System.Security.RightsManagement.ContentUser, System.Security.RightsManagement.UseLicense&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

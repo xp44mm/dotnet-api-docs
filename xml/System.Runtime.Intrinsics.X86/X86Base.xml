@@ -37,7 +37,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.ValueTuple&lt;System.Int32,System.Int32,System.Int32,System.Int32&gt;</ReturnType>
+        <ReturnType>System.ValueTuple&lt;System.Int32, System.Int32, System.Int32, System.Int32&gt;</ReturnType>
         <Attributes>
           <Attribute>
             <AttributeName Language="C#">[System.Runtime.CompilerServices.TupleElementNames(new System.String[] { "Eax", "Ebx", "Ecx", "Edx" })]</AttributeName>

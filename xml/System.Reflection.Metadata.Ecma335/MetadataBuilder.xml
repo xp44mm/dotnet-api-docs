@@ -173,12 +173,13 @@
       </Docs>
     </Member>
     <Member MemberName="AddConstant">
-      <MemberSignature Language="C#" Value="public System.Reflection.Metadata.ConstantHandle AddConstant (System.Reflection.Metadata.EntityHandle parent, object value);" />
+      <MemberSignature Language="C#" Value="public System.Reflection.Metadata.ConstantHandle AddConstant (System.Reflection.Metadata.EntityHandle parent, object? value);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Reflection.Metadata.ConstantHandle AddConstant(valuetype System.Reflection.Metadata.EntityHandle parent, object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.Ecma335.MetadataBuilder.AddConstant(System.Reflection.Metadata.EntityHandle,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function AddConstant (parent As EntityHandle, value As Object) As ConstantHandle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Reflection::Metadata::ConstantHandle AddConstant(System::Reflection::Metadata::EntityHandle parent, System::Object ^ value);" />
       <MemberSignature Language="F#" Value="member this.AddConstant : System.Reflection.Metadata.EntityHandle * obj -&gt; System.Reflection.Metadata.ConstantHandle" Usage="metadataBuilder.AddConstant (parent, value)" />
+      <MemberSignature Language="C#" Value="public System.Reflection.Metadata.ConstantHandle AddConstant (System.Reflection.Metadata.EntityHandle parent, object value);" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -1798,7 +1799,7 @@ Entires must be added in the same order as the corresponding type definitions.
       </Docs>
     </Member>
     <Member MemberName="GetOrAddBlob">
-      <MemberSignature Language="C#" Value="public System.Reflection.Metadata.BlobHandle GetOrAddBlob (System.Collections.Immutable.ImmutableArray&lt;byte&gt; value);" />
+      <MemberSignature Language="C#" Value="public System.Reflection.Metadata.BlobHandle GetOrAddBlob ( value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Reflection.Metadata.BlobHandle GetOrAddBlob(valuetype System.Collections.Immutable.ImmutableArray`1&lt;unsigned int8&gt; value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.Ecma335.MetadataBuilder.GetOrAddBlob(System.Collections.Immutable.ImmutableArray{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Function GetOrAddBlob (value As ImmutableArray(Of Byte)) As BlobHandle" />
@@ -1928,12 +1929,13 @@ Entires must be added in the same order as the corresponding type definitions.
       </Docs>
     </Member>
     <Member MemberName="GetOrAddConstantBlob">
-      <MemberSignature Language="C#" Value="public System.Reflection.Metadata.BlobHandle GetOrAddConstantBlob (object value);" />
+      <MemberSignature Language="C#" Value="public System.Reflection.Metadata.BlobHandle GetOrAddConstantBlob (object? value);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Reflection.Metadata.BlobHandle GetOrAddConstantBlob(object value) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.Ecma335.MetadataBuilder.GetOrAddConstantBlob(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Public Function GetOrAddConstantBlob (value As Object) As BlobHandle" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Reflection::Metadata::BlobHandle GetOrAddConstantBlob(System::Object ^ value);" />
       <MemberSignature Language="F#" Value="member this.GetOrAddConstantBlob : obj -&gt; System.Reflection.Metadata.BlobHandle" Usage="metadataBuilder.GetOrAddConstantBlob value" />
+      <MemberSignature Language="C#" Value="public System.Reflection.Metadata.BlobHandle GetOrAddConstantBlob (object value);" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -2125,7 +2127,7 @@ For more information about document name blobs, see: https://github.com/dotnet/r
       </Docs>
     </Member>
     <Member MemberName="GetRowCounts">
-      <MemberSignature Language="C#" Value="public System.Collections.Immutable.ImmutableArray&lt;int&gt; GetRowCounts ();" />
+      <MemberSignature Language="C#" Value="public  GetRowCounts ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Collections.Immutable.ImmutableArray`1&lt;int32&gt; GetRowCounts() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.Ecma335.MetadataBuilder.GetRowCounts" />
       <MemberSignature Language="VB.NET" Value="Public Function GetRowCounts () As ImmutableArray(Of Integer)" />
@@ -2152,7 +2154,7 @@ For more information about document name blobs, see: https://github.com/dotnet/r
       </Docs>
     </Member>
     <Member MemberName="ReserveGuid">
-      <MemberSignature Language="C#" Value="public System.Reflection.Metadata.ReservedBlob&lt;System.Reflection.Metadata.GuidHandle&gt; ReserveGuid ();" />
+      <MemberSignature Language="C#" Value="public  ReserveGuid ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Reflection.Metadata.ReservedBlob`1&lt;valuetype System.Reflection.Metadata.GuidHandle&gt; ReserveGuid() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.Ecma335.MetadataBuilder.ReserveGuid" />
       <MemberSignature Language="VB.NET" Value="Public Function ReserveGuid () As ReservedBlob(Of GuidHandle)" />
@@ -2180,7 +2182,7 @@ For more information about document name blobs, see: https://github.com/dotnet/r
       </Docs>
     </Member>
     <Member MemberName="ReserveUserString">
-      <MemberSignature Language="C#" Value="public System.Reflection.Metadata.ReservedBlob&lt;System.Reflection.Metadata.UserStringHandle&gt; ReserveUserString (int length);" />
+      <MemberSignature Language="C#" Value="public  ReserveUserString (int length);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance valuetype System.Reflection.Metadata.ReservedBlob`1&lt;valuetype System.Reflection.Metadata.UserStringHandle&gt; ReserveUserString(int32 length) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.Ecma335.MetadataBuilder.ReserveUserString(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Function ReserveUserString (length As Integer) As ReservedBlob(Of UserStringHandle)" />

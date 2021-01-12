@@ -233,7 +233,7 @@
       </Docs>
     </Member>
     <Member MemberName="State">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;object,object&gt; State { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.Dictionary&lt;object, object&gt; State { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;object, object&gt; State" />
       <MemberSignature Language="DocId" Value="P:System.ServiceModel.Description.MetadataExporter.State" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property State As Dictionary(Of Object, Object)" />
@@ -252,7 +252,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.Object,System.Object&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.Object, System.Object&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a dictionary of objects used in the export of metadata.</summary>

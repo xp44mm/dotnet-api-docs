@@ -156,7 +156,7 @@
       </Docs>
     </Member>
     <Member MemberName="Log&lt;TState&gt;">
-      <MemberSignature Language="C#" Value="public void Log&lt;TState&gt; (DateTimeOffset timestamp, Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, TState state, Exception exception, Func&lt;TState,Exception,string&gt; formatter);" />
+      <MemberSignature Language="C#" Value="public void Log&lt;TState&gt; (DateTimeOffset timestamp, Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, TState state, Exception exception, Func&lt;TState, Exception, string&gt; formatter);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Log&lt;TState&gt;(valuetype System.DateTimeOffset timestamp, valuetype Microsoft.Extensions.Logging.LogLevel logLevel, valuetype Microsoft.Extensions.Logging.EventId eventId, !!TState state, class System.Exception exception, class System.Func`3&lt;!!TState, class System.Exception, string&gt; formatter) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.AzureAppServices.Internal.BatchingLogger.Log``1(System.DateTimeOffset,Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,``0,System.Exception,System.Func{``0,System.Exception,System.String})" />
       <MemberSignature Language="VB.NET" Value="Public Sub Log(Of TState) (timestamp As DateTimeOffset, logLevel As LogLevel, eventId As EventId, state As TState, exception As Exception, formatter As Func(Of TState, Exception, String))" />
@@ -181,7 +181,7 @@
         <Parameter Name="eventId" Type="Microsoft.Extensions.Logging.EventId" />
         <Parameter Name="state" Type="TState" />
         <Parameter Name="exception" Type="System.Exception" />
-        <Parameter Name="formatter" Type="System.Func&lt;TState,System.Exception,System.String&gt;" />
+        <Parameter Name="formatter" Type="System.Func&lt;TState, System.Exception, System.String&gt;" />
       </Parameters>
       <Docs>
         <typeparam name="TState">To be added.</typeparam>

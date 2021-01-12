@@ -162,7 +162,7 @@
       </Docs>
     </Member>
     <Member MemberName="Arguments">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.ICollection&lt;Tuple&lt;string,bool&gt;&gt; Arguments { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.ICollection&lt;Tuple&lt;string, bool&gt;&gt; Arguments { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.ICollection`1&lt;class System.Tuple`2&lt;string, bool&gt;&gt; Arguments" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch.Arguments" />
       <MemberSignature Language="VB.NET" Value="Public Property Arguments As ICollection(Of Tuple(Of String, Boolean))" />
@@ -178,7 +178,7 @@
         <AssemblyVersion>15.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.ICollection&lt;System.Tuple&lt;System.String,System.Boolean&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.ICollection&lt;System.Tuple&lt;System.String, System.Boolean&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>
@@ -498,7 +498,7 @@
       </Docs>
     </Member>
     <Member MemberName="Overrides">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.LinkedList&lt;System.Collections.Generic.KeyValuePair&lt;string,string&gt;&gt; Overrides { get; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.LinkedList&lt;&gt; Overrides { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.LinkedList`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;string, string&gt;&gt; Overrides" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch.Overrides" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Overrides As LinkedList(Of KeyValuePair(Of String, String))" />
@@ -520,7 +520,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.LinkedList&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.String&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.LinkedList&lt;System.Collections.Generic.KeyValuePair&lt;System.String, System.String&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>

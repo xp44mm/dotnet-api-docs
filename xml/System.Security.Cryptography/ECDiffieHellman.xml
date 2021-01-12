@@ -476,7 +476,7 @@ This instance represents only a public key.</exception>
       </Docs>
     </Member>
     <Member MemberName="DeriveKeyFromHmac">
-      <MemberSignature Language="C#" Value="public virtual byte[]? DeriveKeyFromHmac (System.Security.Cryptography.ECDiffieHellmanPublicKey? otherPartyPublicKey, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, byte[] hmacKey, byte[] secretPrepend, byte[] secretAppend);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual byte[] DeriveKeyFromHmac (System.Security.Cryptography.ECDiffieHellmanPublicKey otherPartyPublicKey, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, byte[]? hmacKey, byte[]? secretPrepend, byte[]? secretAppend);" FrameworkAlternate="net-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance unsigned int8[] DeriveKeyFromHmac(class System.Security.Cryptography.ECDiffieHellmanPublicKey otherPartyPublicKey, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, unsigned int8[] hmacKey, unsigned int8[] secretPrepend, unsigned int8[] secretAppend) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.DeriveKeyFromHmac(System.Security.Cryptography.ECDiffieHellmanPublicKey,System.Security.Cryptography.HashAlgorithmName,System.Byte[],System.Byte[],System.Byte[])" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function DeriveKeyFromHmac (otherPartyPublicKey As ECDiffieHellmanPublicKey, hashAlgorithm As HashAlgorithmName, hmacKey As Byte(), secretPrepend As Byte(), secretAppend As Byte()) As Byte()" />
@@ -858,7 +858,7 @@ This instance represents only a public key.</exception>
       </Docs>
     </Member>
     <Member MemberName="ImportECPrivateKey">
-      <MemberSignature Language="C#" Value="public virtual void ImportECPrivateKey (ReadOnlySpan&lt;byte&gt; source, out int bytesRead);" />
+      <MemberSignature Language="C#" Value="public virtual void ImportECPrivateKey ( source, out int bytesRead);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void ImportECPrivateKey(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesRead) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.ImportECPrivateKey(System.ReadOnlySpan{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Sub ImportECPrivateKey (source As ReadOnlySpan(Of Byte), ByRef bytesRead As Integer)" />
@@ -905,7 +905,7 @@ The key import failed.
       </Docs>
     </Member>
     <Member MemberName="ImportEncryptedPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override void ImportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;byte&gt; passwordBytes, ReadOnlySpan&lt;byte&gt; source, out int bytesRead);" />
+      <MemberSignature Language="C#" Value="public override void ImportEncryptedPkcs8PrivateKey ( passwordBytes,  source, out int bytesRead);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportEncryptedPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; passwordBytes, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesRead) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.ImportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Byte},System.ReadOnlySpan{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportEncryptedPkcs8PrivateKey (passwordBytes As ReadOnlySpan(Of Byte), source As ReadOnlySpan(Of Byte), ByRef bytesRead As Integer)" />
@@ -970,7 +970,7 @@ The algorithm-specific key import failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="ImportEncryptedPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override void ImportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;char&gt; password, ReadOnlySpan&lt;byte&gt; source, out int bytesRead);" />
+      <MemberSignature Language="C#" Value="public override void ImportEncryptedPkcs8PrivateKey ( password,  source, out int bytesRead);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportEncryptedPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;char&gt; password, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesRead) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.ImportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportEncryptedPkcs8PrivateKey (password As ReadOnlySpan(Of Char), source As ReadOnlySpan(Of Byte), ByRef bytesRead As Integer)" />
@@ -1029,7 +1029,7 @@ The algorithm-specific key import failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="ImportFromEncryptedPem">
-      <MemberSignature Language="C#" Value="public override void ImportFromEncryptedPem (ReadOnlySpan&lt;char&gt; input, ReadOnlySpan&lt;byte&gt; passwordBytes);" />
+      <MemberSignature Language="C#" Value="public override void ImportFromEncryptedPem ( input,  passwordBytes);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportFromEncryptedPem(valuetype System.ReadOnlySpan`1&lt;char&gt; input, valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; passwordBytes) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.ImportFromEncryptedPem(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Byte})" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportFromEncryptedPem (input As ReadOnlySpan(Of Char), passwordBytes As ReadOnlySpan(Of Byte))" />
@@ -1100,7 +1100,7 @@ The algorithm-specific key import failed.
       </Docs>
     </Member>
     <Member MemberName="ImportFromEncryptedPem">
-      <MemberSignature Language="C#" Value="public override void ImportFromEncryptedPem (ReadOnlySpan&lt;char&gt; input, ReadOnlySpan&lt;char&gt; password);" />
+      <MemberSignature Language="C#" Value="public override void ImportFromEncryptedPem ( input,  password);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportFromEncryptedPem(valuetype System.ReadOnlySpan`1&lt;char&gt; input, valuetype System.ReadOnlySpan`1&lt;char&gt; password) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.ImportFromEncryptedPem(System.ReadOnlySpan{System.Char},System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportFromEncryptedPem (input As ReadOnlySpan(Of Char), password As ReadOnlySpan(Of Char))" />
@@ -1171,7 +1171,7 @@ The algorithm-specific key import failed.
       </Docs>
     </Member>
     <Member MemberName="ImportFromPem">
-      <MemberSignature Language="C#" Value="public override void ImportFromPem (ReadOnlySpan&lt;char&gt; input);" />
+      <MemberSignature Language="C#" Value="public override void ImportFromPem ( input);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportFromPem(valuetype System.ReadOnlySpan`1&lt;char&gt; input) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.ImportFromPem(System.ReadOnlySpan{System.Char})" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportFromPem (input As ReadOnlySpan(Of Char))" />
@@ -1271,7 +1271,7 @@ The algorithm-specific key import failed.
       </Docs>
     </Member>
     <Member MemberName="ImportPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override void ImportPkcs8PrivateKey (ReadOnlySpan&lt;byte&gt; source, out int bytesRead);" />
+      <MemberSignature Language="C#" Value="public override void ImportPkcs8PrivateKey ( source, out int bytesRead);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesRead) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.ImportPkcs8PrivateKey(System.ReadOnlySpan{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportPkcs8PrivateKey (source As ReadOnlySpan(Of Byte), ByRef bytesRead As Integer)" />
@@ -1323,7 +1323,7 @@ The algorithm-specific key import failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="ImportSubjectPublicKeyInfo">
-      <MemberSignature Language="C#" Value="public override void ImportSubjectPublicKeyInfo (ReadOnlySpan&lt;byte&gt; source, out int bytesRead);" />
+      <MemberSignature Language="C#" Value="public override void ImportSubjectPublicKeyInfo ( source, out int bytesRead);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance void ImportSubjectPublicKeyInfo(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; source, [out] int32&amp; bytesRead) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.ImportSubjectPublicKeyInfo(System.ReadOnlySpan{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Sub ImportSubjectPublicKeyInfo (source As ReadOnlySpan(Of Byte), ByRef bytesRead As Integer)" />
@@ -1523,7 +1523,7 @@ The algorithm-specific key import failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryExportECPrivateKey">
-      <MemberSignature Language="C#" Value="public virtual bool TryExportECPrivateKey (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public virtual bool TryExportECPrivateKey ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryExportECPrivateKey(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.TryExportECPrivateKey(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function TryExportECPrivateKey (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
@@ -1559,13 +1559,12 @@ The algorithm-specific key import failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryExportEncryptedPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;byte&gt; passwordBytes, System.Security.Cryptography.PbeParameters? pbeParameters, Span&lt;byte&gt; destination, out int bytesWritten);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey ( passwordBytes, System.Security.Cryptography.PbeParameters pbeParameters,  destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool TryExportEncryptedPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; passwordBytes, class System.Security.Cryptography.PbeParameters pbeParameters, valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.TryExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.PbeParameters,System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function TryExportEncryptedPkcs8PrivateKey (passwordBytes As ReadOnlySpan(Of Byte), pbeParameters As PbeParameters, destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool TryExportEncryptedPkcs8PrivateKey(ReadOnlySpan&lt;System::Byte&gt; passwordBytes, System::Security::Cryptography::PbeParameters ^ pbeParameters, Span&lt;System::Byte&gt; destination, [Runtime::InteropServices::Out] int % bytesWritten);" />
       <MemberSignature Language="F#" Value="override this.TryExportEncryptedPkcs8PrivateKey : ReadOnlySpan&lt;byte&gt; * System.Security.Cryptography.PbeParameters * Span&lt;byte&gt; * int -&gt; bool" Usage="eCDiffieHellman.TryExportEncryptedPkcs8PrivateKey (passwordBytes, pbeParameters, destination, bytesWritten)" />
-      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;byte&gt; passwordBytes, System.Security.Cryptography.PbeParameters pbeParameters, Span&lt;byte&gt; destination, out int bytesWritten);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
@@ -1611,13 +1610,12 @@ The algorithm-specific key import failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryExportEncryptedPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;char&gt; password, System.Security.Cryptography.PbeParameters? pbeParameters, Span&lt;byte&gt; destination, out int bytesWritten);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey ( password, System.Security.Cryptography.PbeParameters pbeParameters,  destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool TryExportEncryptedPkcs8PrivateKey(valuetype System.ReadOnlySpan`1&lt;char&gt; password, class System.Security.Cryptography.PbeParameters pbeParameters, valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.TryExportEncryptedPkcs8PrivateKey(System.ReadOnlySpan{System.Char},System.Security.Cryptography.PbeParameters,System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function TryExportEncryptedPkcs8PrivateKey (password As ReadOnlySpan(Of Char), pbeParameters As PbeParameters, destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool TryExportEncryptedPkcs8PrivateKey(ReadOnlySpan&lt;char&gt; password, System::Security::Cryptography::PbeParameters ^ pbeParameters, Span&lt;System::Byte&gt; destination, [Runtime::InteropServices::Out] int % bytesWritten);" />
       <MemberSignature Language="F#" Value="override this.TryExportEncryptedPkcs8PrivateKey : ReadOnlySpan&lt;char&gt; * System.Security.Cryptography.PbeParameters * Span&lt;byte&gt; * int -&gt; bool" Usage="eCDiffieHellman.TryExportEncryptedPkcs8PrivateKey (password, pbeParameters, destination, bytesWritten)" />
-      <MemberSignature Language="C#" Value="public override bool TryExportEncryptedPkcs8PrivateKey (ReadOnlySpan&lt;char&gt; password, System.Security.Cryptography.PbeParameters pbeParameters, Span&lt;byte&gt; destination, out int bytesWritten);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
@@ -1658,7 +1656,7 @@ The algorithm-specific key import failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryExportPkcs8PrivateKey">
-      <MemberSignature Language="C#" Value="public override bool TryExportPkcs8PrivateKey (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public override bool TryExportPkcs8PrivateKey ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool TryExportPkcs8PrivateKey(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.TryExportPkcs8PrivateKey(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function TryExportPkcs8PrivateKey (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />
@@ -1693,7 +1691,7 @@ The algorithm-specific key import failed.</exception>
       </Docs>
     </Member>
     <Member MemberName="TryExportSubjectPublicKeyInfo">
-      <MemberSignature Language="C#" Value="public override bool TryExportSubjectPublicKeyInfo (Span&lt;byte&gt; destination, out int bytesWritten);" />
+      <MemberSignature Language="C#" Value="public override bool TryExportSubjectPublicKeyInfo ( destination, out int bytesWritten);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool TryExportSubjectPublicKeyInfo(valuetype System.Span`1&lt;unsigned int8&gt; destination, [out] int32&amp; bytesWritten) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.ECDiffieHellman.TryExportSubjectPublicKeyInfo(System.Span{System.Byte},System.Int32@)" />
       <MemberSignature Language="VB.NET" Value="Public Overrides Function TryExportSubjectPublicKeyInfo (destination As Span(Of Byte), ByRef bytesWritten As Integer) As Boolean" />

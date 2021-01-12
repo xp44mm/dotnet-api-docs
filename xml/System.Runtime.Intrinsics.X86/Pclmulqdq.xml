@@ -27,7 +27,7 @@
   </Docs>
   <Members>
     <Member MemberName="CarrylessMultiply">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;long&gt; CarrylessMultiply (System.Runtime.Intrinsics.Vector128&lt;long&gt; left, System.Runtime.Intrinsics.Vector128&lt;long&gt; right, byte control);" />
+      <MemberSignature Language="C#" Value="public static  CarrylessMultiply ( left,  right, byte control);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; CarrylessMultiply(valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;int64&gt; right, unsigned int8 control) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Pclmulqdq.CarrylessMultiply(System.Runtime.Intrinsics.Vector128{System.Int64},System.Runtime.Intrinsics.Vector128{System.Int64},System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CarrylessMultiply (left As Vector128(Of Long), right As Vector128(Of Long), control As Byte) As Vector128(Of Long)" />
@@ -61,7 +61,7 @@
       </Docs>
     </Member>
     <Member MemberName="CarrylessMultiply">
-      <MemberSignature Language="C#" Value="public static System.Runtime.Intrinsics.Vector128&lt;ulong&gt; CarrylessMultiply (System.Runtime.Intrinsics.Vector128&lt;ulong&gt; left, System.Runtime.Intrinsics.Vector128&lt;ulong&gt; right, byte control);" />
+      <MemberSignature Language="C#" Value="public static  CarrylessMultiply ( left,  right, byte control);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int64&gt; CarrylessMultiply(valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int64&gt; left, valuetype System.Runtime.Intrinsics.Vector128`1&lt;unsigned int64&gt; right, unsigned int8 control) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Runtime.Intrinsics.X86.Pclmulqdq.CarrylessMultiply(System.Runtime.Intrinsics.Vector128{System.UInt64},System.Runtime.Intrinsics.Vector128{System.UInt64},System.Byte)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function CarrylessMultiply (left As Vector128(Of ULong), right As Vector128(Of ULong), control As Byte) As Vector128(Of ULong)" />

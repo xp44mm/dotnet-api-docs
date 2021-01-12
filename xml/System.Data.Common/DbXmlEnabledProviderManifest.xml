@@ -172,7 +172,7 @@
       </Docs>
     </Member>
     <Member MemberName="StoreTypeNameToEdmPrimitiveType">
-      <MemberSignature Language="C#" Value="protected System.Collections.Generic.Dictionary&lt;string,System.Data.Metadata.Edm.PrimitiveType&gt; StoreTypeNameToEdmPrimitiveType { get; }" />
+      <MemberSignature Language="C#" Value="protected System.Collections.Generic.Dictionary&lt;string, System.Data.Metadata.Edm.PrimitiveType&gt; StoreTypeNameToEdmPrimitiveType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, class System.Data.Metadata.Edm.PrimitiveType&gt; StoreTypeNameToEdmPrimitiveType" />
       <MemberSignature Language="DocId" Value="P:System.Data.Common.DbXmlEnabledProviderManifest.StoreTypeNameToEdmPrimitiveType" />
       <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property StoreTypeNameToEdmPrimitiveType As Dictionary(Of String, PrimitiveType)" />
@@ -191,7 +191,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Data.Metadata.Edm.PrimitiveType&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.Data.Metadata.Edm.PrimitiveType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the best mapped equivalent Entity Data Model (EDM) type for a specified storage type name.</summary>
@@ -207,7 +207,7 @@
       </Docs>
     </Member>
     <Member MemberName="StoreTypeNameToStorePrimitiveType">
-      <MemberSignature Language="C#" Value="protected System.Collections.Generic.Dictionary&lt;string,System.Data.Metadata.Edm.PrimitiveType&gt; StoreTypeNameToStorePrimitiveType { get; }" />
+      <MemberSignature Language="C#" Value="protected System.Collections.Generic.Dictionary&lt;string, System.Data.Metadata.Edm.PrimitiveType&gt; StoreTypeNameToStorePrimitiveType { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.Dictionary`2&lt;string, class System.Data.Metadata.Edm.PrimitiveType&gt; StoreTypeNameToStorePrimitiveType" />
       <MemberSignature Language="DocId" Value="P:System.Data.Common.DbXmlEnabledProviderManifest.StoreTypeNameToStorePrimitiveType" />
       <MemberSignature Language="VB.NET" Value="Protected ReadOnly Property StoreTypeNameToStorePrimitiveType As Dictionary(Of String, PrimitiveType)" />
@@ -226,7 +226,7 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String,System.Data.Metadata.Edm.PrimitiveType&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.Dictionary&lt;System.String, System.Data.Metadata.Edm.PrimitiveType&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the best mapped equivalent storage primitive type for a specified storage type name.</summary>
