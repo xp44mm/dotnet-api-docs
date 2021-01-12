@@ -684,7 +684,7 @@ The <xref:System.Windows.Forms.MenuStrip> replaces and extends the <xref:System.
 ## Remarks  
  All messages are sent to the <xref:System.Windows.Forms.Control.WndProc%2A> method after getting filtered through the <xref:System.Windows.Forms.Control.PreProcessMessage%2A> method.  
   
- The <xref:System.Windows.Forms.Control.WndProc%2A> method corresponds exactly to the Windows `WindowProc` function. For more information about processing Windows messages, see [WindowProc callback function](https://msdn.microsoft.com/library/windows/desktop/ms633573).
+ The <xref:System.Windows.Forms.Control.WndProc%2A> method corresponds exactly to the Windows `WindowProc` function. For more information about processing Windows messages, see [WindowProc callback function](/previous-versions/windows/desktop/legacy/ms633573(v=vs.85)).
   
    
   

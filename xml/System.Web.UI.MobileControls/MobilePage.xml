@@ -673,7 +673,7 @@
         <summary>Gets the collection of forms on the specified <see cref="T:System.Web.UI.MobileControls.MobilePage" /> object. This API is obsolete. For information about how to develop ASP.NET mobile applications, see <see href="https://docs.microsoft.com/aspnet/mobile/overview">Mobile Apps &amp; Sites with ASP.NET</see>.</summary>
         <value>The collection of forms that is contained in the page.</value>
         <remarks>To be added.</remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/0140DAA7-3C17-40DF-8C63-FDFC3AD8E803">Forms</related>
+        <related type="Article" href="/previous-versions/aspnet/z786fs21(v=vs.100)">Forms</related>
         <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/ds64a83f(v=vs.100)">Pages</related>
         <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/ms178619(v=vs.100)">ASP.NET Mobile Application Development Overview</related>
       </Docs>

@@ -2076,7 +2076,7 @@
    
   
 ## Examples  
- The following example demonstrates setting the ScrollPosition property inside an implementation of a <xref:System.Windows.Forms.Panel> control's OnMouseMove method.  This example is from the Outlook Workflow Wizard SDK sample.  For more information, see [Outlook Workflow Wizard Sample](https://msdn.microsoft.com/library/7b2ba92b-8456-43f3-87fc-184ffdec4408).  
+ The following example demonstrates setting the ScrollPosition property inside an implementation of a <xref:System.Windows.Forms.Panel> control's OnMouseMove method.  This example is from the Outlook Workflow Wizard SDK sample.  For more information, see [Outlook Workflow Wizard Sample](/previous-versions/dotnet/netframework-3.5/ms741721(v=vs.90)).  
   
  [!code-csharp[wf_samples#105](~/samples/snippets/csharp/VS_Snippets_CFX/wf_samples/cs/snippets1.cs#105)]
  [!code-vb[wf_samples#105](~/samples/snippets/visualbasic/VS_Snippets_CFX/wf_samples/vb/snippets1.vb#105)]  

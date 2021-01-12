@@ -545,7 +545,7 @@
 ## Remarks
  The <xref:System.Web.UI.WebControls.HotSpot.SaveViewState%2A> member is used primarily by control developers when deriving a custom implementation from the <xref:System.Web.UI.WebControls.HotSpot> class.
 
- View state is the accumulation of the values of a server control's properties. These values are automatically placed in the server control's <xref:System.Web.UI.Control.ViewState%2A> property, which is an instance of the <xref:System.Web.UI.StateBag> class. This property's value is then persisted to a string object after the save state stage of the server control's life cycle. For more information, see [ASP.NET Application Life Cycle Overview for IIS 5.0 and 6.0](https://msdn.microsoft.com/library/de0d8a1c-b1bc-48e1-b246-26e32289a82f).
+ View state is the accumulation of the values of a server control's properties. These values are automatically placed in the server control's <xref:System.Web.UI.Control.ViewState%2A> property, which is an instance of the <xref:System.Web.UI.StateBag> class. This property's value is then persisted to a string object after the save state stage of the server control's life cycle. For more information, see [ASP.NET Application Life Cycle Overview for IIS 5.0 and 6.0](/previous-versions/ms178473(v=vs.140)).
 
  When view state is saved, this string object is returned to the client as a variable that is stored in a hidden HTML input element. When you author custom server controls, you can improve efficiency by overriding this method and modifying your server control's `ViewState` property. For more information, see [ASP.NET State Management Overview](https://docs.microsoft.com/previous-versions/aspnet/75x4ha6s(v=vs.100)).
 

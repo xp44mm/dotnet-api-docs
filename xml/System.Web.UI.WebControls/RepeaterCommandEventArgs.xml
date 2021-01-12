@@ -39,7 +39,7 @@
     </remarks>
     <altmember cref="T:System.Web.UI.WebControls.Repeater" />
     <altmember cref="T:System.Web.UI.WebControls.RepeaterCommandEventHandler" />
-    <related type="Article" href="https://msdn.microsoft.com/library/55c4b177-05ff-4327-be38-a8a97b16d41e">Repeater Web Server Control Overview</related>
+    <related type="Article" href="/previous-versions/x8f2zez5(v=vs.140)">Repeater Web Server Control Overview</related>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
@@ -86,7 +86,7 @@
  ]]></format>
         </remarks>
         <altmember cref="T:System.Web.UI.WebControls.RepeaterItem" />
-        <related type="Article" href="https://msdn.microsoft.com/library/55c4b177-05ff-4327-be38-a8a97b16d41e">Repeater Web Server Control Overview</related>
+        <related type="Article" href="/previous-versions/x8f2zez5(v=vs.140)">Repeater Web Server Control Overview</related>
       </Docs>
     </Member>
     <Member MemberName="CommandSource">
@@ -131,7 +131,7 @@
   
  ]]></format>
         </remarks>
-        <related type="Article" href="https://msdn.microsoft.com/library/55c4b177-05ff-4327-be38-a8a97b16d41e">Repeater Web Server Control Overview</related>
+        <related type="Article" href="/previous-versions/x8f2zez5(v=vs.140)">Repeater Web Server Control Overview</related>
       </Docs>
     </Member>
     <Member MemberName="Item">
@@ -177,7 +177,7 @@
  ]]></format>
         </remarks>
         <altmember cref="T:System.Web.UI.WebControls.RepeaterItem" />
-        <related type="Article" href="https://msdn.microsoft.com/library/55c4b177-05ff-4327-be38-a8a97b16d41e">Repeater Web Server Control Overview</related>
+        <related type="Article" href="/previous-versions/x8f2zez5(v=vs.140)">Repeater Web Server Control Overview</related>
       </Docs>
     </Member>
   </Members>
