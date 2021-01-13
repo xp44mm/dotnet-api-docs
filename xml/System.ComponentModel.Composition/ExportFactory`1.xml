@@ -51,7 +51,7 @@ Public Property theData As ExportFactory(Of String)
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ExportFactory (Func&lt;Tuple&lt;T,Action&gt;&gt; exportLifetimeContextCreator);" />
+      <MemberSignature Language="C#" Value="public ExportFactory (Func&lt;(T,Action)&gt; exportLifetimeContextCreator);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`1&lt;class System.Tuple`2&lt;!T, class System.Action&gt;&gt; exportLifetimeContextCreator) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.ExportFactory`1.#ctor(System.Func{System.Tuple{`0,System.Action}})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (exportLifetimeContextCreator As Func(Of Tuple(Of T, Action)))" />

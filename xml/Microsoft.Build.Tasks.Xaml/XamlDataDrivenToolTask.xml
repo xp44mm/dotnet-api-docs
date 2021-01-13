@@ -266,7 +266,7 @@
       </Docs>
     </Member>
     <Member MemberName="CreateSwitchValue">
-      <MemberSignature Language="C#" Value="public string CreateSwitchValue (string propertyName, string baseSwitch, string separator, Tuple&lt;string,bool&gt;[] arguments);" />
+      <MemberSignature Language="C#" Value="public string CreateSwitchValue (string propertyName, string baseSwitch, string separator, (string,bool)[] arguments);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance string CreateSwitchValue(string propertyName, string baseSwitch, string separator, class System.Tuple`2&lt;string, bool&gt;[] arguments) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Build.Tasks.Xaml.XamlDataDrivenToolTask.CreateSwitchValue(System.String,System.String,System.String,System.Tuple{System.String,System.Boolean}[])" />
       <MemberSignature Language="VB.NET" Value="Public Function CreateSwitchValue (propertyName As String, baseSwitch As String, separator As String, arguments As Tuple(Of String, Boolean)()) As String" />
@@ -517,7 +517,7 @@
       </Docs>
     </Member>
     <Member MemberName="ReadSwitchMap2">
-      <MemberSignature Language="C#" Value="public int ReadSwitchMap2 (string propertyName, Tuple&lt;string,string,Tuple&lt;string,bool&gt;[]&gt;[] switchMap, string value);" />
+      <MemberSignature Language="C#" Value="public int ReadSwitchMap2 (string propertyName, (string,string,(string,bool)[])[] switchMap, string value);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance int32 ReadSwitchMap2(string propertyName, class System.Tuple`3&lt;string, string, class System.Tuple`2&lt;string, bool&gt;[]&gt;[] switchMap, string value) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Build.Tasks.Xaml.XamlDataDrivenToolTask.ReadSwitchMap2(System.String,System.Tuple{System.String,System.String,System.Tuple{System.String,System.Boolean}[]}[],System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Function ReadSwitchMap2 (propertyName As String, switchMap As Tuple(Of String, String, Tuple(Of String, Boolean)())(), value As String) As Integer" />

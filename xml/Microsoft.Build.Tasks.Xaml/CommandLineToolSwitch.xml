@@ -162,7 +162,7 @@
       </Docs>
     </Member>
     <Member MemberName="Arguments">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.ICollection&lt;Tuple&lt;string,bool&gt;&gt; Arguments { get; set; }" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.ICollection&lt;(string,bool)&gt; Arguments { get; set; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.ICollection`1&lt;class System.Tuple`2&lt;string, bool&gt;&gt; Arguments" />
       <MemberSignature Language="DocId" Value="P:Microsoft.Build.Tasks.Xaml.CommandLineToolSwitch.Arguments" />
       <MemberSignature Language="VB.NET" Value="Public Property Arguments As ICollection(Of Tuple(Of String, Boolean))" />

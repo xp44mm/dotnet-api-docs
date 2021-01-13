@@ -29,7 +29,7 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ExportFactory (Func&lt;Tuple&lt;T,Action&gt;&gt; exportCreator);" />
+      <MemberSignature Language="C#" Value="public ExportFactory (Func&lt;(T,Action)&gt; exportCreator);" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Func`1&lt;class System.Tuple`2&lt;!T, class System.Action&gt;&gt; exportCreator) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Composition.ExportFactory`1.#ctor(System.Func{System.Tuple{`0,System.Action}})" />
       <MemberSignature Language="VB.NET" Value="Public Sub New (exportCreator As Func(Of Tuple(Of T, Action)))" />
